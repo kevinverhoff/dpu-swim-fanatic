@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DePauw Swim Fanatic — Notable Swim Tracker</title>
+  <style>
+    :root {
+      --dpu-gold: #FFC72C;
+      --dpu-gold-soft: rgba(255, 199, 44, 0.14);
+      --dpu-black: #111821;
+      --bg: #0c1117;
+      --surface: #151d28;
+      --surface-2: #1c2635;
+      --border: #2a374b;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --gold-badge: #f59e0b;
+      --blue-badge: #38bdf8;
+      --tiger-badge: #FFC72C;
+      --green-badge: #34d399;
+      --purple-badge: #c084fc;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    header {
+      background: linear-gradient(135deg, #111821 0%, #1d283a 100%);
+      border-bottom: 3px solid var(--dpu-gold);
+      padding: 1.5rem 2rem;
+    }
+    .header-inner {
+      max-width: 1360px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+    }
+    .tiger-mark {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: var(--dpu-gold);
+      color: #111821;
+      font-weight: 900;
+      font-size: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: -0.5px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.45rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      margin: 0.15rem 0 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    .meta-pill {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      padding: 0.45rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .meta-pill strong { color: var(--dpu-gold); }
+
+    main {
+      max-width: 1360px;
+      margin: 1.5rem auto 3rem;
+      padding: 0 1.5rem;
+    }
+
+    /* Controls Bar */
+    .controls-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.85rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .control-group label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    select, input[type="text"] {
+      background: var(--surface-2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.55rem 0.75rem;
+      font-size: 0.9rem;
+      outline: none;
+    }
+    select:focus, input[type="text"]:focus {
+      border-color: var(--dpu-gold);
+    }
+
+    /* KPI Summary Cards */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+      gap: 0.85rem;
+      margin-bottom: 1.5rem;
+    }
+    .kpi-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.95rem 1.1rem;
+      cursor: pointer;
+      transition: transform 0.12s ease, border-color 0.12s ease;
+    }
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--dpu-gold);
+    }
+    .kpi-card.active {
+      border-color: var(--dpu-gold);
+      background: var(--dpu-gold-soft);
+    }
+    .kpi-label {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .kpi-value {
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin-top: 0.2rem;
+    }
+    .kpi-sub {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+
+    /* Tabs */
+    .view-tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.6rem;
+    }
+    .tab-btn {
+      background: var(--surface);
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .tab-btn.active {
+      background: var(--dpu-gold);
+      color: #111821;
+      border-color: var(--dpu-gold);
+    }
+
+    /* Table */
+    .table-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    th {
+      text-align: left;
+      padding: 0.8rem 0.9rem;
+      background: var(--surface-2);
+      color: var(--muted);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    td {
+      padding: 0.75rem 0.9rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(255, 255, 255, 0.02); }
+
+    .swimmer-name {
+      font-weight: 700;
+      color: var(--text);
+    }
+    .swimmer-meta {
+      font-size: 0.76rem;
+      color: var(--muted);
+    }
+    .time-primary {
+      font-family: "SF Mono", Menlo, Consolas, monospace;
+      font-weight: 800;
+      font-size: 0.98rem;
+      color: var(--dpu-gold);
+    }
+    .round-pill {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 6px;
+      font-size: 0.74rem;
+      font-weight: 700;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+    }
+    .round-pill.prelim-fast {
+      border-color: #38bdf8;
+      color: #38bdf8;
+    }
+    .round-splits {
+      font-size: 0.74rem;
+      color: var(--muted);
+      margin-top: 0.2rem;
+      font-family: "SF Mono", Menlo, Consolas, monospace;
+    }
+
+    .rank-cell {
+      font-weight: 700;
+    }
+    .cutoff-sub {
+      display: block;
+      font-size: 0.74rem;
+      color: var(--muted);
+      font-family: "SF Mono", Menlo, Consolas, monospace;
+    }
+    .delta-neg { color: #34d399; font-weight: 600; }
+    .delta-pos { color: #94a3b8; }
+
+    .badge-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      font-size: 0.73rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .badge.gold {
+      background: rgba(245, 158, 11, 0.18);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.45);
+    }
+    .badge.amber {
+      background: rgba(251, 191, 36, 0.14);
+      color: #fcd34d;
+      border: 1px solid rgba(251, 191, 36, 0.35);
+    }
+    .badge.blue {
+      background: rgba(56, 189, 248, 0.16);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.4);
+    }
+    .badge.tiger {
+      background: rgba(255, 199, 44, 0.18);
+      color: var(--dpu-gold);
+      border: 1px solid rgba(255, 199, 44, 0.45);
+    }
+    .badge.green {
+      background: rgba(52, 211, 153, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(52, 211, 153, 0.35);
+    }
+    .badge.purple {
+      background: rgba(192, 132, 252, 0.15);
+      color: #c084fc;
+      border: 1px solid rgba(192, 132, 252, 0.35);
+    }
+
+    .empty-state {
+      padding: 2.5rem;
+      text-align: center;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="brand">
+        <div class="tiger-mark">DPU</div>
+        <div>
+          <h1>DePauw Swim Fanatic</h1>
+          <p class="subtitle">Real-Time &amp; Seasonal Notable Swim Identifier — NCAC Top 16/8 · DIII Top 16/8 · NCAA Nationals Qualifier Cutoff</p>
+        </div>
+      </div>
+      <div class="meta-pill" id="meta-updated">Loading benchmarks...</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="view-tabs">
+      <button class="tab-btn active" id="tab-swims" onclick="switchView('swims')">Meet Swims Explorer</button>
+      <button class="tab-btn" id="tab-benchmarks" onclick="switchView('benchmarks')">Season Cutoffs &amp; Benchmarks Table</button>
+    </div>
+
+    <div id="view-swims">
+      <div class="controls-grid">
+        <div class="control-group">
+          <label for="meet-select">Meet</label>
+          <select id="meet-select" onchange="renderSwims()"></select>
+        </div>
+        <div class="control-group">
+          <label for="gender-select">Team / Gender</label>
+          <select id="gender-select" onchange="renderSwims()">
+            <option value="ALL">All (Women &amp; Men)</option>
+            <option value="F">Women's Team</option>
+            <option value="M">Men's Team</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="tier-select">Highlight Tier</label>
+          <select id="tier-select" onchange="renderSwims()">
+            <option value="NOTABLE">All Notable &amp; Bubble Swims</option>
+            <option value="NATIONALS">🏆 Nationals Invite / NCAA B-Cut</option>
+            <option value="D3_TOP">🇺🇸 NCAA DIII Top 16 (Relays Top 8)</option>
+            <option value="NCAC_TOP">🐯 NCAC Top 16 (Relays Top 8)</option>
+            <option value="NCAC_A">⭐ NCAC Top 8 (A-Final / Scoring Relay)</option>
+            <option value="BUBBLE">🔥 On the Bubble (Within 1.5%)</option>
+            <option value="ALL">Show Every Meet Swim</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="round-select">Fastest Session</label>
+          <select id="round-select" onchange="renderSwims()">
+            <option value="ALL">All Sessions (Prelims + Finals)</option>
+            <option value="Finals">Finals Fastest</option>
+            <option value="Prelims">Prelims Fastest</option>
+            <option value="Time Trial">Time Trials</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="search-input">Search Swimmer or Event</label>
+          <input type="text" id="search-input" placeholder="e.g. Knott, Patterson, 100 Fly..." oninput="renderSwims()" />
+        </div>
+      </div>
+
+      <div class="kpi-grid" id="kpi-container"></div>
+
+      <div class="table-card">
+        <table>
+          <thead>
+            <tr>
+              <th>Swimmer / Relay</th>
+              <th>Event</th>
+              <th>Fastest Time</th>
+              <th>Session (Prelim / Finals)</th>
+              <th>NCAC Rank &amp; Cut</th>
+              <th>NCAA DIII Rank &amp; Cut</th>
+              <th>'26 Nationals Invite (Delta)</th>
+              <th>Notable Classifications</th>
+            </tr>
+          </thead>
+          <tbody id="swims-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="view-benchmarks" style="display:none;">
+      <div class="controls-grid">
+        <div class="control-group">
+          <label for="bench-gender">Benchmark Gender</label>
+          <select id="bench-gender" onchange="renderBenchmarks()">
+            <option value="F">Women's Benchmarks</option>
+            <option value="M">Men's Benchmarks</option>
+          </select>
+        </div>
+      </div>
+      <div class="table-card">
+        <table>
+          <thead>
+            <tr>
+              <th>Event</th>
+              <th>Type</th>
+              <th>NCAC #1 Leader</th>
+              <th>NCAC Top 16 / 8 Cutoff</th>
+              <th>DIII #1 Leader</th>
+              <th>DIII Top 16 / 8 Cutoff</th>
+              <th>2026 Nationals Invited Time</th>
+              <th>2026-27 NCAA B-Cut</th>
+            </tr>
+          </thead>
+          <tbody id="bench-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <script src="data/dashboard.js"></script>
+  <script>
+    let DATA = window.DPU_SWIM_DATA || null;
+
+    async function init() {
+      if (!DATA) {
+        try {
+          const resp = await fetch("data/dashboard.json");
+          DATA = await resp.json();
+        } catch (err) {
+          document.getElementById("swims-tbody").innerHTML =
+            `<tr><td colspan="8" class="empty-state">Could not load dashboard data. Run <code>python3 run.py</code> first.</td></tr>`;
+          return;
+        }
+      }
+
+      const season = DATA.seasons?.current_season || "2026-27";
+      const genDate = DATA.generated_at ? new Date(DATA.generated_at).toLocaleString() : "";
+      document.getElementById("meta-updated").innerHTML =
+        `Season <strong>${season}</strong> · Updated: ${genDate}`;
+
+      const meetSel = document.getElementById("meet-select");
+      meetSel.innerHTML = "";
+      const allOpt = document.createElement("option");
+      allOpt.value = "ALL";
+      allOpt.textContent = "All Tracked Meets Combined";
+      meetSel.appendChild(allOpt);
+
+      (DATA.meets || []).forEach((m, idx) => {
+        const opt = document.createElement("option");
+        opt.value = m.meet_id;
+        opt.textContent = `${m.meet_name} (${m.summary.notable_swims} notable / ${m.summary.total_swims} swims)`;
+        if (idx === 0) opt.selected = true;
+        meetSel.appendChild(opt);
+      });
+
+      renderSwims();
+      renderBenchmarks();
+    }
+
+    function switchView(view) {
+      document.getElementById("view-swims").style.display = view === "swims" ? "block" : "none";
+      document.getElementById("view-benchmarks").style.display = view === "benchmarks" ? "block" : "none";
+      document.getElementById("tab-swims").classList.toggle("active", view === "swims");
+      document.getElementById("tab-benchmarks").classList.toggle("active", view === "benchmarks");
+    }
+
+    function setTierFilter(tier) {
+      document.getElementById("tier-select").value = tier;
+      renderSwims();
+    }
+
+    function renderSwims() {
+      if (!DATA) return;
+      const meetId = document.getElementById("meet-select").value;
+      const gender = document.getElementById("gender-select").value;
+      const tier = document.getElementById("tier-select").value;
+      const roundFilter = document.getElementById("round-select").value;
+      const query = document.getElementById("search-input").value.trim().toLowerCase();
+
+      let entries = [];
+      (DATA.meets || []).forEach(m => {
+        if (meetId === "ALL" || m.meet_id === meetId) {
+          entries = entries.concat(m.entries || []);
+        }
+      });
+
+      // Filter by gender, round, search query for KPI calculation
+      const baseFiltered = entries.filter(e => {
+        if (gender !== "ALL" && e.gender !== gender) return false;
+        if (roundFilter !== "ALL" && e.best_round !== roundFilter) return false;
+        if (query) {
+          const hay = `${e.swimmer_name} ${e.event_label} ${(e.relay_members || []).join(" ")}`.toLowerCase();
+          if (!hay.includes(query)) return false;
+        }
+        return true;
+      });
+
+      // Render KPI summary cards
+      const counts = {
+        total: baseFiltered.length,
+        notable: baseFiltered.filter(e => e.is_notable).length,
+        nationals: baseFiltered.filter(e => e.is_nationals_invite || e.is_ncaa_b_cut).length,
+        d3: baseFiltered.filter(e => e.is_d3_top).length,
+        ncac: baseFiltered.filter(e => e.is_ncac_top).length,
+        ncac_a: baseFiltered.filter(e => e.is_ncac_a_final).length,
+        bubble: baseFiltered.filter(e => e.is_on_bubble).length,
+      };
+
+      document.getElementById("kpi-container").innerHTML = `
+        <div class="kpi-card ${tier === 'NOTABLE' ? 'active' : ''}" onclick="setTierFilter('NOTABLE')">
+          <div class="kpi-label">Notable &amp; Bubble Swims</div>
+          <div class="kpi-value">${counts.notable}</div>
+          <div class="kpi-sub">of ${counts.total} evaluated swims</div>
+        </div>
+        <div class="kpi-card ${tier === 'NATIONALS' ? 'active' : ''}" onclick="setTierFilter('NATIONALS')">
+          <div class="kpi-label">🏆 Nationals / B-Cut</div>
+          <div class="kpi-value" style="color:#fbbf24">${counts.nationals}</div>
+          <div class="kpi-sub">'26 Invited or NCAA B-Cut</div>
+        </div>
+        <div class="kpi-card ${tier === 'D3_TOP' ? 'active' : ''}" onclick="setTierFilter('D3_TOP')">
+          <div class="kpi-label">🇺🇸 NCAA DIII Top 16 / 8</div>
+          <div class="kpi-value" style="color:#38bdf8">${counts.d3}</div>
+          <div class="kpi-sub">Current national top 16 (relays 8)</div>
+        </div>
+        <div class="kpi-card ${tier === 'NCAC_TOP' ? 'active' : ''}" onclick="setTierFilter('NCAC_TOP')">
+          <div class="kpi-label">🐯 NCAC Top 16 / 8</div>
+          <div class="kpi-value" style="color:#FFC72C">${counts.ncac}</div>
+          <div class="kpi-sub">${counts.ncac_a} in NCAC Top 8 (A-Final)</div>
+        </div>
+        <div class="kpi-card ${tier === 'BUBBLE' ? 'active' : ''}" onclick="setTierFilter('BUBBLE')">
+          <div class="kpi-label">🔥 On The Bubble</div>
+          <div class="kpi-value" style="color:#c084fc">${counts.bubble}</div>
+          <div class="kpi-sub">Within 1.5% of a benchmark</div>
+        </div>
+      `;
+
+      // Apply tier filter
+      const rows = baseFiltered.filter(e => {
+        if (tier === "NOTABLE") return e.is_notable;
+        if (tier === "NATIONALS") return e.is_nationals_invite || e.is_ncaa_b_cut;
+        if (tier === "D3_TOP") return e.is_d3_top;
+        if (tier === "NCAC_TOP") return e.is_ncac_top;
+        if (tier === "NCAC_A") return e.is_ncac_a_final;
+        if (tier === "BUBBLE") return e.is_on_bubble;
+        return true;
+      });
+
+      const tbody = document.getElementById("swims-tbody");
+      if (!rows.length) {
+        tbody.innerHTML = `<tr><td colspan="8" class="empty-state">No swims match the current filter criteria. Try switching the Highlight Tier to "Show Every Meet Swim" or selecting another meet.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = rows.map(e => {
+        const yearStr = e.year ? ` · ${e.year}` : "";
+        const placeStr = e.place && e.place !== "--" ? ` · Meet Place: #${e.place}` : "";
+        const relaySub = (e.relay_members && e.relay_members.length)
+          ? `<div class="swimmer-meta">${e.relay_members.join(" · ")}</div>`
+          : "";
+
+        let splitsHtml = "";
+        if (e.prelim_time_str && e.finals_time_str) {
+          splitsHtml = `<div class="round-splits">P: ${e.prelim_time_str} | F: ${e.finals_time_str}</div>`;
+        } else if (e.prelim_time_str && e.best_round === "Prelims") {
+          splitsHtml = `<div class="round-splits">Prelims only</div>`;
+        }
+
+        const prelimFastFlag = e.faster_in_prelims ? ` prelim-fast` : "";
+        const roundLabel = e.faster_in_prelims ? `${e.best_round} ⚡` : e.best_round;
+
+        const ncacDeltaClass = (e.ncac_delta_sec !== null && e.ncac_delta_sec <= 0) ? "delta-neg" : "delta-pos";
+        const d3DeltaClass = (e.d3_delta_sec !== null && e.d3_delta_sec <= 0) ? "delta-neg" : "delta-pos";
+        const natDeltaClass = (e.nationals_delta_sec !== null && e.nationals_delta_sec <= 0) ? "delta-neg" : "delta-pos";
+
+        const badgesHtml = (e.badges || []).map(b =>
+          `<span class="badge ${b.tone}">${b.label}</span>`
+        ).join("");
+
+        return `
+          <tr>
+            <td>
+              <div class="swimmer-name">${e.swimmer_name}</div>
+              <div class="swimmer-meta">${e.gender_label}${yearStr}${placeStr}</div>
+              ${relaySub}
+            </td>
+            <td><strong>${e.event_label}</strong></td>
+            <td><span class="time-primary">${e.best_time_str}</span></td>
+            <td>
+              <span class="round-pill${prelimFastFlag}">${roundLabel}</span>
+              ${splitsHtml}
+            </td>
+            <td>
+              <span class="rank-cell">${e.ncac_rank ? `#${e.ncac_rank} NCAC` : "—"}</span>
+              <span class="cutoff-sub">Cut: ${e.ncac_cutoff_str} (<span class="${ncacDeltaClass}">${e.ncac_delta_str}</span>)</span>
+            </td>
+            <td>
+              <span class="rank-cell">${e.d3_rank ? `#${e.d3_rank} DIII` : "—"}</span>
+              <span class="cutoff-sub">Cut: ${e.d3_cutoff_str} (<span class="${d3DeltaClass}">${e.d3_delta_str}</span>)</span>
+            </td>
+            <td>
+              <span class="rank-cell">${e.nationals_invited_str}</span>
+              <span class="cutoff-sub"><span class="${natDeltaClass}">${e.nationals_delta_str}</span> (B: ${e.nationals_b_cut_str})</span>
+            </td>
+            <td><div class="badge-list">${badgesHtml || '<span class="swimmer-meta">—</span>'}</div></td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    function renderBenchmarks() {
+      if (!DATA || !DATA.benchmarks) return;
+      const g = document.getElementById("bench-gender").value;
+      const evMap = DATA.benchmarks.events?.[g] || {};
+      const evList = Object.values(evMap).sort((a, b) => a.order - b.order);
+
+      document.getElementById("bench-tbody").innerHTML = evList.map(ev => `
+        <tr>
+          <td><strong>${ev.label}</strong></td>
+          <td>${ev.is_relay ? "Relay (Top 8)" : "Individual (Top 16)"}</td>
+          <td>
+            <span class="time-primary">${ev.ncac.leader_str}</span>
+            <span class="cutoff-sub">${ev.ncac.leader_name || ""} (${ev.ncac.leader_team || ""})</span>
+          </td>
+          <td>
+            <strong>${ev.ncac.cutoff_str}</strong>
+            <span class="cutoff-sub">Rank #${ev.ncac.cutoff_rank || "—"}</span>
+          </td>
+          <td>
+            <span class="time-primary">${ev.d3.leader_str}</span>
+            <span class="cutoff-sub">${ev.d3.leader_name || ""} (${ev.d3.leader_team || ""})</span>
+          </td>
+          <td>
+            <strong>${ev.d3.cutoff_str}</strong>
+            <span class="cutoff-sub">Rank #${ev.d3.cutoff_rank || "—"}</span>
+          </td>
+          <td><strong>${ev.nationals.invited_prev_str}</strong></td>
+          <td>${ev.nationals.b_cut_str}</td>
+        </tr>
+      `).join("");
+    }
+
+    window.addEventListener("DOMContentLoaded", init);
+  </script>
+</body>
+</html>

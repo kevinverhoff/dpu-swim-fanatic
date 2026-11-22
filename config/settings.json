@@ -1,0 +1,129 @@
+{
+  "team": {
+    "name": "DePauw University",
+    "short_name": "DePauw",
+    "hytek_codes": ["DPU", "DEPAUW", "DPU-IN"],
+    "swimcloud_team_id": 274,
+    "conference_region": "conference_NCAC",
+    "division_region": "division_3"
+  },
+  "seasons": {
+    "current_season": "2026-27",
+    "swimcloud_season_id": 30,
+    "prior_season": "2025-26",
+    "prior_swimcloud_season_id": 29
+  },
+  "thresholds": {
+    "individual_top_n": 16,
+    "relay_top_n": 8,
+    "bubble_pct": 0.015
+  },
+  "events": [
+    {"id": "50_FREE",   "label": "50 Free",          "swimcloud_code": "1|50|Y|1",   "is_relay": false, "order": 1},
+    {"id": "100_FREE",  "label": "100 Free",         "swimcloud_code": "1|100|Y|1",  "is_relay": false, "order": 2},
+    {"id": "200_FREE",  "label": "200 Free",         "swimcloud_code": "1|200|Y|1",  "is_relay": false, "order": 3},
+    {"id": "500_FREE",  "label": "500 Free",         "swimcloud_code": "1|500|Y|1",  "is_relay": false, "order": 4},
+    {"id": "1000_FREE", "label": "1000 Free",        "swimcloud_code": "1|1000|Y|1", "is_relay": false, "order": 5},
+    {"id": "1650_FREE", "label": "1650 Free",        "swimcloud_code": "1|1650|Y|1", "is_relay": false, "order": 6},
+    {"id": "100_BACK",  "label": "100 Back",         "swimcloud_code": "2|100|Y|1",  "is_relay": false, "order": 7},
+    {"id": "200_BACK",  "label": "200 Back",         "swimcloud_code": "2|200|Y|1",  "is_relay": false, "order": 8},
+    {"id": "100_BREAST","label": "100 Breast",       "swimcloud_code": "3|100|Y|1",  "is_relay": false, "order": 9},
+    {"id": "200_BREAST","label": "200 Breast",       "swimcloud_code": "3|200|Y|1",  "is_relay": false, "order": 10},
+    {"id": "100_FLY",   "label": "100 Fly",          "swimcloud_code": "4|100|Y|1",  "is_relay": false, "order": 11},
+    {"id": "200_FLY",   "label": "200 Fly",          "swimcloud_code": "4|200|Y|1",  "is_relay": false, "order": 12},
+    {"id": "200_IM",    "label": "200 IM",           "swimcloud_code": "5|200|Y|1",  "is_relay": false, "order": 13},
+    {"id": "400_IM",    "label": "400 IM",           "swimcloud_code": "5|400|Y|1",  "is_relay": false, "order": 14},
+    {"id": "200_FR_REL","label": "200 Free Relay",   "swimcloud_code": "6|200|Y|1",  "is_relay": true,  "order": 15},
+    {"id": "400_FR_REL","label": "400 Free Relay",   "swimcloud_code": "6|400|Y|1",  "is_relay": true,  "order": 16},
+    {"id": "800_FR_REL","label": "800 Free Relay",   "swimcloud_code": "6|800|Y|1",  "is_relay": true,  "order": 17},
+    {"id": "200_MR_REL","label": "200 Medley Relay", "swimcloud_code": "7|200|Y|1",  "is_relay": true,  "order": 18},
+    {"id": "400_MR_REL","label": "400 Medley Relay", "swimcloud_code": "7|400|Y|1",  "is_relay": true,  "order": 19}
+  ],
+  "ncaa_cutoffs": {
+    "2026-27": {
+      "description": "2026-27 NCAA DIII Qualifying Standards & 2026 Invited Times (slowest qualifying time at 2026 Nationals)",
+      "F": {
+        "50_FREE":    {"a_cut": "22.35",    "b_cut": "23.50",    "invited_prev": "23.45"},
+        "100_FREE":   {"a_cut": "48.62",    "b_cut": "51.24",    "invited_prev": "51.13"},
+        "200_FREE":   {"a_cut": "1:45.61",  "b_cut": "1:51.92",  "invited_prev": "1:51.81"},
+        "500_FREE":   {"a_cut": "4:46.79",  "b_cut": "4:59.91",  "invited_prev": "4:59.75"},
+        "1650_FREE":  {"a_cut": "16:29.85", "b_cut": "17:21.20", "invited_prev": "17:21.11"},
+        "100_BACK":   {"a_cut": "53.70",    "b_cut": "56.48",    "invited_prev": "56.34"},
+        "200_BACK":   {"a_cut": "1:56.89",  "b_cut": "2:03.17",  "invited_prev": "2:02.75"},
+        "100_BREAST": {"a_cut": "1:00.01",  "b_cut": "1:04.12",  "invited_prev": "1:04.12"},
+        "200_BREAST": {"a_cut": "2:11.54",  "b_cut": "2:20.09",  "invited_prev": "2:20.07"},
+        "100_FLY":    {"a_cut": "53.67",    "b_cut": "55.79",    "invited_prev": "55.83"},
+        "200_FLY":    {"a_cut": "1:58.24",  "b_cut": "2:04.53",  "invited_prev": "2:04.53"},
+        "200_IM":     {"a_cut": "1:59.54",  "b_cut": "2:05.61",  "invited_prev": "2:05.44"},
+        "400_IM":     {"a_cut": "4:15.84",  "b_cut": "4:28.70",  "invited_prev": "4:28.76"},
+        "200_FR_REL": {"a_cut": null,       "b_cut": "1:34.80",  "invited_prev": "1:33.96"},
+        "400_FR_REL": {"a_cut": null,       "b_cut": "3:29.09",  "invited_prev": "3:28.10"},
+        "800_FR_REL": {"a_cut": null,       "b_cut": "7:36.78",  "invited_prev": "7:34.43"},
+        "200_MR_REL": {"a_cut": null,       "b_cut": "1:44.12",  "invited_prev": "1:43.30"},
+        "400_MR_REL": {"a_cut": null,       "b_cut": "3:49.44",  "invited_prev": "3:48.69"}
+      },
+      "M": {
+        "50_FREE":    {"a_cut": "19.54",    "b_cut": "20.33",    "invited_prev": "20.05"},
+        "100_FREE":   {"a_cut": "42.94",    "b_cut": "44.81",    "invited_prev": "44.33"},
+        "200_FREE":   {"a_cut": "1:34.86",  "b_cut": "1:38.99",  "invited_prev": "1:37.84"},
+        "500_FREE":   {"a_cut": "4:22.02",  "b_cut": "4:31.03",  "invited_prev": "4:28.72"},
+        "1650_FREE":  {"a_cut": "15:13.27", "b_cut": "15:50.88", "invited_prev": "15:40.80"},
+        "100_BACK":   {"a_cut": "46.60",    "b_cut": "49.19",    "invited_prev": "48.20"},
+        "200_BACK":   {"a_cut": "1:43.27",  "b_cut": "1:48.48",  "invited_prev": "1:47.17"},
+        "100_BREAST": {"a_cut": "52.09",    "b_cut": "54.98",    "invited_prev": "54.36"},
+        "200_BREAST": {"a_cut": "1:55.12",  "b_cut": "2:00.83",  "invited_prev": "1:59.20"},
+        "100_FLY":    {"a_cut": "46.03",    "b_cut": "48.48",    "invited_prev": "48.02"},
+        "200_FLY":    {"a_cut": "1:43.18",  "b_cut": "1:49.36",  "invited_prev": "1:48.05"},
+        "200_IM":     {"a_cut": "1:44.53",  "b_cut": "1:49.88",  "invited_prev": "1:48.57"},
+        "400_IM":     {"a_cut": "3:49.48",  "b_cut": "3:58.49",  "invited_prev": "3:54.83"},
+        "200_FR_REL": {"a_cut": null,       "b_cut": "1:21.10",  "invited_prev": "1:20.49"},
+        "400_FR_REL": {"a_cut": null,       "b_cut": "3:00.23",  "invited_prev": "2:58.82"},
+        "800_FR_REL": {"a_cut": null,       "b_cut": "6:38.55",  "invited_prev": "6:35.85"},
+        "200_MR_REL": {"a_cut": null,       "b_cut": "1:29.14",  "invited_prev": "1:28.24"},
+        "400_MR_REL": {"a_cut": null,       "b_cut": "3:17.11",  "invited_prev": "3:15.77"}
+      }
+    }
+  },
+  "meets": [
+    {
+      "id": "2026-total-performance",
+      "name": "2026 Total Performance Invitational",
+      "host": "Kenyon College (Gambier, OH)",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-21",
+      "source_type": "hytek_realtime",
+      "live_url": "https://sidearmstats.com/kenyon/swim/",
+      "swimcloud_meet_id": 414555
+    },
+    {
+      "id": "2026-speedo-midseason",
+      "name": "2026 Speedo Mid-Season Invitational",
+      "host": "Centre College (Danville, KY)",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-22",
+      "source_type": "swimcloud_or_file",
+      "live_url": null,
+      "swimcloud_meet_id": 388433
+    },
+    {
+      "id": "2026-depauw-vs-rose-hulman",
+      "name": "DePauw vs. Rose-Hulman",
+      "host": "DePauw University (Greencastle, IN)",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "source_type": "swimcloud",
+      "live_url": null,
+      "swimcloud_meet_id": 414733
+    },
+    {
+      "id": "2026-dan-ross-intercollegiates",
+      "name": "Dan Ross Indiana Intercollegiates",
+      "host": "Purdue University (West Lafayette, IN)",
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "source_type": "swimcloud",
+      "live_url": null,
+      "swimcloud_meet_id": 408409
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+name: Update Swim Benchmarks & Live Meet Results
+
+on:
+  workflow_dispatch:
+    inputs:
+      refresh_benchmarks:
+        description: "Force refresh of NCAC / DIII benchmarks from SwimCloud"
+        required: false
+        default: "false"
+  schedule:
+    # Runs every 15 minutes during typical meet windows (Thu-Sun),
+    # and uses --smart-gate so it exits in <1 second with zero network calls when no meet is active.
+    - cron: "*/15 14-23 * * 4,5,6,0"
+    - cron: "*/15 0-3 * * 5,6,0,1"
+    # Weekly benchmark refresh on Mondays at 12:00 UTC
+    - cron: "0 12 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run dpu-swim-fanatic pipeline
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python3 run.py --smart-gate
+          elif [ "${{ github.event.inputs.refresh_benchmarks }}" = "true" ]; then
+            python3 run.py --refresh-benchmarks
+          else
+            python3 run.py
+          fi
+
+      - name: Commit and push updated dashboard & report if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add REPORT.md docs/data/ data/cache/ data/meets/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update swim benchmarks and meet results"
+            git push
+          fi
