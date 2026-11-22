@@ -1,5 +1,5 @@
 # DePauw Swim Fanatic — Notable Swims Report (2026-27)
-_Last updated: 2026-11-22 10:16 ET | Benchmarks: 2026-27 NCAC Top 16 (Relays Top 8), 2026-27 NCAA DIII Top 16 (Relays Top 8), & 2025-26 NCAA Nationals Invited Line_
+_Last updated: 2026-11-22 21:10 ET | Benchmarks: 2026-27 NCAC Top 16 (Relays Top 8), 2026-27 NCAA DIII Top 16 (Relays Top 8), & 2025-26 NCAA Nationals Invited Line_
 
 ## 2026 Total Performance Invitational
 - **Source**: Hy-Tek Live (https://sidearmstats.com/kenyon/swim) | **Swims Evaluated**: 100 | **Notable / On-Bubble**: **67** (🏆 Nationals/B-Cut: **2**, 🇺🇸 DIII Top 16/8: **3**, 🐯 NCAC Top 16/8: **55** [Top 8 A-Final: **29**], 🔥 On the Bubble: **17**)
