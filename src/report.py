@@ -7,6 +7,14 @@ from pathlib import Path
 from typing import Any, Optional
 
 
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+
+def _now_et_str() -> str:
+    return datetime.now(ZoneInfo("America/Indiana/Indianapolis")).strftime("%b %d, %Y at %I:%M %p ET")
+
+
 def generate_markdown_report(
     evaluated_meets: list[dict[str, Any]],
     benchmarks: dict[str, Any],
@@ -17,11 +25,12 @@ def generate_markdown_report(
     """
     season = settings["seasons"]["current_season"]
     prior = settings["seasons"]["prior_season"]
-    now_str = time.strftime("%Y-%m-%d %H:%M ET")
+    now_str = _now_et_str()
 
     lines = [
         f"# DePauw Swim Fanatic — Best Performances Report ({season})",
-        f"_Last updated: {now_str} | Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, shown through Top 50) · 2) NCAA B-Cut · 3) {prior} NCAA Qualifier Line · 4) NCAC Rank (Top 16 Individual / Top 8 Relays)_",
+        f"**Last Updated:** `{now_str}`  ",
+        f"_Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, shown through Top 50) · 2) NCAA B-Cut · 3) {prior} NCAA Qualifier Line · 4) NCAC Rank (Top 16 Individual / Top 8 Relays)_",
         "",
     ]
 
@@ -101,6 +110,7 @@ def write_dashboard_payload(
     """Write the JSON payload consumed by the GitHub Pages interactive dashboard."""
     payload = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "generated_at_et": _now_et_str(),
         "team": settings["team"],
         "seasons": settings["seasons"],
         "thresholds": settings["thresholds"],

@@ -1,5 +1,6 @@
 # DePauw Swim Fanatic — Best Performances Report (2026-27)
-_Last updated: 2026-11-23 12:32 ET | Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, shown through Top 50) · 2) NCAA B-Cut · 3) 2025-26 NCAA Qualifier Line · 4) NCAC Rank (Top 16 Individual / Top 8 Relays)_
+**Last Updated:** `Nov 23, 2026 at 02:24 PM ET`  
+_Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, shown through Top 50) · 2) NCAA B-Cut · 3) 2025-26 NCAA Qualifier Line · 4) NCAC Rank (Top 16 Individual / Top 8 Relays)_
 
 ## 2026 Total Performance Invitational
 - **Source**: Hy-Tek Live (https://sidearmstats.com/kenyon/swim) | **Swims Evaluated**: 100 | **Notable / On-Bubble**: **61** (🇺🇸 NCAA DIII Top 24/16: **4** [Top 50: **18**], 🏅 NCAA B-Cut: **2**, 🏆 NCAA Qualifier Line: **2**, 🐯 NCAC Top 16/8: **43** [Top 8 A-Final: **21**], 🔥 On the Bubble: **27**)

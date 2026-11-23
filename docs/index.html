@@ -459,9 +459,9 @@
       }
 
       const season = DATA.seasons?.current_season || "2026-27";
-      const genDate = DATA.generated_at ? new Date(DATA.generated_at).toLocaleString() : "";
+      const genDate = DATA.generated_at_et || (DATA.generated_at ? new Date(DATA.generated_at).toLocaleString() : "");
       document.getElementById("meta-updated").innerHTML =
-        `Season <strong>${season}</strong> · Live Benchmarks Updated: ${genDate}`;
+        `Season <strong>${season}</strong> · Last Updated: <strong>${genDate}</strong>`;
 
       const meetSel = document.getElementById("meet-select");
       meetSel.innerHTML = "";
