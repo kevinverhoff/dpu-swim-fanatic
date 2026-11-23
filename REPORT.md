@@ -1,5 +1,5 @@
 # DePauw Swim Fanatic — Notable Swims Report (2026-27)
-_Last updated: 2026-11-23 01:41 ET | Benchmarks: 2026-27 NCAC Top 16 (Relays Top 8), 2026-27 NCAA DIII Top 16 (Relays Top 8), & 2025-26 NCAA Nationals Invited Line_
+_Last updated: 2026-11-23 04:56 ET | Benchmarks: 2026-27 NCAC Top 16 (Relays Top 8), 2026-27 NCAA DIII Top 16 (Relays Top 8), & 2025-26 NCAA Nationals Invited Line_
 
 ## 2026 Total Performance Invitational
 - **Source**: Hy-Tek Live (https://sidearmstats.com/kenyon/swim) | **Swims Evaluated**: 100 | **Notable / On-Bubble**: **61** (🏆 Nationals/B-Cut: **2**, 🇺🇸 DIII Top 16/8: **3**, 🐯 NCAC Top 16/8: **43** [Top 8 A-Final: **21**], 🔥 On the Bubble: **22**)
@@ -69,9 +69,20 @@ _Last updated: 2026-11-23 01:41 ET | Benchmarks: 2026-27 NCAC Top 16 (Relays Top
 | Women | **Mallory Syrek (FR)** | 400 IM | **`4:50.48`** | Prelims | — (`4:49.04`, `+1.44s`) | — (`4:29.56`, `+20.92s`) | `4:28.76` (`+21.72s`) | Bubble: NCAC Top 16 (+1.44s) |
 
 ## 2026 Speedo Mid-Season Invitational
-- **Source**: SwimCloud API (Meet #388433) | **Swims Evaluated**: 0 | **Notable / On-Bubble**: **0** (🏆 Nationals/B-Cut: **0**, 🇺🇸 DIII Top 16/8: **0**, 🐯 NCAC Top 16/8: **0** [Top 8 A-Final: **0**], 🔥 On the Bubble: **0**)
+- **Source**: SwimCloud API (Meet #388433) | **Swims Evaluated**: 92 | **Notable / On-Bubble**: **10** (🏆 Nationals/B-Cut: **0**, 🇺🇸 DIII Top 16/8: **0**, 🐯 NCAC Top 16/8: **4** [Top 8 A-Final: **0**], 🔥 On the Bubble: **6**)
 
-_No swims currently loaded or matching thresholds for this meet yet._
+| Gender | Swimmer / Relay | Event | Fastest Time | Round (Prelim / Finals) | NCAC Rank (Cut) | DIII Rank (Cut) | '26 Nationals Cut (Delta) | Notable Badges |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Women | **Leah Marshall** | 200 Breast | **`2:33.40`** | **Prelims** ⚡*(P)* (`P: 2:33.40` / `F: 2:36.74`) | **#11** (`2:39.80`) | — (`2:21.20`, `+12.20s`) | `2:20.07` (`+13.33s`) | NCAC #11 (Top 16) |
+| Women | **Jordan Laba** | 1650 Free | **`18:25.87`** | Finals | **#13** (`20:13.53`) | — (`17:39.48`, `+46.39s`) | `17:21.11` (`+64.76s`) | NCAC #13 (Top 16) |
+| Women | **Maddie Enenbach** | 1650 Free | **`18:45.26`** | Finals | **#13** (`20:13.53`) | — (`17:39.48`, `+65.78s`) | `17:21.11` (`+84.15s`) | NCAC #13 (Top 16) |
+| Women | **Leah Marshall** | 100 Breast | **`1:10.61`** | **Prelims** ⚡*(P)* (`P: 1:10.61` / `F: 1:11.23`) | **#16** (`1:10.67`) | — (`1:04.06`, `+6.55s`) | `1:04.12` (`+6.49s`) | NCAC #16 (Top 16) |
+| Women | **Jordan Laba** | 500 Free | **`5:20.59`** | **Finals** (`P: 5:22.30` / `F: 5:20.59`) | — (`5:19.06`, `+1.53s`) | — (`5:01.60`, `+18.99s`) | `4:59.75` (`+20.84s`) | Bubble: NCAC Top 16 (+1.53s) |
+| Women | **Alexia Monticone** | 500 Free | **`5:22.27`** | **Finals** (`P: 5:25.45` / `F: 5:22.27`) | — (`5:19.06`, `+3.21s`) | — (`5:01.60`, `+20.67s`) | `4:59.75` (`+22.52s`) | Bubble: NCAC Top 16 (+3.21s) |
+| Women | **Jordan Laba** | 1000 Free | **`11:11.08`** | Finals | — (`11:10.59`, `+0.49s`) | — (`10:32.80`, `+38.28s`) | `—` (`—`) | Bubble: NCAC Top 16 (+0.49s) |
+| Women | **Jacki Ambrose** | 100 Fly | **`1:00.27`** | **Finals** (`P: 1:00.86` / `F: 1:00.27`) | — (`59.74`, `+0.53s`) | — (`55.79`, `+4.48s`) | `55.83` (`+4.44s`) | Bubble: NCAC Top 16 (+0.53s) |
+| Women | **Addy Castetter** | 200 Fly | **`2:15.17`** | **Finals** (`P: 2:16.40` / `F: 2:15.17`) | — (`2:13.91`, `+1.26s`) | — (`2:05.63`, `+9.54s`) | `2:04.53` (`+10.64s`) | Bubble: NCAC Top 16 (+1.26s) |
+| Women | **Leah Marshall** | 200 IM | **`2:13.92`** | **Prelims** ⚡*(P)* (`P: 2:13.92` / `F: 2:16.01`) | — (`2:12.83`, `+1.09s`) | — (`2:06.31`, `+7.61s`) | `2:05.44` (`+8.48s`) | Bubble: NCAC Top 16 (+1.09s) |
 
 ## DePauw vs. Rose-Hulman
 - **Source**: SwimCloud API (Meet #414733) | **Swims Evaluated**: 101 | **Notable / On-Bubble**: **9** (🏆 Nationals/B-Cut: **0**, 🇺🇸 DIII Top 16/8: **0**, 🐯 NCAC Top 16/8: **6** [Top 8 A-Final: **0**], 🔥 On the Bubble: **3**)
