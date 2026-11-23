@@ -2,10 +2,11 @@
 
 A real-time and seasonal notable swim tracker for **DePauw University Swimming & Diving**. Automatically benchmarks DePauw meet performances (both Prelims and Finals) against:
 
-1. **NCAC Top 16** (Individual events) & **NCAC Top 8** (Relays) — pulled from SwimCloud's current-season conference JSON endpoint.
-2. **NCAA DIII Top 16** (Individual events) & **NCAA DIII Top 8** (Relays) — pulled from SwimCloud's current-season national JSON endpoint.
-3. **Last Year's Nationals Cutoff** — the official NCAA DIII Invited Time (slowest qualifying time invited to NCAA Nationals the prior year) and current NCAA B-Cut.
-4. **On the Bubble** — swims within `1.5%` of any of the above thresholds, showing the exact time drop needed.
+1. **NCAA DIII Rank** — **Top 24** (Individual events) & **Top 16** (Relays) highlighted, and shown all the way through **Top 50** from SwimCloud's current-season national JSON endpoint.
+2. **NCAA B-Cut** — current season NCAA Division III provisional standard.
+3. **NCAA Qualifier Line** — last year's official NCAA DIII Invited Time (slowest qualifying time invited to NCAA Nationals).
+4. **NCAC Rank** — **Top 16** (Individual events) & **Top 8** (Relays) from SwimCloud's current-season conference JSON endpoint.
+5. **On the Bubble** — swims within `1.5%` of any of the above thresholds, showing the exact time drop needed.
 
 ---
 
