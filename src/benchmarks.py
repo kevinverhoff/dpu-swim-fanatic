@@ -1,4 +1,4 @@
-"""Fetch and cache NCAC Top 16/Top 8 and NCAA DIII Top 16/Top 8 benchmarks from SwimCloud JSON endpoints."""
+"""Fetch and cache NCAC Top 16/Top 8 and NCAA DIII Top 24/Top 16 (and Top 50) benchmarks from SwimCloud JSON endpoints."""
 
 from __future__ import annotations
 import json
@@ -23,36 +23,49 @@ def fetch_swimcloud_top_times(
     region: Optional[str] = None,
     team_id: Optional[int] = None,
     dont_group: bool = False,
+    max_pages: int = 1,
 ) -> list[dict[str, Any]]:
-    """Query SwimCloud's /api/splashes/top_times/ JSON endpoint."""
-    params: dict[str, Any] = {
-        "event": event_code,
-        "gender": gender,
-        "season_id": season_id,
-    }
-    if region:
-        params["region"] = region
-    if team_id:
-        params["team_id"] = team_id
-    if dont_group:
-        params["dont_group"] = "true"
+    """Query SwimCloud's /api/splashes/top_times/ JSON endpoint across up to `max_pages` pages."""
+    all_results: list[dict[str, Any]] = []
+    for page in range(1, max_pages + 1):
+        params: dict[str, Any] = {
+            "event": event_code,
+            "gender": gender,
+            "season_id": season_id,
+            "page": page,
+        }
+        if region:
+            params["region"] = region
+        if team_id:
+            params["team_id"] = team_id
+        if dont_group:
+            params["dont_group"] = "true"
 
-    qs = urllib.parse.urlencode(params, safe="|")
-    url = f"https://www.swimcloud.com/api/splashes/top_times/?{qs}"
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        payload = json.loads(resp.read().decode("utf-8"))
-        return payload.get("results", []) if isinstance(payload, dict) else []
+        qs = urllib.parse.urlencode(params, safe="|")
+        url = f"https://www.swimcloud.com/api/splashes/top_times/?{qs}"
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+            if not isinstance(payload, dict):
+                break
+            rows = payload.get("results", [])
+            all_results.extend(rows)
+            page_count = int(payload.get("page_count") or 1)
+            if page >= page_count or not rows:
+                break
+    return all_results
 
 
 def build_benchmark_ladder(
     raw_results: list[dict[str, Any]],
     is_relay: bool,
-    top_n: int,
+    highlight_n: int,
+    max_rank: int = 50,
 ) -> dict[str, Any]:
     """Extract a deduplicated top-N ladder (1 per swimmer for individual, 1 per team for relay)."""
     ladder = []
     seen_keys = set()
+    limit = max(highlight_n, max_rank)
 
     for item in raw_results:
         sec = parse_time(item.get("eventtime"))
@@ -86,23 +99,29 @@ def build_benchmark_ladder(
             "meet_name": item.get("name"),
             "meet_id": item.get("meet_id"),
         })
-        if len(ladder) >= max(top_n, 25):
+        if len(ladder) >= limit:
             break
 
-    cutoff_idx = min(top_n, len(ladder)) - 1 if ladder else -1
-    cutoff_sec = ladder[cutoff_idx]["time_sec"] if cutoff_idx >= 0 else None
+    hi_idx = min(highlight_n, len(ladder)) - 1 if ladder else -1
+    hi_sec = ladder[hi_idx]["time_sec"] if hi_idx >= 0 else None
+
+    max_idx = min(max_rank, len(ladder)) - 1 if ladder else -1
+    max_sec = ladder[max_idx]["time_sec"] if max_idx >= 0 else None
 
     return {
-        "top_n": top_n,
+        "top_n": highlight_n,
+        "max_rank": max_rank,
         "count_available": len(ladder),
-        "cutoff_rank": cutoff_idx + 1 if cutoff_idx >= 0 else None,
-        "cutoff_sec": cutoff_sec,
-        "cutoff_str": format_time(cutoff_sec),
+        "cutoff_rank": hi_idx + 1 if hi_idx >= 0 else None,
+        "cutoff_sec": hi_sec,
+        "cutoff_str": format_time(hi_sec),
+        "max_rank_cutoff_sec": max_sec,
+        "max_rank_cutoff_str": format_time(max_sec),
         "leader_sec": ladder[0]["time_sec"] if ladder else None,
         "leader_str": ladder[0]["time_str"] if ladder else "—",
         "leader_name": ladder[0]["name"] if ladder else None,
         "leader_team": ladder[0]["team"] if ladder else None,
-        "ladder": ladder[:top_n],
+        "ladder": ladder[:limit],
     }
 
 
@@ -110,9 +129,11 @@ def load_or_refresh_benchmarks(
     settings: dict[str, Any],
     cache_path: Path,
     force_refresh: bool = False,
-    max_age_hours: float = 6.0,
+    max_age_hours: float = 0.25,
 ) -> dict[str, Any]:
-    """Load cached season benchmarks or refresh from SwimCloud JSON API if stale/forced."""
+    """Load cached season benchmarks or refresh from SwimCloud JSON API.
+    Defaults to refreshing whenever cache is >15 minutes old so shifting weekend times always stay current.
+    """
     if not force_refresh and cache_path.exists():
         try:
             cached = json.loads(cache_path.read_text(encoding="utf-8"))
@@ -127,8 +148,14 @@ def load_or_refresh_benchmarks(
     season_label = season_cfg["current_season"]
     conf_region = settings["team"]["conference_region"]
     div_region = settings["team"]["division_region"]
-    ind_top_n = int(settings["thresholds"]["individual_top_n"])
-    rel_top_n = int(settings["thresholds"]["relay_top_n"])
+
+    thresh = settings["thresholds"]
+    ncac_ind_n = int(thresh.get("ncac_individual_top_n", 16))
+    ncac_rel_n = int(thresh.get("ncac_relay_top_n", 8))
+    d3_ind_hi_n = int(thresh.get("d3_individual_highlight_n", 24))
+    d3_rel_hi_n = int(thresh.get("d3_relay_highlight_n", 16))
+    d3_max_rank = int(thresh.get("d3_max_rank", 50))
+
     ncaa_table = settings.get("ncaa_cutoffs", {}).get(season_label, {})
 
     benchmarks: dict[str, Any] = {
@@ -145,23 +172,29 @@ def load_or_refresh_benchmarks(
             ev_id = ev["id"]
             ev_code = ev["swimcloud_code"]
             is_relay = bool(ev["is_relay"])
-            top_n = rel_top_n if is_relay else ind_top_n
+            ncac_top_n = ncac_rel_n if is_relay else ncac_ind_n
+            d3_hi_n = d3_rel_hi_n if is_relay else d3_ind_hi_n
 
-            # Fetch NCAC & NCAA D3 top times from SwimCloud JSON endpoint
+            # Fetch NCAC & NCAA D3 top times from SwimCloud JSON endpoint (50 per page)
             try:
-                ncac_raw = fetch_swimcloud_top_times(ev_code, gender, season_id, region=conf_region)
+                ncac_raw = fetch_swimcloud_top_times(ev_code, gender, season_id, region=conf_region, max_pages=1)
             except Exception as e:
                 print(f"[warn] NCAC fetch failed for {gender} {ev_id}: {e}")
                 ncac_raw = []
 
             try:
-                d3_raw = fetch_swimcloud_top_times(ev_code, gender, season_id, region=div_region)
+                # Fetch up to 2 pages for D3 if needed to guarantee 50 unique swimmers/teams
+                d3_raw = fetch_swimcloud_top_times(ev_code, gender, season_id, region=div_region, max_pages=2)
             except Exception as e:
                 print(f"[warn] D3 fetch failed for {gender} {ev_id}: {e}")
                 d3_raw = []
 
-            ncac_ladder = build_benchmark_ladder(ncac_raw, is_relay=is_relay, top_n=top_n)
-            d3_ladder = build_benchmark_ladder(d3_raw, is_relay=is_relay, top_n=top_n)
+            ncac_ladder = build_benchmark_ladder(
+                ncac_raw, is_relay=is_relay, highlight_n=ncac_top_n, max_rank=25
+            )
+            d3_ladder = build_benchmark_ladder(
+                d3_raw, is_relay=is_relay, highlight_n=d3_hi_n, max_rank=d3_max_rank
+            )
 
             ev_cuts = gender_cuts.get(ev_id, {})
             inv_sec = parse_time(ev_cuts.get("invited_prev"))

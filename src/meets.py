@@ -342,7 +342,8 @@ def fetch_swimcloud_meet_for_team(
                     gender=gender,
                     season_id=season_id,
                     team_id=team_id,
-                    dont_group=not is_relay,
+                    dont_group=True,
+                    max_pages=4,
                 )
             except Exception:
                 rows = []
@@ -354,8 +355,9 @@ def fetch_swimcloud_meet_for_team(
                 if sec is None:
                     continue
                 sw_obj = r.get("swimmer") or {}
+                rel_letter = str(r.get("relayname") or "A").strip()
                 sw_name = (
-                    "DePauw Relay"
+                    f"DePauw '{rel_letter}' Relay"
                     if is_relay
                     else (sw_obj.get("display_name") or r.get("display_name") or "DePauw Swimmer")
                 )

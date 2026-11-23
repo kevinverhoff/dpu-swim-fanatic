@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 import time
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 
 def generate_markdown_report(
@@ -12,14 +12,16 @@ def generate_markdown_report(
     benchmarks: dict[str, Any],
     settings: dict[str, Any],
 ) -> str:
-    """Create a scannable Markdown summary of notable DePauw swims across meets."""
+    """Create a scannable Markdown summary of notable DePauw swims across meets.
+    Ordered by: NCAA D3 Rank -> NCAA B-Cut -> NCAA Qualifier Line -> NCAC Rank.
+    """
     season = settings["seasons"]["current_season"]
     prior = settings["seasons"]["prior_season"]
     now_str = time.strftime("%Y-%m-%d %H:%M ET")
 
     lines = [
-        f"# DePauw Swim Fanatic — Notable Swims Report ({season})",
-        f"_Last updated: {now_str} | Benchmarks: {season} NCAC Top 16 (Relays Top 8), {season} NCAA DIII Top 16 (Relays Top 8), & {prior} NCAA Nationals Invited Line_",
+        f"# DePauw Swim Fanatic — Best Performances Report ({season})",
+        f"_Last updated: {now_str} | Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, shown through Top 50) · 2) NCAA B-Cut · 3) {prior} NCAA Qualifier Line · 4) NCAC Rank (Top 16 Individual / Top 8 Relays)_",
         "",
     ]
 
@@ -29,7 +31,9 @@ def generate_markdown_report(
         lines.append(
             f"- **Source**: {meet['source']} | **Swims Evaluated**: {s['total_swims']} "
             f"| **Notable / On-Bubble**: **{s['notable_swims']}** "
-            f"(🏆 Nationals/B-Cut: **{s['nationals_level']}**, 🇺🇸 DIII Top 16/8: **{s['d3_top']}**, "
+            f"(🇺🇸 NCAA DIII Top 24/16: **{s['d3_highlight']}** [Top 50: **{s['d3_top50']}**], "
+            f"🏅 NCAA B-Cut: **{s['ncaa_b_cut']}**, "
+            f"🏆 NCAA Qualifier Line: **{s['nationals_invite']}**, "
             f"🐯 NCAC Top 16/8: **{s['ncac_top']}** [Top 8 A-Final: **{s['ncac_a_final']}**], "
             f"🔥 On the Bubble: **{s['on_bubble']}**)"
         )
@@ -42,10 +46,10 @@ def generate_markdown_report(
             continue
 
         lines.append(
-            "| Gender | Swimmer / Relay | Event | Fastest Time | Round (Prelim / Finals) | NCAC Rank (Cut) | DIII Rank (Cut) | '26 Nationals Cut (Delta) | Notable Badges |"
+            "| Gender | Swimmer / Relay | Event | Fastest Time | Round (Prelim / Finals) | NCAA DIII Rank | NCAA B-Cut (Delta) | NCAA Qualifier Line (Delta) | NCAC Rank | Notable Badges |"
         )
         lines.append(
-            "| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |"
+            "| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |"
         )
 
         for e in notable:
@@ -56,24 +60,30 @@ def generate_markdown_report(
             elif e["time_trial_str"]:
                 rounds_detail = f"**Time Trial** (`{e['time_trial_str']}`)"
 
-            ncac_col = (
-                f"**#{e['ncac_rank']}** (`{e['ncac_cutoff_str']}`)"
-                if e["ncac_rank"]
-                else f"— (`{e['ncac_cutoff_str']}`, `{e['ncac_delta_str']}`)"
+            if e["d3_rank"]:
+                d3_col = f"**#{e['d3_rank']}** 🌟" if e["is_d3_highlight"] else f"# {e['d3_rank']}"
+            else:
+                d3_col = "—"
+
+            b_cut_col = (
+                f"`{e['nationals_b_cut_str']}` (`{e['nationals_b_cut_delta_str']}`)"
+                if e["nationals_b_cut_str"] != "—"
+                else "—"
             )
-            d3_col = (
-                f"**#{e['d3_rank']}** (`{e['d3_cutoff_str']}`)"
-                if e["d3_rank"]
-                else f"— (`{e['d3_cutoff_str']}`, `{e['d3_delta_str']}`)"
+            nat_col = (
+                f"`{e['nationals_invited_str']}` (`{e['nationals_delta_str']}`)"
+                if e["nationals_invited_str"] != "—"
+                else "—"
             )
-            nat_col = f"`{e['nationals_invited_str']}` (`{e['nationals_delta_str']}`)"
+            ncac_col = f"**#{e['ncac_rank']}**" if e["ncac_rank"] else "—"
+
             badge_str = " · ".join(b["label"] for b in e["badges"])
             swimmer_disp = e["swimmer_name"]
             if e["year"]:
                 swimmer_disp += f" ({e['year']})"
 
             lines.append(
-                f"| {e['gender_label']} | **{swimmer_disp}** | {e['event_label']} | **`{e['best_time_str']}`** | {rounds_detail} | {ncac_col} | {d3_col} | {nat_col} | {badge_str} |"
+                f"| {e['gender_label']} | **{swimmer_disp}** | {e['event_label']} | **`{e['best_time_str']}`** | {rounds_detail} | {d3_col} | {b_cut_col} | {nat_col} | {ncac_col} | {badge_str} |"
             )
 
         lines.append("")

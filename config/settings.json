@@ -14,8 +14,11 @@
     "prior_swimcloud_season_id": 29
   },
   "thresholds": {
-    "individual_top_n": 16,
-    "relay_top_n": 8,
+    "ncac_individual_top_n": 16,
+    "ncac_relay_top_n": 8,
+    "d3_individual_highlight_n": 24,
+    "d3_relay_highlight_n": 16,
+    "d3_max_rank": 50,
     "bubble_pct": 0.015
   },
   "events": [
@@ -101,7 +104,7 @@
       "host": "Centre College (Danville, KY)",
       "start_date": "2026-11-20",
       "end_date": "2026-11-22",
-      "source_type": "swimcloud_or_file",
+      "source_type": "swimcloud",
       "live_url": null,
       "swimcloud_meet_id": 388433
     },
