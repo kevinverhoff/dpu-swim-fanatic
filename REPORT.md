@@ -1,39 +1,39 @@
 # DePauw Swim Fanatic — Best Performances Report (2026-27)
-**Last Updated:** `Nov 23, 2026 at 02:24 PM ET`  
+**Last Updated:** `Nov 23, 2026 at 06:25 PM ET`  
 _Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, shown through Top 50) · 2) NCAA B-Cut · 3) 2025-26 NCAA Qualifier Line · 4) NCAC Rank (Top 16 Individual / Top 8 Relays)_
 
 ## 2026 Total Performance Invitational
-- **Source**: Hy-Tek Live (https://sidearmstats.com/kenyon/swim) | **Swims Evaluated**: 100 | **Notable / On-Bubble**: **61** (🇺🇸 NCAA DIII Top 24/16: **4** [Top 50: **18**], 🏅 NCAA B-Cut: **2**, 🏆 NCAA Qualifier Line: **2**, 🐯 NCAC Top 16/8: **43** [Top 8 A-Final: **21**], 🔥 On the Bubble: **27**)
+- **Source**: Hy-Tek Live (https://sidearmstats.com/kenyon/swim) | **Swims Evaluated**: 100 | **Notable / On-Bubble**: **61** (🇺🇸 NCAA DIII Top 24/16: **3** [Top 50: **16**], 🏅 NCAA B-Cut: **2**, 🏆 NCAA Qualifier Line: **2**, 🐯 NCAC Top 16/8: **43** [Top 8 A-Final: **21**], 🔥 On the Bubble: **28**)
 
 | Gender | Swimmer / Relay | Event | Fastest Time | Round (Prelim / Finals) | NCAA DIII Rank | NCAA B-Cut (Delta) | NCAA Qualifier Line (Delta) | NCAC Rank | Notable Badges |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Women | **Edie Patterson (JR)** | 1650 Free | **`17:11.54`** | Finals | **#4** 🌟 | `17:21.20` (`-9.66s`) | `17:21.11` (`-9.57s`) | **#2** | NCAA DIII #4 (Top 24) · NCAA B-Cut · NCAA Qualifier Line · NCAC #2 (Top 8) |
 | Women | **Edie Patterson (JR)** | 200 Free | **`1:50.69`** | **Finals** (`P: 1:55.02` / `F: 1:50.69`) | **#9** 🌟 | `1:51.92` (`-1.23s`) | `1:51.81` (`-1.12s`) | **#2** | NCAA DIII #9 (Top 24) · NCAA B-Cut · NCAA Qualifier Line · NCAC #2 (Top 8) |
-| Men | **DePauw 'A' Relay** | 800 Free Relay | **`6:50.69`** | Finals | **#16** 🌟 | `6:38.55` (`+12.14s`) | `6:35.85` (`+14.84s`) | **#4** | NCAA DIII #16 (Top 16) · NCAC #4 (Top 8) |
-| Women | **Lydia Buechler (SO)** | 1650 Free | **`17:38.04`** | Finals | **#20** 🌟 | `17:21.20` (`+16.84s`) | `17:21.11` (`+16.93s`) | **#5** | NCAA DIII #20 (Top 24) · NCAC #5 (Top 8) |
-| Women | **DePauw 'A' Relay** | 400 Medley Relay | **`3:54.60`** | Finals | # 18 | `3:49.44` (`+5.16s`) | `3:48.69` (`+5.91s`) | **#3** | NCAA DIII #18 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+0.90s) |
-| Women | **DePauw 'A' Relay** | 800 Free Relay | **`7:51.99`** | Finals | # 18 | `7:36.78` (`+15.21s`) | `7:34.43` (`+17.56s`) | **#3** | NCAA DIII #18 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+2.68s) |
-| Women | **DePauw 'A' Relay** | 200 Free Relay | **`1:36.68`** | Finals | # 23 | `1:34.80` (`+1.88s`) | `1:33.96` (`+2.72s`) | **#3** | NCAA DIII #23 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+0.88s) |
+| Women | **Lydia Buechler (SO)** | 1650 Free | **`17:38.04`** | Finals | **#22** 🌟 | `17:21.20` (`+16.84s`) | `17:21.11` (`+16.93s`) | **#5** | NCAA DIII #22 (Top 24) · NCAC #5 (Top 8) |
+| Men | **DePauw 'A' Relay** | 800 Free Relay | **`6:50.69`** | Finals | # 18 | `6:38.55` (`+12.14s`) | `6:35.85` (`+14.84s`) | **#4** | NCAA DIII #18 (Top 50) · NCAC #4 (Top 8) · Bubble: DIII Top 16 (+1.84s) |
+| Women | **DePauw 'A' Relay** | 400 Medley Relay | **`3:54.60`** | Finals | # 19 | `3:49.44` (`+5.16s`) | `3:48.69` (`+5.91s`) | **#3** | NCAA DIII #19 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+1.12s) |
+| Women | **DePauw 'A' Relay** | 800 Free Relay | **`7:51.99`** | Finals | # 22 | `7:36.78` (`+15.21s`) | `7:34.43` (`+17.56s`) | **#3** | NCAA DIII #22 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+5.50s) |
+| Women | **DePauw 'A' Relay** | 200 Free Relay | **`1:36.68`** | Finals | # 25 | `1:34.80` (`+1.88s`) | `1:33.96` (`+2.72s`) | **#3** | NCAA DIII #25 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+1.10s) |
 | Women | **Edie Patterson (JR)** | 500 Free | **`5:03.55`** | **Finals** (`P: 5:04.09` / `F: 5:03.55`) | # 26 | `4:59.91` (`+3.64s`) | `4:59.75` (`+3.80s`) | **#8** | NCAA DIII #26 (Top 50) · NCAC #8 (Top 8) · Bubble: DIII Top 24 (+0.80s) · Bubble: NCAA B-Cut (+3.64s) · Bubble: NCAA Qualifier Line (+3.80s) |
-| Women | **DePauw 'A' Relay** | 200 Medley Relay | **`1:46.53`** | Finals | # 28 | `1:44.12` (`+2.41s`) | `1:43.30` (`+3.23s`) | **#3** | NCAA DIII #28 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+1.33s) |
-| Women | **Emily Knott (JR)** | 200 Fly | **`2:06.61`** | **Prelims** ⚡*(P)* (`P: 2:06.61` / `F: 2:07.70`) | # 28 | `2:04.53` (`+2.08s`) | `2:04.53` (`+2.08s`) | **#4** | NCAA DIII #28 (Top 50) · NCAC #4 (Top 8) · Bubble: DIII Top 24 (+0.52s) |
 | Women | **Emily Knott (JR)** | 100 Fly | **`56.19`** | **Finals** (`P: 56.41` / `F: 56.19`) | # 28 | `55.79` (`+0.40s`) | `55.83` (`+0.36s`) | **#5** | NCAA DIII #28 (Top 50) · NCAC #5 (Top 8) · Bubble: DIII Top 24 (+0.05s) · Bubble: NCAA B-Cut (+0.40s) · Bubble: NCAA Qualifier Line (+0.36s) |
-| Men | **DePauw 'A' Relay** | 400 Free Relay | **`3:06.51`** | Finals | # 32 | `3:00.23` (`+6.28s`) | `2:58.82` (`+7.69s`) | **#4** | NCAA DIII #32 (Top 50) · NCAC #4 (Top 8) |
-| Women | **DePauw 'A' Relay** | 400 Free Relay | **`3:34.99`** | Finals | # 33 | `3:29.09` (`+5.90s`) | `3:28.10` (`+6.89s`) | **#3** | NCAA DIII #33 (Top 50) · NCAC #3 (Top 8) |
-| Men | **DePauw 'A' Relay** | 200 Medley Relay | **`1:32.17`** | Finals | # 33 | `1:29.14` (`+3.03s`) | `1:28.24` (`+3.93s`) | **#4** | NCAA DIII #33 (Top 50) · NCAC #4 (Top 8) |
-| Men | **DePauw 'A' Relay** | 400 Medley Relay | **`3:25.05`** | Finals | # 37 | `3:17.11` (`+7.94s`) | `3:15.77` (`+9.28s`) | **#4** | NCAA DIII #37 (Top 50) · NCAC #4 (Top 8) |
-| Women | **Keelie Sullivan (FR)** | 200 Back | **`2:05.36`** | **Finals** (`P: 2:06.06` / `F: 2:05.36`) | # 39 | `2:03.17` (`+2.19s`) | `2:02.75` (`+2.61s`) | **#7** | NCAA DIII #39 (Top 50) · NCAC #7 (Top 8) · Bubble: DIII Top 24 (+1.36s) |
-| Men | **Daniel Schwendinger (SO)** | 100 Fly | **`49.55`** | **Finals** (`P: 50.44` / `F: 49.55`) | # 48 | `48.48` (`+1.07s`) | `48.02` (`+1.53s`) | **#9** | NCAA DIII #48 (Top 50) · NCAC #9 (Top 16) · Bubble: DIII Top 24 (+0.54s) |
-| Men | **Brady Hinshaw (SO)** | 100 Back | **`50.27`** | **Prelims** ⚡*(P)* (`P: 50.27` / `F: 50.94`) | # 49 | `49.19` (`+1.08s`) | `48.20` (`+2.07s`) | **#12** | NCAA DIII #49 (Top 50) · NCAC #12 (Top 16) |
+| Women | **DePauw 'A' Relay** | 200 Medley Relay | **`1:46.53`** | Finals | # 29 | `1:44.12` (`+2.41s`) | `1:43.30` (`+3.23s`) | **#3** | NCAA DIII #29 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+1.33s) |
+| Women | **Emily Knott (JR)** | 200 Fly | **`2:06.61`** | **Prelims** ⚡*(P)* (`P: 2:06.61` / `F: 2:07.70`) | # 29 | `2:04.53` (`+2.08s`) | `2:04.53` (`+2.08s`) | **#4** | NCAA DIII #29 (Top 50) · NCAC #4 (Top 8) · Bubble: DIII Top 24 (+0.78s) |
+| Women | **DePauw 'A' Relay** | 400 Free Relay | **`3:34.99`** | Finals | # 36 | `3:29.09` (`+5.90s`) | `3:28.10` (`+6.89s`) | **#3** | NCAA DIII #36 (Top 50) · NCAC #3 (Top 8) |
+| Men | **DePauw 'A' Relay** | 400 Free Relay | **`3:06.51`** | Finals | # 36 | `3:00.23` (`+6.28s`) | `2:58.82` (`+7.69s`) | **#4** | NCAA DIII #36 (Top 50) · NCAC #4 (Top 8) |
+| Men | **DePauw 'A' Relay** | 200 Medley Relay | **`1:32.17`** | Finals | # 37 | `1:29.14` (`+3.03s`) | `1:28.24` (`+3.93s`) | **#4** | NCAA DIII #37 (Top 50) · NCAC #4 (Top 8) |
+| Women | **Keelie Sullivan (FR)** | 200 Back | **`2:05.36`** | **Finals** (`P: 2:06.06` / `F: 2:05.36`) | # 40 | `2:03.17` (`+2.19s`) | `2:02.75` (`+2.61s`) | **#7** | NCAA DIII #40 (Top 50) · NCAC #7 (Top 8) · Bubble: DIII Top 24 (+1.36s) |
+| Men | **DePauw 'A' Relay** | 400 Medley Relay | **`3:25.05`** | Finals | # 41 | `3:17.11` (`+7.94s`) | `3:15.77` (`+9.28s`) | **#4** | NCAA DIII #41 (Top 50) · NCAC #4 (Top 8) |
 | Men | **DePauw 'B' Relay** | 200 Free Relay | **`1:25.27`** | Finals | — | `1:21.10` (`+4.17s`) | `1:20.49` (`+4.78s`) | **#5** | NCAC #5 (Top 8) |
 | Women | **McKenzie Ortolano (SR)** | 200 Breast | **`2:30.01`** | **Finals** (`P: 2:30.74` / `F: 2:30.01`) | — | `2:20.09` (`+9.92s`) | `2:20.07` (`+9.94s`) | **#7** | NCAC #7 (Top 8) |
 | Women | **Keelie Sullivan (FR)** | 100 Back | **`58.27`** | **Finals** (`P: 59.84` / `F: 58.27`) | — | `56.48` (`+1.79s`) | `56.34` (`+1.93s`) | **#8** | NCAC #8 (Top 8) |
 | Women | **Grace Stimac (FR)** | 400 IM | **`4:38.16`** | **Finals** (`P: 4:38.97` / `F: 4:38.16`) | — | `4:28.70` (`+9.46s`) | `4:28.76` (`+9.40s`) | **#8** | NCAC #8 (Top 8) |
 | Women | **Alli Woodard (FR)** | 200 Breast | **`2:32.26`** | **Finals** (`P: 2:36.16` / `F: 2:32.26`) | — | `2:20.09` (`+12.17s`) | `2:20.07` (`+12.19s`) | **#8** | NCAC #8 (Top 8) |
+| Men | **Daniel Schwendinger (SO)** | 100 Fly | **`49.55`** | **Finals** (`P: 50.44` / `F: 49.55`) | — | `48.48` (`+1.07s`) | `48.02` (`+1.53s`) | **#9** | NCAC #9 (Top 16) · Bubble: DIII Top 24 (+0.67s) |
 | Women | **Edie Patterson (JR)** | 100 Free | **`52.38`** | **Prelims** ⚡*(P)* (`P: 52.38` / `F: 52.72`) | — | `51.24` (`+1.14s`) | `51.13` (`+1.25s`) | **#9** | NCAC #9 (Top 16) |
 | Women | **McKenzie Ortolano (SR)** | 100 Breast | **`1:07.28`** | **Finals** (`P: 1:08.14` / `F: 1:07.28`) | — | `1:04.12` (`+3.16s`) | `1:04.12` (`+3.16s`) | **#9** | NCAC #9 (Top 16) |
 | Men | **Daniel Schwendinger (SO)** | 200 Fly | **`1:53.06`** | **Finals** (`P: 1:54.64` / `F: 1:53.06`) | — | `1:49.36` (`+3.70s`) | `1:48.05` (`+5.01s`) | **#9** | NCAC #9 (Top 16) |
 | Women | **Gabby Koon (SO)** | 50 Free | **`24.05`** | **Finals** (`P: 24.32` / `F: 24.05`) | — | `23.50` (`+0.55s`) | `23.45` (`+0.60s`) | **#10** | NCAC #10 (Top 16) |
+| Men | **Brady Hinshaw (SO)** | 100 Back | **`50.27`** | **Prelims** ⚡*(P)* (`P: 50.27` / `F: 50.94`) | — | `49.19` (`+1.08s`) | `48.20` (`+2.07s`) | **#12** | NCAC #12 (Top 16) |
 | Men | **Matthew Weeks (FR)** | 200 Back | **`1:53.01`** | **Prelims** ⚡*(P)* (`P: 1:53.01` / `F: 1:53.45`) | — | `1:48.48` (`+4.53s`) | `1:47.17` (`+5.84s`) | **#12** | NCAC #12 (Top 16) |
 | Women | **Grace Stimac (FR)** | 200 IM | **`2:10.26`** | **Finals** (`P: 2:10.93` / `F: 2:10.26`) | — | `2:05.61` (`+4.65s`) | `2:05.44` (`+4.82s`) | **#12** | NCAC #12 (Top 16) |
 | Women | **Nora Boillot (SO)** | 200 Back | **`2:07.95`** | **Finals** (`P: 2:12.89` / `F: 2:07.95`) | — | `2:03.17` (`+4.78s`) | `2:02.75` (`+5.20s`) | **#12** | NCAC #12 (Top 16) |
@@ -70,13 +70,13 @@ _Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, s
 | Men | **Brady Wright (FR)** | 1650 Free | **`16:21.98`** | Finals | — | `15:50.88` (`+31.10s`) | `15:40.80` (`+41.18s`) | — | Bubble: NCAC Top 16 (+10.43s) |
 
 ## 2026 Speedo Mid-Season Invitational
-- **Source**: SwimCloud API (Meet #388433) | **Swims Evaluated**: 116 | **Notable / On-Bubble**: **20** (🇺🇸 NCAA DIII Top 24/16: **0** [Top 50: **1**], 🏅 NCAA B-Cut: **0**, 🏆 NCAA Qualifier Line: **0**, 🐯 NCAC Top 16/8: **14** [Top 8 A-Final: **10**], 🔥 On the Bubble: **6**)
+- **Source**: SwimCloud API (Meet #388433) | **Swims Evaluated**: 116 | **Notable / On-Bubble**: **20** (🇺🇸 NCAA DIII Top 24/16: **0** [Top 50: **0**], 🏅 NCAA B-Cut: **0**, 🏆 NCAA Qualifier Line: **0**, 🐯 NCAC Top 16/8: **14** [Top 8 A-Final: **10**], 🔥 On the Bubble: **6**)
 
 | Gender | Swimmer / Relay | Event | Fastest Time | Round (Prelim / Finals) | NCAA DIII Rank | NCAA B-Cut (Delta) | NCAA Qualifier Line (Delta) | NCAC Rank | Notable Badges |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Women | **DePauw 'A' Relay** | 800 Free Relay | **`8:06.74`** | Finals | # 48 | `7:36.78` (`+29.96s`) | `7:34.43` (`+32.31s`) | **#5** | NCAA DIII #48 (Top 50) · NCAC #5 (Top 8) |
 | Women | **DePauw 'A' Relay** | 400 Free Relay | **`3:41.90`** | Finals | — | `3:29.09` (`+12.81s`) | `3:28.10` (`+13.80s`) | **#5** | NCAC #5 (Top 8) |
 | Women | **DePauw 'A' Relay** | 400 Medley Relay | **`4:12.05`** | Finals | — | `3:49.44` (`+22.61s`) | `3:48.69` (`+23.36s`) | **#5** | NCAC #5 (Top 8) |
+| Women | **DePauw 'A' Relay** | 800 Free Relay | **`8:06.74`** | Finals | — | `7:36.78` (`+29.96s`) | `7:34.43` (`+32.31s`) | **#5** | NCAC #5 (Top 8) |
 | Women | **DePauw 'A' Relay** | 200 Free Relay | **`1:41.99`** | Finals | — | `1:34.80` (`+7.19s`) | `1:33.96` (`+8.03s`) | **#6** | NCAC #6 (Top 8) |
 | Men | **DePauw 'A' Relay** | 400 Medley Relay | **`3:34.46`** | Finals | — | `3:17.11` (`+17.35s`) | `3:15.77` (`+18.69s`) | **#6** | NCAC #6 (Top 8) |
 | Men | **DePauw 'A' Relay** | 200 Medley Relay | **`1:36.04`** | Finals | — | `1:29.14` (`+6.90s`) | `1:28.24` (`+7.80s`) | **#7** | NCAC #7 (Top 8) |
@@ -115,14 +115,14 @@ _Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, s
 | Women | **Alli Woodard** | 200 Breast | **`2:39.90`** | Finals | — | `2:20.09` (`+19.81s`) | `2:20.07` (`+19.83s`) | — | Bubble: NCAC Top 16 (+0.10s) |
 
 ## Dan Ross Indiana Intercollegiates
-- **Source**: SwimCloud API (Meet #408409) | **Swims Evaluated**: 112 | **Notable / On-Bubble**: **12** (🇺🇸 NCAA DIII Top 24/16: **0** [Top 50: **1**], 🏅 NCAA B-Cut: **0**, 🏆 NCAA Qualifier Line: **0**, 🐯 NCAC Top 16/8: **7** [Top 8 A-Final: **4**], 🔥 On the Bubble: **5**)
+- **Source**: SwimCloud API (Meet #408409) | **Swims Evaluated**: 112 | **Notable / On-Bubble**: **12** (🇺🇸 NCAA DIII Top 24/16: **0** [Top 50: **0**], 🏅 NCAA B-Cut: **0**, 🏆 NCAA Qualifier Line: **0**, 🐯 NCAC Top 16/8: **7** [Top 8 A-Final: **4**], 🔥 On the Bubble: **5**)
 
 | Gender | Swimmer / Relay | Event | Fastest Time | Round (Prelim / Finals) | NCAA DIII Rank | NCAA B-Cut (Delta) | NCAA Qualifier Line (Delta) | NCAC Rank | Notable Badges |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Women | **Edie Patterson** | 200 Free | **`1:54.37`** | Finals | # 48 | `1:51.92` (`+2.45s`) | `1:51.81` (`+2.56s`) | **#8** | NCAA DIII #48 (Top 50) · NCAC #8 (Top 8) |
 | Women | **DePauw 'B' Relay** | 200 Medley Relay | **`1:51.73`** | Finals | — | `1:44.12` (`+7.61s`) | `1:43.30` (`+8.43s`) | **#5** | NCAC #5 (Top 8) |
 | Men | **DePauw 'A' Relay** | 200 Medley Relay | **`1:33.60`** | Finals | — | `1:29.14` (`+4.46s`) | `1:28.24` (`+5.36s`) | **#6** | NCAC #6 (Top 8) |
 | Women | **Emily Knott** | 100 Fly | **`57.53`** | Finals | — | `55.79` (`+1.74s`) | `55.83` (`+1.70s`) | **#8** | NCAC #8 (Top 8) |
+| Women | **Edie Patterson** | 200 Free | **`1:54.37`** | Finals | — | `1:51.92` (`+2.45s`) | `1:51.81` (`+2.56s`) | **#8** | NCAC #8 (Top 8) |
 | Women | **Keelie Sullivan** | 100 Back | **`58.98`** | Finals | — | `56.48` (`+2.50s`) | `56.34` (`+2.64s`) | **#11** | NCAC #11 (Top 16) |
 | Men | **Daniel Schwendinger** | 100 Fly | **`50.66`** | Finals | — | `48.48` (`+2.18s`) | `48.02` (`+2.64s`) | **#14** | NCAC #14 (Top 16) |
 | Women | **Gabby Koon** | 50 Free | **`24.23`** | Finals | — | `23.50` (`+0.73s`) | `23.45` (`+0.78s`) | **#15** | NCAC #15 (Top 16) |
