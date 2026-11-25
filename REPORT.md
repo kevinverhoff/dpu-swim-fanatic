@@ -1,5 +1,5 @@
 # DePauw Swim Fanatic — Best Performances Report (2026-27)
-**Last Updated:** `Nov 23, 2026 at 06:25 PM ET`  
+**Last Updated:** `Nov 25, 2026 at 09:23 AM ET`  
 _Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, shown through Top 50) · 2) NCAA B-Cut · 3) 2025-26 NCAA Qualifier Line · 4) NCAC Rank (Top 16 Individual / Top 8 Relays)_
 
 ## 2026 Total Performance Invitational
@@ -16,13 +16,13 @@ _Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, s
 | Women | **DePauw 'A' Relay** | 200 Free Relay | **`1:36.68`** | Finals | # 25 | `1:34.80` (`+1.88s`) | `1:33.96` (`+2.72s`) | **#3** | NCAA DIII #25 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+1.10s) |
 | Women | **Edie Patterson (JR)** | 500 Free | **`5:03.55`** | **Finals** (`P: 5:04.09` / `F: 5:03.55`) | # 26 | `4:59.91` (`+3.64s`) | `4:59.75` (`+3.80s`) | **#8** | NCAA DIII #26 (Top 50) · NCAC #8 (Top 8) · Bubble: DIII Top 24 (+0.80s) · Bubble: NCAA B-Cut (+3.64s) · Bubble: NCAA Qualifier Line (+3.80s) |
 | Women | **Emily Knott (JR)** | 100 Fly | **`56.19`** | **Finals** (`P: 56.41` / `F: 56.19`) | # 28 | `55.79` (`+0.40s`) | `55.83` (`+0.36s`) | **#5** | NCAA DIII #28 (Top 50) · NCAC #5 (Top 8) · Bubble: DIII Top 24 (+0.05s) · Bubble: NCAA B-Cut (+0.40s) · Bubble: NCAA Qualifier Line (+0.36s) |
-| Women | **DePauw 'A' Relay** | 200 Medley Relay | **`1:46.53`** | Finals | # 29 | `1:44.12` (`+2.41s`) | `1:43.30` (`+3.23s`) | **#3** | NCAA DIII #29 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+1.33s) |
 | Women | **Emily Knott (JR)** | 200 Fly | **`2:06.61`** | **Prelims** ⚡*(P)* (`P: 2:06.61` / `F: 2:07.70`) | # 29 | `2:04.53` (`+2.08s`) | `2:04.53` (`+2.08s`) | **#4** | NCAA DIII #29 (Top 50) · NCAC #4 (Top 8) · Bubble: DIII Top 24 (+0.78s) |
-| Women | **DePauw 'A' Relay** | 400 Free Relay | **`3:34.99`** | Finals | # 36 | `3:29.09` (`+5.90s`) | `3:28.10` (`+6.89s`) | **#3** | NCAA DIII #36 (Top 50) · NCAC #3 (Top 8) |
-| Men | **DePauw 'A' Relay** | 400 Free Relay | **`3:06.51`** | Finals | # 36 | `3:00.23` (`+6.28s`) | `2:58.82` (`+7.69s`) | **#4** | NCAA DIII #36 (Top 50) · NCAC #4 (Top 8) |
+| Women | **DePauw 'A' Relay** | 200 Medley Relay | **`1:46.53`** | Finals | # 30 | `1:44.12` (`+2.41s`) | `1:43.30` (`+3.23s`) | **#3** | NCAA DIII #30 (Top 50) · NCAC #3 (Top 8) · Bubble: DIII Top 16 (+1.33s) |
 | Men | **DePauw 'A' Relay** | 200 Medley Relay | **`1:32.17`** | Finals | # 37 | `1:29.14` (`+3.03s`) | `1:28.24` (`+3.93s`) | **#4** | NCAA DIII #37 (Top 50) · NCAC #4 (Top 8) |
-| Women | **Keelie Sullivan (FR)** | 200 Back | **`2:05.36`** | **Finals** (`P: 2:06.06` / `F: 2:05.36`) | # 40 | `2:03.17` (`+2.19s`) | `2:02.75` (`+2.61s`) | **#7** | NCAA DIII #40 (Top 50) · NCAC #7 (Top 8) · Bubble: DIII Top 24 (+1.36s) |
+| Men | **DePauw 'A' Relay** | 400 Free Relay | **`3:06.51`** | Finals | # 37 | `3:00.23` (`+6.28s`) | `2:58.82` (`+7.69s`) | **#4** | NCAA DIII #37 (Top 50) · NCAC #4 (Top 8) |
+| Women | **DePauw 'A' Relay** | 400 Free Relay | **`3:34.99`** | Finals | # 38 | `3:29.09` (`+5.90s`) | `3:28.10` (`+6.89s`) | **#3** | NCAA DIII #38 (Top 50) · NCAC #3 (Top 8) |
 | Men | **DePauw 'A' Relay** | 400 Medley Relay | **`3:25.05`** | Finals | # 41 | `3:17.11` (`+7.94s`) | `3:15.77` (`+9.28s`) | **#4** | NCAA DIII #41 (Top 50) · NCAC #4 (Top 8) |
+| Women | **Keelie Sullivan (FR)** | 200 Back | **`2:05.36`** | **Finals** (`P: 2:06.06` / `F: 2:05.36`) | # 41 | `2:03.17` (`+2.19s`) | `2:02.75` (`+2.61s`) | **#7** | NCAA DIII #41 (Top 50) · NCAC #7 (Top 8) · Bubble: DIII Top 24 (+1.36s) |
 | Men | **DePauw 'B' Relay** | 200 Free Relay | **`1:25.27`** | Finals | — | `1:21.10` (`+4.17s`) | `1:20.49` (`+4.78s`) | **#5** | NCAC #5 (Top 8) |
 | Women | **McKenzie Ortolano (SR)** | 200 Breast | **`2:30.01`** | **Finals** (`P: 2:30.74` / `F: 2:30.01`) | — | `2:20.09` (`+9.92s`) | `2:20.07` (`+9.94s`) | **#7** | NCAC #7 (Top 8) |
 | Women | **Keelie Sullivan (FR)** | 100 Back | **`58.27`** | **Finals** (`P: 59.84` / `F: 58.27`) | — | `56.48` (`+1.79s`) | `56.34` (`+1.93s`) | **#8** | NCAC #8 (Top 8) |

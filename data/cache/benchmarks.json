@@ -1,8 +1,8 @@
 {
   "season": "2026-27",
   "swimcloud_season_id": 30,
-  "fetched_epoch": 1795476237,
-  "fetched_iso": "2026-11-23T23:23:57Z",
+  "fetched_epoch": 1795615906,
+  "fetched_iso": "2026-11-25T14:11:46Z",
   "events": {
     "F": {
       "50_FREE": {
@@ -397,7 +397,7 @@
               "time_sec": 23.16,
               "time_str": "23.16",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -589,7 +589,7 @@
               "time_sec": 23.59,
               "time_str": "23.59",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -613,7 +613,7 @@
               "time_sec": 23.61,
               "time_str": "23.61",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -654,6 +654,18 @@
             },
             {
               "rank": 27,
+              "name": "Amy Benson",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 1495195,
+              "time_sec": 23.66,
+              "time_str": "23.66",
+              "date": "2026-11-20",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 28,
               "name": "Adelia Biello",
               "team": "University of Chicago",
               "team_id": 259,
@@ -663,18 +675,6 @@
               "date": "2026-11-20",
               "meet_name": "17th Annual Phoenix Fall Classic",
               "meet_id": 414688
-            },
-            {
-              "rank": 28,
-              "name": "Amy Benson",
-              "team": "Trinity University (Texas)",
-              "team_id": 322,
-              "swimmer_id": 1495195,
-              "time_sec": 23.68,
-              "time_str": "23.68",
-              "date": "2026-11-06",
-              "meet_name": "D3 Shootout",
-              "meet_id": 413120
             },
             {
               "rank": 29,
@@ -697,7 +697,7 @@
               "time_sec": 23.69,
               "time_str": "23.69",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -1279,8 +1279,8 @@
           "cutoff_rank": 24,
           "cutoff_sec": 51.53,
           "cutoff_str": "51.53",
-          "max_rank_cutoff_sec": 52.17,
-          "max_rank_cutoff_str": "52.17",
+          "max_rank_cutoff_sec": 52.15,
+          "max_rank_cutoff_str": "52.15",
           "leader_sec": 49.63,
           "leader_str": "49.63",
           "leader_name": "Ella Roberson",
@@ -1475,7 +1475,7 @@
               "time_sec": 51.31,
               "time_str": "51.31",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -1576,18 +1576,6 @@
             },
             {
               "rank": 25,
-              "name": "Sophie Phelps",
-              "team": "Williams College",
-              "team_id": 119,
-              "swimmer_id": 1627121,
-              "time_sec": 51.53,
-              "time_str": "51.53",
-              "date": "2026-11-21",
-              "meet_name": "WPI vs. Trinity, Tufts, Williams",
-              "meet_id": 416293
-            },
-            {
-              "rank": 26,
               "name": "Grace Kovach",
               "team": "Franklin & Marshall College",
               "team_id": 64,
@@ -1599,6 +1587,18 @@
               "meet_id": 414296
             },
             {
+              "rank": 26,
+              "name": "Sophie Phelps",
+              "team": "Williams College",
+              "team_id": 119,
+              "swimmer_id": 1627121,
+              "time_sec": 51.53,
+              "time_str": "51.53",
+              "date": "2026-11-21",
+              "meet_name": "WPI vs. Trinity, Tufts, Williams",
+              "meet_id": 416293
+            },
+            {
               "rank": 27,
               "name": "Gabbie Patti",
               "team": "George Fox University",
@@ -1607,7 +1607,7 @@
               "time_sec": 51.57,
               "time_str": "51.57",
               "date": "2026-11-21",
-              "meet_name": "2026 Bruin Invitational",
+              "meet_name": "Bruin Invitational",
               "meet_id": 414388
             },
             {
@@ -1660,6 +1660,18 @@
             },
             {
               "rank": 32,
+              "name": "Amy Benson",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 1495195,
+              "time_sec": 51.62,
+              "time_str": "51.62",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 33,
               "name": "Eliza Marco",
               "team": "Colby College",
               "team_id": 69,
@@ -1671,7 +1683,7 @@
               "meet_id": 416427
             },
             {
-              "rank": 33,
+              "rank": 34,
               "name": "Sydney Smith",
               "team": "Massachusetts Institute of Technology",
               "team_id": 14,
@@ -1683,7 +1695,7 @@
               "meet_id": 415198
             },
             {
-              "rank": 34,
+              "rank": 35,
               "name": "Layla Umstead",
               "team": "Hope College",
               "team_id": 99,
@@ -1695,7 +1707,7 @@
               "meet_id": 399864
             },
             {
-              "rank": 35,
+              "rank": 36,
               "name": "Emma Merkel",
               "team": "Calvin University",
               "team_id": 55,
@@ -1707,7 +1719,7 @@
               "meet_id": 405672
             },
             {
-              "rank": 36,
+              "rank": 37,
               "name": "Petal Sloan",
               "team": "Franklin College",
               "team_id": 654,
@@ -1719,7 +1731,7 @@
               "meet_id": 414760
             },
             {
-              "rank": 37,
+              "rank": 38,
               "name": "Izzy Westling",
               "team": "New York University",
               "team_id": 59,
@@ -1731,7 +1743,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 38,
+              "rank": 39,
               "name": "Natsuki Uchino",
               "team": "New York University",
               "team_id": 59,
@@ -1743,7 +1755,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "Lorelai Bremer",
               "team": "Swarthmore College",
               "team_id": 315,
@@ -1755,7 +1767,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 40,
+              "rank": 41,
               "name": "Julia Mascarenhas",
               "team": "Kenyon College",
               "team_id": 125,
@@ -1767,7 +1779,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 41,
+              "rank": 42,
               "name": "Llew Ladomirak",
               "team": "New York University",
               "team_id": 59,
@@ -1779,7 +1791,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 42,
+              "rank": 43,
               "name": "Hailey Kaminski",
               "team": "Denison University",
               "team_id": 118,
@@ -1791,7 +1803,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 43,
+              "rank": 44,
               "name": "Mia Prater",
               "team": "Luther College",
               "team_id": 157,
@@ -1803,7 +1815,7 @@
               "meet_id": 397674
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "Sarah Cohen",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -1815,7 +1827,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Francesca Coppo",
               "team": "Pomona-Pitzer Colleges",
               "team_id": 10,
@@ -1827,7 +1839,7 @@
               "meet_id": 402319
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Katy Hawk",
               "team": "University of California-Santa Cruz",
               "team_id": 182,
@@ -1835,11 +1847,11 @@
               "time_sec": 52.07,
               "time_str": "52.07",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "Sarah Chen",
               "team": "Carnegie Mellon University",
               "team_id": 33,
@@ -1851,7 +1863,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "Tori Ellex",
               "team": "Misericordia University",
               "team_id": 267,
@@ -1863,7 +1875,7 @@
               "meet_id": 391524
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "Mariyana Shalamanova",
               "team": "Kenyon College",
               "team_id": 125,
@@ -1873,18 +1885,6 @@
               "date": "2026-11-21",
               "meet_name": "Total Performance Invite at Kenyon",
               "meet_id": 414555
-            },
-            {
-              "rank": 50,
-              "name": "Molly Sleman",
-              "team": "New York University",
-              "team_id": 59,
-              "swimmer_id": 1996934,
-              "time_sec": 52.17,
-              "time_str": "52.17",
-              "date": "2026-11-22",
-              "meet_name": "H2ounds Invitational",
-              "meet_id": 396825
             }
           ]
         },
@@ -2182,6 +2182,18 @@
             },
             {
               "rank": 23,
+              "name": "Lila Maffett",
+              "team": "DePauw University",
+              "team_id": 274,
+              "swimmer_id": 3122483,
+              "time_sec": 118.4,
+              "time_str": "1:58.40",
+              "date": "2026-10-30",
+              "meet_name": "Battle in the Bluegrass- Session 2",
+              "meet_id": 408209
+            },
+            {
+              "rank": 24,
               "name": "Lydia Buechler",
               "team": "DePauw University",
               "team_id": 274,
@@ -2193,7 +2205,7 @@
               "meet_id": 408211
             },
             {
-              "rank": 24,
+              "rank": 25,
               "name": "Duru Turkmen",
               "team": "Kenyon College",
               "team_id": 125,
@@ -2203,18 +2215,6 @@
               "date": "2026-11-20",
               "meet_name": "Total Performance Invite at Kenyon",
               "meet_id": 414555
-            },
-            {
-              "rank": 25,
-              "name": "Lila Maffett",
-              "team": "DePauw University",
-              "team_id": 274,
-              "swimmer_id": 3122483,
-              "time_sec": 118.4,
-              "time_str": "1:58.40",
-              "date": "2026-10-30",
-              "meet_name": "Battle in the Bluegrass- Session 2",
-              "meet_id": 408209
             }
           ]
         },
@@ -2225,8 +2225,8 @@
           "cutoff_rank": 24,
           "cutoff_sec": 112.3,
           "cutoff_str": "1:52.30",
-          "max_rank_cutoff_sec": 114.22,
-          "max_rank_cutoff_str": "1:54.22",
+          "max_rank_cutoff_sec": 114.17,
+          "max_rank_cutoff_str": "1:54.17",
           "leader_sec": 109.89,
           "leader_str": "1:49.89",
           "leader_name": "Ella Roberson",
@@ -2553,7 +2553,7 @@
               "time_sec": 112.5,
               "time_str": "1:52.50",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -2769,7 +2769,7 @@
               "time_sec": 113.75,
               "time_str": "1:53.75",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -2781,7 +2781,7 @@
               "time_sec": 113.79,
               "time_str": "1:53.79",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -2798,6 +2798,18 @@
             },
             {
               "rank": 48,
+              "name": "Kaya Alvegaard-Struble",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 1847797,
+              "time_sec": 113.98,
+              "time_str": "1:53.98",
+              "date": "2026-11-21",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 49,
               "name": "Harper Stevenson",
               "team": "Bowdoin College",
               "team_id": 36,
@@ -2809,7 +2821,7 @@
               "meet_id": 415198
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "Melissa Er",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -2819,18 +2831,6 @@
               "date": "2026-11-21",
               "meet_name": "H2ounds Invitational",
               "meet_id": 396825
-            },
-            {
-              "rank": 50,
-              "name": "Sara Miller",
-              "team": "University of Chicago",
-              "team_id": 259,
-              "swimmer_id": 2433251,
-              "time_sec": 114.22,
-              "time_str": "1:54.22",
-              "date": "2026-11-21",
-              "meet_name": "17th Annual Phoenix Fall Classic",
-              "meet_id": 414688
             }
           ]
         },
@@ -3571,7 +3571,7 @@
               "time_sec": 305.54,
               "time_str": "5:05.54",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -3607,7 +3607,7 @@
               "time_sec": 305.76,
               "time_str": "5:05.76",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -3631,7 +3631,7 @@
               "time_sec": 305.92,
               "time_str": "5:05.92",
               "date": "2026-11-20",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -3727,7 +3727,7 @@
               "time_sec": 307.38,
               "time_str": "5:07.38",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -4009,8 +4009,8 @@
               "time_sec": 671.08,
               "time_str": "11:11.08",
               "date": "2026-11-22",
-              "meet_name": "Centre Mid-Season Invite",
-              "meet_id": 388433
+              "meet_name": "The Speedo Centre Invitational",
+              "meet_id": 416507
             },
             {
               "rank": 18,
@@ -4409,7 +4409,7 @@
               "time_sec": 636.54,
               "time_str": "10:36.54",
               "date": "2026-11-22",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -4481,7 +4481,7 @@
               "time_sec": 637.75,
               "time_str": "10:37.75",
               "date": "2026-11-22",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -4589,7 +4589,7 @@
               "time_sec": 642.98,
               "time_str": "10:42.98",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -5051,8 +5051,8 @@
           "cutoff_rank": 24,
           "cutoff_sec": 1058.73,
           "cutoff_str": "17:38.73",
-          "max_rank_cutoff_sec": 1085.85,
-          "max_rank_cutoff_str": "18:05.85",
+          "max_rank_cutoff_sec": 1084.29,
+          "max_rank_cutoff_str": "18:04.29",
           "leader_sec": 1009.48,
           "leader_str": "16:49.48",
           "leader_name": "Nora Lee Brown",
@@ -5235,7 +5235,7 @@
               "time_sec": 1049.69,
               "time_str": "17:29.69",
               "date": "2026-11-22",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -5307,7 +5307,7 @@
               "time_sec": 1057.38,
               "time_str": "17:37.38",
               "date": "2026-11-22",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -5403,7 +5403,7 @@
               "time_sec": 1069.27,
               "time_str": "17:49.27",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -5504,6 +5504,18 @@
             },
             {
               "rank": 38,
+              "name": "Annie Engstrom",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": 1769069,
+              "time_sec": 1077.82,
+              "time_str": "17:57.82",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 39,
               "name": "Taylor McNerney",
               "team": "Rhodes College",
               "team_id": 540,
@@ -5515,7 +5527,7 @@
               "meet_id": 416323
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "Kate Krueger",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -5527,7 +5539,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 40,
+              "rank": 41,
               "name": "Caitlin Kulins",
               "team": "Rowan University",
               "team_id": 488,
@@ -5539,7 +5551,7 @@
               "meet_id": 416430
             },
             {
-              "rank": 41,
+              "rank": 42,
               "name": "Samantha Wong",
               "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team_id": 261,
@@ -5547,11 +5559,11 @@
               "time_sec": 1081.7,
               "time_str": "18:01.70",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 42,
+              "rank": 43,
               "name": "Carly white",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -5563,7 +5575,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 43,
+              "rank": 44,
               "name": "Ella Muzychak",
               "team": "John Carroll University",
               "team_id": 150,
@@ -5575,7 +5587,7 @@
               "meet_id": 411353
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "Cassidy Schneider",
               "team": "Pomona-Pitzer Colleges",
               "team_id": 10,
@@ -5587,7 +5599,7 @@
               "meet_id": 402319
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Maddie Friel",
               "team": "Chapman University",
               "team_id": 85,
@@ -5595,11 +5607,11 @@
               "time_sec": 1082.89,
               "time_str": "18:02.89",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Annabelle Tarrant",
               "team": "Marymount University (Virginia)",
               "team_id": 473,
@@ -5611,7 +5623,7 @@
               "meet_id": 414861
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "Miya Klatt",
               "team": "University of California-Santa Cruz",
               "team_id": 182,
@@ -5619,11 +5631,11 @@
               "time_sec": 1083.82,
               "time_str": "18:03.82",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "Annika Beck",
               "team": "Gustavus Adolphus College",
               "team_id": 88,
@@ -5635,7 +5647,7 @@
               "meet_id": 397674
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "Anna Kuhel",
               "team": "Denison University",
               "team_id": 118,
@@ -5645,18 +5657,6 @@
               "date": "2026-11-21",
               "meet_name": "Denison Invitational",
               "meet_id": 395727
-            },
-            {
-              "rank": 50,
-              "name": "Julia Byers",
-              "team": "Dickinson College",
-              "team_id": 277,
-              "swimmer_id": 1487515,
-              "time_sec": 1085.85,
-              "time_str": "18:05.85",
-              "date": "2026-11-22",
-              "meet_name": "F&M Invitational",
-              "meet_id": 414296
             }
           ]
         },
@@ -6157,7 +6157,7 @@
               "time_sec": 56.19,
               "time_str": "56.19",
               "date": "2026-11-22",
-              "meet_name": "2026 Bruin Invitational",
+              "meet_name": "Bruin Invitational",
               "meet_id": 414388
             },
             {
@@ -6354,6 +6354,18 @@
             },
             {
               "rank": 30,
+              "name": "Kate Chambon",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": 3094372,
+              "time_sec": 57.01,
+              "time_str": "57.01",
+              "date": "2026-11-21",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 31,
               "name": "Karen Prawira",
               "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team_id": 261,
@@ -6365,7 +6377,7 @@
               "meet_id": 408963
             },
             {
-              "rank": 31,
+              "rank": 32,
               "name": "Lanie McKenzie",
               "team": "Gettysburg College",
               "team_id": 254,
@@ -6377,7 +6389,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 32,
+              "rank": 33,
               "name": "Ava Easley",
               "team": "Trinity University (Texas)",
               "team_id": 322,
@@ -6389,7 +6401,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 33,
+              "rank": 34,
               "name": "Chantee Nguyen",
               "team": "Pomona-Pitzer Colleges",
               "team_id": 10,
@@ -6401,7 +6413,7 @@
               "meet_id": 409572
             },
             {
-              "rank": 34,
+              "rank": 35,
               "name": "Arina Lazareva",
               "team": "Denison University",
               "team_id": 118,
@@ -6413,7 +6425,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 35,
+              "rank": 36,
               "name": "Sarah Chen",
               "team": "Carnegie Mellon University",
               "team_id": 33,
@@ -6425,7 +6437,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 36,
+              "rank": 37,
               "name": "Jaya Veerapaneni",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -6437,7 +6449,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 37,
+              "rank": 38,
               "name": "Emma Lunn",
               "team": "Emory University",
               "team_id": 123,
@@ -6449,7 +6461,7 @@
               "meet_id": 394923
             },
             {
-              "rank": 38,
+              "rank": 39,
               "name": "Olivia Chow",
               "team": "Kean University",
               "team_id": 178,
@@ -6461,7 +6473,7 @@
               "meet_id": 401995
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "Anna Miler",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -6473,7 +6485,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 40,
+              "rank": 41,
               "name": "Kim Lan",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -6485,7 +6497,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 41,
+              "rank": 42,
               "name": "Campbell Totton",
               "team": "University of the South (Sewanee)",
               "team_id": 344,
@@ -6497,7 +6509,7 @@
               "meet_id": 388433
             },
             {
-              "rank": 42,
+              "rank": 43,
               "name": "Lauren Opitz",
               "team": "Emory University",
               "team_id": 123,
@@ -6509,7 +6521,7 @@
               "meet_id": 394923
             },
             {
-              "rank": 43,
+              "rank": 44,
               "name": "Tara Wiarda",
               "team": "Catholic University",
               "team_id": 202,
@@ -6521,7 +6533,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "NouNou Chang",
               "team": "University of Chicago",
               "team_id": 259,
@@ -6533,7 +6545,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Olivia Badaracco",
               "team": "California Lutheran University",
               "team_id": 619,
@@ -6545,7 +6557,7 @@
               "meet_id": 416194
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Marin Norlander",
               "team": "Swarthmore College",
               "team_id": 315,
@@ -6557,7 +6569,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "Eloise Emig",
               "team": "New York University",
               "team_id": 59,
@@ -6569,7 +6581,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "Gillian Sato",
               "team": "Azusa Pacific University",
               "team_id": 639,
@@ -6577,11 +6589,11 @@
               "time_sec": 57.7,
               "time_str": "57.70",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "Sarah Pierson",
               "team": "New York University",
               "team_id": 59,
@@ -6591,18 +6603,6 @@
               "date": "2026-11-21",
               "meet_name": "H2ounds Invitational",
               "meet_id": 396825
-            },
-            {
-              "rank": 50,
-              "name": "Taylor Weaver",
-              "team": "Washington University (Missouri)",
-              "team_id": 94,
-              "swimmer_id": 2806781,
-              "time_sec": 57.71,
-              "time_str": "57.71",
-              "date": "2026-11-21",
-              "meet_name": "17th Annual Phoenix Fall Classic",
-              "meet_id": 414688
             }
           ]
         },
@@ -6943,8 +6943,8 @@
           "cutoff_rank": 24,
           "cutoff_sec": 124.0,
           "cutoff_str": "2:04.00",
-          "max_rank_cutoff_sec": 126.08,
-          "max_rank_cutoff_str": "2:06.08",
+          "max_rank_cutoff_sec": 125.9,
+          "max_rank_cutoff_str": "2:05.90",
           "leader_sec": 119.41,
           "leader_str": "1:59.41",
           "leader_name": "Holly Brundage",
@@ -7312,6 +7312,18 @@
             },
             {
               "rank": 31,
+              "name": "Kaya Alvegaard-Struble",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 1847797,
+              "time_sec": 124.63,
+              "time_str": "2:04.63",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 32,
               "name": "Olivia Small",
               "team": "St Olaf College",
               "team_id": 12,
@@ -7323,7 +7335,7 @@
               "meet_id": 405739
             },
             {
-              "rank": 32,
+              "rank": 33,
               "name": "CJ Woare",
               "team": "Kenyon College",
               "team_id": 125,
@@ -7335,7 +7347,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 33,
+              "rank": 34,
               "name": "Emma Merkel",
               "team": "Calvin University",
               "team_id": 55,
@@ -7347,7 +7359,7 @@
               "meet_id": 414374
             },
             {
-              "rank": 34,
+              "rank": 35,
               "name": "Tara Wiarda",
               "team": "Catholic University",
               "team_id": 202,
@@ -7359,7 +7371,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 35,
+              "rank": 36,
               "name": "Maura Rubio",
               "team": "Saint Francis University (Pennsylvania)",
               "team_id": 474,
@@ -7371,7 +7383,7 @@
               "meet_id": 416386
             },
             {
-              "rank": 36,
+              "rank": 37,
               "name": "Sarah Chen",
               "team": "Carnegie Mellon University",
               "team_id": 33,
@@ -7383,7 +7395,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 37,
+              "rank": 38,
               "name": "Nika Makhervaks",
               "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team_id": 261,
@@ -7395,7 +7407,7 @@
               "meet_id": 411388
             },
             {
-              "rank": 38,
+              "rank": 39,
               "name": "Audrey Kilmer",
               "team": "Lake Forest College",
               "team_id": 15,
@@ -7407,7 +7419,7 @@
               "meet_id": 412483
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "McKinley Jefferson",
               "team": "Gettysburg College",
               "team_id": 254,
@@ -7419,7 +7431,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 40,
+              "rank": 41,
               "name": "Keelie Sullivan",
               "team": "DePauw University",
               "team_id": 274,
@@ -7431,7 +7443,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 41,
+              "rank": 42,
               "name": "Chloe Xu",
               "team": "Massachusetts Institute of Technology",
               "team_id": 14,
@@ -7443,7 +7455,7 @@
               "meet_id": 413824
             },
             {
-              "rank": 42,
+              "rank": 43,
               "name": "Avery Bills",
               "team": "Hope College",
               "team_id": 99,
@@ -7455,7 +7467,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 43,
+              "rank": 44,
               "name": "Taylor Weaver",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -7467,7 +7479,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "Gracen Bailey",
               "team": "Emory University",
               "team_id": 123,
@@ -7479,7 +7491,7 @@
               "meet_id": 394923
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Rachi Kravtsov",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -7491,7 +7503,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Siena Ancona",
               "team": "University of California-Santa Cruz",
               "team_id": 182,
@@ -7499,11 +7511,11 @@
               "time_sec": 125.71,
               "time_str": "2:05.71",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "Hope Taylor",
               "team": "Amherst College",
               "team_id": 103,
@@ -7515,7 +7527,7 @@
               "meet_id": 416427
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "Alyssa Bean",
               "team": "University of Scranton",
               "team_id": 500,
@@ -7527,28 +7539,16 @@
               "meet_id": 391524
             },
             {
-              "rank": 49,
-              "name": "Bella Santurri",
-              "team": "Washington and Lee University",
-              "team_id": 286,
-              "swimmer_id": 2451484,
-              "time_sec": 126.06,
-              "time_str": "2:06.06",
-              "date": "2026-11-22",
-              "meet_name": "R-MC Yellow Jacket Invitational",
-              "meet_id": 416453
-            },
-            {
               "rank": 50,
-              "name": "Kaya Alvegaard-Struble",
-              "team": "Trinity University (Texas)",
-              "team_id": 322,
-              "swimmer_id": 1847797,
-              "time_sec": 126.08,
-              "time_str": "2:06.08",
-              "date": "2026-11-07",
-              "meet_name": "D3 Shootout",
-              "meet_id": 413120
+              "name": "Kate Chambon",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": 3094372,
+              "time_sec": 125.9,
+              "time_str": "2:05.90",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
             }
           ]
         },
@@ -8121,7 +8121,7 @@
               "time_sec": 64.07,
               "time_str": "1:04.07",
               "date": "2026-11-21",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -8169,7 +8169,7 @@
               "time_sec": 64.23,
               "time_str": "1:04.23",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -8289,7 +8289,7 @@
               "time_sec": 65.07,
               "time_str": "1:05.07",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -8313,7 +8313,7 @@
               "time_sec": 65.17,
               "time_str": "1:05.17",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -8325,7 +8325,7 @@
               "time_sec": 65.19,
               "time_str": "1:05.19",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -8361,7 +8361,7 @@
               "time_sec": 65.24,
               "time_str": "1:05.24",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -8373,7 +8373,7 @@
               "time_sec": 65.32,
               "time_str": "1:05.32",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -8385,7 +8385,7 @@
               "time_sec": 65.46,
               "time_str": "1:05.46",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -8421,7 +8421,7 @@
               "time_sec": 65.54,
               "time_str": "1:05.54",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -8835,8 +8835,8 @@
           "cutoff_rank": 24,
           "cutoff_sec": 141.48,
           "cutoff_str": "2:21.48",
-          "max_rank_cutoff_sec": 144.05,
-          "max_rank_cutoff_str": "2:24.05",
+          "max_rank_cutoff_sec": 144.03,
+          "max_rank_cutoff_str": "2:24.03",
           "leader_sec": 133.3,
           "leader_str": "2:13.30",
           "leader_name": "Gwen Bakker",
@@ -8995,7 +8995,7 @@
               "time_sec": 139.64,
               "time_str": "2:19.64",
               "date": "2026-11-22",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -9127,7 +9127,7 @@
               "time_sec": 141.48,
               "time_str": "2:21.48",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -9420,6 +9420,18 @@
             },
             {
               "rank": 49,
+              "name": "kaitlyn phan",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 2121885,
+              "time_sec": 143.83,
+              "time_str": "2:23.83",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 50,
               "name": "Maya Chan",
               "team": "University of California-Santa Cruz",
               "team_id": 182,
@@ -9429,18 +9441,6 @@
               "date": "2026-10-31",
               "meet_name": "UC Santa Cruz And UOP @ SJSU",
               "meet_id": 411170
-            },
-            {
-              "rank": 50,
-              "name": "Ava Gates",
-              "team": "Centre College",
-              "team_id": 244,
-              "swimmer_id": 1530453,
-              "time_sec": 144.05,
-              "time_str": "2:24.05",
-              "date": "2026-10-30",
-              "meet_name": "Battle in the Bluegrass- Session 2",
-              "meet_id": 408209
             }
           ]
         },
@@ -9762,15 +9762,15 @@
             },
             {
               "rank": 25,
-              "name": "Maddie Schaefer",
-              "team": "Denison University",
-              "team_id": 118,
-              "swimmer_id": 1403523,
+              "name": "Addy Castetter",
+              "team": "DePauw University",
+              "team_id": 274,
+              "swimmer_id": 2561761,
               "time_sec": 60.98,
               "time_str": "1:00.98",
-              "date": "2026-11-20",
-              "meet_name": "Denison Invitational",
-              "meet_id": 395727
+              "date": "2026-11-21",
+              "meet_name": "Centre Mid-Season Invite",
+              "meet_id": 388433
             }
           ]
         },
@@ -10631,8 +10631,8 @@
               "time_sec": 135.17,
               "time_str": "2:15.17",
               "date": "2026-11-22",
-              "meet_name": "The Speedo Centre Invitational",
-              "meet_id": 416507
+              "meet_name": "Centre Mid-Season Invite",
+              "meet_id": 388433
             },
             {
               "rank": 19,
@@ -11007,7 +11007,7 @@
               "time_sec": 125.71,
               "time_str": "2:05.71",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -11965,7 +11965,7 @@
               "time_sec": 126.43,
               "time_str": "2:06.43",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -12037,7 +12037,7 @@
               "time_sec": 126.76,
               "time_str": "2:06.76",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -12073,7 +12073,7 @@
               "time_sec": 127.02,
               "time_str": "2:07.02",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -12523,8 +12523,8 @@
               "time_sec": 293.73,
               "time_str": "4:53.73",
               "date": "2026-11-21",
-              "meet_name": "The Speedo Centre Invitational",
-              "meet_id": 416507
+              "meet_name": "Centre Mid-Season Invite",
+              "meet_id": 388433
             },
             {
               "rank": 19,
@@ -12803,7 +12803,7 @@
               "time_sec": 268.8,
               "time_str": "4:28.80",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -13043,7 +13043,7 @@
               "time_sec": 274.46,
               "time_str": "4:34.46",
               "date": "2026-11-21",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -13211,7 +13211,7 @@
               "time_sec": 275.85,
               "time_str": "4:35.85",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -13361,8 +13361,8 @@
           "cutoff_rank": 16,
           "cutoff_sec": 95.58,
           "cutoff_str": "1:35.58",
-          "max_rank_cutoff_sec": 98.84,
-          "max_rank_cutoff_str": "1:38.84",
+          "max_rank_cutoff_sec": 98.65,
+          "max_rank_cutoff_str": "1:38.65",
           "leader_sec": 92.12,
           "leader_str": "1:32.12",
           "leader_name": "New York University",
@@ -13401,7 +13401,7 @@
               "time_sec": 92.54,
               "time_str": "1:32.54",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -13533,7 +13533,7 @@
               "time_sec": 95.34,
               "time_str": "1:35.34",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -13653,7 +13653,7 @@
               "time_sec": 96.59,
               "time_str": "1:36.59",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -13670,6 +13670,18 @@
             },
             {
               "rank": 26,
+              "name": "Trinity University (Texas)",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": null,
+              "time_sec": 96.79,
+              "time_str": "1:36.79",
+              "date": "2026-11-20",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 27,
               "name": "Ithaca College",
               "team": "Ithaca College",
               "team_id": 35,
@@ -13681,7 +13693,7 @@
               "meet_id": 414210
             },
             {
-              "rank": 27,
+              "rank": 28,
               "name": "Chapman University",
               "team": "Chapman University",
               "team_id": 85,
@@ -13689,11 +13701,11 @@
               "time_sec": 96.82,
               "time_str": "1:36.82",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 28,
+              "rank": 29,
               "name": "Saint Francis University (Pennsylvania)",
               "team": "Saint Francis University (Pennsylvania)",
               "team_id": 474,
@@ -13705,7 +13717,7 @@
               "meet_id": 416386
             },
             {
-              "rank": 29,
+              "rank": 30,
               "name": "Washington and Lee University",
               "team": "Washington and Lee University",
               "team_id": 286,
@@ -13717,7 +13729,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 30,
+              "rank": 31,
               "name": "Gustavus Adolphus College",
               "team": "Gustavus Adolphus College",
               "team_id": 88,
@@ -13729,7 +13741,7 @@
               "meet_id": 397674
             },
             {
-              "rank": 31,
+              "rank": 32,
               "name": "Franklin & Marshall College",
               "team": "Franklin & Marshall College",
               "team_id": 64,
@@ -13741,7 +13753,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 32,
+              "rank": 33,
               "name": "Nebraska Wesleyan University",
               "team": "Nebraska Wesleyan University",
               "team_id": 10005094,
@@ -13753,7 +13765,19 @@
               "meet_id": 414688
             },
             {
-              "rank": 33,
+              "rank": 34,
+              "name": "Amherst College",
+              "team": "Amherst College",
+              "team_id": 103,
+              "swimmer_id": null,
+              "time_sec": 97.1,
+              "time_str": "1:37.10",
+              "date": "2026-11-23",
+              "meet_name": "Wesleyan vs. Amherst",
+              "meet_id": 414650
+            },
+            {
+              "rank": 35,
               "name": "Tufts University",
               "team": "Tufts University",
               "team_id": 49,
@@ -13765,7 +13789,7 @@
               "meet_id": 416293
             },
             {
-              "rank": 34,
+              "rank": 36,
               "name": "Franklin College",
               "team": "Franklin College",
               "team_id": 654,
@@ -13777,7 +13801,7 @@
               "meet_id": 414760
             },
             {
-              "rank": 35,
+              "rank": 37,
               "name": "University of the South (Sewanee)",
               "team": "University of the South (Sewanee)",
               "team_id": 344,
@@ -13789,7 +13813,7 @@
               "meet_id": 388433
             },
             {
-              "rank": 36,
+              "rank": 38,
               "name": "University of Wisconsin-LaCrosse",
               "team": "University of Wisconsin-LaCrosse",
               "team_id": 113,
@@ -13801,7 +13825,7 @@
               "meet_id": 405424
             },
             {
-              "rank": 37,
+              "rank": 39,
               "name": "Lake Forest College",
               "team": "Lake Forest College",
               "team_id": 15,
@@ -13813,7 +13837,7 @@
               "meet_id": 412483
             },
             {
-              "rank": 38,
+              "rank": 40,
               "name": "Bowdoin College",
               "team": "Bowdoin College",
               "team_id": 36,
@@ -13825,19 +13849,19 @@
               "meet_id": 415198
             },
             {
-              "rank": 39,
-              "name": "Trinity University (Texas)",
-              "team": "Trinity University (Texas)",
-              "team_id": 322,
+              "rank": 41,
+              "name": "Colby College",
+              "team": "Colby College",
+              "team_id": 69,
               "swimmer_id": null,
-              "time_sec": 97.81,
-              "time_str": "1:37.81",
-              "date": "2026-11-07",
-              "meet_name": "D3 Shootout",
-              "meet_id": 413120
+              "time_sec": 97.78,
+              "time_str": "1:37.78",
+              "date": "2026-11-23",
+              "meet_name": "Hamilton vs. Colby",
+              "meet_id": 416861
             },
             {
-              "rank": 40,
+              "rank": 42,
               "name": "Stevens Institute",
               "team": "Stevens Institute",
               "team_id": 313,
@@ -13849,7 +13873,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 41,
+              "rank": 43,
               "name": "University of Lynchburg",
               "team": "University of Lynchburg",
               "team_id": 10016800,
@@ -13861,7 +13885,19 @@
               "meet_id": 388433
             },
             {
-              "rank": 42,
+              "rank": 44,
+              "name": "Colorado College",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": null,
+              "time_sec": 98.18,
+              "time_str": "1:38.18",
+              "date": "2026-11-20",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 45,
               "name": "Catholic University",
               "team": "Catholic University",
               "team_id": 202,
@@ -13873,7 +13909,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 43,
+              "rank": 46,
               "name": "Williams College",
               "team": "Williams College",
               "team_id": 119,
@@ -13885,7 +13921,7 @@
               "meet_id": 416293
             },
             {
-              "rank": 44,
+              "rank": 47,
               "name": "California Lutheran University",
               "team": "California Lutheran University",
               "team_id": 619,
@@ -13897,7 +13933,7 @@
               "meet_id": 416194
             },
             {
-              "rank": 45,
+              "rank": 48,
               "name": "Dickinson College",
               "team": "Dickinson College",
               "team_id": 277,
@@ -13909,7 +13945,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 46,
+              "rank": 49,
               "name": "Rochester Institute of Technology",
               "team": "Rochester Institute of Technology",
               "team_id": 30,
@@ -13921,7 +13957,7 @@
               "meet_id": 415589
             },
             {
-              "rank": 47,
+              "rank": 50,
               "name": "Whitworth University",
               "team": "Whitworth University",
               "team_id": 40,
@@ -13929,44 +13965,8 @@
               "time_sec": 98.65,
               "time_str": "1:38.65",
               "date": "2026-11-20",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
-            },
-            {
-              "rank": 48,
-              "name": "University of Puget Sound",
-              "team": "University of Puget Sound",
-              "team_id": 91,
-              "swimmer_id": null,
-              "time_sec": 98.66,
-              "time_str": "1:38.66",
-              "date": "2026-11-20",
-              "meet_name": "Logger Invitational 2026",
-              "meet_id": 415319
-            },
-            {
-              "rank": 49,
-              "name": "Rhodes College",
-              "team": "Rhodes College",
-              "team_id": 540,
-              "swimmer_id": null,
-              "time_sec": 98.72,
-              "time_str": "1:38.72",
-              "date": "2026-11-19",
-              "meet_name": "DSU Thanksgiving Invite",
-              "meet_id": 416323
-            },
-            {
-              "rank": 50,
-              "name": "John Carroll University",
-              "team": "John Carroll University",
-              "team_id": 150,
-              "swimmer_id": null,
-              "time_sec": 98.84,
-              "time_str": "1:38.84",
-              "date": "2026-11-19",
-              "meet_name": "Magnus Cup Invitational",
-              "meet_id": 416444
             }
           ]
         },
@@ -14103,8 +14103,8 @@
           "cutoff_rank": 16,
           "cutoff_sec": 210.93,
           "cutoff_str": "3:30.93",
-          "max_rank_cutoff_sec": 217.88,
-          "max_rank_cutoff_str": "3:37.88",
+          "max_rank_cutoff_sec": 217.25,
+          "max_rank_cutoff_str": "3:37.25",
           "leader_sec": 201.91,
           "leader_str": "3:21.91",
           "leader_name": "Emory University",
@@ -14251,7 +14251,7 @@
               "time_sec": 209.3,
               "time_str": "3:29.30",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -14311,7 +14311,7 @@
               "time_sec": 211.02,
               "time_str": "3:31.02",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -14335,7 +14335,7 @@
               "time_sec": 211.12,
               "time_str": "3:31.12",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -14376,6 +14376,18 @@
             },
             {
               "rank": 23,
+              "name": "Trinity University (Texas)",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": null,
+              "time_sec": 211.79,
+              "time_str": "3:31.79",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 24,
               "name": "Kean University",
               "team": "Kean University",
               "team_id": 178,
@@ -14387,7 +14399,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 24,
+              "rank": 25,
               "name": "Gettysburg College",
               "team": "Gettysburg College",
               "team_id": 254,
@@ -14399,7 +14411,19 @@
               "meet_id": 414688
             },
             {
-              "rank": 25,
+              "rank": 26,
+              "name": "Colorado College",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": null,
+              "time_sec": 212.78,
+              "time_str": "3:32.78",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 27,
               "name": "University of Mary Washington",
               "team": "University of Mary Washington",
               "team_id": 144,
@@ -14411,7 +14435,7 @@
               "meet_id": 414464
             },
             {
-              "rank": 26,
+              "rank": 28,
               "name": "Gustavus Adolphus College",
               "team": "Gustavus Adolphus College",
               "team_id": 88,
@@ -14423,7 +14447,7 @@
               "meet_id": 397674
             },
             {
-              "rank": 27,
+              "rank": 29,
               "name": "Misericordia University",
               "team": "Misericordia University",
               "team_id": 267,
@@ -14435,7 +14459,7 @@
               "meet_id": 391524
             },
             {
-              "rank": 28,
+              "rank": 30,
               "name": "Franklin & Marshall College",
               "team": "Franklin & Marshall College",
               "team_id": 64,
@@ -14447,7 +14471,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 29,
+              "rank": 31,
               "name": "University of Lynchburg",
               "team": "University of Lynchburg",
               "team_id": 10016800,
@@ -14459,7 +14483,7 @@
               "meet_id": 388433
             },
             {
-              "rank": 30,
+              "rank": 32,
               "name": "Lake Forest College",
               "team": "Lake Forest College",
               "team_id": 15,
@@ -14471,7 +14495,7 @@
               "meet_id": 412483
             },
             {
-              "rank": 31,
+              "rank": 33,
               "name": "Rhodes College",
               "team": "Rhodes College",
               "team_id": 540,
@@ -14483,7 +14507,7 @@
               "meet_id": 416323
             },
             {
-              "rank": 32,
+              "rank": 34,
               "name": "Colby College",
               "team": "Colby College",
               "team_id": 69,
@@ -14495,7 +14519,7 @@
               "meet_id": 416427
             },
             {
-              "rank": 33,
+              "rank": 35,
               "name": "Randolph-Macon College",
               "team": "Randolph-Macon College",
               "team_id": 26,
@@ -14507,7 +14531,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 34,
+              "rank": 36,
               "name": "Ursinus College",
               "team": "Ursinus College",
               "team_id": 329,
@@ -14519,7 +14543,7 @@
               "meet_id": 391524
             },
             {
-              "rank": 35,
+              "rank": 37,
               "name": "Stevens Institute",
               "team": "Stevens Institute",
               "team_id": 313,
@@ -14531,7 +14555,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 36,
+              "rank": 38,
               "name": "DePauw University",
               "team": "DePauw University",
               "team_id": 274,
@@ -14543,7 +14567,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 37,
+              "rank": 39,
               "name": "Wheaton College (Illinois)",
               "team": "Wheaton College (Illinois)",
               "team_id": 78,
@@ -14555,7 +14579,7 @@
               "meet_id": 412483
             },
             {
-              "rank": 38,
+              "rank": 40,
               "name": "John Carroll University",
               "team": "John Carroll University",
               "team_id": 150,
@@ -14567,7 +14591,7 @@
               "meet_id": 416444
             },
             {
-              "rank": 39,
+              "rank": 41,
               "name": "Ithaca College",
               "team": "Ithaca College",
               "team_id": 35,
@@ -14579,7 +14603,7 @@
               "meet_id": 395252
             },
             {
-              "rank": 40,
+              "rank": 42,
               "name": "Catholic University",
               "team": "Catholic University",
               "team_id": 202,
@@ -14591,7 +14615,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 41,
+              "rank": 43,
               "name": "State University of New York at Brockport",
               "team": "State University of New York at Brockport",
               "team_id": 470,
@@ -14603,7 +14627,7 @@
               "meet_id": 416695
             },
             {
-              "rank": 42,
+              "rank": 44,
               "name": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team_id": 261,
@@ -14615,7 +14639,7 @@
               "meet_id": 408963
             },
             {
-              "rank": 43,
+              "rank": 45,
               "name": "California Lutheran University",
               "team": "California Lutheran University",
               "team_id": 619,
@@ -14627,7 +14651,7 @@
               "meet_id": 416194
             },
             {
-              "rank": 44,
+              "rank": 46,
               "name": "Grinnell College",
               "team": "Grinnell College",
               "team_id": 2,
@@ -14639,7 +14663,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 45,
+              "rank": 47,
               "name": "Saint Francis University (Pennsylvania)",
               "team": "Saint Francis University (Pennsylvania)",
               "team_id": 474,
@@ -14651,7 +14675,7 @@
               "meet_id": 416386
             },
             {
-              "rank": 46,
+              "rank": 48,
               "name": "Whitworth University",
               "team": "Whitworth University",
               "team_id": 40,
@@ -14659,11 +14683,11 @@
               "time_sec": 216.49,
               "time_str": "3:36.49",
               "date": "2026-11-22",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
-              "rank": 47,
+              "rank": 49,
               "name": "Dickinson College",
               "team": "Dickinson College",
               "team_id": 277,
@@ -14675,40 +14699,16 @@
               "meet_id": 414296
             },
             {
-              "rank": 48,
-              "name": "University of the South (Sewanee)",
-              "team": "University of the South (Sewanee)",
-              "team_id": 344,
-              "swimmer_id": null,
-              "time_sec": 217.43,
-              "time_str": "3:37.43",
-              "date": "2026-11-22",
-              "meet_name": "Centre Mid-Season Invite",
-              "meet_id": 388433
-            },
-            {
-              "rank": 49,
-              "name": "Rensselaer Polytechnic Institute",
-              "team": "Rensselaer Polytechnic Institute",
-              "team_id": 45,
-              "swimmer_id": null,
-              "time_sec": 217.47,
-              "time_str": "3:37.47",
-              "date": "2026-10-31",
-              "meet_name": "Ithaca vs. Rensselaer",
-              "meet_id": 395252
-            },
-            {
               "rank": 50,
-              "name": "Pennsylvania State University-Behrend College",
-              "team": "Pennsylvania State University-Behrend College",
-              "team_id": 340,
+              "name": "Southwestern University",
+              "team": "Southwestern University",
+              "team_id": 455,
               "swimmer_id": null,
-              "time_sec": 217.88,
-              "time_str": "3:37.88",
+              "time_sec": 217.25,
+              "time_str": "3:37.25",
               "date": "2026-11-22",
-              "meet_name": "Blue Devil Invite",
-              "meet_id": 416695
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
             }
           ]
         },
@@ -14897,7 +14897,7 @@
               "time_sec": 453.85,
               "time_str": "7:33.85",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -14981,7 +14981,7 @@
               "time_sec": 461.62,
               "time_str": "7:41.62",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -15029,7 +15029,7 @@
               "time_sec": 466.49,
               "time_str": "7:46.49",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -15053,7 +15053,7 @@
               "time_sec": 468.82,
               "time_str": "7:48.82",
               "date": "2026-11-21",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -15077,7 +15077,7 @@
               "time_sec": 469.71,
               "time_str": "7:49.71",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -15575,8 +15575,8 @@
           "cutoff_rank": 16,
           "cutoff_sec": 105.2,
           "cutoff_str": "1:45.20",
-          "max_rank_cutoff_sec": 109.21,
-          "max_rank_cutoff_str": "1:49.21",
+          "max_rank_cutoff_sec": 109.08,
+          "max_rank_cutoff_str": "1:49.08",
           "leader_sec": 100.34,
           "leader_str": "1:40.34",
           "leader_name": "New York University",
@@ -15896,6 +15896,18 @@
             },
             {
               "rank": 27,
+              "name": "Trinity University (Texas)",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": null,
+              "time_sec": 106.44,
+              "time_str": "1:46.44",
+              "date": "2026-11-21",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 28,
               "name": "Case Western Reserve University",
               "team": "Case Western Reserve University",
               "team_id": 200,
@@ -15907,7 +15919,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 28,
+              "rank": 29,
               "name": "Azusa Pacific University",
               "team": "Azusa Pacific University",
               "team_id": 639,
@@ -15915,11 +15927,11 @@
               "time_sec": 106.46,
               "time_str": "1:46.46",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 29,
+              "rank": 30,
               "name": "DePauw University",
               "team": "DePauw University",
               "team_id": 274,
@@ -15931,7 +15943,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 30,
+              "rank": 31,
               "name": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team_id": 261,
@@ -15943,7 +15955,7 @@
               "meet_id": 411388
             },
             {
-              "rank": 31,
+              "rank": 32,
               "name": "Dickinson College",
               "team": "Dickinson College",
               "team_id": 277,
@@ -15955,7 +15967,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 32,
+              "rank": 33,
               "name": "Hope College",
               "team": "Hope College",
               "team_id": 99,
@@ -15967,7 +15979,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 33,
+              "rank": 34,
               "name": "Tufts University",
               "team": "Tufts University",
               "team_id": 49,
@@ -15977,18 +15989,6 @@
               "date": "2026-11-21",
               "meet_name": "WPI vs. Trinity, Tufts, Williams",
               "meet_id": 416293
-            },
-            {
-              "rank": 34,
-              "name": "Trinity University (Texas)",
-              "team": "Trinity University (Texas)",
-              "team_id": 322,
-              "swimmer_id": null,
-              "time_sec": 107.45,
-              "time_str": "1:47.45",
-              "date": "2026-11-06",
-              "meet_name": "D3 Shootout",
-              "meet_id": 413120
             },
             {
               "rank": 35,
@@ -16064,18 +16064,6 @@
             },
             {
               "rank": 41,
-              "name": "Whitworth University",
-              "team": "Whitworth University",
-              "team_id": 40,
-              "swimmer_id": null,
-              "time_sec": 108.41,
-              "time_str": "1:48.41",
-              "date": "2026-11-21",
-              "meet_name": "Logger Invitational 2026",
-              "meet_id": 415319
-            },
-            {
-              "rank": 42,
               "name": "Chapman University",
               "team": "Chapman University",
               "team_id": 85,
@@ -16083,11 +16071,35 @@
               "time_sec": 108.41,
               "time_str": "1:48.41",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
+              "rank": 42,
+              "name": "Whitworth University",
+              "team": "Whitworth University",
+              "team_id": 40,
+              "swimmer_id": null,
+              "time_sec": 108.41,
+              "time_str": "1:48.41",
+              "date": "2026-11-21",
+              "meet_name": "Logger Invitational",
+              "meet_id": 415319
+            },
+            {
               "rank": 43,
+              "name": "Colorado College",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": null,
+              "time_sec": 108.49,
+              "time_str": "1:48.49",
+              "date": "2026-11-21",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 44,
               "name": "University of Wisconsin-Eau Claire",
               "team": "University of Wisconsin-Eau Claire",
               "team_id": 367,
@@ -16099,7 +16111,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "Trinity College (Connecticut)",
               "team": "Trinity College (Connecticut)",
               "team_id": 321,
@@ -16111,7 +16123,7 @@
               "meet_id": 414786
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "University of the South (Sewanee)",
               "team": "University of the South (Sewanee)",
               "team_id": 344,
@@ -16123,7 +16135,7 @@
               "meet_id": 388433
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Stevens Institute",
               "team": "Stevens Institute",
               "team_id": 313,
@@ -16135,7 +16147,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "Franklin College",
               "team": "Franklin College",
               "team_id": 654,
@@ -16147,7 +16159,7 @@
               "meet_id": 414760
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "University of Scranton",
               "team": "University of Scranton",
               "team_id": 500,
@@ -16159,7 +16171,7 @@
               "meet_id": 391524
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "Wellesley College",
               "team": "Wellesley College",
               "team_id": 291,
@@ -16169,18 +16181,6 @@
               "date": "2026-10-30",
               "meet_name": "Wellesley vs. Wheaton",
               "meet_id": 413141
-            },
-            {
-              "rank": 50,
-              "name": "Lake Forest College",
-              "team": "Lake Forest College",
-              "team_id": 15,
-              "swimmer_id": null,
-              "time_sec": 109.21,
-              "time_str": "1:49.21",
-              "date": "2026-11-21",
-              "meet_name": "Carthage Classic Firebird Fest",
-              "meet_id": 412483
             }
           ]
         },
@@ -16305,8 +16305,8 @@
           "cutoff_rank": 16,
           "cutoff_sec": 233.48,
           "cutoff_str": "3:53.48",
-          "max_rank_cutoff_sec": 241.81,
-          "max_rank_cutoff_str": "4:01.81",
+          "max_rank_cutoff_sec": 241.23,
+          "max_rank_cutoff_str": "4:01.23",
           "leader_sec": 223.86,
           "leader_str": "3:43.86",
           "leader_name": "Emory University",
@@ -16453,7 +16453,7 @@
               "time_sec": 232.29,
               "time_str": "3:52.29",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -16585,7 +16585,7 @@
               "time_sec": 235.68,
               "time_str": "3:55.68",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -16645,7 +16645,7 @@
               "time_sec": 237.77,
               "time_str": "3:57.77",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -16669,7 +16669,7 @@
               "time_sec": 238.03,
               "time_str": "3:58.03",
               "date": "2026-11-20",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -16758,6 +16758,18 @@
             },
             {
               "rank": 38,
+              "name": "Colorado College",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": null,
+              "time_sec": 239.03,
+              "time_str": "3:59.03",
+              "date": "2026-11-20",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 39,
               "name": "University of Scranton",
               "team": "University of Scranton",
               "team_id": 500,
@@ -16769,7 +16781,7 @@
               "meet_id": 391524
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "Nebraska Wesleyan University",
               "team": "Nebraska Wesleyan University",
               "team_id": 10005094,
@@ -16781,7 +16793,7 @@
               "meet_id": 397858
             },
             {
-              "rank": 40,
+              "rank": 41,
               "name": "University of the South (Sewanee)",
               "team": "University of the South (Sewanee)",
               "team_id": 344,
@@ -16793,7 +16805,7 @@
               "meet_id": 388433
             },
             {
-              "rank": 41,
+              "rank": 42,
               "name": "Rowan University",
               "team": "Rowan University",
               "team_id": 488,
@@ -16805,7 +16817,7 @@
               "meet_id": 416430
             },
             {
-              "rank": 42,
+              "rank": 43,
               "name": "Lake Forest College",
               "team": "Lake Forest College",
               "team_id": 15,
@@ -16817,7 +16829,7 @@
               "meet_id": 412483
             },
             {
-              "rank": 43,
+              "rank": 44,
               "name": "Franklin College",
               "team": "Franklin College",
               "team_id": 654,
@@ -16829,7 +16841,7 @@
               "meet_id": 414760
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "Case Western Reserve University",
               "team": "Case Western Reserve University",
               "team_id": 200,
@@ -16841,7 +16853,7 @@
               "meet_id": 397767
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Rochester Institute of Technology",
               "team": "Rochester Institute of Technology",
               "team_id": 30,
@@ -16853,7 +16865,7 @@
               "meet_id": 415589
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Washington College (Maryland)",
               "team": "Washington College (Maryland)",
               "team_id": 38,
@@ -16865,7 +16877,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "Misericordia University",
               "team": "Misericordia University",
               "team_id": 267,
@@ -16877,7 +16889,7 @@
               "meet_id": 391524
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "Gustavus Adolphus College",
               "team": "Gustavus Adolphus College",
               "team_id": 88,
@@ -16889,7 +16901,7 @@
               "meet_id": 397674
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "University of Lynchburg",
               "team": "University of Lynchburg",
               "team_id": 10016800,
@@ -16899,18 +16911,6 @@
               "date": "2026-11-20",
               "meet_name": "Centre Mid-Season Invite",
               "meet_id": 388433
-            },
-            {
-              "rank": 50,
-              "name": "Messiah University",
-              "team": "Messiah University",
-              "team_id": 568,
-              "swimmer_id": null,
-              "time_sec": 241.81,
-              "time_str": "4:01.81",
-              "date": "2026-11-20",
-              "meet_name": "2026 Spartan Splash Invitational",
-              "meet_id": 416512
             }
           ]
         },
@@ -17358,18 +17358,6 @@
             },
             {
               "rank": 9,
-              "name": "Ricky Rosales",
-              "team": "Illinois Institute of Technology",
-              "team_id": 364,
-              "swimmer_id": 684664,
-              "time_sec": 20.25,
-              "time_str": "20.25",
-              "date": "2026-11-14",
-              "meet_name": "Illinois Tech vs. Carroll University",
-              "meet_id": 415049
-            },
-            {
-              "rank": 10,
               "name": "DongQi Yu",
               "team": "University of Chicago",
               "team_id": 259,
@@ -17381,7 +17369,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 11,
+              "rank": 10,
               "name": "james Augustin",
               "team": "Roger Williams University",
               "team_id": 560,
@@ -17393,7 +17381,7 @@
               "meet_id": 415006
             },
             {
-              "rank": 12,
+              "rank": 11,
               "name": "Cooper Na",
               "team": "Chapman University",
               "team_id": 85,
@@ -17401,11 +17389,11 @@
               "time_sec": 20.27,
               "time_str": "20.27",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 13,
+              "rank": 12,
               "name": "Hayden Tupper",
               "team": "Emory University",
               "team_id": 123,
@@ -17417,7 +17405,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 14,
+              "rank": 13,
               "name": "Ethan Bonow",
               "team": "Asbury University",
               "team_id": 381,
@@ -17429,7 +17417,7 @@
               "meet_id": 388433
             },
             {
-              "rank": 15,
+              "rank": 14,
               "name": "Rece Storer",
               "team": "University of Mary Washington",
               "team_id": 144,
@@ -17441,7 +17429,7 @@
               "meet_id": 414464
             },
             {
-              "rank": 16,
+              "rank": 15,
               "name": "Neil Abrahamson",
               "team": "Kenyon College",
               "team_id": 125,
@@ -17453,7 +17441,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 17,
+              "rank": 16,
               "name": "George Goins",
               "team": "Denison University",
               "team_id": 118,
@@ -17465,7 +17453,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 18,
+              "rank": 17,
               "name": "Noah Barrett",
               "team": "Carnegie Mellon University",
               "team_id": 33,
@@ -17475,6 +17463,18 @@
               "date": "2026-11-19",
               "meet_name": "Total Performance Invite at Kenyon",
               "meet_id": 414555
+            },
+            {
+              "rank": 18,
+              "name": "Jack Hester",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 2042257,
+              "time_sec": 20.38,
+              "time_str": "20.38",
+              "date": "2026-11-20",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
             },
             {
               "rank": 19,
@@ -17497,7 +17497,7 @@
               "time_sec": 20.4,
               "time_str": "20.40",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -17701,7 +17701,7 @@
               "time_sec": 20.53,
               "time_str": "20.53",
               "date": "2026-11-20",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -17766,18 +17766,6 @@
             },
             {
               "rank": 43,
-              "name": "Samuel Brozek",
-              "team": "Williams College",
-              "team_id": 119,
-              "swimmer_id": 2660032,
-              "time_sec": 20.59,
-              "time_str": "20.59",
-              "date": "2026-11-21",
-              "meet_name": "WPI vs. Trinity, Tufts, Williams",
-              "meet_id": 416293
-            },
-            {
-              "rank": 44,
               "name": "Natan Silva",
               "team": "Denison University",
               "team_id": 118,
@@ -17787,6 +17775,18 @@
               "date": "2026-11-19",
               "meet_name": "Denison Invitational",
               "meet_id": 395727
+            },
+            {
+              "rank": 44,
+              "name": "Samuel Brozek",
+              "team": "Williams College",
+              "team_id": 119,
+              "swimmer_id": 2660032,
+              "time_sec": 20.59,
+              "time_str": "20.59",
+              "date": "2026-11-21",
+              "meet_name": "WPI vs. Trinity, Tufts, Williams",
+              "meet_id": 416293
             },
             {
               "rank": 45,
@@ -17857,7 +17857,7 @@
               "time_sec": 20.62,
               "time_str": "20.62",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             }
           ]
@@ -18599,7 +18599,7 @@
               "time_sec": 44.93,
               "time_str": "44.93",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -18635,7 +18635,7 @@
               "time_sec": 45.02,
               "time_str": "45.02",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -19145,8 +19145,8 @@
           "cutoff_rank": 24,
           "cutoff_sec": 98.88,
           "cutoff_str": "1:38.88",
-          "max_rank_cutoff_sec": 100.27,
-          "max_rank_cutoff_str": "1:40.27",
+          "max_rank_cutoff_sec": 100.25,
+          "max_rank_cutoff_str": "1:40.25",
           "leader_sec": 95.3,
           "leader_str": "1:35.30",
           "leader_name": "John Butler",
@@ -19346,6 +19346,18 @@
             },
             {
               "rank": 17,
+              "name": "Luke Fender",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 2426497,
+              "time_sec": 98.47,
+              "time_str": "1:38.47",
+              "date": "2026-11-21",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 18,
               "name": "Luke Hartman",
               "team": "Emory University",
               "team_id": 123,
@@ -19357,7 +19369,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 18,
+              "rank": 19,
               "name": "Everett Cox",
               "team": "Hope College",
               "team_id": 99,
@@ -19369,7 +19381,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 19,
+              "rank": 20,
               "name": "Roberto Gossmann",
               "team": "Carnegie Mellon University",
               "team_id": 33,
@@ -19381,7 +19393,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 20,
+              "rank": 21,
               "name": "Aiden Gouldson",
               "team": "Kenyon College",
               "team_id": 125,
@@ -19393,7 +19405,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 21,
+              "rank": 22,
               "name": "Pierce Downs",
               "team": "New York University",
               "team_id": 59,
@@ -19405,7 +19417,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 22,
+              "rank": 23,
               "name": "Misha Kojanov",
               "team": "University of Chicago",
               "team_id": 259,
@@ -19417,7 +19429,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 23,
+              "rank": 24,
               "name": "Oliver Van Peteghem",
               "team": "Massachusetts Institute of Technology",
               "team_id": 14,
@@ -19429,7 +19441,7 @@
               "meet_id": 408993
             },
             {
-              "rank": 24,
+              "rank": 25,
               "name": "Evan Feilmeyer",
               "team": "Grinnell College",
               "team_id": 2,
@@ -19441,7 +19453,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 25,
+              "rank": 26,
               "name": "Ethan Wang",
               "team": "University of Chicago",
               "team_id": 259,
@@ -19453,7 +19465,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 26,
+              "rank": 27,
               "name": "Grant Goins",
               "team": "Denison University",
               "team_id": 118,
@@ -19465,7 +19477,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 27,
+              "rank": 28,
               "name": "Graham Eisenmann",
               "team": "Hope College",
               "team_id": 99,
@@ -19477,7 +19489,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 28,
+              "rank": 29,
               "name": "Parker Chan",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -19489,7 +19501,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 29,
+              "rank": 30,
               "name": "Doug Sims",
               "team": "Emory University",
               "team_id": 123,
@@ -19501,7 +19513,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 30,
+              "rank": 31,
               "name": "Hunter Latham",
               "team": "Hope College",
               "team_id": 99,
@@ -19513,7 +19525,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 31,
+              "rank": 32,
               "name": "Gavin Coggan",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -19525,7 +19537,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 32,
+              "rank": 33,
               "name": "Kristof Szappanos",
               "team": "Kenyon College",
               "team_id": 125,
@@ -19537,7 +19549,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 33,
+              "rank": 34,
               "name": "Gray Spencer",
               "team": "University of Chicago",
               "team_id": 259,
@@ -19549,7 +19561,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 34,
+              "rank": 35,
               "name": "Nicky Stratton",
               "team": "Salisbury University",
               "team_id": 495,
@@ -19561,7 +19573,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 35,
+              "rank": 36,
               "name": "Ken Ning",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -19573,7 +19585,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 36,
+              "rank": 37,
               "name": "Chahine Said",
               "team": "Oberlin College",
               "team_id": 404,
@@ -19585,7 +19597,7 @@
               "meet_id": 414647
             },
             {
-              "rank": 37,
+              "rank": 38,
               "name": "Alex Wu",
               "team": "University of Chicago",
               "team_id": 259,
@@ -19597,7 +19609,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 38,
+              "rank": 39,
               "name": "Trevor Novak",
               "team": "Case Western Reserve University",
               "team_id": 200,
@@ -19609,7 +19621,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "Max Gu",
               "team": "Carnegie Mellon University",
               "team_id": 33,
@@ -19621,7 +19633,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 40,
+              "rank": 41,
               "name": "Zander Muilenburg",
               "team": "Kenyon College",
               "team_id": 125,
@@ -19633,7 +19645,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 41,
+              "rank": 42,
               "name": "Nathanael Ridosko",
               "team": "University of California-Santa Cruz",
               "team_id": 182,
@@ -19641,11 +19653,11 @@
               "time_sec": 99.98,
               "time_str": "1:39.98",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 42,
+              "rank": 43,
               "name": "Jack Teasley",
               "team": "Emory University",
               "team_id": 123,
@@ -19657,7 +19669,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 43,
+              "rank": 44,
               "name": "Jasper Shue",
               "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team_id": 261,
@@ -19669,7 +19681,7 @@
               "meet_id": 411388
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "Shane Hall",
               "team": "Salisbury University",
               "team_id": 495,
@@ -19681,7 +19693,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Trifon Walser",
               "team": "U.S. Merchant Marine Academy",
               "team_id": 311,
@@ -19693,7 +19705,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Misha Kabunov",
               "team": "New York University",
               "team_id": 59,
@@ -19705,7 +19717,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "Cole Venters",
               "team": "Carnegie Mellon University",
               "team_id": 33,
@@ -19717,7 +19729,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "Graham Zucker",
               "team": "Emory University",
               "team_id": 123,
@@ -19729,7 +19741,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "Matheus Maule",
               "team": "Kenyon College",
               "team_id": 125,
@@ -19739,18 +19751,6 @@
               "date": "2026-10-17",
               "meet_name": "Indianapolis vs Kenyon",
               "meet_id": 405662
-            },
-            {
-              "rank": 50,
-              "name": "Zach Pestrikov",
-              "team": "California Institute of Technology",
-              "team_id": 187,
-              "swimmer_id": 1309261,
-              "time_sec": 100.27,
-              "time_str": "1:40.27",
-              "date": "2026-11-21",
-              "meet_name": "Occidental Invite",
-              "meet_id": 416194
             }
           ]
         },
@@ -20089,10 +20089,10 @@
           "max_rank": 50,
           "count_available": 50,
           "cutoff_rank": 24,
-          "cutoff_sec": 272.46,
-          "cutoff_str": "4:32.46",
-          "max_rank_cutoff_sec": 276.08,
-          "max_rank_cutoff_str": "4:36.08",
+          "cutoff_sec": 272.34,
+          "cutoff_str": "4:32.34",
+          "max_rank_cutoff_sec": 275.83,
+          "max_rank_cutoff_str": "4:35.83",
           "leader_sec": 261.88,
           "leader_str": "4:21.88",
           "leader_name": "George Goins",
@@ -20232,6 +20232,18 @@
             },
             {
               "rank": 12,
+              "name": "Luke Fender",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 2426497,
+              "time_sec": 270.49,
+              "time_str": "4:30.49",
+              "date": "2026-11-20",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 13,
               "name": "Evan Feilmeyer",
               "team": "Grinnell College",
               "team_id": 2,
@@ -20243,7 +20255,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 13,
+              "rank": 14,
               "name": "Roman Savage",
               "team": "Kenyon College",
               "team_id": 125,
@@ -20255,7 +20267,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 14,
+              "rank": 15,
               "name": "Hunter Raymer",
               "team": "Denison University",
               "team_id": 118,
@@ -20267,7 +20279,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 15,
+              "rank": 16,
               "name": "Matt Liotti",
               "team": "College of New Jersey, The",
               "team_id": 52,
@@ -20279,7 +20291,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 16,
+              "rank": 17,
               "name": "Josiah March",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -20291,7 +20303,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 17,
+              "rank": 18,
               "name": "Adam Mekrami",
               "team": "New York University",
               "team_id": 59,
@@ -20303,7 +20315,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 18,
+              "rank": 19,
               "name": "Thomas Langlois",
               "team": "Whittier College",
               "team_id": 307,
@@ -20311,11 +20323,11 @@
               "time_sec": 271.15,
               "time_str": "4:31.15",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 19,
+              "rank": 20,
               "name": "Sam Koenigsberg",
               "team": "New York University",
               "team_id": 59,
@@ -20327,7 +20339,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 20,
+              "rank": 21,
               "name": "Doug Sims",
               "team": "Emory University",
               "team_id": 123,
@@ -20339,7 +20351,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 21,
+              "rank": 22,
               "name": "Misha Kabunov",
               "team": "New York University",
               "team_id": 59,
@@ -20351,7 +20363,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 22,
+              "rank": 23,
               "name": "Luke Hartman",
               "team": "Emory University",
               "team_id": 123,
@@ -20363,7 +20375,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 23,
+              "rank": 24,
               "name": "William Thurk",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -20375,7 +20387,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 24,
+              "rank": 25,
               "name": "Gray Spencer",
               "team": "University of Chicago",
               "team_id": 259,
@@ -20387,7 +20399,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 25,
+              "rank": 26,
               "name": "Joe Keroack",
               "team": "Denison University",
               "team_id": 118,
@@ -20399,7 +20411,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 26,
+              "rank": 27,
               "name": "Crenshaw Halbach",
               "team": "Kenyon College",
               "team_id": 125,
@@ -20411,7 +20423,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 27,
+              "rank": 28,
               "name": "Kristof Szappanos",
               "team": "Kenyon College",
               "team_id": 125,
@@ -20423,7 +20435,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 28,
+              "rank": 29,
               "name": "Nico Aldana Huelga",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -20435,7 +20447,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 29,
+              "rank": 30,
               "name": "Nicky Stratton",
               "team": "Salisbury University",
               "team_id": 495,
@@ -20447,7 +20459,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 30,
+              "rank": 31,
               "name": "Tyler Klein",
               "team": "John Carroll University",
               "team_id": 150,
@@ -20459,7 +20471,7 @@
               "meet_id": 416444
             },
             {
-              "rank": 31,
+              "rank": 32,
               "name": "Ben Campbell",
               "team": "Denison University",
               "team_id": 118,
@@ -20471,7 +20483,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 32,
+              "rank": 33,
               "name": "Anthony Simmons",
               "team": "Emory University",
               "team_id": 123,
@@ -20483,7 +20495,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 33,
+              "rank": 34,
               "name": "Owen Mahoney",
               "team": "Salisbury University",
               "team_id": 495,
@@ -20495,7 +20507,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 34,
+              "rank": 35,
               "name": "Oliver Van Peteghem",
               "team": "Massachusetts Institute of Technology",
               "team_id": 14,
@@ -20507,7 +20519,7 @@
               "meet_id": 413824
             },
             {
-              "rank": 35,
+              "rank": 36,
               "name": "Gabe Cowart",
               "team": "Kenyon College",
               "team_id": 125,
@@ -20519,7 +20531,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 36,
+              "rank": 37,
               "name": "Ken Ning",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -20531,7 +20543,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 37,
+              "rank": 38,
               "name": "Carter Nelson",
               "team": "Calvin University",
               "team_id": 55,
@@ -20543,7 +20555,7 @@
               "meet_id": 414374
             },
             {
-              "rank": 38,
+              "rank": 39,
               "name": "Eddie Campion",
               "team": "Case Western Reserve University",
               "team_id": 200,
@@ -20555,7 +20567,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "Nate Stebbins",
               "team": "Carnegie Mellon University",
               "team_id": 33,
@@ -20567,7 +20579,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 40,
+              "rank": 41,
               "name": "Everett Cox",
               "team": "Hope College",
               "team_id": 99,
@@ -20579,7 +20591,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 41,
+              "rank": 42,
               "name": "Will Heinze",
               "team": "College of New Jersey, The",
               "team_id": 52,
@@ -20591,7 +20603,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 42,
+              "rank": 43,
               "name": "William Iglar",
               "team": "Babson College",
               "team_id": 207,
@@ -20603,7 +20615,7 @@
               "meet_id": 415006
             },
             {
-              "rank": 43,
+              "rank": 44,
               "name": "Nathanael Ridosko",
               "team": "University of California-Santa Cruz",
               "team_id": 182,
@@ -20611,11 +20623,11 @@
               "time_sec": 274.66,
               "time_str": "4:34.66",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "William Jones",
               "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team_id": 261,
@@ -20627,7 +20639,7 @@
               "meet_id": 411388
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Jack Eaddy",
               "team": "Denison University",
               "team_id": 118,
@@ -20639,7 +20651,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Nick Straka",
               "team": "College of New Jersey, The",
               "team_id": 52,
@@ -20651,7 +20663,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "Matthew Amodio",
               "team": "Kenyon College",
               "team_id": 125,
@@ -20663,7 +20675,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "Ayden Fortney",
               "team": "John Carroll University",
               "team_id": 150,
@@ -20675,7 +20687,7 @@
               "meet_id": 416444
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "Zeke Garzon",
               "team": "Whittier College",
               "team_id": 307,
@@ -20683,20 +20695,8 @@
               "time_sec": 275.83,
               "time_str": "4:35.83",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
-            },
-            {
-              "rank": 50,
-              "name": "Ari Jonihakis",
-              "team": "Kenyon College",
-              "team_id": 125,
-              "swimmer_id": 1982313,
-              "time_sec": 276.08,
-              "time_str": "4:36.08",
-              "date": "2026-11-19",
-              "meet_name": "Total Performance Invite at Kenyon",
-              "meet_id": 414555
             }
           ]
         },
@@ -21037,8 +21037,8 @@
           "cutoff_rank": 24,
           "cutoff_sec": 576.89,
           "cutoff_str": "9:36.89",
-          "max_rank_cutoff_sec": 587.17,
-          "max_rank_cutoff_str": "9:47.17",
+          "max_rank_cutoff_sec": 586.55,
+          "max_rank_cutoff_str": "9:46.55",
           "leader_sec": 550.4,
           "leader_str": "9:10.40",
           "leader_name": "Parker Chan",
@@ -21113,7 +21113,7 @@
               "time_sec": 568.23,
               "time_str": "9:28.23",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -21382,6 +21382,18 @@
             },
             {
               "rank": 29,
+              "name": "Luke Fender",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 2426497,
+              "time_sec": 578.91,
+              "time_str": "9:38.91",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 30,
               "name": "Ben Campbell",
               "team": "Denison University",
               "team_id": 118,
@@ -21393,7 +21405,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 30,
+              "rank": 31,
               "name": "Mehmet Caglar",
               "team": "Amherst College",
               "team_id": 103,
@@ -21405,7 +21417,19 @@
               "meet_id": 416427
             },
             {
-              "rank": 31,
+              "rank": 32,
+              "name": "Austin Wickboldt",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 1865555,
+              "time_sec": 581.57,
+              "time_str": "9:41.57",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 33,
               "name": "Will Heinze",
               "team": "College of New Jersey, The",
               "team_id": 52,
@@ -21417,7 +21441,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 32,
+              "rank": 34,
               "name": "Zander Muilenburg",
               "team": "Kenyon College",
               "team_id": 125,
@@ -21429,7 +21453,7 @@
               "meet_id": 413871
             },
             {
-              "rank": 33,
+              "rank": 35,
               "name": "Gavin Danze",
               "team": "Rowan University",
               "team_id": 488,
@@ -21441,7 +21465,7 @@
               "meet_id": 416430
             },
             {
-              "rank": 34,
+              "rank": 36,
               "name": "Owen Mahoney",
               "team": "Salisbury University",
               "team_id": 495,
@@ -21453,7 +21477,7 @@
               "meet_id": 407077
             },
             {
-              "rank": 35,
+              "rank": 37,
               "name": "Mark Jacobi-Krohn",
               "team": "Denison University",
               "team_id": 118,
@@ -21465,7 +21489,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 36,
+              "rank": 38,
               "name": "Vincent Gookin",
               "team": "Emory University",
               "team_id": 123,
@@ -21477,7 +21501,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 37,
+              "rank": 39,
               "name": "Brendan Kirberger",
               "team": "Colby College",
               "team_id": 69,
@@ -21489,7 +21513,7 @@
               "meet_id": 416427
             },
             {
-              "rank": 38,
+              "rank": 40,
               "name": "Jack Cornish",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -21501,7 +21525,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 39,
+              "rank": 41,
               "name": "Zeke Garzon",
               "team": "Whittier College",
               "team_id": 307,
@@ -21509,11 +21533,11 @@
               "time_sec": 584.47,
               "time_str": "9:44.47",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 40,
+              "rank": 42,
               "name": "Dylan Myrick",
               "team": "Swarthmore College",
               "team_id": 315,
@@ -21525,7 +21549,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 41,
+              "rank": 43,
               "name": "Jack McCrae",
               "team": "University of the South (Sewanee)",
               "team_id": 344,
@@ -21537,7 +21561,7 @@
               "meet_id": 413793
             },
             {
-              "rank": 42,
+              "rank": 44,
               "name": "JC Gordon",
               "team": "University of Lynchburg",
               "team_id": 10016800,
@@ -21549,7 +21573,7 @@
               "meet_id": 388433
             },
             {
-              "rank": 43,
+              "rank": 45,
               "name": "Matt Liotti",
               "team": "College of New Jersey, The",
               "team_id": 52,
@@ -21561,7 +21585,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 44,
+              "rank": 46,
               "name": "Gabe Cowart",
               "team": "Kenyon College",
               "team_id": 125,
@@ -21573,7 +21597,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 45,
+              "rank": 47,
               "name": "Eli Wichman",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -21585,7 +21609,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 46,
+              "rank": 48,
               "name": "Conner Verbanas",
               "team": "Kenyon College",
               "team_id": 125,
@@ -21597,7 +21621,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 47,
+              "rank": 49,
               "name": "Evan Harrison",
               "team": "Kenyon College",
               "team_id": 125,
@@ -21609,7 +21633,7 @@
               "meet_id": 405662
             },
             {
-              "rank": 48,
+              "rank": 50,
               "name": "Doug Sims",
               "team": "Emory University",
               "team_id": 123,
@@ -21619,30 +21643,6 @@
               "date": "2026-10-17",
               "meet_name": "Sewanee vs. Emory",
               "meet_id": 402422
-            },
-            {
-              "rank": 49,
-              "name": "David Barkley",
-              "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
-              "team_id": 261,
-              "swimmer_id": 2454707,
-              "time_sec": 587.16,
-              "time_str": "9:47.16",
-              "date": "2026-10-23",
-              "meet_name": "CMS vs UC San Diego",
-              "meet_id": 408963
-            },
-            {
-              "rank": 50,
-              "name": "Nate Stebbins",
-              "team": "Carnegie Mellon University",
-              "team_id": 33,
-              "swimmer_id": 2832887,
-              "time_sec": 587.17,
-              "time_str": "9:47.17",
-              "date": "2026-11-21",
-              "meet_name": "Total Performance Invite at Kenyon",
-              "meet_id": 414555
             }
           ]
         },
@@ -21981,10 +21981,10 @@
           "max_rank": 50,
           "count_available": 50,
           "cutoff_rank": 24,
-          "cutoff_sec": 961.77,
-          "cutoff_str": "16:01.77",
-          "max_rank_cutoff_sec": 975.73,
-          "max_rank_cutoff_str": "16:15.73",
+          "cutoff_sec": 959.74,
+          "cutoff_str": "15:59.74",
+          "max_rank_cutoff_sec": 974.61,
+          "max_rank_cutoff_str": "16:14.61",
           "leader_sec": 919.01,
           "leader_str": "15:19.01",
           "leader_name": "George Goins",
@@ -22071,7 +22071,7 @@
               "time_sec": 943.35,
               "time_str": "15:43.35",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -22220,6 +22220,18 @@
             },
             {
               "rank": 20,
+              "name": "Luke Fender",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 2426497,
+              "time_sec": 956.35,
+              "time_str": "15:56.35",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 21,
               "name": "Matthew Amodio",
               "team": "Kenyon College",
               "team_id": 125,
@@ -22231,7 +22243,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 21,
+              "rank": 22,
               "name": "Chris Mo",
               "team": "University of Chicago",
               "team_id": 259,
@@ -22243,7 +22255,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 22,
+              "rank": 23,
               "name": "Will Heinze",
               "team": "College of New Jersey, The",
               "team_id": 52,
@@ -22255,7 +22267,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 23,
+              "rank": 24,
               "name": "Josiah March",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -22267,7 +22279,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 24,
+              "rank": 25,
               "name": "Nathanael Ridosko",
               "team": "University of California-Santa Cruz",
               "team_id": 182,
@@ -22275,11 +22287,11 @@
               "time_sec": 961.77,
               "time_str": "16:01.77",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 25,
+              "rank": 26,
               "name": "Sam Koenigsberg",
               "team": "New York University",
               "team_id": 59,
@@ -22291,7 +22303,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 26,
+              "rank": 27,
               "name": "Gabe Cowart",
               "team": "Kenyon College",
               "team_id": 125,
@@ -22303,7 +22315,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 27,
+              "rank": 28,
               "name": "Conner Verbanas",
               "team": "Kenyon College",
               "team_id": 125,
@@ -22315,7 +22327,19 @@
               "meet_id": 414555
             },
             {
-              "rank": 28,
+              "rank": 29,
+              "name": "Austin Wickboldt",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 1865555,
+              "time_sec": 963.48,
+              "time_str": "16:03.48",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 30,
               "name": "Gavin Danze",
               "team": "Rowan University",
               "team_id": 488,
@@ -22327,7 +22351,7 @@
               "meet_id": 416430
             },
             {
-              "rank": 29,
+              "rank": 31,
               "name": "Zeke Garzon",
               "team": "Whittier College",
               "team_id": 307,
@@ -22335,11 +22359,11 @@
               "time_sec": 964.71,
               "time_str": "16:04.71",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 30,
+              "rank": 32,
               "name": "Owen Mahoney",
               "team": "Salisbury University",
               "team_id": 495,
@@ -22351,7 +22375,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 31,
+              "rank": 33,
               "name": "JC Gordon",
               "team": "University of Lynchburg",
               "team_id": 10016800,
@@ -22363,7 +22387,7 @@
               "meet_id": 388433
             },
             {
-              "rank": 32,
+              "rank": 34,
               "name": "Zander Muilenburg",
               "team": "Kenyon College",
               "team_id": 125,
@@ -22375,7 +22399,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 33,
+              "rank": 35,
               "name": "Jack Cornish",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -22387,7 +22411,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 34,
+              "rank": 36,
               "name": "Hunter Raymer",
               "team": "Denison University",
               "team_id": 118,
@@ -22399,7 +22423,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 35,
+              "rank": 37,
               "name": "Matt Liotti",
               "team": "College of New Jersey, The",
               "team_id": 52,
@@ -22411,7 +22435,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 36,
+              "rank": 38,
               "name": "Vincent Gookin",
               "team": "Emory University",
               "team_id": 123,
@@ -22423,7 +22447,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 37,
+              "rank": 39,
               "name": "Nico Aldana Huelga",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -22435,7 +22459,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 38,
+              "rank": 40,
               "name": "Andrew Kissel",
               "team": "Salisbury University",
               "team_id": 495,
@@ -22447,7 +22471,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 39,
+              "rank": 41,
               "name": "Evan Harrison",
               "team": "Kenyon College",
               "team_id": 125,
@@ -22459,7 +22483,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 40,
+              "rank": 42,
               "name": "Nate Stebbins",
               "team": "Carnegie Mellon University",
               "team_id": 33,
@@ -22471,7 +22495,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 41,
+              "rank": 43,
               "name": "Matthew Weiner",
               "team": "Kenyon College",
               "team_id": 125,
@@ -22483,7 +22507,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 42,
+              "rank": 44,
               "name": "Mark Jacobi-Krohn",
               "team": "Denison University",
               "team_id": 118,
@@ -22495,7 +22519,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 43,
+              "rank": 45,
               "name": "Misha Kabunov",
               "team": "New York University",
               "team_id": 59,
@@ -22507,7 +22531,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 44,
+              "rank": 46,
               "name": "Dylan Myrick",
               "team": "Swarthmore College",
               "team_id": 315,
@@ -22519,7 +22543,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 45,
+              "rank": 47,
               "name": "Ben Hu",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -22531,7 +22555,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 46,
+              "rank": 48,
               "name": "Kai Laitinen",
               "team": "Linfield University",
               "team_id": 135,
@@ -22539,11 +22563,11 @@
               "time_sec": 974.17,
               "time_str": "16:14.17",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 47,
+              "rank": 49,
               "name": "Jonas Nissan",
               "team": "Case Western Reserve University",
               "team_id": 200,
@@ -22555,7 +22579,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 48,
+              "rank": 50,
               "name": "Ian Goltl",
               "team": "Nebraska Wesleyan University",
               "team_id": 10005094,
@@ -22565,30 +22589,6 @@
               "date": "2026-11-22",
               "meet_name": "17th Annual Phoenix Fall Classic",
               "meet_id": 414688
-            },
-            {
-              "rank": 49,
-              "name": "Ryan Franceys",
-              "team": "Roanoke College",
-              "team_id": 10009616,
-              "swimmer_id": 1350081,
-              "time_sec": 974.95,
-              "time_str": "16:14.95",
-              "date": "2026-11-22",
-              "meet_name": "F&M Invitational",
-              "meet_id": 414296
-            },
-            {
-              "rank": 50,
-              "name": "Josh Berty",
-              "team": "Rochester Institute of Technology",
-              "team_id": 30,
-              "swimmer_id": 1755452,
-              "time_sec": 975.73,
-              "time_str": "16:15.73",
-              "date": "2026-11-21",
-              "meet_name": "RIT Don Richards Invitational",
-              "meet_id": 415589
             }
           ]
         },
@@ -22929,8 +22929,8 @@
           "cutoff_rank": 24,
           "cutoff_sec": 49.42,
           "cutoff_str": "49.42",
-          "max_rank_cutoff_sec": 50.23,
-          "max_rank_cutoff_str": "50.23",
+          "max_rank_cutoff_sec": 50.2,
+          "max_rank_cutoff_str": "50.20",
           "leader_sec": 46.92,
           "leader_str": "46.92",
           "leader_name": "Teddy McQuaid",
@@ -23305,7 +23305,7 @@
               "time_sec": 49.74,
               "time_str": "49.74",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -23358,6 +23358,30 @@
             },
             {
               "rank": 36,
+              "name": "Sam Allen",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": 1868314,
+              "time_sec": 49.79,
+              "time_str": "49.79",
+              "date": "2026-11-20",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 37,
+              "name": "EJ Redson",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 2131256,
+              "time_sec": 49.86,
+              "time_str": "49.86",
+              "date": "2026-11-21",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 38,
               "name": "Oliver Engel",
               "team": "New York University",
               "team_id": 59,
@@ -23369,7 +23393,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 37,
+              "rank": 39,
               "name": "Tim Johnson",
               "team": "Bates College",
               "team_id": 76,
@@ -23381,7 +23405,7 @@
               "meet_id": 414185
             },
             {
-              "rank": 38,
+              "rank": 40,
               "name": "Ethan Killam",
               "team": "Denison University",
               "team_id": 118,
@@ -23393,7 +23417,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 39,
+              "rank": 41,
               "name": "Graham Zucker",
               "team": "Emory University",
               "team_id": 123,
@@ -23405,7 +23429,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 40,
+              "rank": 42,
               "name": "Ozzy Jankowski",
               "team": "Wabash College",
               "team_id": 298,
@@ -23417,7 +23441,7 @@
               "meet_id": 414760
             },
             {
-              "rank": 41,
+              "rank": 43,
               "name": "Max Nechydyuk",
               "team": "New York University",
               "team_id": 59,
@@ -23429,7 +23453,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 42,
+              "rank": 44,
               "name": "Kanish Chakraborty",
               "team": "University of Chicago",
               "team_id": 259,
@@ -23441,7 +23465,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 43,
+              "rank": 45,
               "name": "Josh Bordovsky",
               "team": "Hope College",
               "team_id": 99,
@@ -23453,7 +23477,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 44,
+              "rank": 46,
               "name": "Parker Chan",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -23465,7 +23489,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 45,
+              "rank": 47,
               "name": "Dylan Jewett",
               "team": "Johns Hopkins University",
               "team_id": 111,
@@ -23477,7 +23501,7 @@
               "meet_id": 396825
             },
             {
-              "rank": 46,
+              "rank": 48,
               "name": "Jacob Florio",
               "team": "John Carroll University",
               "team_id": 150,
@@ -23489,7 +23513,7 @@
               "meet_id": 416444
             },
             {
-              "rank": 47,
+              "rank": 49,
               "name": "Landon Suaverdez",
               "team": "Kenyon College",
               "team_id": 125,
@@ -23501,7 +23525,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 48,
+              "rank": 50,
               "name": "Maximus Fedorenko",
               "team": "U.S. Merchant Marine Academy",
               "team_id": 311,
@@ -23511,30 +23535,6 @@
               "date": "2026-11-21",
               "meet_name": "TCNJ Invitational",
               "meet_id": 416724
-            },
-            {
-              "rank": 49,
-              "name": "Luke Mitchell",
-              "team": "Salisbury University",
-              "team_id": 495,
-              "swimmer_id": 2051997,
-              "time_sec": 50.21,
-              "time_str": "50.21",
-              "date": "2026-11-21",
-              "meet_name": "R-MC Yellow Jacket Invitational",
-              "meet_id": 416453
-            },
-            {
-              "rank": 50,
-              "name": "Brian Qian",
-              "team": "Albion College",
-              "team_id": 210,
-              "swimmer_id": 2060873,
-              "time_sec": 50.23,
-              "time_str": "50.23",
-              "date": "2026-11-07",
-              "meet_name": "Calvin vs. Albion, Carthage, Ohio Northern",
-              "meet_id": 414374
             }
           ]
         },
@@ -23873,10 +23873,10 @@
           "max_rank": 50,
           "count_available": 50,
           "cutoff_rank": 24,
-          "cutoff_sec": 109.74,
-          "cutoff_str": "1:49.74",
-          "max_rank_cutoff_sec": 111.69,
-          "max_rank_cutoff_str": "1:51.69",
+          "cutoff_sec": 109.52,
+          "cutoff_str": "1:49.52",
+          "max_rank_cutoff_sec": 111.67,
+          "max_rank_cutoff_str": "1:51.67",
           "leader_sec": 104.6,
           "leader_str": "1:44.60",
           "leader_name": "Evan Graham",
@@ -24119,7 +24119,7 @@
               "time_sec": 109.28,
               "time_str": "1:49.28",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -24148,6 +24148,18 @@
             },
             {
               "rank": 23,
+              "name": "Sam Allen",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": 1868314,
+              "time_sec": 109.48,
+              "time_str": "1:49.48",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 24,
               "name": "Devin Testin",
               "team": "Denison University",
               "team_id": 118,
@@ -24159,7 +24171,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 24,
+              "rank": 25,
               "name": "John Zhang",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -24171,7 +24183,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 25,
+              "rank": 26,
               "name": "Max Yeoh",
               "team": "Pomona-Pitzer Colleges",
               "team_id": 10,
@@ -24183,7 +24195,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 26,
+              "rank": 27,
               "name": "Noah Popp",
               "team": "Marymount University (Virginia)",
               "team_id": 473,
@@ -24193,18 +24205,6 @@
               "date": "2026-11-21",
               "meet_name": "Patriot Invitational",
               "meet_id": 414861
-            },
-            {
-              "rank": 27,
-              "name": "Sam Allen",
-              "team": "Colorado College",
-              "team_id": 13,
-              "swimmer_id": 1868314,
-              "time_sec": 110.04,
-              "time_str": "1:50.04",
-              "date": "2026-10-30",
-              "meet_name": "Colorado College vs. Adams State",
-              "meet_id": 409292
             },
             {
               "rank": 28,
@@ -24407,7 +24407,7 @@
               "time_sec": 111.46,
               "time_str": "1:51.46",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -24472,15 +24472,15 @@
             },
             {
               "rank": 50,
-              "name": "Taco Steiner",
-              "team": "Nebraska Wesleyan University",
-              "team_id": 10005094,
-              "swimmer_id": 3336455,
-              "time_sec": 111.69,
-              "time_str": "1:51.69",
+              "name": "Harry Davis",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 2077607,
+              "time_sec": 111.67,
+              "time_str": "1:51.67",
               "date": "2026-11-22",
-              "meet_name": "17th Annual Phoenix Fall Classic",
-              "meet_id": 414688
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
             }
           ]
         },
@@ -25125,11 +25125,23 @@
               "time_sec": 55.22,
               "time_str": "55.22",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
               "rank": 26,
+              "name": "Daniel Apostol",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 1867187,
+              "time_sec": 55.27,
+              "time_str": "55.27",
+              "date": "2026-11-21",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 27,
               "name": "Chris Xia",
               "team": "University of Chicago",
               "team_id": 259,
@@ -25141,7 +25153,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 27,
+              "rank": 28,
               "name": "Francesco Assalone",
               "team": "Rhodes College",
               "team_id": 540,
@@ -25153,7 +25165,7 @@
               "meet_id": 416323
             },
             {
-              "rank": 28,
+              "rank": 29,
               "name": "Griffin Barlow",
               "team": "Emory University",
               "team_id": 123,
@@ -25165,7 +25177,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 29,
+              "rank": 30,
               "name": "Josh Bordovsky",
               "team": "Hope College",
               "team_id": 99,
@@ -25177,7 +25189,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 30,
+              "rank": 31,
               "name": "Brian Story",
               "team": "Gettysburg College",
               "team_id": 254,
@@ -25189,7 +25201,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 31,
+              "rank": 32,
               "name": "Mattia Rosatelli",
               "team": "Nebraska Wesleyan University",
               "team_id": 10005094,
@@ -25201,7 +25213,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 32,
+              "rank": 33,
               "name": "Sam Zhou",
               "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team_id": 261,
@@ -25213,7 +25225,7 @@
               "meet_id": 411388
             },
             {
-              "rank": 33,
+              "rank": 34,
               "name": "Jack Warner",
               "team": "Batten University",
               "team_id": 10010227,
@@ -25225,7 +25237,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 34,
+              "rank": 35,
               "name": "Kevin Raghunathan",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -25237,7 +25249,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 35,
+              "rank": 36,
               "name": "PJ Fortune",
               "team": "University of California-Santa Cruz",
               "team_id": 182,
@@ -25245,11 +25257,11 @@
               "time_sec": 55.54,
               "time_str": "55.54",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 36,
+              "rank": 37,
               "name": "Ryan Schnur",
               "team": "Emory University",
               "team_id": 123,
@@ -25261,7 +25273,7 @@
               "meet_id": 402113
             },
             {
-              "rank": 37,
+              "rank": 38,
               "name": "McKee Thorsen",
               "team": "Emory University",
               "team_id": 123,
@@ -25273,7 +25285,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 38,
+              "rank": 39,
               "name": "Brody Schrepfer",
               "team": "Washington University (Missouri)",
               "team_id": 94,
@@ -25285,7 +25297,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "Matheus Maule",
               "team": "Kenyon College",
               "team_id": 125,
@@ -25297,7 +25309,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 40,
+              "rank": 41,
               "name": "Dominik Kurek",
               "team": "Milwaukee School of Engineering",
               "team_id": 10033686,
@@ -25309,7 +25321,7 @@
               "meet_id": 412483
             },
             {
-              "rank": 41,
+              "rank": 42,
               "name": "Alex Gallagher",
               "team": "John Carroll University",
               "team_id": 150,
@@ -25321,7 +25333,7 @@
               "meet_id": 416444
             },
             {
-              "rank": 42,
+              "rank": 43,
               "name": "Connor O'Neill",
               "team": "Emory University",
               "team_id": 123,
@@ -25333,7 +25345,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 43,
+              "rank": 44,
               "name": "Gabe Beverini",
               "team": "College of New Jersey, The",
               "team_id": 52,
@@ -25345,7 +25357,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "Nick Hensel",
               "team": "Denison University",
               "team_id": 118,
@@ -25357,7 +25369,7 @@
               "meet_id": 395725
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Jackson Frazier",
               "team": "Rochester Institute of Technology",
               "team_id": 30,
@@ -25369,7 +25381,7 @@
               "meet_id": 415589
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Jared Goldstein",
               "team": "Emory University",
               "team_id": 123,
@@ -25381,7 +25393,7 @@
               "meet_id": 395727
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "Sebastian Santiago",
               "team": "University of California-Santa Cruz",
               "team_id": 182,
@@ -25389,11 +25401,11 @@
               "time_sec": 55.95,
               "time_str": "55.95",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "Preston Kwon",
               "team": "Pomona-Pitzer Colleges",
               "team_id": 10,
@@ -25401,11 +25413,11 @@
               "time_sec": 55.99,
               "time_str": "55.99",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "Matthew Borovik",
               "team": "Augustana College",
               "team_id": 232,
@@ -25415,18 +25427,6 @@
               "date": "2026-11-21",
               "meet_name": "Carthage Classic Firebird Fest",
               "meet_id": 412483
-            },
-            {
-              "rank": 50,
-              "name": "John Frank",
-              "team": "U.S. Merchant Marine Academy",
-              "team_id": 311,
-              "swimmer_id": 1859941,
-              "time_sec": 56.0,
-              "time_str": "56.00",
-              "date": "2026-11-21",
-              "meet_name": "TCNJ Invitational",
-              "meet_id": 416724
             }
           ]
         },
@@ -25963,7 +25963,7 @@
               "time_sec": 121.39,
               "time_str": "2:01.39",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -26119,7 +26119,7 @@
               "time_sec": 122.62,
               "time_str": "2:02.62",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -26371,7 +26371,7 @@
               "time_sec": 123.86,
               "time_str": "2:03.86",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             }
           ]
@@ -26909,7 +26909,7 @@
               "time_sec": 48.36,
               "time_str": "48.36",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -26957,7 +26957,7 @@
               "time_sec": 48.72,
               "time_str": "48.72",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -27221,7 +27221,7 @@
               "time_sec": 49.34,
               "time_str": "49.34",
               "date": "2026-11-21",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -27659,8 +27659,8 @@
           "cutoff_rank": 24,
           "cutoff_sec": 110.26,
           "cutoff_str": "1:50.26",
-          "max_rank_cutoff_sec": 111.92,
-          "max_rank_cutoff_str": "1:51.92",
+          "max_rank_cutoff_sec": 111.88,
+          "max_rank_cutoff_str": "1:51.88",
           "leader_sec": 103.65,
           "leader_str": "1:43.65",
           "leader_name": "Cooper Costello",
@@ -27939,7 +27939,7 @@
               "time_sec": 110.18,
               "time_str": "1:50.18",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -27951,7 +27951,7 @@
               "time_sec": 110.26,
               "time_str": "1:50.26",
               "date": "2026-11-22",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -28095,7 +28095,7 @@
               "time_sec": 111.12,
               "time_str": "1:51.12",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -28208,6 +28208,18 @@
             },
             {
               "rank": 46,
+              "name": "Nickolas Rotolo",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": 2164493,
+              "time_sec": 111.68,
+              "time_str": "1:51.68",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 47,
               "name": "Owen Vale",
               "team": "Amherst College",
               "team_id": 103,
@@ -28219,7 +28231,7 @@
               "meet_id": 416427
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "Mason Potts",
               "team": "Salisbury University",
               "team_id": 495,
@@ -28231,7 +28243,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "Timothy Hays",
               "team": "Calvin University",
               "team_id": 55,
@@ -28243,7 +28255,7 @@
               "meet_id": 414374
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "Brian Qian",
               "team": "Albion College",
               "team_id": 210,
@@ -28253,18 +28265,6 @@
               "date": "2026-11-07",
               "meet_name": "Calvin vs. Albion, Carthage, Ohio Northern",
               "meet_id": 414374
-            },
-            {
-              "rank": 50,
-              "name": "Sam Lyon",
-              "team": "University of Puget Sound",
-              "team_id": 91,
-              "swimmer_id": 2337613,
-              "time_sec": 111.92,
-              "time_str": "1:51.92",
-              "date": "2026-11-22",
-              "meet_name": "Logger Invitational 2026",
-              "meet_id": 415319
             }
           ]
         },
@@ -29101,7 +29101,7 @@
               "time_sec": 111.24,
               "time_str": "1:51.24",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -29161,7 +29161,7 @@
               "time_sec": 111.51,
               "time_str": "1:51.51",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -30059,7 +30059,7 @@
               "time_sec": 242.58,
               "time_str": "4:02.58",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -30095,7 +30095,7 @@
               "time_sec": 243.33,
               "time_str": "4:03.33",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -30305,8 +30305,8 @@
           "cutoff_rank": 16,
           "cutoff_sec": 81.98,
           "cutoff_str": "1:21.98",
-          "max_rank_cutoff_sec": 84.99,
-          "max_rank_cutoff_str": "1:24.99",
+          "max_rank_cutoff_sec": 84.86,
+          "max_rank_cutoff_str": "1:24.86",
           "leader_sec": 78.68,
           "leader_str": "1:18.68",
           "leader_name": "Denison University",
@@ -30417,7 +30417,7 @@
               "time_sec": 81.01,
               "time_str": "1:21.01",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -30537,7 +30537,7 @@
               "time_sec": 82.43,
               "time_str": "1:22.43",
               "date": "2026-11-20",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -30609,7 +30609,7 @@
               "time_sec": 82.72,
               "time_str": "1:22.72",
               "date": "2026-11-20",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -30722,6 +30722,18 @@
             },
             {
               "rank": 35,
+              "name": "Amherst College",
+              "team": "Amherst College",
+              "team_id": 103,
+              "swimmer_id": null,
+              "time_sec": 83.4,
+              "time_str": "1:23.40",
+              "date": "2026-11-23",
+              "meet_name": "Wesleyan vs. Amherst",
+              "meet_id": 414650
+            },
+            {
+              "rank": 36,
               "name": "Tufts University",
               "team": "Tufts University",
               "team_id": 49,
@@ -30733,7 +30745,7 @@
               "meet_id": 416293
             },
             {
-              "rank": 36,
+              "rank": 37,
               "name": "Washington and Lee University",
               "team": "Washington and Lee University",
               "team_id": 286,
@@ -30745,7 +30757,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 37,
+              "rank": 38,
               "name": "U.S. Coast Guard Academy",
               "team": "U.S. Coast Guard Academy",
               "team_id": 324,
@@ -30757,7 +30769,7 @@
               "meet_id": 409834
             },
             {
-              "rank": 38,
+              "rank": 39,
               "name": "Rowan University",
               "team": "Rowan University",
               "team_id": 488,
@@ -30769,7 +30781,7 @@
               "meet_id": 416430
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "Augustana College",
               "team": "Augustana College",
               "team_id": 232,
@@ -30781,7 +30793,7 @@
               "meet_id": 413131
             },
             {
-              "rank": 40,
+              "rank": 41,
               "name": "University of Lynchburg",
               "team": "University of Lynchburg",
               "team_id": 10016800,
@@ -30793,7 +30805,7 @@
               "meet_id": 388433
             },
             {
-              "rank": 41,
+              "rank": 42,
               "name": "Pennsylvania State University-Behrend College",
               "team": "Pennsylvania State University-Behrend College",
               "team_id": 340,
@@ -30805,7 +30817,7 @@
               "meet_id": 416695
             },
             {
-              "rank": 42,
+              "rank": 43,
               "name": "Swarthmore College",
               "team": "Swarthmore College",
               "team_id": 315,
@@ -30817,7 +30829,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 43,
+              "rank": 44,
               "name": "State University of New York at Cortland",
               "team": "State University of New York at Cortland",
               "team_id": 471,
@@ -30829,7 +30841,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "Grove City College",
               "team": "Grove City College",
               "team_id": 42,
@@ -30841,7 +30853,7 @@
               "meet_id": 416503
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Trinity University (Texas)",
               "team": "Trinity University (Texas)",
               "team_id": 322,
@@ -30853,7 +30865,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Washington College (Maryland)",
               "team": "Washington College (Maryland)",
               "team_id": 38,
@@ -30865,7 +30877,19 @@
               "meet_id": 414296
             },
             {
-              "rank": 47,
+              "rank": 48,
+              "name": "Hamilton College",
+              "team": "Hamilton College",
+              "team_id": 84,
+              "swimmer_id": null,
+              "time_sec": 84.77,
+              "time_str": "1:24.77",
+              "date": "2026-11-23",
+              "meet_name": "Hamilton vs. Colby",
+              "meet_id": 416861
+            },
+            {
+              "rank": 49,
               "name": "Roanoke College",
               "team": "Roanoke College",
               "team_id": 10009616,
@@ -30877,7 +30901,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 48,
+              "rank": 50,
               "name": "Marymount University (Virginia)",
               "team": "Marymount University (Virginia)",
               "team_id": 473,
@@ -30887,30 +30911,6 @@
               "date": "2026-11-19",
               "meet_name": "Patriot Invitational",
               "meet_id": 414861
-            },
-            {
-              "rank": 49,
-              "name": "Bowdoin College",
-              "team": "Bowdoin College",
-              "team_id": 36,
-              "swimmer_id": null,
-              "time_sec": 84.88,
-              "time_str": "1:24.88",
-              "date": "2026-11-21",
-              "meet_name": "Bowdoin vs. MIT, Wellesley",
-              "meet_id": 415198
-            },
-            {
-              "rank": 50,
-              "name": "University of Wisconsin-Eau Claire",
-              "team": "University of Wisconsin-Eau Claire",
-              "team_id": 367,
-              "swimmer_id": null,
-              "time_sec": 84.99,
-              "time_str": "1:24.99",
-              "date": "2026-11-07",
-              "meet_name": "D3 Shootout",
-              "meet_id": 413120
             }
           ]
         },
@@ -31059,8 +31059,8 @@
           "cutoff_rank": 16,
           "cutoff_sec": 182.12,
           "cutoff_str": "3:02.12",
-          "max_rank_cutoff_sec": 189.05,
-          "max_rank_cutoff_str": "3:09.05",
+          "max_rank_cutoff_sec": 188.8,
+          "max_rank_cutoff_str": "3:08.80",
           "leader_sec": 172.53,
           "leader_str": "2:52.53",
           "leader_name": "Denison University",
@@ -31159,7 +31159,7 @@
               "time_sec": 179.78,
               "time_str": "2:59.78",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -31327,7 +31327,7 @@
               "time_sec": 182.63,
               "time_str": "3:02.63",
               "date": "2026-11-22",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -31404,6 +31404,18 @@
             },
             {
               "rank": 29,
+              "name": "Trinity University (Texas)",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": null,
+              "time_sec": 183.81,
+              "time_str": "3:03.81",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 30,
               "name": "Amherst College",
               "team": "Amherst College",
               "team_id": 103,
@@ -31415,7 +31427,7 @@
               "meet_id": 416427
             },
             {
-              "rank": 30,
+              "rank": 31,
               "name": "Roger Williams University",
               "team": "Roger Williams University",
               "team_id": 560,
@@ -31427,7 +31439,7 @@
               "meet_id": 415006
             },
             {
-              "rank": 31,
+              "rank": 32,
               "name": "Augustana College",
               "team": "Augustana College",
               "team_id": 232,
@@ -31439,7 +31451,7 @@
               "meet_id": 412483
             },
             {
-              "rank": 32,
+              "rank": 33,
               "name": "Milwaukee School of Engineering",
               "team": "Milwaukee School of Engineering",
               "team_id": 10033686,
@@ -31451,7 +31463,7 @@
               "meet_id": 412483
             },
             {
-              "rank": 33,
+              "rank": 34,
               "name": "Colby College",
               "team": "Colby College",
               "team_id": 69,
@@ -31463,7 +31475,7 @@
               "meet_id": 416427
             },
             {
-              "rank": 34,
+              "rank": 35,
               "name": "Washington and Lee University",
               "team": "Washington and Lee University",
               "team_id": 286,
@@ -31475,7 +31487,7 @@
               "meet_id": 416453
             },
             {
-              "rank": 35,
+              "rank": 36,
               "name": "Pomona-Pitzer Colleges",
               "team": "Pomona-Pitzer Colleges",
               "team_id": 10,
@@ -31487,7 +31499,7 @@
               "meet_id": 409572
             },
             {
-              "rank": 36,
+              "rank": 37,
               "name": "DePauw University",
               "team": "DePauw University",
               "team_id": 274,
@@ -31499,7 +31511,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 37,
+              "rank": 38,
               "name": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
               "team_id": 261,
@@ -31511,7 +31523,7 @@
               "meet_id": 408963
             },
             {
-              "rank": 38,
+              "rank": 39,
               "name": "Centre College",
               "team": "Centre College",
               "team_id": 244,
@@ -31523,7 +31535,7 @@
               "meet_id": 388433
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "Gustavus Adolphus College",
               "team": "Gustavus Adolphus College",
               "team_id": 88,
@@ -31535,7 +31547,7 @@
               "meet_id": 397674
             },
             {
-              "rank": 40,
+              "rank": 41,
               "name": "University of Scranton",
               "team": "University of Scranton",
               "team_id": 500,
@@ -31547,7 +31559,7 @@
               "meet_id": 391524
             },
             {
-              "rank": 41,
+              "rank": 42,
               "name": "Stevens Institute",
               "team": "Stevens Institute",
               "team_id": 313,
@@ -31559,7 +31571,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 42,
+              "rank": 43,
               "name": "Illinois Institute of Technology",
               "team": "Illinois Institute of Technology",
               "team_id": 364,
@@ -31571,7 +31583,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 43,
+              "rank": 44,
               "name": "Ithaca College",
               "team": "Ithaca College",
               "team_id": 35,
@@ -31583,7 +31595,7 @@
               "meet_id": 414210
             },
             {
-              "rank": 44,
+              "rank": 45,
               "name": "Whittier College",
               "team": "Whittier College",
               "team_id": 307,
@@ -31591,11 +31603,11 @@
               "time_sec": 188.22,
               "time_str": "3:08.22",
               "date": "2026-11-22",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Wabash College",
               "team": "Wabash College",
               "team_id": 298,
@@ -31607,7 +31619,31 @@
               "meet_id": 414760
             },
             {
-              "rank": 46,
+              "rank": 47,
+              "name": "Colorado College",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": null,
+              "time_sec": 188.57,
+              "time_str": "3:08.57",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 48,
+              "name": "University of Saint Thomas (TX)",
+              "team": "University of Saint Thomas (TX)",
+              "team_id": 10030705,
+              "swimmer_id": null,
+              "time_sec": 188.63,
+              "time_str": "3:08.63",
+              "date": "2026-11-22",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 49,
               "name": "Roanoke College",
               "team": "Roanoke College",
               "team_id": 10009616,
@@ -31619,7 +31655,7 @@
               "meet_id": 414296
             },
             {
-              "rank": 47,
+              "rank": 50,
               "name": "Washington College (Maryland)",
               "team": "Washington College (Maryland)",
               "team_id": 38,
@@ -31629,42 +31665,6 @@
               "date": "2026-11-22",
               "meet_name": "F&M Invitational",
               "meet_id": 414296
-            },
-            {
-              "rank": 48,
-              "name": "U.S. Coast Guard Academy",
-              "team": "U.S. Coast Guard Academy",
-              "team_id": 324,
-              "swimmer_id": null,
-              "time_sec": 188.88,
-              "time_str": "3:08.88",
-              "date": "2026-11-07",
-              "meet_name": "Wheaton vs. Coast Guard, Springfield",
-              "meet_id": 412635
-            },
-            {
-              "rank": 49,
-              "name": "Swarthmore College",
-              "team": "Swarthmore College",
-              "team_id": 315,
-              "swimmer_id": null,
-              "time_sec": 188.95,
-              "time_str": "3:08.95",
-              "date": "2026-10-24",
-              "meet_name": "2026 Centennial East Quad Meet",
-              "meet_id": 409090
-            },
-            {
-              "rank": 50,
-              "name": "Oberlin College",
-              "team": "Oberlin College",
-              "team_id": 404,
-              "swimmer_id": null,
-              "time_sec": 189.05,
-              "time_str": "3:09.05",
-              "date": "2026-11-22",
-              "meet_name": "Oberlin Midseason Invite",
-              "meet_id": 414647
             }
           ]
         },
@@ -31925,7 +31925,7 @@
               "time_sec": 406.11,
               "time_str": "6:46.11",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -31985,7 +31985,7 @@
               "time_sec": 408.85,
               "time_str": "6:48.85",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -32225,7 +32225,7 @@
               "time_sec": 420.08,
               "time_str": "7:00.08",
               "date": "2026-11-21",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -32297,7 +32297,7 @@
               "time_sec": 422.55,
               "time_str": "7:02.55",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
@@ -32309,7 +32309,7 @@
               "time_sec": 422.83,
               "time_str": "7:02.83",
               "date": "2026-11-21",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -32811,7 +32811,7 @@
               "time_sec": 90.3,
               "time_str": "1:30.30",
               "date": "2026-11-21",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -32835,11 +32835,23 @@
               "time_sec": 90.63,
               "time_str": "1:30.63",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
               "rank": 25,
+              "name": "Trinity University (Texas)",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": null,
+              "time_sec": 90.85,
+              "time_str": "1:30.85",
+              "date": "2026-11-21",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 26,
               "name": "Chapman University",
               "team": "Chapman University",
               "team_id": 85,
@@ -32847,11 +32859,11 @@
               "time_sec": 90.99,
               "time_str": "1:30.99",
               "date": "2026-11-21",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 26,
+              "rank": 27,
               "name": "University of Mary Washington",
               "team": "University of Mary Washington",
               "team_id": 144,
@@ -32863,7 +32875,7 @@
               "meet_id": 414464
             },
             {
-              "rank": 27,
+              "rank": 28,
               "name": "U.S. Merchant Marine Academy",
               "team": "U.S. Merchant Marine Academy",
               "team_id": 311,
@@ -32875,7 +32887,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 28,
+              "rank": 29,
               "name": "University of Wisconsin-Eau Claire",
               "team": "University of Wisconsin-Eau Claire",
               "team_id": 367,
@@ -32887,7 +32899,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 29,
+              "rank": 30,
               "name": "Gustavus Adolphus College",
               "team": "Gustavus Adolphus College",
               "team_id": 88,
@@ -32897,18 +32909,6 @@
               "date": "2026-11-20",
               "meet_name": "Luther Invitational",
               "meet_id": 397674
-            },
-            {
-              "rank": 30,
-              "name": "Trinity University (Texas)",
-              "team": "Trinity University (Texas)",
-              "team_id": 322,
-              "swimmer_id": null,
-              "time_sec": 91.41,
-              "time_str": "1:31.41",
-              "date": "2026-11-06",
-              "meet_name": "D3 Shootout",
-              "meet_id": 413120
             },
             {
               "rank": 31,
@@ -33003,7 +33003,7 @@
               "time_sec": 92.25,
               "time_str": "1:32.25",
               "date": "2026-11-21",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -33283,10 +33283,10 @@
           "max_rank": 50,
           "count_available": 50,
           "cutoff_rank": 16,
-          "cutoff_sec": 198.79,
-          "cutoff_str": "3:18.79",
-          "max_rank_cutoff_sec": 207.02,
-          "max_rank_cutoff_str": "3:27.02",
+          "cutoff_sec": 198.52,
+          "cutoff_str": "3:18.52",
+          "max_rank_cutoff_sec": 206.97,
+          "max_rank_cutoff_str": "3:26.97",
           "leader_sec": 190.66,
           "leader_str": "3:10.66",
           "leader_name": "University of Chicago",
@@ -33450,6 +33450,18 @@
             },
             {
               "rank": 14,
+              "name": "Trinity University (Texas)",
+              "team": "Trinity University (Texas)",
+              "team_id": 322,
+              "swimmer_id": null,
+              "time_sec": 198.46,
+              "time_str": "3:18.46",
+              "date": "2026-11-20",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 15,
               "name": "Rochester Institute of Technology",
               "team": "Rochester Institute of Technology",
               "team_id": 30,
@@ -33461,7 +33473,7 @@
               "meet_id": 415589
             },
             {
-              "rank": 15,
+              "rank": 16,
               "name": "Case Western Reserve University",
               "team": "Case Western Reserve University",
               "team_id": 200,
@@ -33473,7 +33485,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 16,
+              "rank": 17,
               "name": "Bridgewater College",
               "team": "Bridgewater College",
               "team_id": 549,
@@ -33485,7 +33497,7 @@
               "meet_id": 416430
             },
             {
-              "rank": 17,
+              "rank": 18,
               "name": "Hope College",
               "team": "Hope College",
               "team_id": 99,
@@ -33497,7 +33509,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 18,
+              "rank": 19,
               "name": "Calvin University",
               "team": "Calvin University",
               "team_id": 55,
@@ -33509,7 +33521,7 @@
               "meet_id": 414374
             },
             {
-              "rank": 19,
+              "rank": 20,
               "name": "University of California-Santa Cruz",
               "team": "University of California-Santa Cruz",
               "team_id": 182,
@@ -33521,7 +33533,7 @@
               "meet_id": 405729
             },
             {
-              "rank": 20,
+              "rank": 21,
               "name": "State University of New York at Geneseo",
               "team": "State University of New York at Geneseo",
               "team_id": 346,
@@ -33533,7 +33545,7 @@
               "meet_id": 414555
             },
             {
-              "rank": 21,
+              "rank": 22,
               "name": "Grinnell College",
               "team": "Grinnell College",
               "team_id": 2,
@@ -33545,7 +33557,7 @@
               "meet_id": 414688
             },
             {
-              "rank": 22,
+              "rank": 23,
               "name": "Pomona-Pitzer Colleges",
               "team": "Pomona-Pitzer Colleges",
               "team_id": 10,
@@ -33557,7 +33569,7 @@
               "meet_id": 413120
             },
             {
-              "rank": 23,
+              "rank": 24,
               "name": "Chapman University",
               "team": "Chapman University",
               "team_id": 85,
@@ -33565,11 +33577,11 @@
               "time_sec": 200.84,
               "time_str": "3:20.84",
               "date": "2026-11-20",
-              "meet_name": "PCSC Invite @ELAC",
+              "meet_name": "PCSC Invite",
               "meet_id": 414699
             },
             {
-              "rank": 24,
+              "rank": 25,
               "name": "U.S. Merchant Marine Academy",
               "team": "U.S. Merchant Marine Academy",
               "team_id": 311,
@@ -33579,18 +33591,6 @@
               "date": "2026-11-20",
               "meet_name": "TCNJ Invitational",
               "meet_id": 416724
-            },
-            {
-              "rank": 25,
-              "name": "Trinity University (Texas)",
-              "team": "Trinity University (Texas)",
-              "team_id": 322,
-              "swimmer_id": null,
-              "time_sec": 202.31,
-              "time_str": "3:22.31",
-              "date": "2026-11-07",
-              "meet_name": "D3 Shootout",
-              "meet_id": 413120
             },
             {
               "rank": 26,
@@ -33697,7 +33697,7 @@
               "time_sec": 203.86,
               "time_str": "3:23.86",
               "date": "2026-11-20",
-              "meet_name": "Logger Invitational 2026",
+              "meet_name": "Logger Invitational",
               "meet_id": 415319
             },
             {
@@ -33810,6 +33810,18 @@
             },
             {
               "rank": 44,
+              "name": "Colorado College",
+              "team": "Colorado College",
+              "team_id": 13,
+              "swimmer_id": null,
+              "time_sec": 205.74,
+              "time_str": "3:25.74",
+              "date": "2026-11-20",
+              "meet_name": "Trinity University Tiger Invitational",
+              "meet_id": 414803
+            },
+            {
+              "rank": 45,
               "name": "Babson College",
               "team": "Babson College",
               "team_id": 207,
@@ -33821,7 +33833,7 @@
               "meet_id": 415006
             },
             {
-              "rank": 45,
+              "rank": 46,
               "name": "Marymount University (Virginia)",
               "team": "Marymount University (Virginia)",
               "team_id": 473,
@@ -33833,7 +33845,7 @@
               "meet_id": 414861
             },
             {
-              "rank": 46,
+              "rank": 47,
               "name": "Clarkson University",
               "team": "Clarkson University",
               "team_id": 263,
@@ -33845,7 +33857,7 @@
               "meet_id": 415589
             },
             {
-              "rank": 47,
+              "rank": 48,
               "name": "California Lutheran University",
               "team": "California Lutheran University",
               "team_id": 619,
@@ -33857,7 +33869,7 @@
               "meet_id": 416194
             },
             {
-              "rank": 48,
+              "rank": 49,
               "name": "Stevens Institute",
               "team": "Stevens Institute",
               "team_id": 313,
@@ -33869,7 +33881,7 @@
               "meet_id": 416724
             },
             {
-              "rank": 49,
+              "rank": 50,
               "name": "Carthage College",
               "team": "Carthage College",
               "team_id": 199,
@@ -33879,18 +33891,6 @@
               "date": "2026-11-20",
               "meet_name": "Carthage Classic Firebird Fest",
               "meet_id": 412483
-            },
-            {
-              "rank": 50,
-              "name": "State University of New York at Cortland",
-              "team": "State University of New York at Cortland",
-              "team_id": 471,
-              "swimmer_id": null,
-              "time_sec": 207.02,
-              "time_str": "3:27.02",
-              "date": "2026-11-20",
-              "meet_name": "TCNJ Invitational",
-              "meet_id": 416724
             }
           ]
         },

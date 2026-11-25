@@ -166,6 +166,7 @@ def load_or_refresh_benchmarks(
         "events": {"F": {}, "M": {}},
     }
 
+    total_ladders_populated = 0
     for gender in ("F", "M"):
         gender_cuts = ncaa_table.get(gender, {})
         for ev in settings["events"]:
@@ -195,6 +196,8 @@ def load_or_refresh_benchmarks(
             d3_ladder = build_benchmark_ladder(
                 d3_raw, is_relay=is_relay, highlight_n=d3_hi_n, max_rank=d3_max_rank
             )
+            if ncac_ladder["count_available"] > 0 or d3_ladder["count_available"] > 0:
+                total_ladders_populated += 1
 
             ev_cuts = gender_cuts.get(ev_id, {})
             inv_sec = parse_time(ev_cuts.get("invited_prev"))
@@ -218,6 +221,13 @@ def load_or_refresh_benchmarks(
                 },
             }
 
-    cache_path.parent.mkdir(parents=True, exist_ok=True)
-    cache_path.write_text(json.dumps(benchmarks, indent=2), encoding="utf-8")
+    if total_ladders_populated == 0 and cache_path.exists():
+        try:
+            return json.loads(cache_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    if total_ladders_populated > 0:
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        cache_path.write_text(json.dumps(benchmarks, indent=2), encoding="utf-8")
     return benchmarks

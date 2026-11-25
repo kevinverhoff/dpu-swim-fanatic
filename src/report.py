@@ -106,6 +106,7 @@ def write_dashboard_payload(
     settings: dict[str, Any],
     output_json_path: Path,
     output_js_path: Optional[Path] = None,
+    selection_sim: Optional[dict[str, Any]] = None,
 ) -> dict[str, Any]:
     """Write the JSON payload consumed by the GitHub Pages interactive dashboard."""
     payload = {
@@ -115,6 +116,7 @@ def write_dashboard_payload(
         "seasons": settings["seasons"],
         "thresholds": settings["thresholds"],
         "benchmarks": benchmarks,
+        "selection_sim": selection_sim,
         "meets": evaluated_meets,
     }
     output_json_path.parent.mkdir(parents=True, exist_ok=True)

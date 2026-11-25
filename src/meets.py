@@ -20,10 +20,16 @@ from .utils import (
 )
 
 
-def _fetch_text(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": HEADERS["User-Agent"]})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return resp.read().decode("utf-8", errors="replace")
+def _fetch_text(url: str, retries: int = 3) -> str:
+    last_err: Exception | None = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": HEADERS["User-Agent"]})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            last_err = e
+    raise RuntimeError(f"Failed to fetch {url} after {retries} attempts: {last_err}")
 
 
 INDIV_LINE_RE = re.compile(

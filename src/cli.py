@@ -13,6 +13,7 @@ from typing import Any
 from .benchmarks import load_or_refresh_benchmarks
 from .meets import fetch_hytek_realtime_meet, fetch_swimcloud_meet_for_team
 from .evaluator import evaluate_meet_swims
+from .selection import run_ncaa_selection_simulation
 from .report import generate_markdown_report, write_dashboard_payload
 
 
@@ -49,8 +50,8 @@ def run_pipeline(
     benchmarks = load_or_refresh_benchmarks(
         settings=settings,
         cache_path=cache_path,
-        force_refresh=force_benchmarks or not use_cached_benchmarks,
-        max_age_hours=24.0 if use_cached_benchmarks else 0.25,
+        force_refresh=force_benchmarks and not use_cached_benchmarks,
+        max_age_hours=9999.0 if use_cached_benchmarks else 0.25,
     )
 
     evaluated_meets: list[dict[str, Any]] = []
@@ -71,19 +72,27 @@ def run_pipeline(
 
         meet_raw: dict[str, Any] | None = None
 
-        # 1. For live Hy-Tek meets, poll live URL if within active window or not yet cached
-        if stype == "hytek_realtime" and live_url:
-            if not use_cached_benchmarks or not out_meet_cache.exists():
-                print(f"  -> Polling Hy-Tek Real-Time Results for {mname} ({live_url})...")
-                try:
-                    meet_raw = fetch_hytek_realtime_meet(
-                        base_url=live_url,
-                        target_team_codes=team_codes,
-                        meet_id=mid,
-                        meet_name=mname,
-                    )
-                except Exception as e:
-                    print(f"  [warn] Live Hy-Tek fetch failed for {mname}: {e}")
+        # 1. For live Hy-Tek meets, use cached completed meet if already finished (unless --refresh-benchmarks is explicitly passed)
+        if stype == "hytek_realtime" and live_url and out_meet_cache.exists() and not force_benchmarks:
+            try:
+                cached_meet = json.loads(out_meet_cache.read_text(encoding="utf-8"))
+                if cached_meet.get("splashes") and not cached_meet.get("is_live_or_active", False):
+                    meet_raw = cached_meet
+                    print(f"  -> Loaded cached completed meet data for {mname} ({len(meet_raw['splashes'])} splashes)")
+            except Exception:
+                pass
+
+        if not meet_raw and stype == "hytek_realtime" and live_url and not use_cached_benchmarks:
+            print(f"  -> Polling Hy-Tek Real-Time Results for {mname} ({live_url})...")
+            try:
+                meet_raw = fetch_hytek_realtime_meet(
+                    base_url=live_url,
+                    target_team_codes=team_codes,
+                    meet_id=mid,
+                    meet_name=mname,
+                )
+            except Exception as e:
+                print(f"  [warn] Live Hy-Tek fetch failed for {mname}: {e}")
 
         # 2. Check local override if present
         if (not meet_raw or not meet_raw.get("splashes")) and local_override.exists():
@@ -140,7 +149,19 @@ def run_pipeline(
             f"NCAC Top 16/8: {s['ncac_top']}, Bubble: {s['on_bubble']})"
         )
 
-    print("[3/3] Writing Markdown report and GitHub Pages dashboard data...")
+    print("[3/4] Running NCAA DIII Championship Selection Simulation ('If Selection Were Today')...")
+    selection_sim = run_ncaa_selection_simulation(benchmarks, evaluated_meets, settings)
+    for g_code, g_sim in selection_sim.items():
+        c = g_sim["counts"]
+        print(
+            f"     {g_sim['gender_label']}: {c['final_unique_swimmers']}/{c['swimmer_cap']} swimmer cap "
+            f"(+{c['diving_reserved']} divers = {c['total_cap']} total) | "
+            f"Step 1: {c['step1_unique_swimmers']} -> Step 2 Relays: +{c['step2_relay_only_initial']} -> "
+            f"Step 5 Added: {c['step5_total_entries_added']} entries | "
+            f"DePauw Invited Entries: {c['depauw_invited_entries_count']} ({c['depauw_unique_qualified_swimmers']} athletes)"
+        )
+
+    print("[4/4] Writing Markdown report and GitHub Pages dashboard data...")
     md_report = generate_markdown_report(evaluated_meets, benchmarks, settings)
     report_path = repo_root / "REPORT.md"
     report_path.write_text(md_report, encoding="utf-8")
@@ -153,6 +174,7 @@ def run_pipeline(
         settings,
         output_json_path=dashboard_json,
         output_js_path=dashboard_js,
+        selection_sim=selection_sim,
     )
     print(f"Done! Report written to {report_path} and dashboard payload to {dashboard_json}")
     return 0
