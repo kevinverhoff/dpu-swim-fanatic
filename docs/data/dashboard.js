@@ -1,6 +1,6 @@
 window.DPU_SWIM_DATA = {
-  "generated_at": "2026-11-25T14:23:26Z",
-  "generated_at_et": "Nov 25, 2026 at 09:23 AM ET",
+  "generated_at": "2026-11-25T14:40:25Z",
+  "generated_at_et": "Nov 25, 2026 at 09:40 AM ET",
   "team": {
     "name": "DePauw University",
     "short_name": "DePauw",
@@ -33953,11 +33953,12 @@ window.DPU_SWIM_DATA = {
         "swimmer_cap": 290,
         "step1_unique_swimmers": 140,
         "step2_relay_only_initial": 83,
-        "step2_relay_only_final": 43,
+        "step2_relay_only_final": 55,
         "step5_new_swimmers_added": 67,
-        "step5_total_entries_added": 243,
+        "step5_total_entries_added": 202,
         "final_unique_swimmers": 290,
-        "last_selected_pct_over_b": 1.78,
+        "last_selected_row": 36,
+        "last_selected_pct_over_b": 1.47,
         "depauw_unique_qualified_swimmers": 6,
         "depauw_invited_entries_count": 7
       },
@@ -34001,6 +34002,26 @@ window.DPU_SWIM_DATA = {
           ]
         },
         {
+          "key": "2234733",
+          "name": "Lydia Buechler",
+          "team": "DePauw University",
+          "team_id": 274,
+          "is_depauw": true,
+          "step": "Step 5",
+          "step_label": "Step 5 (% to B-Cut: +1.62%)",
+          "events": [
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "rank": 22,
+              "time_sec": 1058.04,
+              "time_str": "17:38.04",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.62
+            }
+          ]
+        },
+        {
           "key": "1715988",
           "name": "Emily Knott",
           "team": "DePauw University",
@@ -34026,26 +34047,6 @@ window.DPU_SWIM_DATA = {
               "time_str": "2:06.61",
               "step": "Step 5",
               "pct_over_b_cut": 1.67
-            }
-          ]
-        },
-        {
-          "key": "2234733",
-          "name": "Lydia Buechler",
-          "team": "DePauw University",
-          "team_id": 274,
-          "is_depauw": true,
-          "step": "Step 5",
-          "step_label": "Step 5 (% to B-Cut: +1.62%)",
-          "events": [
-            {
-              "event_id": "1650_FREE",
-              "event_label": "1650 Free",
-              "rank": 22,
-              "time_sec": 1058.04,
-              "time_str": "17:38.04",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.62
             }
           ]
         },
@@ -34124,10 +34125,10 @@ window.DPU_SWIM_DATA = {
           "selection_step": "Step 1",
           "selection_reason": "Top 20 Automatic Row",
           "pct_over_b_cut": -1.1,
-          "event_cutoff_rank": 46,
-          "event_cutoff_str": "1:53.79",
-          "margin_sec": -3.1,
-          "margin_str": "-3.10s",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "1:53.10",
+          "margin_sec": -2.41,
+          "margin_str": "-2.41s",
           "estimated_members": []
         },
         {
@@ -34141,12 +34142,12 @@ window.DPU_SWIM_DATA = {
           "time_sec": 303.55,
           "time_str": "5:03.55",
           "selection_step": "Step 5",
-          "selection_reason": "Step 5 (% to B-Cut: +1.21%)",
+          "selection_reason": "Step 5 (Row 26 \u00b7 +1.21% vs B-Cut)",
           "pct_over_b_cut": 1.21,
-          "event_cutoff_rank": 32,
-          "event_cutoff_str": "5:05.21",
-          "margin_sec": -1.66,
-          "margin_str": "-1.66s",
+          "event_cutoff_rank": 35,
+          "event_cutoff_str": "5:05.62",
+          "margin_sec": -2.07,
+          "margin_str": "-2.07s",
           "estimated_members": []
         },
         {
@@ -34162,10 +34163,10 @@ window.DPU_SWIM_DATA = {
           "selection_step": "Step 1",
           "selection_reason": "Top 20 Automatic Row",
           "pct_over_b_cut": -0.93,
-          "event_cutoff_rank": 25,
-          "event_cutoff_str": "17:39.48",
-          "margin_sec": -27.94,
-          "margin_str": "-27.94s",
+          "event_cutoff_rank": 35,
+          "event_cutoff_str": "17:54.18",
+          "margin_sec": -42.64,
+          "margin_str": "-42.64s",
           "estimated_members": []
         },
         {
@@ -34179,12 +34180,12 @@ window.DPU_SWIM_DATA = {
           "time_sec": 1058.04,
           "time_str": "17:38.04",
           "selection_step": "Step 5",
-          "selection_reason": "Step 5 (% to B-Cut: +1.62%)",
+          "selection_reason": "Step 5 (Row 22 \u00b7 +1.62% vs B-Cut)",
           "pct_over_b_cut": 1.62,
-          "event_cutoff_rank": 25,
-          "event_cutoff_str": "17:39.48",
-          "margin_sec": -1.44,
-          "margin_str": "-1.44s",
+          "event_cutoff_rank": 35,
+          "event_cutoff_str": "17:54.18",
+          "margin_sec": -16.14,
+          "margin_str": "-16.14s",
           "estimated_members": []
         },
         {
@@ -34198,12 +34199,12 @@ window.DPU_SWIM_DATA = {
           "time_sec": 56.19,
           "time_str": "56.19",
           "selection_step": "Step 5",
-          "selection_reason": "Step 5 (% to B-Cut: +0.72%)",
+          "selection_reason": "Step 5 (Row 28 \u00b7 +0.72% vs B-Cut)",
           "pct_over_b_cut": 0.72,
-          "event_cutoff_rank": 44,
-          "event_cutoff_str": "56.78",
-          "margin_sec": -0.59,
-          "margin_str": "-0.59s",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "56.61",
+          "margin_sec": -0.42,
+          "margin_str": "-0.42s",
           "estimated_members": []
         },
         {
@@ -34217,12 +34218,12 @@ window.DPU_SWIM_DATA = {
           "time_sec": 126.61,
           "time_str": "2:06.61",
           "selection_step": "Step 5",
-          "selection_reason": "Step 5 (% to B-Cut: +1.67%)",
+          "selection_reason": "Step 5 (Row 29 \u00b7 +1.67% vs B-Cut)",
           "pct_over_b_cut": 1.67,
-          "event_cutoff_rank": 30,
-          "event_cutoff_str": "2:06.72",
-          "margin_sec": -0.11,
-          "margin_str": "-0.11s",
+          "event_cutoff_rank": 35,
+          "event_cutoff_str": "2:07.00",
+          "margin_sec": -0.39,
+          "margin_str": "-0.39s",
           "estimated_members": []
         },
         {
@@ -34254,22 +34255,6 @@ window.DPU_SWIM_DATA = {
         {
           "gender": "F",
           "gender_label": "Women",
-          "event_id": "200_BACK",
-          "event_label": "200 Back",
-          "is_relay": false,
-          "name": "Keelie Sullivan",
-          "d3_rank": 41,
-          "time_sec": 125.36,
-          "time_str": "2:05.36",
-          "event_cutoff_rank": 40,
-          "event_cutoff_str": "2:05.31",
-          "delta_to_cutoff_sec": 0.05,
-          "delta_to_cutoff_str": "+0.05s",
-          "pct_over_b_cut": 1.78
-        },
-        {
-          "gender": "F",
-          "gender_label": "Women",
           "event_id": "50_FREE",
           "event_label": "50 Free",
           "is_relay": false,
@@ -34277,27 +34262,27 @@ window.DPU_SWIM_DATA = {
           "d3_rank": null,
           "time_sec": 24.05,
           "time_str": "24.05",
-          "event_cutoff_rank": 50,
-          "event_cutoff_str": "23.87",
-          "delta_to_cutoff_sec": 0.18,
-          "delta_to_cutoff_str": "+0.18s",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "23.74",
+          "delta_to_cutoff_sec": 0.31,
+          "delta_to_cutoff_str": "+0.31s",
           "pct_over_b_cut": 2.34
         },
         {
           "gender": "F",
           "gender_label": "Women",
-          "event_id": "100_FREE",
-          "event_label": "100 Free",
+          "event_id": "200_BACK",
+          "event_label": "200 Back",
           "is_relay": false,
-          "name": "Edie Patterson",
-          "d3_rank": null,
-          "time_sec": 52.38,
-          "time_str": "52.38",
-          "event_cutoff_rank": 50,
-          "event_cutoff_str": "52.15",
-          "delta_to_cutoff_sec": 0.23,
-          "delta_to_cutoff_str": "+0.23s",
-          "pct_over_b_cut": 2.22
+          "name": "Keelie Sullivan",
+          "d3_rank": 41,
+          "time_sec": 125.36,
+          "time_str": "2:05.36",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "2:04.78",
+          "delta_to_cutoff_sec": 0.58,
+          "delta_to_cutoff_str": "+0.58s",
+          "pct_over_b_cut": 1.78
         },
         {
           "gender": "F",
@@ -34314,6 +34299,22 @@ window.DPU_SWIM_DATA = {
           "delta_to_cutoff_sec": 0.59,
           "delta_to_cutoff_str": "+0.59s",
           "pct_over_b_cut": 1.98
+        },
+        {
+          "gender": "F",
+          "gender_label": "Women",
+          "event_id": "100_FREE",
+          "event_label": "100 Free",
+          "is_relay": false,
+          "name": "Edie Patterson",
+          "d3_rank": null,
+          "time_sec": 52.38,
+          "time_str": "52.38",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "51.73",
+          "delta_to_cutoff_sec": 0.65,
+          "delta_to_cutoff_str": "+0.65s",
+          "pct_over_b_cut": 2.22
         },
         {
           "gender": "F",
@@ -34341,10 +34342,10 @@ window.DPU_SWIM_DATA = {
           "d3_rank": null,
           "time_sec": 58.27,
           "time_str": "58.27",
-          "event_cutoff_rank": 43,
-          "event_cutoff_str": "57.46",
-          "delta_to_cutoff_sec": 0.81,
-          "delta_to_cutoff_str": "+0.81s",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "57.23",
+          "delta_to_cutoff_sec": 1.04,
+          "delta_to_cutoff_str": "+1.04s",
           "pct_over_b_cut": 3.17
         },
         {
@@ -34373,27 +34374,27 @@ window.DPU_SWIM_DATA = {
           "d3_rank": null,
           "time_sec": 130.26,
           "time_str": "2:10.26",
-          "event_cutoff_rank": 39,
-          "event_cutoff_str": "2:07.65",
-          "delta_to_cutoff_sec": 2.61,
-          "delta_to_cutoff_str": "+2.61s",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "2:07.33",
+          "delta_to_cutoff_sec": 2.93,
+          "delta_to_cutoff_str": "+2.93s",
           "pct_over_b_cut": 3.7
         },
         {
           "gender": "F",
           "gender_label": "Women",
-          "event_id": "200_BACK",
-          "event_label": "200 Back",
+          "event_id": "400_IM",
+          "event_label": "400 IM",
           "is_relay": false,
-          "name": "Nora Boillot",
+          "name": "Grace Stimac",
           "d3_rank": null,
-          "time_sec": 127.95,
-          "time_str": "2:07.95",
-          "event_cutoff_rank": 40,
-          "event_cutoff_str": "2:05.31",
-          "delta_to_cutoff_sec": 2.64,
-          "delta_to_cutoff_str": "+2.64s",
-          "pct_over_b_cut": 3.88
+          "time_sec": 278.16,
+          "time_str": "4:38.16",
+          "event_cutoff_rank": 35,
+          "event_cutoff_str": "4:34.46",
+          "delta_to_cutoff_sec": 3.7,
+          "delta_to_cutoff_str": "+3.70s",
+          "pct_over_b_cut": 3.52
         },
         {
           "gender": "F",
@@ -34410,22 +34411,6 @@ window.DPU_SWIM_DATA = {
           "delta_to_cutoff_sec": 3.71,
           "delta_to_cutoff_str": "+3.71s",
           "pct_over_b_cut": 2.82
-        },
-        {
-          "gender": "F",
-          "gender_label": "Women",
-          "event_id": "400_IM",
-          "event_label": "400 IM",
-          "is_relay": false,
-          "name": "Grace Stimac",
-          "d3_rank": null,
-          "time_sec": 278.16,
-          "time_str": "4:38.16",
-          "event_cutoff_rank": 31,
-          "event_cutoff_str": "4:33.22",
-          "delta_to_cutoff_sec": 4.94,
-          "delta_to_cutoff_str": "+4.94s",
-          "pct_over_b_cut": 3.52
         }
       ],
       "events": [
@@ -34435,16 +34420,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 1,
           "base_rows": 20,
-          "total_invited": 50,
+          "total_invited": 36,
           "step1_or_2_count": 20,
-          "step5_added_count": 30,
-          "cutoff_rank": 50,
-          "cutoff_sec": 23.87,
-          "cutoff_str": "23.87",
-          "cutoff_swimmer": "Tess Boyer",
-          "cutoff_team": "Wheaton College (Illinois)",
+          "step5_added_count": 16,
+          "cutoff_rank": 36,
+          "cutoff_sec": 23.74,
+          "cutoff_str": "23.74",
+          "cutoff_swimmer": "Riley Bacinski",
+          "cutoff_team": "Swarthmore College",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.57,
+          "cutoff_pct_over_b": 1.02,
           "b_cut_str": "23.50",
           "invited_prev_str": "23.45",
           "depauw_invited": [],
@@ -34452,7 +34437,7 @@ window.DPU_SWIM_DATA = {
             "name": "Gabby Koon",
             "time_str": "24.05",
             "d3_rank": null,
-            "delta_str": "+0.18s"
+            "delta_str": "+0.31s"
           },
           "invited_ladder": [
             {
@@ -34814,146 +34799,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.02,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 37,
-              "name": "Julia Netishen",
-              "team": "Babson College",
-              "time_str": "23.75",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.06,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 38,
-              "name": "Caroline Ramirez",
-              "team": "Denison University",
-              "time_str": "23.75",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.06,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 39,
-              "name": "Sohalya Rawlins",
-              "team": "Case Western Reserve University",
-              "time_str": "23.75",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.06,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 40,
-              "name": "Kim Lan",
-              "team": "Johns Hopkins University",
-              "time_str": "23.76",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.11,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 41,
-              "name": "Molly Sleman",
-              "team": "New York University",
-              "time_str": "23.76",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.11,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 42,
-              "name": "Celeste Hollis",
-              "team": "Franklin College",
-              "time_str": "23.78",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.19,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 43,
-              "name": "Holly Brundage",
-              "team": "Emory University",
-              "time_str": "23.79",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.23,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 44,
-              "name": "Afsana Rawlins",
-              "team": "Kenyon College",
-              "time_str": "23.80",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.28,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 45,
-              "name": "Izzie Gattone",
-              "team": "Washington University (Missouri)",
-              "time_str": "23.80",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.28,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 46,
-              "name": "Taryn Hickey",
-              "team": "Rochester Institute of Technology",
-              "time_str": "23.81",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.32,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 47,
-              "name": "Olivia Morse",
-              "team": "Denison University",
-              "time_str": "23.81",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.32,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 48,
-              "name": "Llew Ladomirak",
-              "team": "New York University",
-              "time_str": "23.81",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.32,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 49,
-              "name": "Elina Eko",
-              "team": "Denison University",
-              "time_str": "23.84",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.45,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 50,
-              "name": "Tess Boyer",
-              "team": "Wheaton College (Illinois)",
-              "time_str": "23.87",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.57,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -34963,16 +34808,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 2,
           "base_rows": 20,
-          "total_invited": 50,
+          "total_invited": 36,
           "step1_or_2_count": 20,
-          "step5_added_count": 30,
-          "cutoff_rank": 50,
-          "cutoff_sec": 52.15,
-          "cutoff_str": "52.15",
-          "cutoff_swimmer": "Mariyana Shalamanova",
-          "cutoff_team": "Kenyon College",
+          "step5_added_count": 16,
+          "cutoff_rank": 36,
+          "cutoff_sec": 51.73,
+          "cutoff_str": "51.73",
+          "cutoff_swimmer": "Emma Merkel",
+          "cutoff_team": "Calvin University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.78,
+          "cutoff_pct_over_b": 0.96,
           "b_cut_str": "51.24",
           "invited_prev_str": "51.13",
           "depauw_invited": [],
@@ -34980,7 +34825,7 @@ window.DPU_SWIM_DATA = {
             "name": "Edie Patterson",
             "time_str": "52.38",
             "d3_rank": null,
-            "delta_str": "+0.23s"
+            "delta_str": "+0.65s"
           },
           "invited_ladder": [
             {
@@ -35342,146 +35187,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.96,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 37,
-              "name": "Petal Sloan",
-              "team": "Franklin College",
-              "time_str": "51.78",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.05,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 38,
-              "name": "Izzy Westling",
-              "team": "New York University",
-              "time_str": "51.78",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.05,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 39,
-              "name": "Natsuki Uchino",
-              "team": "New York University",
-              "time_str": "51.86",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.21,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 40,
-              "name": "Lorelai Bremer",
-              "team": "Swarthmore College",
-              "time_str": "51.94",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.37,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 41,
-              "name": "Julia Mascarenhas",
-              "team": "Kenyon College",
-              "time_str": "52.00",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.48,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 42,
-              "name": "Llew Ladomirak",
-              "team": "New York University",
-              "time_str": "52.00",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.48,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 43,
-              "name": "Hailey Kaminski",
-              "team": "Denison University",
-              "time_str": "52.04",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.56,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 44,
-              "name": "Mia Prater",
-              "team": "Luther College",
-              "time_str": "52.05",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.58,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 45,
-              "name": "Sarah Cohen",
-              "team": "Washington University (Missouri)",
-              "time_str": "52.05",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.58,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 46,
-              "name": "Francesca Coppo",
-              "team": "Pomona-Pitzer Colleges",
-              "time_str": "52.06",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.6,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 47,
-              "name": "Katy Hawk",
-              "team": "University of California-Santa Cruz",
-              "time_str": "52.07",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.62,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 48,
-              "name": "Sarah Chen",
-              "team": "Carnegie Mellon University",
-              "time_str": "52.08",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.64,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 49,
-              "name": "Tori Ellex",
-              "team": "Misericordia University",
-              "time_str": "52.08",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.64,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 50,
-              "name": "Mariyana Shalamanova",
-              "team": "Kenyon College",
-              "time_str": "52.15",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.78,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -35491,16 +35196,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 3,
           "base_rows": 20,
-          "total_invited": 46,
+          "total_invited": 36,
           "step1_or_2_count": 20,
-          "step5_added_count": 26,
-          "cutoff_rank": 46,
-          "cutoff_sec": 113.79,
-          "cutoff_str": "1:53.79",
-          "cutoff_swimmer": "Finnley Gore",
-          "cutoff_team": "Chapman University",
+          "step5_added_count": 16,
+          "cutoff_rank": 36,
+          "cutoff_sec": 113.1,
+          "cutoff_str": "1:53.10",
+          "cutoff_swimmer": "Izzy Westling",
+          "cutoff_team": "New York University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.67,
+          "cutoff_pct_over_b": 1.05,
           "b_cut_str": "1:51.92",
           "invited_prev_str": "1:51.81",
           "depauw_invited": [
@@ -35516,7 +35221,7 @@ window.DPU_SWIM_DATA = {
             "name": "Hannah McNally",
             "time_str": "1:58.14",
             "d3_rank": null,
-            "delta_str": "+4.35s"
+            "delta_str": "+5.04s"
           },
           "invited_ladder": [
             {
@@ -35878,106 +35583,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.05,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 37,
-              "name": "Alicia Maehara",
-              "team": "Johns Hopkins University",
-              "time_str": "1:53.17",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.12,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 38,
-              "name": "Sophia Xu",
-              "team": "University of Chicago",
-              "time_str": "1:53.27",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.21,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 39,
-              "name": "Eszter Kiss",
-              "team": "Stevens Institute",
-              "time_str": "1:53.38",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.3,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 40,
-              "name": "Jena Lawlor",
-              "team": "Denison University",
-              "time_str": "1:53.40",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.32,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 41,
-              "name": "Molly Sleman",
-              "team": "New York University",
-              "time_str": "1:53.48",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.39,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 42,
-              "name": "Lola Early",
-              "team": "Emory University",
-              "time_str": "1:53.50",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.41,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 43,
-              "name": "Deniz Guvenc",
-              "team": "Kenyon College",
-              "time_str": "1:53.65",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.55,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 44,
-              "name": "Isabella Jin",
-              "team": "Bowdoin College",
-              "time_str": "1:53.72",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.61,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 45,
-              "name": "Maren Tattersall",
-              "team": "Pomona-Pitzer Colleges",
-              "time_str": "1:53.75",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.64,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 46,
-              "name": "Finnley Gore",
-              "team": "Chapman University",
-              "time_str": "1:53.79",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.67,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -35987,16 +35592,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 4,
           "base_rows": 20,
-          "total_invited": 32,
+          "total_invited": 35,
           "step1_or_2_count": 20,
-          "step5_added_count": 12,
-          "cutoff_rank": 32,
-          "cutoff_sec": 305.21,
-          "cutoff_str": "5:05.21",
-          "cutoff_swimmer": "Myra Streit",
-          "cutoff_team": "Massachusetts Institute of Technology",
+          "step5_added_count": 15,
+          "cutoff_rank": 35,
+          "cutoff_sec": 305.62,
+          "cutoff_str": "5:05.62",
+          "cutoff_swimmer": "Matilda Prizler",
+          "cutoff_team": "New York University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.77,
+          "cutoff_pct_over_b": 1.9,
           "b_cut_str": "4:59.91",
           "invited_prev_str": "4:59.75",
           "depauw_invited": [
@@ -36012,7 +35617,7 @@ window.DPU_SWIM_DATA = {
             "name": "Lydia Buechler",
             "time_str": "5:14.07",
             "d3_rank": null,
-            "delta_str": "+8.86s"
+            "delta_str": "+8.45s"
           },
           "invited_ladder": [
             {
@@ -36334,6 +35939,36 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.77,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": 33,
+              "name": "Sophie Phillips",
+              "team": "Chapman University",
+              "time_str": "5:05.54",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.88,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 34,
+              "name": "Ava Insteness",
+              "team": "Amherst College",
+              "time_str": "5:05.56",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.88,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 35,
+              "name": "Matilda Prizler",
+              "team": "New York University",
+              "time_str": "5:05.62",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.9,
+              "is_depauw": false,
+              "estimated_members": []
             }
           ]
         },
@@ -36343,16 +35978,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 6,
           "base_rows": 20,
-          "total_invited": 25,
+          "total_invited": 35,
           "step1_or_2_count": 20,
-          "step5_added_count": 5,
-          "cutoff_rank": 25,
-          "cutoff_sec": 1059.48,
-          "cutoff_str": "17:39.48",
-          "cutoff_swimmer": "Jena Lawlor",
-          "cutoff_team": "Denison University",
+          "step5_added_count": 15,
+          "cutoff_rank": 35,
+          "cutoff_sec": 1074.18,
+          "cutoff_str": "17:54.18",
+          "cutoff_swimmer": "Alexandra Scharpf",
+          "cutoff_team": "Carnegie Mellon University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.76,
+          "cutoff_pct_over_b": 3.17,
           "b_cut_str": "17:21.20",
           "invited_prev_str": "17:21.11",
           "depauw_invited": [
@@ -36375,7 +36010,7 @@ window.DPU_SWIM_DATA = {
             "name": "Jordan Laba",
             "time_str": "18:25.87",
             "d3_rank": null,
-            "delta_str": "+46.39s"
+            "delta_str": "+31.69s"
           },
           "invited_ladder": [
             {
@@ -36627,6 +36262,106 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.76,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": 26,
+              "name": "Skylar Dean",
+              "team": "Salisbury University",
+              "time_str": "17:39.74",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.78,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 27,
+              "name": "Jenna Krawlzik",
+              "team": "Salisbury University",
+              "time_str": "17:39.76",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.78,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 28,
+              "name": "Victoria Lawrence",
+              "team": "California Lutheran University",
+              "time_str": "17:49.11",
+              "step": "Step 5",
+              "pct_over_b_cut": 2.68,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 29,
+              "name": "Sophie Phillips",
+              "team": "Chapman University",
+              "time_str": "17:49.27",
+              "step": "Step 5",
+              "pct_over_b_cut": 2.7,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 30,
+              "name": "Kaileigh Kennedy",
+              "team": "Gettysburg College",
+              "time_str": "17:49.56",
+              "step": "Step 5",
+              "pct_over_b_cut": 2.72,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 31,
+              "name": "Desiree Blute",
+              "team": "Denison University",
+              "time_str": "17:51.47",
+              "step": "Step 5",
+              "pct_over_b_cut": 2.91,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 32,
+              "name": "Julia Connor",
+              "team": "Washington and Lee University",
+              "time_str": "17:51.86",
+              "step": "Step 5",
+              "pct_over_b_cut": 2.94,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 33,
+              "name": "Reilly O'Hara",
+              "team": "Denison University",
+              "time_str": "17:52.07",
+              "step": "Step 5",
+              "pct_over_b_cut": 2.96,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 34,
+              "name": "Charlotte Eckert",
+              "team": "University of Chicago",
+              "time_str": "17:52.54",
+              "step": "Step 5",
+              "pct_over_b_cut": 3.01,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 35,
+              "name": "Alexandra Scharpf",
+              "team": "Carnegie Mellon University",
+              "time_str": "17:54.18",
+              "step": "Step 5",
+              "pct_over_b_cut": 3.17,
+              "is_depauw": false,
+              "estimated_members": []
             }
           ]
         },
@@ -36636,16 +36371,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 7,
           "base_rows": 20,
-          "total_invited": 43,
+          "total_invited": 36,
           "step1_or_2_count": 20,
-          "step5_added_count": 23,
-          "cutoff_rank": 43,
-          "cutoff_sec": 57.46,
-          "cutoff_str": "57.46",
-          "cutoff_swimmer": "Lauren Opitz",
-          "cutoff_team": "Emory University",
+          "step5_added_count": 16,
+          "cutoff_rank": 36,
+          "cutoff_sec": 57.23,
+          "cutoff_str": "57.23",
+          "cutoff_swimmer": "Sarah Chen",
+          "cutoff_team": "Carnegie Mellon University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.74,
+          "cutoff_pct_over_b": 1.33,
           "b_cut_str": "56.48",
           "invited_prev_str": "56.34",
           "depauw_invited": [],
@@ -36653,7 +36388,7 @@ window.DPU_SWIM_DATA = {
             "name": "Keelie Sullivan",
             "time_str": "58.27",
             "d3_rank": null,
-            "delta_str": "+0.81s"
+            "delta_str": "+1.04s"
           },
           "invited_ladder": [
             {
@@ -37015,76 +36750,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.33,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 37,
-              "name": "Jaya Veerapaneni",
-              "team": "Johns Hopkins University",
-              "time_str": "57.23",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.33,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 38,
-              "name": "Emma Lunn",
-              "team": "Emory University",
-              "time_str": "57.29",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.43,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 39,
-              "name": "Olivia Chow",
-              "team": "Kean University",
-              "time_str": "57.38",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.59,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 40,
-              "name": "Anna Miler",
-              "team": "Johns Hopkins University",
-              "time_str": "57.38",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.59,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 41,
-              "name": "Kim Lan",
-              "team": "Johns Hopkins University",
-              "time_str": "57.45",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.72,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 42,
-              "name": "Campbell Totton",
-              "team": "University of the South (Sewanee)",
-              "time_str": "57.45",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.72,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 43,
-              "name": "Lauren Opitz",
-              "team": "Emory University",
-              "time_str": "57.46",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.74,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -37094,16 +36759,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 8,
           "base_rows": 20,
-          "total_invited": 40,
+          "total_invited": 36,
           "step1_or_2_count": 20,
-          "step5_added_count": 20,
-          "cutoff_rank": 40,
-          "cutoff_sec": 125.31,
-          "cutoff_str": "2:05.31",
-          "cutoff_swimmer": "McKinley Jefferson",
-          "cutoff_team": "Gettysburg College",
+          "step5_added_count": 16,
+          "cutoff_rank": 36,
+          "cutoff_sec": 124.78,
+          "cutoff_str": "2:04.78",
+          "cutoff_swimmer": "Maura Rubio",
+          "cutoff_team": "Saint Francis University (Pennsylvania)",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.74,
+          "cutoff_pct_over_b": 1.31,
           "b_cut_str": "2:03.17",
           "invited_prev_str": "2:02.75",
           "depauw_invited": [],
@@ -37111,7 +36776,7 @@ window.DPU_SWIM_DATA = {
             "name": "Keelie Sullivan",
             "time_str": "2:05.36",
             "d3_rank": 41,
-            "delta_str": "+0.05s"
+            "delta_str": "+0.58s"
           },
           "invited_ladder": [
             {
@@ -37473,46 +37138,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.31,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 37,
-              "name": "Sarah Chen",
-              "team": "Carnegie Mellon University",
-              "time_str": "2:04.88",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.39,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 38,
-              "name": "Nika Makhervaks",
-              "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
-              "time_str": "2:04.99",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.48,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 39,
-              "name": "Audrey Kilmer",
-              "team": "Lake Forest College",
-              "time_str": "2:05.12",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.58,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 40,
-              "name": "McKinley Jefferson",
-              "team": "Gettysburg College",
-              "time_str": "2:05.31",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.74,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -37522,16 +37147,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 9,
           "base_rows": 20,
-          "total_invited": 39,
+          "total_invited": 35,
           "step1_or_2_count": 20,
-          "step5_added_count": 19,
-          "cutoff_rank": 39,
-          "cutoff_sec": 65.24,
-          "cutoff_str": "1:05.24",
-          "cutoff_swimmer": "Francesca Coppo",
-          "cutoff_team": "Pomona-Pitzer Colleges",
+          "step5_added_count": 15,
+          "cutoff_rank": 35,
+          "cutoff_sec": 65.17,
+          "cutoff_str": "1:05.17",
+          "cutoff_swimmer": "Sydnee Wilson",
+          "cutoff_team": "Azusa Pacific University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.75,
+          "cutoff_pct_over_b": 1.64,
           "b_cut_str": "1:04.12",
           "invited_prev_str": "1:04.12",
           "depauw_invited": [],
@@ -37539,7 +37164,7 @@ window.DPU_SWIM_DATA = {
             "name": "McKenzie Ortolano",
             "time_str": "1:07.28",
             "d3_rank": null,
-            "delta_str": "+2.04s"
+            "delta_str": "+2.11s"
           },
           "invited_ladder": [
             {
@@ -37891,46 +37516,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.64,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 36,
-              "name": "Tara Hendrickson",
-              "team": "Whittier College",
-              "time_str": "1:05.19",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.67,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 37,
-              "name": "Ellis McGraw",
-              "team": "Emory University",
-              "time_str": "1:05.21",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.7,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 38,
-              "name": "Gabby Schmid",
-              "team": "Milwaukee School of Engineering",
-              "time_str": "1:05.24",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.75,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 39,
-              "name": "Francesca Coppo",
-              "team": "Pomona-Pitzer Colleges",
-              "time_str": "1:05.24",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.75,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -37940,16 +37525,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 10,
           "base_rows": 20,
-          "total_invited": 34,
+          "total_invited": 35,
           "step1_or_2_count": 20,
-          "step5_added_count": 14,
-          "cutoff_rank": 34,
-          "cutoff_sec": 142.58,
-          "cutoff_str": "2:22.58",
-          "cutoff_swimmer": "Rhylee Cornell",
-          "cutoff_team": "Rowan University",
+          "step5_added_count": 15,
+          "cutoff_rank": 35,
+          "cutoff_sec": 142.69,
+          "cutoff_str": "2:22.69",
+          "cutoff_swimmer": "Abigail Vance",
+          "cutoff_team": "Grove City College",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.78,
+          "cutoff_pct_over_b": 1.86,
           "b_cut_str": "2:20.09",
           "invited_prev_str": "2:20.07",
           "depauw_invited": [],
@@ -37957,7 +37542,7 @@ window.DPU_SWIM_DATA = {
             "name": "McKenzie Ortolano",
             "time_str": "2:30.01",
             "d3_rank": null,
-            "delta_str": "+7.43s"
+            "delta_str": "+7.32s"
           },
           "invited_ladder": [
             {
@@ -38299,6 +37884,16 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.78,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": 35,
+              "name": "Abigail Vance",
+              "team": "Grove City College",
+              "time_str": "2:22.69",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.86,
+              "is_depauw": false,
+              "estimated_members": []
             }
           ]
         },
@@ -38308,16 +37903,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 11,
           "base_rows": 20,
-          "total_invited": 44,
+          "total_invited": 36,
           "step1_or_2_count": 20,
-          "step5_added_count": 24,
-          "cutoff_rank": 44,
-          "cutoff_sec": 56.78,
-          "cutoff_str": "56.78",
-          "cutoff_swimmer": "Sibby Lowe",
-          "cutoff_team": "State University of New York at Geneseo",
+          "step5_added_count": 16,
+          "cutoff_rank": 36,
+          "cutoff_sec": 56.61,
+          "cutoff_str": "56.61",
+          "cutoff_swimmer": "Thi Tran",
+          "cutoff_team": "New York University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.77,
+          "cutoff_pct_over_b": 1.47,
           "b_cut_str": "55.79",
           "invited_prev_str": "55.83",
           "depauw_invited": [
@@ -38333,7 +37928,7 @@ window.DPU_SWIM_DATA = {
             "name": "Jacki Ambrose",
             "time_str": "1:00.27",
             "d3_rank": null,
-            "delta_str": "+3.49s"
+            "delta_str": "+3.66s"
           },
           "invited_ladder": [
             {
@@ -38695,86 +38290,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.47,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 37,
-              "name": "Olivia Chow",
-              "team": "Kean University",
-              "time_str": "56.64",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.52,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 38,
-              "name": "Morgan Puckett",
-              "team": "Gettysburg College",
-              "time_str": "56.67",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.58,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 39,
-              "name": "Kate Petitt",
-              "team": "Johns Hopkins University",
-              "time_str": "56.74",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.7,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 40,
-              "name": "Julie Yang",
-              "team": "New York University",
-              "time_str": "56.74",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.7,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 41,
-              "name": "Maggie Grespin",
-              "team": "Kenyon College",
-              "time_str": "56.77",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.76,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 42,
-              "name": "Olivia Polucha",
-              "team": "Salisbury University",
-              "time_str": "56.77",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.76,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 43,
-              "name": "Elizabeth Bodie",
-              "team": "Ithaca College",
-              "time_str": "56.77",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.76,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 44,
-              "name": "Sibby Lowe",
-              "team": "State University of New York at Geneseo",
-              "time_str": "56.78",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.77,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -38784,16 +38299,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 12,
           "base_rows": 20,
-          "total_invited": 30,
+          "total_invited": 35,
           "step1_or_2_count": 20,
-          "step5_added_count": 10,
-          "cutoff_rank": 30,
-          "cutoff_sec": 126.72,
-          "cutoff_str": "2:06.72",
-          "cutoff_swimmer": "Kristen Racicot",
-          "cutoff_team": "Gettysburg College",
+          "step5_added_count": 15,
+          "cutoff_rank": 35,
+          "cutoff_sec": 127.0,
+          "cutoff_str": "2:07.00",
+          "cutoff_swimmer": "Sloane Bryant",
+          "cutoff_team": "Johns Hopkins University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.76,
+          "cutoff_pct_over_b": 1.98,
           "b_cut_str": "2:04.53",
           "invited_prev_str": "2:04.53",
           "depauw_invited": [
@@ -38809,7 +38324,7 @@ window.DPU_SWIM_DATA = {
             "name": "Grace Stimac",
             "time_str": "2:12.25",
             "d3_rank": null,
-            "delta_str": "+5.53s"
+            "delta_str": "+5.25s"
           },
           "invited_ladder": [
             {
@@ -39111,6 +38626,56 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.76,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": 31,
+              "name": "CJ Woare",
+              "team": "Kenyon College",
+              "time_str": "2:06.81",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.83,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 32,
+              "name": "Lexi Asch",
+              "team": "Colby College",
+              "time_str": "2:06.85",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.86,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 33,
+              "name": "Caitrin Duprey",
+              "team": "Gettysburg College",
+              "time_str": "2:06.88",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.89,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 34,
+              "name": "Grace Biak",
+              "team": "New York University",
+              "time_str": "2:06.95",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.94,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 35,
+              "name": "Sloane Bryant",
+              "team": "Johns Hopkins University",
+              "time_str": "2:07.00",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.98,
+              "is_depauw": false,
+              "estimated_members": []
             }
           ]
         },
@@ -39120,16 +38685,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 13,
           "base_rows": 20,
-          "total_invited": 39,
+          "total_invited": 36,
           "step1_or_2_count": 20,
-          "step5_added_count": 19,
-          "cutoff_rank": 39,
-          "cutoff_sec": 127.65,
-          "cutoff_str": "2:07.65",
-          "cutoff_swimmer": "Kathy Nie",
-          "cutoff_team": "Massachusetts Institute of Technology",
+          "step5_added_count": 16,
+          "cutoff_rank": 36,
+          "cutoff_sec": 127.33,
+          "cutoff_str": "2:07.33",
+          "cutoff_swimmer": "Calista Lynch",
+          "cutoff_team": "New York University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.62,
+          "cutoff_pct_over_b": 1.37,
           "b_cut_str": "2:05.61",
           "invited_prev_str": "2:05.44",
           "depauw_invited": [],
@@ -39137,7 +38702,7 @@ window.DPU_SWIM_DATA = {
             "name": "Grace Stimac",
             "time_str": "2:10.26",
             "d3_rank": null,
-            "delta_str": "+2.61s"
+            "delta_str": "+2.93s"
           },
           "invited_ladder": [
             {
@@ -39499,36 +39064,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 1.37,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 37,
-              "name": "Sophia Liwanag",
-              "team": "New York University",
-              "time_str": "2:07.47",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.48,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 38,
-              "name": "Emma Merkel",
-              "team": "Calvin University",
-              "time_str": "2:07.48",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.49,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 39,
-              "name": "Kathy Nie",
-              "team": "Massachusetts Institute of Technology",
-              "time_str": "2:07.65",
-              "step": "Step 5",
-              "pct_over_b_cut": 1.62,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -39538,16 +39073,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 14,
           "base_rows": 20,
-          "total_invited": 31,
+          "total_invited": 35,
           "step1_or_2_count": 20,
-          "step5_added_count": 11,
-          "cutoff_rank": 31,
-          "cutoff_sec": 273.22,
-          "cutoff_str": "4:33.22",
-          "cutoff_swimmer": "Eva Lofthus",
-          "cutoff_team": "Washington University (Missouri)",
+          "step5_added_count": 15,
+          "cutoff_rank": 35,
+          "cutoff_sec": 274.46,
+          "cutoff_str": "4:34.46",
+          "cutoff_swimmer": "Kallie Badry",
+          "cutoff_team": "Whitworth University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 1.68,
+          "cutoff_pct_over_b": 2.14,
           "b_cut_str": "4:28.70",
           "invited_prev_str": "4:28.76",
           "depauw_invited": [],
@@ -39555,7 +39090,7 @@ window.DPU_SWIM_DATA = {
             "name": "Grace Stimac",
             "time_str": "4:38.16",
             "d3_rank": null,
-            "delta_str": "+4.94s"
+            "delta_str": "+3.70s"
           },
           "invited_ladder": [
             {
@@ -39865,6 +39400,46 @@ window.DPU_SWIM_DATA = {
               "time_str": "4:33.22",
               "step": "Step 5",
               "pct_over_b_cut": 1.68,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 32,
+              "name": "Malin Wolfson",
+              "team": "New York University",
+              "time_str": "4:33.90",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.94,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 33,
+              "name": "Eliana King",
+              "team": "Washington University (Missouri)",
+              "time_str": "4:34.12",
+              "step": "Step 5",
+              "pct_over_b_cut": 2.02,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 34,
+              "name": "Sylvia Thompson",
+              "team": "Kenyon College",
+              "time_str": "4:34.32",
+              "step": "Step 5",
+              "pct_over_b_cut": 2.09,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 35,
+              "name": "Kallie Badry",
+              "team": "Whitworth University",
+              "time_str": "4:34.46",
+              "step": "Step 5",
+              "pct_over_b_cut": 2.14,
               "is_depauw": false,
               "estimated_members": []
             }
@@ -41537,11 +41112,12 @@ window.DPU_SWIM_DATA = {
         "swimmer_cap": 236,
         "step1_unique_swimmers": 112,
         "step2_relay_only_initial": 68,
-        "step2_relay_only_final": 38,
+        "step2_relay_only_final": 45,
         "step5_new_swimmers_added": 56,
-        "step5_total_entries_added": 182,
+        "step5_total_entries_added": 146,
         "final_unique_swimmers": 236,
-        "last_selected_pct_over_b": 0.93,
+        "last_selected_row": 28,
+        "last_selected_pct_over_b": 0.49,
         "depauw_unique_qualified_swimmers": 0,
         "depauw_invited_entries_count": 0
       },
@@ -41558,27 +41134,11 @@ window.DPU_SWIM_DATA = {
           "d3_rank": null,
           "time_sec": 20.85,
           "time_str": "20.85",
-          "event_cutoff_rank": 33,
-          "event_cutoff_str": "20.51",
-          "delta_to_cutoff_sec": 0.34,
-          "delta_to_cutoff_str": "+0.34s",
+          "event_cutoff_rank": 27,
+          "event_cutoff_str": "20.46",
+          "delta_to_cutoff_sec": 0.39,
+          "delta_to_cutoff_str": "+0.39s",
           "pct_over_b_cut": 2.56
-        },
-        {
-          "gender": "M",
-          "gender_label": "Men",
-          "event_id": "100_BACK",
-          "event_label": "100 Back",
-          "is_relay": false,
-          "name": "Brady Hinshaw",
-          "d3_rank": null,
-          "time_sec": 50.27,
-          "time_str": "50.27",
-          "event_cutoff_rank": 28,
-          "event_cutoff_str": "49.64",
-          "delta_to_cutoff_sec": 0.63,
-          "delta_to_cutoff_str": "+0.63s",
-          "pct_over_b_cut": 2.2
         },
         {
           "gender": "M",
@@ -41590,27 +41150,27 @@ window.DPU_SWIM_DATA = {
           "d3_rank": null,
           "time_sec": 49.55,
           "time_str": "49.55",
-          "event_cutoff_rank": 25,
-          "event_cutoff_str": "48.90",
-          "delta_to_cutoff_sec": 0.65,
-          "delta_to_cutoff_str": "+0.65s",
+          "event_cutoff_rank": 27,
+          "event_cutoff_str": "49.01",
+          "delta_to_cutoff_sec": 0.54,
+          "delta_to_cutoff_str": "+0.54s",
           "pct_over_b_cut": 2.21
         },
         {
           "gender": "M",
           "gender_label": "Men",
-          "event_id": "100_FREE",
-          "event_label": "100 Free",
+          "event_id": "100_BACK",
+          "event_label": "100 Back",
           "is_relay": false,
-          "name": "Sam Wolfe",
+          "name": "Brady Hinshaw",
           "d3_rank": null,
-          "time_sec": 46.18,
-          "time_str": "46.18",
-          "event_cutoff_rank": 43,
-          "event_cutoff_str": "45.21",
-          "delta_to_cutoff_sec": 0.97,
-          "delta_to_cutoff_str": "+0.97s",
-          "pct_over_b_cut": 3.06
+          "time_sec": 50.27,
+          "time_str": "50.27",
+          "event_cutoff_rank": 27,
+          "event_cutoff_str": "49.61",
+          "delta_to_cutoff_sec": 0.66,
+          "delta_to_cutoff_str": "+0.66s",
+          "pct_over_b_cut": 2.2
         },
         {
           "gender": "M",
@@ -41638,27 +41198,11 @@ window.DPU_SWIM_DATA = {
           "d3_rank": null,
           "time_sec": 112.79,
           "time_str": "1:52.79",
-          "event_cutoff_rank": 35,
-          "event_cutoff_str": "1:50.87",
-          "delta_to_cutoff_sec": 1.92,
-          "delta_to_cutoff_str": "+1.92s",
+          "event_cutoff_rank": 28,
+          "event_cutoff_str": "1:50.42",
+          "delta_to_cutoff_sec": 2.37,
+          "delta_to_cutoff_str": "+2.37s",
           "pct_over_b_cut": 2.65
-        },
-        {
-          "gender": "M",
-          "gender_label": "Men",
-          "event_id": "200_FREE",
-          "event_label": "200 Free",
-          "is_relay": false,
-          "name": "Camden Bailey",
-          "d3_rank": null,
-          "time_sec": 102.01,
-          "time_str": "1:42.01",
-          "event_cutoff_rank": 39,
-          "event_cutoff_str": "1:39.91",
-          "delta_to_cutoff_sec": 2.1,
-          "delta_to_cutoff_str": "+2.10s",
-          "pct_over_b_cut": 3.05
         },
         {
           "gender": "M",
@@ -41670,27 +41214,27 @@ window.DPU_SWIM_DATA = {
           "d3_rank": null,
           "time_sec": 113.06,
           "time_str": "1:53.06",
-          "event_cutoff_rank": 25,
-          "event_cutoff_str": "1:50.36",
-          "delta_to_cutoff_sec": 2.7,
-          "delta_to_cutoff_str": "+2.70s",
+          "event_cutoff_rank": 27,
+          "event_cutoff_str": "1:50.54",
+          "delta_to_cutoff_sec": 2.52,
+          "delta_to_cutoff_str": "+2.52s",
           "pct_over_b_cut": 3.38
         },
         {
           "gender": "M",
           "gender_label": "Men",
-          "event_id": "500_FREE",
-          "event_label": "500 Free",
+          "event_id": "200_BREAST",
+          "event_label": "200 Breast",
           "is_relay": false,
-          "name": "Andrew Thompson",
+          "name": "Isaiah Winko",
           "d3_rank": null,
-          "time_sec": 277.81,
-          "time_str": "4:37.81",
-          "event_cutoff_rank": 36,
-          "event_cutoff_str": "4:33.48",
-          "delta_to_cutoff_sec": 4.33,
-          "delta_to_cutoff_str": "+4.33s",
-          "pct_over_b_cut": 2.5
+          "time_sec": 125.19,
+          "time_str": "2:05.19",
+          "event_cutoff_rank": 27,
+          "event_cutoff_str": "2:02.55",
+          "delta_to_cutoff_sec": 2.64,
+          "delta_to_cutoff_str": "+2.64s",
+          "pct_over_b_cut": 3.61
         },
         {
           "gender": "M",
@@ -41711,6 +41255,22 @@ window.DPU_SWIM_DATA = {
         {
           "gender": "M",
           "gender_label": "Men",
+          "event_id": "500_FREE",
+          "event_label": "500 Free",
+          "is_relay": false,
+          "name": "Andrew Thompson",
+          "d3_rank": null,
+          "time_sec": 277.81,
+          "time_str": "4:37.81",
+          "event_cutoff_rank": 27,
+          "event_cutoff_str": "4:32.68",
+          "delta_to_cutoff_sec": 5.13,
+          "delta_to_cutoff_str": "+5.13s",
+          "pct_over_b_cut": 2.5
+        },
+        {
+          "gender": "M",
+          "gender_label": "Men",
           "event_id": "1650_FREE",
           "event_label": "1650 Free",
           "is_relay": false,
@@ -41718,10 +41278,10 @@ window.DPU_SWIM_DATA = {
           "d3_rank": null,
           "time_sec": 981.98,
           "time_str": "16:21.98",
-          "event_cutoff_rank": 24,
-          "event_cutoff_str": "15:59.74",
-          "delta_to_cutoff_sec": 22.24,
-          "delta_to_cutoff_str": "+22.24s",
+          "event_cutoff_rank": 27,
+          "event_cutoff_str": "16:03.07",
+          "delta_to_cutoff_sec": 18.91,
+          "delta_to_cutoff_str": "+18.91s",
           "pct_over_b_cut": 3.27
         }
       ],
@@ -41732,16 +41292,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 1,
           "base_rows": 16,
-          "total_invited": 33,
+          "total_invited": 27,
           "step1_or_2_count": 16,
-          "step5_added_count": 17,
-          "cutoff_rank": 33,
-          "cutoff_sec": 20.51,
-          "cutoff_str": "20.51",
-          "cutoff_swimmer": "Jack Szuba",
-          "cutoff_team": "Hope College",
+          "step5_added_count": 11,
+          "cutoff_rank": 27,
+          "cutoff_sec": 20.46,
+          "cutoff_str": "20.46",
+          "cutoff_swimmer": "Brock Hunter",
+          "cutoff_team": "Carnegie Mellon University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.89,
+          "cutoff_pct_over_b": 0.64,
           "b_cut_str": "20.33",
           "invited_prev_str": "20.05",
           "depauw_invited": [],
@@ -41749,7 +41309,7 @@ window.DPU_SWIM_DATA = {
             "name": "Brady Hinshaw",
             "time_str": "20.85",
             "d3_rank": null,
-            "delta_str": "+0.34s"
+            "delta_str": "+0.39s"
           },
           "invited_ladder": [
             {
@@ -42021,66 +41581,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.64,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 28,
-              "name": "Zachary Erb",
-              "team": "Bridgewater College",
-              "time_str": "20.47",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.69,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 29,
-              "name": "Blake Hetherington",
-              "team": "Hope College",
-              "time_str": "20.49",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.79,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 30,
-              "name": "George Marsh",
-              "team": "Hope College",
-              "time_str": "20.49",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.79,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 31,
-              "name": "Lucas Casey",
-              "team": "Kenyon College",
-              "time_str": "20.50",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.84,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 32,
-              "name": "Quinn Heis",
-              "team": "Kenyon College",
-              "time_str": "20.50",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.84,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 33,
-              "name": "Jack Szuba",
-              "team": "Hope College",
-              "time_str": "20.51",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.89,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -42090,16 +41590,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 2,
           "base_rows": 16,
-          "total_invited": 43,
+          "total_invited": 28,
           "step1_or_2_count": 16,
-          "step5_added_count": 27,
-          "cutoff_rank": 43,
-          "cutoff_sec": 45.21,
-          "cutoff_str": "45.21",
-          "cutoff_swimmer": "Trenton Cassens",
-          "cutoff_team": "Emory University",
+          "step5_added_count": 12,
+          "cutoff_rank": 28,
+          "cutoff_sec": 44.82,
+          "cutoff_str": "44.82",
+          "cutoff_swimmer": "Pierce Downs",
+          "cutoff_team": "New York University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.89,
+          "cutoff_pct_over_b": 0.02,
           "b_cut_str": "44.81",
           "invited_prev_str": "44.33",
           "depauw_invited": [],
@@ -42107,7 +41607,7 @@ window.DPU_SWIM_DATA = {
             "name": "Sam Wolfe",
             "time_str": "46.18",
             "d3_rank": null,
-            "delta_str": "+0.97s"
+            "delta_str": "+1.36s"
           },
           "invited_ladder": [
             {
@@ -42389,156 +41889,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.02,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 29,
-              "name": "Harry Parsons",
-              "team": "Denison University",
-              "time_str": "44.85",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.09,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 30,
-              "name": "Graham Eisenmann",
-              "team": "Hope College",
-              "time_str": "44.86",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.11,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 31,
-              "name": "Blake Hetherington",
-              "team": "Hope College",
-              "time_str": "44.91",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.22,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 32,
-              "name": "Ethan Bonow",
-              "team": "Asbury University",
-              "time_str": "44.93",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.27,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 33,
-              "name": "Trenten Calloway",
-              "team": "Chapman University",
-              "time_str": "44.93",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.27,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 34,
-              "name": "George Goins",
-              "team": "Denison University",
-              "time_str": "44.98",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.38,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 35,
-              "name": "PJ Koerwitz",
-              "team": "Kenyon College",
-              "time_str": "44.99",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.4,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 36,
-              "name": "Cooper Na",
-              "team": "Chapman University",
-              "time_str": "45.02",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.47,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 37,
-              "name": "Jackson Merkel",
-              "team": "Calvin University",
-              "time_str": "45.06",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.56,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 38,
-              "name": "Evan Feilmeyer",
-              "team": "Grinnell College",
-              "time_str": "45.07",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.58,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 39,
-              "name": "Will Wertenberger",
-              "team": "Rhodes College",
-              "time_str": "45.11",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.67,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 40,
-              "name": "Greg Wehbe",
-              "team": "New York University",
-              "time_str": "45.12",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.69,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 41,
-              "name": "Zachary Erb",
-              "team": "Bridgewater College",
-              "time_str": "45.18",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.83,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 42,
-              "name": "Leighton Chapman",
-              "team": "Washington and Lee University",
-              "time_str": "45.19",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.85,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 43,
-              "name": "Trenton Cassens",
-              "team": "Emory University",
-              "time_str": "45.21",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.89,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -42548,16 +41898,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 3,
           "base_rows": 16,
-          "total_invited": 39,
+          "total_invited": 28,
           "step1_or_2_count": 16,
-          "step5_added_count": 23,
-          "cutoff_rank": 39,
-          "cutoff_sec": 99.91,
-          "cutoff_str": "1:39.91",
-          "cutoff_swimmer": "Trevor Novak",
-          "cutoff_team": "Case Western Reserve University",
+          "step5_added_count": 12,
+          "cutoff_rank": 28,
+          "cutoff_sec": 99.05,
+          "cutoff_str": "1:39.05",
+          "cutoff_swimmer": "Graham Eisenmann",
+          "cutoff_team": "Hope College",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.93,
+          "cutoff_pct_over_b": 0.06,
           "b_cut_str": "1:38.99",
           "invited_prev_str": "1:37.84",
           "depauw_invited": [],
@@ -42565,7 +41915,7 @@ window.DPU_SWIM_DATA = {
             "name": "Camden Bailey",
             "time_str": "1:42.01",
             "d3_rank": null,
-            "delta_str": "+2.10s"
+            "delta_str": "+2.96s"
           },
           "invited_ladder": [
             {
@@ -42847,116 +42197,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.06,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 29,
-              "name": "Parker Chan",
-              "team": "Washington University (Missouri)",
-              "time_str": "1:39.13",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.14,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 30,
-              "name": "Doug Sims",
-              "team": "Emory University",
-              "time_str": "1:39.27",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.28,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 31,
-              "name": "Hunter Latham",
-              "team": "Hope College",
-              "time_str": "1:39.32",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.33,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 32,
-              "name": "Gavin Coggan",
-              "team": "Washington University (Missouri)",
-              "time_str": "1:39.43",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.44,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 33,
-              "name": "Kristof Szappanos",
-              "team": "Kenyon College",
-              "time_str": "1:39.44",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.45,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 34,
-              "name": "Gray Spencer",
-              "team": "University of Chicago",
-              "time_str": "1:39.54",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.56,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 35,
-              "name": "Nicky Stratton",
-              "team": "Salisbury University",
-              "time_str": "1:39.55",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.57,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 36,
-              "name": "Ken Ning",
-              "team": "Johns Hopkins University",
-              "time_str": "1:39.60",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.62,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 37,
-              "name": "Chahine Said",
-              "team": "Oberlin College",
-              "time_str": "1:39.77",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.79,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 38,
-              "name": "Alex Wu",
-              "team": "University of Chicago",
-              "time_str": "1:39.88",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.9,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 39,
-              "name": "Trevor Novak",
-              "team": "Case Western Reserve University",
-              "time_str": "1:39.91",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.93,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -42966,16 +42206,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 4,
           "base_rows": 16,
-          "total_invited": 36,
+          "total_invited": 27,
           "step1_or_2_count": 16,
-          "step5_added_count": 20,
-          "cutoff_rank": 36,
-          "cutoff_sec": 273.48,
-          "cutoff_str": "4:33.48",
-          "cutoff_swimmer": "Gabe Cowart",
+          "step5_added_count": 11,
+          "cutoff_rank": 27,
+          "cutoff_sec": 272.68,
+          "cutoff_str": "4:32.68",
+          "cutoff_swimmer": "Crenshaw Halbach",
           "cutoff_team": "Kenyon College",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.9,
+          "cutoff_pct_over_b": 0.61,
           "b_cut_str": "4:31.03",
           "invited_prev_str": "4:28.72",
           "depauw_invited": [],
@@ -42983,7 +42223,7 @@ window.DPU_SWIM_DATA = {
             "name": "Andrew Thompson",
             "time_str": "4:37.81",
             "d3_rank": null,
-            "delta_str": "+4.33s"
+            "delta_str": "+5.13s"
           },
           "invited_ladder": [
             {
@@ -43255,96 +42495,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.61,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 28,
-              "name": "Kristof Szappanos",
-              "team": "Kenyon College",
-              "time_str": "4:32.70",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.62,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 29,
-              "name": "Nico Aldana Huelga",
-              "team": "Johns Hopkins University",
-              "time_str": "4:32.72",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.62,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 30,
-              "name": "Nicky Stratton",
-              "team": "Salisbury University",
-              "time_str": "4:32.91",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.69,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 31,
-              "name": "Tyler Klein",
-              "team": "John Carroll University",
-              "time_str": "4:32.92",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.7,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 32,
-              "name": "Ben Campbell",
-              "team": "Denison University",
-              "time_str": "4:33.08",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.76,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 33,
-              "name": "Anthony Simmons",
-              "team": "Emory University",
-              "time_str": "4:33.27",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.83,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 34,
-              "name": "Owen Mahoney",
-              "team": "Salisbury University",
-              "time_str": "4:33.35",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.86,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 35,
-              "name": "Oliver Van Peteghem",
-              "team": "Massachusetts Institute of Technology",
-              "time_str": "4:33.46",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.9,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 36,
-              "name": "Gabe Cowart",
-              "team": "Kenyon College",
-              "time_str": "4:33.48",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.9,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -43354,16 +42504,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 6,
           "base_rows": 16,
-          "total_invited": 24,
+          "total_invited": 27,
           "step1_or_2_count": 16,
-          "step5_added_count": 8,
-          "cutoff_rank": 24,
-          "cutoff_sec": 959.74,
-          "cutoff_str": "15:59.74",
-          "cutoff_swimmer": "Josiah March",
-          "cutoff_team": "Johns Hopkins University",
+          "step5_added_count": 11,
+          "cutoff_rank": 27,
+          "cutoff_sec": 963.07,
+          "cutoff_str": "16:03.07",
+          "cutoff_swimmer": "Gabe Cowart",
+          "cutoff_team": "Kenyon College",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.93,
+          "cutoff_pct_over_b": 1.28,
           "b_cut_str": "15:50.88",
           "invited_prev_str": "15:40.80",
           "depauw_invited": [],
@@ -43371,7 +42521,7 @@ window.DPU_SWIM_DATA = {
             "name": "Brady Wright",
             "time_str": "16:21.98",
             "d3_rank": null,
-            "delta_str": "+22.24s"
+            "delta_str": "+18.91s"
           },
           "invited_ladder": [
             {
@@ -43613,6 +42763,36 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.93,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": 25,
+              "name": "Nathanael Ridosko",
+              "team": "University of California-Santa Cruz",
+              "time_str": "16:01.77",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.15,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 26,
+              "name": "Sam Koenigsberg",
+              "team": "New York University",
+              "time_str": "16:02.48",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.22,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 27,
+              "name": "Gabe Cowart",
+              "team": "Kenyon College",
+              "time_str": "16:03.07",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.28,
+              "is_depauw": false,
+              "estimated_members": []
             }
           ]
         },
@@ -43622,16 +42802,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 7,
           "base_rows": 16,
-          "total_invited": 28,
+          "total_invited": 27,
           "step1_or_2_count": 16,
-          "step5_added_count": 12,
-          "cutoff_rank": 28,
-          "cutoff_sec": 49.64,
-          "cutoff_str": "49.64",
-          "cutoff_swimmer": "ZiQiu Wang",
-          "cutoff_team": "Carnegie Mellon University",
+          "step5_added_count": 11,
+          "cutoff_rank": 27,
+          "cutoff_sec": 49.61,
+          "cutoff_str": "49.61",
+          "cutoff_swimmer": "Diego Hodge",
+          "cutoff_team": "Pomona-Pitzer Colleges",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.91,
+          "cutoff_pct_over_b": 0.85,
           "b_cut_str": "49.19",
           "invited_prev_str": "48.20",
           "depauw_invited": [],
@@ -43639,7 +42819,7 @@ window.DPU_SWIM_DATA = {
             "name": "Brady Hinshaw",
             "time_str": "50.27",
             "d3_rank": null,
-            "delta_str": "+0.63s"
+            "delta_str": "+0.66s"
           },
           "invited_ladder": [
             {
@@ -43911,16 +43091,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.85,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 28,
-              "name": "ZiQiu Wang",
-              "team": "Carnegie Mellon University",
-              "time_str": "49.64",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.91,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -43930,16 +43100,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 8,
           "base_rows": 16,
-          "total_invited": 23,
+          "total_invited": 27,
           "step1_or_2_count": 16,
-          "step5_added_count": 7,
-          "cutoff_rank": 23,
-          "cutoff_sec": 109.48,
-          "cutoff_str": "1:49.48",
-          "cutoff_swimmer": "Sam Allen",
-          "cutoff_team": "Colorado College",
+          "step5_added_count": 11,
+          "cutoff_rank": 27,
+          "cutoff_sec": 109.94,
+          "cutoff_str": "1:49.94",
+          "cutoff_swimmer": "Noah Popp",
+          "cutoff_team": "Marymount University (Virginia)",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.92,
+          "cutoff_pct_over_b": 1.35,
           "b_cut_str": "1:48.48",
           "invited_prev_str": "1:47.17",
           "depauw_invited": [],
@@ -43947,7 +43117,7 @@ window.DPU_SWIM_DATA = {
             "name": "Matthew Weeks",
             "time_str": "1:53.01",
             "d3_rank": null,
-            "delta_str": "+3.53s"
+            "delta_str": "+3.07s"
           },
           "invited_ladder": [
             {
@@ -44179,6 +43349,46 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.92,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": 24,
+              "name": "Devin Testin",
+              "team": "Denison University",
+              "time_str": "1:49.52",
+              "step": "Step 5",
+              "pct_over_b_cut": 0.96,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 25,
+              "name": "John Zhang",
+              "team": "Washington University (Missouri)",
+              "time_str": "1:49.74",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.16,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 26,
+              "name": "Max Yeoh",
+              "team": "Pomona-Pitzer Colleges",
+              "time_str": "1:49.93",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.34,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 27,
+              "name": "Noah Popp",
+              "team": "Marymount University (Virginia)",
+              "time_str": "1:49.94",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.35,
+              "is_depauw": false,
+              "estimated_members": []
             }
           ]
         },
@@ -44188,16 +43398,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 9,
           "base_rows": 16,
-          "total_invited": 32,
+          "total_invited": 27,
           "step1_or_2_count": 16,
-          "step5_added_count": 16,
-          "cutoff_rank": 32,
-          "cutoff_sec": 55.47,
-          "cutoff_str": "55.47",
-          "cutoff_swimmer": "Mattia Rosatelli",
-          "cutoff_team": "Nebraska Wesleyan University",
+          "step5_added_count": 11,
+          "cutoff_rank": 27,
+          "cutoff_sec": 55.28,
+          "cutoff_str": "55.28",
+          "cutoff_swimmer": "Chris Xia",
+          "cutoff_team": "University of Chicago",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.89,
+          "cutoff_pct_over_b": 0.55,
           "b_cut_str": "54.98",
           "invited_prev_str": "54.36",
           "depauw_invited": [],
@@ -44205,7 +43415,7 @@ window.DPU_SWIM_DATA = {
             "name": "Tyler Farkas",
             "time_str": "57.20",
             "d3_rank": null,
-            "delta_str": "+1.73s"
+            "delta_str": "+1.92s"
           },
           "invited_ladder": [
             {
@@ -44477,56 +43687,6 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.55,
               "is_depauw": false,
               "estimated_members": []
-            },
-            {
-              "rank": 28,
-              "name": "Francesco Assalone",
-              "team": "Rhodes College",
-              "time_str": "55.30",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.58,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 29,
-              "name": "Griffin Barlow",
-              "team": "Emory University",
-              "time_str": "55.42",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.8,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 30,
-              "name": "Josh Bordovsky",
-              "team": "Hope College",
-              "time_str": "55.45",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.85,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 31,
-              "name": "Brian Story",
-              "team": "Gettysburg College",
-              "time_str": "55.45",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.85,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 32,
-              "name": "Mattia Rosatelli",
-              "team": "Nebraska Wesleyan University",
-              "time_str": "55.47",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.89,
-              "is_depauw": false,
-              "estimated_members": []
             }
           ]
         },
@@ -44536,16 +43696,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 10,
           "base_rows": 16,
-          "total_invited": 20,
+          "total_invited": 27,
           "step1_or_2_count": 16,
-          "step5_added_count": 4,
-          "cutoff_rank": 20,
-          "cutoff_sec": 121.93,
-          "cutoff_str": "2:01.93",
-          "cutoff_swimmer": "Elian Pope",
-          "cutoff_team": "Southern Virginia University",
+          "step5_added_count": 11,
+          "cutoff_rank": 27,
+          "cutoff_sec": 122.55,
+          "cutoff_str": "2:02.55",
+          "cutoff_swimmer": "Matheus Maule",
+          "cutoff_team": "Kenyon College",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.91,
+          "cutoff_pct_over_b": 1.42,
           "b_cut_str": "2:00.83",
           "invited_prev_str": "1:59.20",
           "depauw_invited": [],
@@ -44553,7 +43713,7 @@ window.DPU_SWIM_DATA = {
             "name": "Isaiah Winko",
             "time_str": "2:05.19",
             "d3_rank": null,
-            "delta_str": "+3.26s"
+            "delta_str": "+2.64s"
           },
           "invited_ladder": [
             {
@@ -44755,6 +43915,76 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.91,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": 21,
+              "name": "Sam Zhou",
+              "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
+              "time_str": "2:02.02",
+              "step": "Step 5",
+              "pct_over_b_cut": 0.98,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 22,
+              "name": "Kevin Raghunathan",
+              "team": "Washington University (Missouri)",
+              "time_str": "2:02.02",
+              "step": "Step 5",
+              "pct_over_b_cut": 0.98,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 23,
+              "name": "Oliver Lazenby",
+              "team": "Case Western Reserve University",
+              "time_str": "2:02.29",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.21,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 24,
+              "name": "Josh Bordovsky",
+              "team": "Hope College",
+              "time_str": "2:02.37",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.27,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 25,
+              "name": "Harrison Quach",
+              "team": "Carnegie Mellon University",
+              "time_str": "2:02.41",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.31,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 26,
+              "name": "Connor O'Neill",
+              "team": "Emory University",
+              "time_str": "2:02.43",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.32,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 27,
+              "name": "Matheus Maule",
+              "team": "Kenyon College",
+              "time_str": "2:02.55",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.42,
+              "is_depauw": false,
+              "estimated_members": []
             }
           ]
         },
@@ -44764,16 +43994,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 11,
           "base_rows": 16,
-          "total_invited": 25,
+          "total_invited": 27,
           "step1_or_2_count": 16,
-          "step5_added_count": 9,
-          "cutoff_rank": 25,
-          "cutoff_sec": 48.9,
-          "cutoff_str": "48.90",
-          "cutoff_swimmer": "Connor McHugh",
-          "cutoff_team": "Emory University",
+          "step5_added_count": 11,
+          "cutoff_rank": 27,
+          "cutoff_sec": 49.01,
+          "cutoff_str": "49.01",
+          "cutoff_swimmer": "Eric Huang",
+          "cutoff_team": "Massachusetts Institute of Technology",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.87,
+          "cutoff_pct_over_b": 1.09,
           "b_cut_str": "48.48",
           "invited_prev_str": "48.02",
           "depauw_invited": [],
@@ -44781,7 +44011,7 @@ window.DPU_SWIM_DATA = {
             "name": "Daniel Schwendinger",
             "time_str": "49.55",
             "d3_rank": null,
-            "delta_str": "+0.65s"
+            "delta_str": "+0.54s"
           },
           "invited_ladder": [
             {
@@ -45033,6 +44263,26 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.87,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": 26,
+              "name": "Diego Hodge",
+              "team": "Pomona-Pitzer Colleges",
+              "time_str": "49.01",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.09,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 27,
+              "name": "Eric Huang",
+              "team": "Massachusetts Institute of Technology",
+              "time_str": "49.01",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.09,
+              "is_depauw": false,
+              "estimated_members": []
             }
           ]
         },
@@ -45042,16 +44292,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 12,
           "base_rows": 16,
-          "total_invited": 25,
+          "total_invited": 27,
           "step1_or_2_count": 16,
-          "step5_added_count": 9,
-          "cutoff_rank": 25,
-          "cutoff_sec": 110.36,
-          "cutoff_str": "1:50.36",
-          "cutoff_swimmer": "Gavin Coggan",
-          "cutoff_team": "Washington University (Missouri)",
+          "step5_added_count": 11,
+          "cutoff_rank": 27,
+          "cutoff_sec": 110.54,
+          "cutoff_str": "1:50.54",
+          "cutoff_swimmer": "Alexander Ruckel-Bekefi",
+          "cutoff_team": "New York University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.91,
+          "cutoff_pct_over_b": 1.08,
           "b_cut_str": "1:49.36",
           "invited_prev_str": "1:48.05",
           "depauw_invited": [],
@@ -45059,7 +44309,7 @@ window.DPU_SWIM_DATA = {
             "name": "Daniel Schwendinger",
             "time_str": "1:53.06",
             "d3_rank": null,
-            "delta_str": "+2.70s"
+            "delta_str": "+2.52s"
           },
           "invited_ladder": [
             {
@@ -45311,6 +44561,26 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 0.91,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": 26,
+              "name": "Evan Ingraham",
+              "team": "Grinnell College",
+              "time_str": "1:50.46",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.01,
+              "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": 27,
+              "name": "Alexander Ruckel-Bekefi",
+              "team": "New York University",
+              "time_str": "1:50.54",
+              "step": "Step 5",
+              "pct_over_b_cut": 1.08,
+              "is_depauw": false,
+              "estimated_members": []
             }
           ]
         },
@@ -45320,16 +44590,16 @@ window.DPU_SWIM_DATA = {
           "is_relay": false,
           "order": 13,
           "base_rows": 16,
-          "total_invited": 35,
+          "total_invited": 28,
           "step1_or_2_count": 16,
-          "step5_added_count": 19,
-          "cutoff_rank": 35,
-          "cutoff_sec": 110.87,
-          "cutoff_str": "1:50.87",
-          "cutoff_swimmer": "Gavin Fu",
-          "cutoff_team": "Emory University",
+          "step5_added_count": 12,
+          "cutoff_rank": 28,
+          "cutoff_sec": 110.42,
+          "cutoff_str": "1:50.42",
+          "cutoff_swimmer": "Harrison Quach",
+          "cutoff_team": "Carnegie Mellon University",
           "cutoff_step": "Step 5",
-          "cutoff_pct_over_b": 0.9,
+          "cutoff_pct_over_b": 0.49,
           "b_cut_str": "1:49.88",
           "invited_prev_str": "1:48.57",
           "depauw_invited": [],
@@ -45337,7 +44607,7 @@ window.DPU_SWIM_DATA = {
             "name": "Daniel Schwendinger",
             "time_str": "1:52.79",
             "d3_rank": null,
-            "delta_str": "+1.92s"
+            "delta_str": "+2.37s"
           },
           "invited_ladder": [
             {
@@ -45617,76 +44887,6 @@ window.DPU_SWIM_DATA = {
               "time_str": "1:50.42",
               "step": "Step 5",
               "pct_over_b_cut": 0.49,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 29,
-              "name": "Tenzin Wangpo",
-              "team": "Carnegie Mellon University",
-              "time_str": "1:50.42",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.49,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 30,
-              "name": "Braden Sheehan",
-              "team": "Rowan University",
-              "time_str": "1:50.49",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.56,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 31,
-              "name": "Connor Baird",
-              "team": "State University of New York at Geneseo",
-              "time_str": "1:50.60",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.66,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 32,
-              "name": "Christian Hoeksema",
-              "team": "Hope College",
-              "time_str": "1:50.66",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.71,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 33,
-              "name": "Owen Howell",
-              "team": "Emory University",
-              "time_str": "1:50.70",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.75,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 34,
-              "name": "Liam Nelson",
-              "team": "Denison University",
-              "time_str": "1:50.81",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.85,
-              "is_depauw": false,
-              "estimated_members": []
-            },
-            {
-              "rank": 35,
-              "name": "Gavin Fu",
-              "team": "Emory University",
-              "time_str": "1:50.87",
-              "step": "Step 5",
-              "pct_over_b_cut": 0.9,
               "is_depauw": false,
               "estimated_members": []
             }

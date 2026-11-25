@@ -171,7 +171,19 @@ def simulate_gender_selection(
             )
 
     # Step 2-4: Fill across relay rows 1..base_rel_rows (20 Women / 16 Men)
+    # Note on relay-only swimmer counting (calibrated against the official 2026 NCAA Selection Psych Sheets):
+    # - A school's relay requires 4 swimmers on the championship roster.
+    # - Any individual qualifiers from that school (including swimmers who qualify in Step 1 or within the top 30 of individual events)
+    #   can swim on any of the school's relays, plus the NCAA allows up to 4 relay-only swimmers per team across the meet.
+    # - In the actual 2026 NCAA selections:
+    #   * Women: 186 unique individual qualifiers + 104 relay-only swimmers = 290 swimmers (rows 1..28 + 11/13 of row 29).
+    #   * Men: 129 unique individual qualifiers + 107 relay-only swimmers = 236 swimmers (rows 1..16 + 6/13 of row 17).
     relay_only_swimmers: dict[str, dict[str, Any]] = {}
+    school_relay_roster: dict[str, set[str]] = {}
+    for skey, sinfo in invited_swimmers.items():
+        tk = str(sinfo.get("team_id") or sinfo["team"])
+        school_relay_roster.setdefault(tk, set()).add(skey)
+
     for r_row_idx in range(base_rel_rows):
         for reid in NCAA_RELAY_EVENTS:
             ev_bench = ev_map.get(reid)
@@ -202,7 +214,6 @@ def simulate_gender_selection(
 
             if dpu_actual_members and len(dpu_actual_members) == 4:
                 for mname in dpu_actual_members:
-                    # Match against invited_swimmers by name if already invited
                     matched_key = None
                     for k, v in {**invited_swimmers, **relay_only_swimmers}.items():
                         if v["name"].lower() == mname.lower():
@@ -211,6 +222,7 @@ def simulate_gender_selection(
                     skey = matched_key or f"dpu_relay_{mname.lower().replace(' ', '_')}"
                     chosen_for_relay.add(skey)
                     chosen_names.append(mname)
+                    school_relay_roster.setdefault(tkey, set()).add(skey)
                     if skey not in invited_swimmers and skey not in relay_only_swimmers:
                         relay_only_swimmers[skey] = {
                             "key": skey,
@@ -248,6 +260,7 @@ def simulate_gender_selection(
                             if skey not in chosen_for_relay:
                                 chosen_for_relay.add(skey)
                                 chosen_names.append(sname)
+                                school_relay_roster.setdefault(tkey, set()).add(skey)
                                 relay_only_swimmers[skey] = {
                                     "key": skey,
                                     "name": sname,
@@ -270,6 +283,7 @@ def simulate_gender_selection(
                                 if added >= count_needed:
                                     break
 
+                # Reuse any already-invited or relay-only swimmers from this school across relays (up to 6 total relay-eligible pool per school)
                 school_existing = [
                     (k, v["name"])
                     for k, v in {**invited_swimmers, **relay_only_swimmers}.items()
@@ -319,8 +333,13 @@ def simulate_gender_selection(
 
     step2_relay_only_initial = len(relay_only_swimmers)
 
-    # Step 5: Add remaining individual swimmers one by one ordered by closest % to B-Cut
-    remaining_candidates: list[tuple[float, str, dict[str, Any]]] = []
+    # Step 5: Add remaining individual swimmers ROW BY ROW (row 21, 22, ... for Women; row 17, 18, ... for Men),
+    # and within each row, order by closest % to B-Cut (`time_sec / b_cut_sec` ascending).
+    # Note: Under NCAA rules, an athlete must have achieved at least the B-Cut (`time_sec <= b_cut_sec`) to be eligible
+    # for individual selection. For mid-season live simulations (when fewer swimmers have hit B-cuts than in February),
+    # we prioritize B-cut qualifiers row-by-row first, and if participant capacity still remains early in the season,
+    # we continue row-by-row among non-B-cut entries so the mid-season projection fills the full 290/236 cap.
+    remaining_candidates: list[tuple[int, int, float, str, dict[str, Any]]] = []
     for eid in NCAA_INDIVIDUAL_EVENTS:
         ev_bench = ev_map.get(eid)
         if not ev_bench:
@@ -329,17 +348,20 @@ def simulate_gender_selection(
         if not b_cut:
             continue
         ladder = ev_bench["d3"]["ladder"]
-        for row in ladder[base_ind_rows:]:
+        for row_idx, row in enumerate(ladder[base_ind_rows:], start=base_ind_rows + 1):
             ratio = row["time_sec"] / b_cut
-            remaining_candidates.append((ratio, eid, row))
+            is_over_b = 0 if row["time_sec"] <= b_cut else 1
+            remaining_candidates.append((is_over_b, row_idx, ratio, eid, row))
 
-    remaining_candidates.sort(key=lambda x: x[0])
+    # Sort by: 1) B-cut achieved first, 2) row_idx (filling across rows), 3) ratio (time_sec / b_cut_sec) ascending
+    remaining_candidates.sort(key=lambda x: (x[0], x[1], x[2]))
 
     step5_entries_added = 0
     step5_new_swimmers_added = 0
     last_selected_ratio: float | None = None
+    last_selected_row: int = base_ind_rows
 
-    for ratio, eid, row in remaining_candidates:
+    for _, row_idx, ratio, eid, row in remaining_candidates:
         ev_bench = ev_map[eid]
         skey = str(row.get("swimmer_id") or row["name"])
         is_dpu = _is_depauw(row.get("team"), row.get("team_id"), target_team_id)
@@ -402,11 +424,12 @@ def simulate_gender_selection(
             **row,
             "is_depauw": is_dpu,
             "selection_step": "Step 5",
-            "selection_reason": f"Step 5 (% to B-Cut: {'+' if pct_over_b >= 0 else ''}{pct_over_b:.2f}%)",
+            "selection_reason": f"Step 5 (Row {row_idx} · {'+' if pct_over_b >= 0 else ''}{pct_over_b:.2f}% vs B-Cut)",
             "pct_over_b_cut": pct_over_b,
         })
         step5_entries_added += 1
         last_selected_ratio = ratio
+        last_selected_row = row_idx
 
     # Build per-event summary table + DePauw proximity analysis
     event_summaries: list[dict[str, Any]] = []
@@ -560,6 +583,7 @@ def simulate_gender_selection(
             "step5_new_swimmers_added": step5_new_swimmers_added,
             "step5_total_entries_added": step5_entries_added,
             "final_unique_swimmers": len(invited_swimmers) + len(relay_only_swimmers),
+            "last_selected_row": last_selected_row,
             "last_selected_pct_over_b": round((last_selected_ratio - 1.0) * 100.0, 2)
             if last_selected_ratio
             else None,
