@@ -1,6 +1,6 @@
 window.DPU_SWIM_DATA = {
-  "generated_at": "2026-11-25T15:03:53Z",
-  "generated_at_et": "Nov 25, 2026 at 10:03 AM ET",
+  "generated_at": "2026-11-25T19:24:19Z",
+  "generated_at_et": "Nov 25, 2026 at 02:24 PM ET",
   "team": {
     "name": "DePauw University",
     "short_name": "DePauw",
@@ -33963,8 +33963,3449 @@ window.DPU_SWIM_DATA = {
         "last_selected_pct_over_b": 2.12,
         "depauw_unique_qualified_swimmers": 5,
         "depauw_invited_entries_count": 7,
-        "depauw_bonus_entries_count": 9
+        "depauw_bonus_entries_count": 9,
+        "scoring_teams_count": 42,
+        "depauw_projected_rank": 19,
+        "depauw_projected_points": 24.0
       },
+      "team_standings": [
+        {
+          "team": "Emory University",
+          "is_depauw": false,
+          "total_points": 604.0,
+          "individual_points": 418.0,
+          "relay_points": 186.0,
+          "scoring_swims": 44,
+          "a_finals": 28,
+          "b_finals": 16,
+          "scorers": [
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Emory University",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "3:21.91",
+              "points": 40.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Emory University",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "3:43.86",
+              "points": 40.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Emory University",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "7:24.53",
+              "points": 40.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Emory University",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:32.20",
+              "points": 34.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Emory University",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:42.13",
+              "points": 32.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Holly Brundage",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:59.41",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Emma Lunn",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:59.84",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Katie Cohen",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "2:15.28",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Aubrey Mitchell",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "2:00.75",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Rebecca Fury",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:50.06",
+              "points": 17.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Katie Cohen",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:02.51",
+              "points": 16.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Rebecca Fury",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "50.21",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Ellis McGraw",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "2:16.98",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Natalie Boorjian",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:50.18",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Allison Greeneway",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "2:04.54",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Lauren Opitz",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "2:01.28",
+              "points": 15.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Holly Brundage",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "55.40",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Elodie Mitchell",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "2:01.99",
+              "points": 14.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Maddy Lu",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:02.97",
+              "points": 13.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Caitlin Crysel",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "50.50",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Allison Greeneway",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "2:01.00",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Emma Lunn",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:50.50",
+              "points": 13.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Grace Scharper",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "4:27.17",
+              "points": 12.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Rebecca Fury",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "23.20",
+              "points": 12.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Caitlin Crysel",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "55.37",
+              "points": 11.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Charlotte Brown",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "4:27.20",
+              "points": 11.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Lola Early",
+              "place": 8,
+              "is_tie": true,
+              "time_str": "23.28",
+              "points": 10.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Caitlin Crysel",
+              "place": 8,
+              "is_tie": true,
+              "time_str": "23.28",
+              "points": 10.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Rebecca Fury",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:03.45",
+              "points": 9.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Elodie Mitchell",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "4:59.95",
+              "points": 9.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Natalie Boorjian",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "51.07",
+              "points": 7.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Victoria Layden",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "2:01.73",
+              "points": 7.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Katie Swan",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "1:50.72",
+              "points": 7.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Caitlin Crysel",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "2:05.26",
+              "points": 7.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Katie Swan",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "5:00.01",
+              "points": 7.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Victoria Layden",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "56.02",
+              "points": 6.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Lola Early",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "51.18",
+              "points": 6.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Maddy Lu",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "2:19.05",
+              "points": 6.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Grace Scharper",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "17:27.43",
+              "points": 5.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Charlotte Brown",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "2:02.48",
+              "points": 3.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Elodie Mitchell",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "1:51.48",
+              "points": 3.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Meredith Teague",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "5:01.09",
+              "points": 3.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Aubrey Mitchell",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "55.72",
+              "points": 2.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Emma Lunn",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "5:01.27",
+              "points": 2.0
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "team": "New York University",
+          "is_depauw": false,
+          "total_points": 487.0,
+          "individual_points": 317.0,
+          "relay_points": 170.0,
+          "scoring_swims": 34,
+          "a_finals": 20,
+          "b_finals": 14,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "New York University",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:32.12",
+              "points": 40.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "New York University",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:40.34",
+              "points": 40.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "New York University",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "7:30.71",
+              "points": 32.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "New York University",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "3:25.14",
+              "points": 30.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "New York University",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "3:45.60",
+              "points": 28.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Maeve O'Donnell",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "54.11",
+              "points": 20.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Chloe Loo",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "54.13",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Reina Gomez",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "2:00.08",
+              "points": 20.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Chloe Loo",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "22.70",
+              "points": 20.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Bethany Spangler",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "17:05.70",
+              "points": 17.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Bethany Spangler",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "4:24.38",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Sydney Burleigh",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "2:01.05",
+              "points": 16.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Bethany Spangler",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "4:56.26",
+              "points": 16.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Reina Gomez",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "55.05",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Eloise Emig",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "2:00.91",
+              "points": 15.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Maeve O'Donnell",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "23.05",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Mischa Eng",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "2:00.92",
+              "points": 14.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Sydney Burleigh",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "4:25.88",
+              "points": 14.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Matilda Prizler",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "17:13.61",
+              "points": 11.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Babette Bradley",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "2:18.66",
+              "points": 11.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Maeve O'Donnell",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "50.98",
+              "points": 9.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Babette Bradley",
+              "place": 9,
+              "is_tie": true,
+              "time_str": "4:27.30",
+              "points": 8.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Thi Tran",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "1:03.49",
+              "points": 7.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Gabriela Kaiser",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "55.49",
+              "points": 7.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Malin Wolfson",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "17:21.59",
+              "points": 7.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Izzy Westling",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "23.29",
+              "points": 7.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Mischa Eng",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "56.14",
+              "points": 5.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Sarah Pierson",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "2:02.16",
+              "points": 5.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Julie Yang",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "2:04.25",
+              "points": 5.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Chloe Loo",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "1:03.99",
+              "points": 4.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Llew Ladomirak",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "1:51.33",
+              "points": 4.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Lian Jeong Engle",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "51.28",
+              "points": 3.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Babette Bradley",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "2:05.55",
+              "points": 3.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Tara Aloul",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "2:05.82",
+              "points": 2.0
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "team": "Kenyon College",
+          "is_depauw": false,
+          "total_points": 380.0,
+          "individual_points": 222.0,
+          "relay_points": 158.0,
+          "scoring_swims": 25,
+          "a_finals": 17,
+          "b_finals": 8,
+          "scorers": [
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Kenyon College",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "3:44.41",
+              "points": 34.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Kenyon College",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "7:30.17",
+              "points": 34.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Kenyon College",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "3:24.99",
+              "points": 32.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Kenyon College",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:33.03",
+              "points": 30.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Kenyon College",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:42.23",
+              "points": 28.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Nora Lee Brown",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "16:49.48",
+              "points": 20.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Nora Lee Brown",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "4:52.96",
+              "points": 20.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Kelsey Van Eldik",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:01.86",
+              "points": 17.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Afsana Rawlins",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "50.13",
+              "points": 17.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Nina Schuerer",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "4:56.17",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Kelsey Van Eldik",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "2:17.16",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Nora Lee Brown",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:50.21",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Ashlyn Widmer",
+              "place": 4,
+              "is_tie": true,
+              "time_str": "2:04.62",
+              "points": 14.5
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Nina Schuerer",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "17:11.99",
+              "points": 13.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Ashlyn Widmer",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "4:26.36",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Sofia Giordano",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "2:02.46",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Kelsey Van Eldik",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "2:05.01",
+              "points": 11.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Kate Dunagan",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "2:01.66",
+              "points": 9.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Kate Dunagan",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "55.96",
+              "points": 7.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Julia Mascarenhas",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "1:03.54",
+              "points": 6.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Kate Bogan",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "1:03.88",
+              "points": 5.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Kate Bogan",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "51.23",
+              "points": 5.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Kate Bogan",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "23.38",
+              "points": 3.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Julia Mascarenhas",
+              "place": 15,
+              "is_tie": true,
+              "time_str": "23.48",
+              "points": 1.5
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Isla George",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "5:01.36",
+              "points": 1.0
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "team": "Denison University",
+          "is_depauw": false,
+          "total_points": 244.0,
+          "individual_points": 114.0,
+          "relay_points": 130.0,
+          "scoring_swims": 15,
+          "a_finals": 12,
+          "b_finals": 3,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Denison University",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:33.11",
+              "points": 28.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Denison University",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "3:26.37",
+              "points": 26.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Denison University",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "3:45.86",
+              "points": 26.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Denison University",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "7:34.02",
+              "points": 26.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Denison University",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:42.31",
+              "points": 24.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Gwen Bakker",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:01.22",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Gwen Bakker",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "2:13.30",
+              "points": 20.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Jasmine Park",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "54.94",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Audrey Brink",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "2:18.11",
+              "points": 14.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Riley Tofflemire",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:03.05",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Avery Anderson",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "2:01.08",
+              "points": 12.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Avery Anderson",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "55.78",
+              "points": 11.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Erika Schraber",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "4:28.47",
+              "points": 5.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Jasmine Park",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "55.67",
+              "points": 3.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Caroline Ramirez",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "2:02.63",
+              "points": 1.0
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "team": "Johns Hopkins University",
+          "is_depauw": false,
+          "total_points": 229.0,
+          "individual_points": 121.0,
+          "relay_points": 108.0,
+          "scoring_swims": 16,
+          "a_finals": 10,
+          "b_finals": 6,
+          "scorers": [
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Johns Hopkins University",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "3:23.74",
+              "points": 34.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Johns Hopkins University",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:42.54",
+              "points": 22.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Johns Hopkins University",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "3:47.95",
+              "points": 22.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Johns Hopkins University",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:34.07",
+              "points": 18.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Ken Lee",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "54.72",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Ken Lee",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "2:00.41",
+              "points": 16.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Liza Pozhenko",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "50.46",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Liza Pozhenko",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:50.38",
+              "points": 14.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Kennedy Cauwels",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "4:58.23",
+              "points": 14.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Elizabeth Cohen",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "50.57",
+              "points": 12.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Johns Hopkins University",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "7:39.03",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Cambria Jewett",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "2:01.39",
+              "points": 11.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Ken Lee",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "55.94",
+              "points": 9.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Elizabeth Cohen",
+              "place": 11,
+              "is_tie": true,
+              "time_str": "55.57",
+              "points": 5.5
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Liza Pozhenko",
+              "place": 11,
+              "is_tie": true,
+              "time_str": "23.36",
+              "points": 5.5
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Kennedy Cauwels",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "17:28.97",
+              "points": 4.0
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "team": "University of Chicago",
+          "is_depauw": false,
+          "total_points": 211.0,
+          "individual_points": 91.0,
+          "relay_points": 120.0,
+          "scoring_swims": 17,
+          "a_finals": 9,
+          "b_finals": 8,
+          "scorers": [
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "University of Chicago",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "3:26.17",
+              "points": 28.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "University of Chicago",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:33.24",
+              "points": 26.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "University of Chicago",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "3:46.56",
+              "points": 24.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "University of Chicago",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "7:34.98",
+              "points": 24.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "University of Chicago",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:42.72",
+              "points": 18.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Ella Gussen",
+              "place": 4,
+              "is_tie": true,
+              "time_str": "2:04.62",
+              "points": 14.5
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Kylie Stuart",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "55.43",
+              "points": 13.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Alexandra Milisavljevic",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "17:12.57",
+              "points": 12.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Adelia Biello",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "50.96",
+              "points": 11.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Alexandra Milisavljevic",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "4:59.68",
+              "points": 11.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Ella Gussen",
+              "place": 9,
+              "is_tie": true,
+              "time_str": "4:27.30",
+              "points": 8.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "NouNou Chang",
+              "place": 11,
+              "is_tie": true,
+              "time_str": "55.57",
+              "points": 5.5
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Sara Miller",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "2:05.36",
+              "points": 5.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Sophianne Cortes",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "55.65",
+              "points": 4.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Kylie Stuart",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "2:02.24",
+              "points": 4.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Sara Miller",
+              "place": 14,
+              "is_tie": true,
+              "time_str": "1:04.05",
+              "points": 2.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Sophianne Cortes",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "2:04.74",
+              "points": 1.0
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "team": "Washington University (Missouri)",
+          "is_depauw": false,
+          "total_points": 187.0,
+          "individual_points": 53.0,
+          "relay_points": 134.0,
+          "scoring_swims": 14,
+          "a_finals": 6,
+          "b_finals": 8,
+          "scorers": [
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Washington University (Missouri)",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:41.50",
+              "points": 34.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Washington University (Missouri)",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "3:45.02",
+              "points": 32.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Washington University (Missouri)",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "7:32.25",
+              "points": 30.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Washington University (Missouri)",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "3:26.83",
+              "points": 24.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Hannah Lee",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:02.65",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Washington University (Missouri)",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "1:34.12",
+              "points": 14.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Sarah Cohen",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "4:58.57",
+              "points": 12.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Sarah Cohen",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "17:18.92",
+              "points": 9.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Eliana King",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "2:18.85",
+              "points": 9.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Rachel Bello",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "4:28.76",
+              "points": 3.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Kiera Johnson",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "2:04.63",
+              "points": 2.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Elizabeth Chen",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "56.34",
+              "points": 1.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Hannah Lee",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "2:20.42",
+              "points": 1.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Rachel Bello",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "2:06.01",
+              "points": 1.0
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "team": "Swarthmore College",
+          "is_depauw": false,
+          "total_points": 185.5,
+          "individual_points": 75.5,
+          "relay_points": 110.0,
+          "scoring_swims": 13,
+          "a_finals": 8,
+          "b_finals": 5,
+          "scorers": [
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Swarthmore College",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:42.19",
+              "points": 30.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Swarthmore College",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "3:45.50",
+              "points": 30.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Swarthmore College",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:33.38",
+              "points": 24.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Swarthmore College",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "3:28.04",
+              "points": 18.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Genine Collins",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "22.71",
+              "points": 17.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Genine Collins",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "50.30",
+              "points": 15.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Norah Rutkowski",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "55.34",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Lorelai Bremer",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "2:18.65",
+              "points": 12.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Lorelai Bremer",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:03.38",
+              "points": 11.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Swarthmore College",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "7:42.32",
+              "points": 8.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Lorelai Bremer",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "1:50.96",
+              "points": 6.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Genine Collins",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "1:51.55",
+              "points": 2.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Jerica Yuan",
+              "place": 16,
+              "is_tie": true,
+              "time_str": "55.77",
+              "points": 0.5
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "team": "Massachusetts Institute of Technology",
+          "is_depauw": false,
+          "total_points": 177.0,
+          "individual_points": 143.0,
+          "relay_points": 34.0,
+          "scoring_swims": 14,
+          "a_finals": 10,
+          "b_finals": 4,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Massachusetts Institute of Technology",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:34.04",
+              "points": 22.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Ella Roberson",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "49.63",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Ella Roberson",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:49.89",
+              "points": 20.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Ella Roberson",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "22.87",
+              "points": 16.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Sydney Smith",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "55.14",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Sarah Bernard",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "2:18.57",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Mary Feliz",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "2:02.07",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Mary Feliz",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "2:04.73",
+              "points": 13.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Sydney Smith",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "55.54",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Massachusetts Institute of Technology",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "1:43.03",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Mary Feliz",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:50.64",
+              "points": 11.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Sarah Bernard",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "5:00.40",
+              "points": 6.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Mary Feliz",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "5:00.80",
+              "points": 4.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Sydney Smith",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "1:51.85",
+              "points": 1.0
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "team": "Pomona-Pitzer Colleges",
+          "is_depauw": false,
+          "total_points": 170.0,
+          "individual_points": 70.0,
+          "relay_points": 100.0,
+          "scoring_swims": 10,
+          "a_finals": 6,
+          "b_finals": 4,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Pomona-Pitzer Colleges",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:32.54",
+              "points": 32.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Pomona-Pitzer Colleges",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "7:33.85",
+              "points": 28.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Kathryn Bennett Jones",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "4:21.71",
+              "points": 20.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Pomona-Pitzer Colleges",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "3:48.51",
+              "points": 18.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Kathryn Bennett Jones",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "2:04.50",
+              "points": 17.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Francesca Coppo",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "23.16",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Pomona-Pitzer Colleges",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "1:42.98",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Ellie Burkhardt",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:50.59",
+              "points": 12.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Pomona-Pitzer Colleges",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "3:29.48",
+              "points": 8.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Kathryn Bennett Jones",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "2:03.68",
+              "points": 7.0
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "team": "State University of New York at Geneseo",
+          "is_depauw": false,
+          "total_points": 112.0,
+          "individual_points": 48.0,
+          "relay_points": 64.0,
+          "scoring_swims": 8,
+          "a_finals": 4,
+          "b_finals": 4,
+          "scorers": [
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "State University of New York at Geneseo",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:42.25",
+              "points": 26.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Alexandra Sotek",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "54.64",
+              "points": 17.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Emily Thomas",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:02.70",
+              "points": 14.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "State University of New York at Geneseo",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "3:49.22",
+              "points": 14.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Alexandra Sotek",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "23.18",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "State University of New York at Geneseo",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "1:34.89",
+              "points": 12.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "State University of New York at Geneseo",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "3:28.70",
+              "points": 12.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Alexandra Sotek",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "51.27",
+              "points": 4.0
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "team": "Carnegie Mellon University",
+          "is_depauw": false,
+          "total_points": 95.5,
+          "individual_points": 19.5,
+          "relay_points": 76.0,
+          "scoring_swims": 9,
+          "a_finals": 3,
+          "b_finals": 6,
+          "scorers": [
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Carnegie Mellon University",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "3:27.25",
+              "points": 22.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Carnegie Mellon University",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "7:37.22",
+              "points": 22.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Audrey Gil",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "55.20",
+              "points": 13.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Carnegie Mellon University",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "3:50.02",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Carnegie Mellon University",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "1:34.92",
+              "points": 10.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Carnegie Mellon University",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "1:44.69",
+              "points": 10.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Gene Sunthornrangsri",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "4:28.73",
+              "points": 4.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Audrey Gil",
+              "place": 15,
+              "is_tie": true,
+              "time_str": "23.48",
+              "points": 1.5
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Gene Sunthornrangsri",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "17:31.27",
+              "points": 1.0
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "team": "Salisbury University",
+          "is_depauw": false,
+          "total_points": 79.5,
+          "individual_points": 51.5,
+          "relay_points": 28.0,
+          "scoring_swims": 11,
+          "a_finals": 2,
+          "b_finals": 9,
+          "scorers": [
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Addi Wood",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "17:06.37",
+              "points": 16.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Rowan O'Donoghue",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "4:57.94",
+              "points": 15.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Salisbury University",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "3:28.40",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Libby Miyashita",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "2:03.34",
+              "points": 9.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Mackenzie Gula",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "2:05.29",
+              "points": 6.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Salisbury University",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "1:45.04",
+              "points": 6.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Rowan O'Donoghue",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "1:51.30",
+              "points": 5.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Salisbury University",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "7:45.47",
+              "points": 4.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Salisbury University",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "1:35.58",
+              "points": 2.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Salisbury University",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "3:53.48",
+              "points": 2.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Libby Miyashita",
+              "place": 16,
+              "is_tie": true,
+              "time_str": "55.77",
+              "points": 0.5
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "team": "Hope College",
+          "is_depauw": false,
+          "total_points": 58.0,
+          "individual_points": 40.0,
+          "relay_points": 18.0,
+          "scoring_swims": 6,
+          "a_finals": 2,
+          "b_finals": 4,
+          "scorers": [
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Hope College",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "7:38.69",
+              "points": 18.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Emme D'Errico",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "4:25.09",
+              "points": 16.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Layla Umstead",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "4:58.29",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Emme D'Errico",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "2:04.32",
+              "points": 4.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Emme D'Errico",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "2:05.40",
+              "points": 4.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Layla Umstead",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "17:28.98",
+              "points": 3.0
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "team": "Washington and Lee University",
+          "is_depauw": false,
+          "total_points": 55.0,
+          "individual_points": 35.0,
+          "relay_points": 20.0,
+          "scoring_swims": 7,
+          "a_finals": 1,
+          "b_finals": 6,
+          "scorers": [
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Celia Bredehoeft",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "17:11.80",
+              "points": 14.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Washington and Lee University",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "7:38.78",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Marcy Mortimer",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "2:05.16",
+              "points": 9.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Eliza Osada",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "2:04.23",
+              "points": 6.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Washington and Lee University",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "3:29.58",
+              "points": 6.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Celia Bredehoeft",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "5:00.79",
+              "points": 5.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Marcy Mortimer",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "4:29.13",
+              "points": 1.0
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "team": "Kean University",
+          "is_depauw": false,
+          "total_points": 37.0,
+          "individual_points": 31.0,
+          "relay_points": 6.0,
+          "scoring_swims": 4,
+          "a_finals": 2,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "braelyn wilson",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "55.20",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Olivia Chow",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "2:04.75",
+              "points": 12.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Kean University",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "3:52.45",
+              "points": 6.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "braelyn wilson",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "23.37",
+              "points": 4.0
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "team": "Lake Forest College",
+          "is_depauw": false,
+          "total_points": 26.0,
+          "individual_points": 26.0,
+          "relay_points": 0.0,
+          "scoring_swims": 2,
+          "a_finals": 1,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Isabella Rozenbergas",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "2:04.09",
+              "points": 20.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Isabella Rozenbergas",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "4:27.95",
+              "points": 6.0
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "team": "University of California-Santa Cruz",
+          "is_depauw": false,
+          "total_points": 26.0,
+          "individual_points": 2.0,
+          "relay_points": 24.0,
+          "scoring_swims": 4,
+          "a_finals": 0,
+          "b_finals": 4,
+          "scorers": [
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "University of California-Santa Cruz",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "3:52.29",
+              "points": 10.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "University of California-Santa Cruz",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "7:41.62",
+              "points": 10.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "University of California-Santa Cruz",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "1:45.07",
+              "points": 4.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Miya Klatt",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "4:28.80",
+              "points": 2.0
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "team": "DePauw University",
+          "is_depauw": true,
+          "total_points": 24.0,
+          "individual_points": 24.0,
+          "relay_points": 0.0,
+          "scoring_swims": 2,
+          "a_finals": 1,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Edie Patterson",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "17:11.54",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Edie Patterson",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:50.69",
+              "points": 9.0
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "team": "Wheaton College (Illinois)",
+          "is_depauw": false,
+          "total_points": 23.0,
+          "individual_points": 23.0,
+          "relay_points": 0.0,
+          "scoring_swims": 3,
+          "a_finals": 1,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Tess Boyer",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "4:25.25",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Tess Boyer",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "2:01.78",
+              "points": 6.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Tess Boyer",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "51.29",
+              "points": 2.0
+            }
+          ],
+          "rank": 20
+        },
+        {
+          "team": "Ohio Northern University",
+          "is_depauw": false,
+          "total_points": 17.0,
+          "individual_points": 17.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 1,
+          "b_finals": 0,
+          "scorers": [
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Nicole Pavlik",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "54.47",
+              "points": 17.0
+            }
+          ],
+          "rank": 21
+        },
+        {
+          "team": "Azusa Pacific University",
+          "is_depauw": false,
+          "total_points": 17.0,
+          "individual_points": 1.0,
+          "relay_points": 16.0,
+          "scoring_swims": 3,
+          "a_finals": 0,
+          "b_finals": 3,
+          "scorers": [
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Azusa Pacific University",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "3:29.30",
+              "points": 10.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Azusa Pacific University",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "1:35.34",
+              "points": 6.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Sydnee Wilson",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "51.31",
+              "points": 1.0
+            }
+          ],
+          "rank": 21
+        },
+        {
+          "team": "Trinity University (Texas)",
+          "is_depauw": false,
+          "total_points": 15.0,
+          "individual_points": 11.0,
+          "relay_points": 4.0,
+          "scoring_swims": 2,
+          "a_finals": 1,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Macy Williams",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "2:02.77",
+              "points": 11.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Trinity University (Texas)",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "3:52.76",
+              "points": 4.0
+            }
+          ],
+          "rank": 23
+        },
+        {
+          "team": "Calvin University",
+          "is_depauw": false,
+          "total_points": 14.0,
+          "individual_points": 6.0,
+          "relay_points": 8.0,
+          "scoring_swims": 3,
+          "a_finals": 0,
+          "b_finals": 3,
+          "scorers": [
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Zoe Poe",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "17:26.77",
+              "points": 6.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Calvin University",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "7:43.31",
+              "points": 6.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Calvin University",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "3:30.93",
+              "points": 2.0
+            }
+          ],
+          "rank": 24
+        },
+        {
+          "team": "Case Western Reserve University",
+          "is_depauw": false,
+          "total_points": 12.0,
+          "individual_points": 0.0,
+          "relay_points": 12.0,
+          "scoring_swims": 2,
+          "a_finals": 0,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Case Western Reserve University",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "1:35.29",
+              "points": 8.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Case Western Reserve University",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "3:30.74",
+              "points": 4.0
+            }
+          ],
+          "rank": 25
+        },
+        {
+          "team": "College of Saint Benedict",
+          "is_depauw": false,
+          "total_points": 9.0,
+          "individual_points": 9.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Haley Zelen",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "55.48",
+              "points": 9.0
+            }
+          ],
+          "rank": 26
+        },
+        {
+          "team": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
+          "is_depauw": false,
+          "total_points": 8.0,
+          "individual_points": 0.0,
+          "relay_points": 8.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "3:52.30",
+              "points": 8.0
+            }
+          ],
+          "rank": 27
+        },
+        {
+          "team": "Williams College",
+          "is_depauw": false,
+          "total_points": 8.0,
+          "individual_points": 0.0,
+          "relay_points": 8.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Williams College",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "1:45.02",
+              "points": 8.0
+            }
+          ],
+          "rank": 27
+        },
+        {
+          "team": "Ithaca College",
+          "is_depauw": false,
+          "total_points": 7.0,
+          "individual_points": 7.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Sydney Koehler",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "2:19.01",
+              "points": 7.0
+            }
+          ],
+          "rank": 29
+        },
+        {
+          "team": "Saint Francis University (Pennsylvania)",
+          "is_depauw": false,
+          "total_points": 7.0,
+          "individual_points": 7.0,
+          "relay_points": 0.0,
+          "scoring_swims": 2,
+          "a_finals": 0,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Taylor Weth",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "2:19.40",
+              "points": 5.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Taylor Weth",
+              "place": 14,
+              "is_tie": true,
+              "time_str": "1:04.05",
+              "points": 2.0
+            }
+          ],
+          "rank": 29
+        },
+        {
+          "team": "Whitworth University",
+          "is_depauw": false,
+          "total_points": 6.0,
+          "individual_points": 6.0,
+          "relay_points": 0.0,
+          "scoring_swims": 2,
+          "a_finals": 0,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Molly Konop",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "2:19.64",
+              "points": 4.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Kallie Badry",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "17:29.69",
+              "points": 2.0
+            }
+          ],
+          "rank": 31
+        },
+        {
+          "team": "Luther College",
+          "is_depauw": false,
+          "total_points": 5.5,
+          "individual_points": 5.5,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Mia Prater",
+              "place": 11,
+              "is_tie": true,
+              "time_str": "23.36",
+              "points": 5.5
+            }
+          ],
+          "rank": 32
+        },
+        {
+          "team": "Hood College",
+          "is_depauw": false,
+          "total_points": 5.0,
+          "individual_points": 5.0,
+          "relay_points": 0.0,
+          "scoring_swims": 2,
+          "a_finals": 0,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Sophia Routzahn",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "2:20.30",
+              "points": 3.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Sophia Routzahn",
+              "place": 14,
+              "is_tie": true,
+              "time_str": "1:04.05",
+              "points": 2.0
+            }
+          ],
+          "rank": 33
+        },
+        {
+          "team": "George Fox University",
+          "is_depauw": false,
+          "total_points": 4.0,
+          "individual_points": 4.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Gabbie Patti",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "56.19",
+              "points": 4.0
+            }
+          ],
+          "rank": 34
+        },
+        {
+          "team": "Babson College",
+          "is_depauw": false,
+          "total_points": 4.0,
+          "individual_points": 0.0,
+          "relay_points": 4.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Babson College",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "1:35.54",
+              "points": 4.0
+            }
+          ],
+          "rank": 34
+        },
+        {
+          "team": "Gettysburg College",
+          "is_depauw": false,
+          "total_points": 3.0,
+          "individual_points": 3.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Riley Van Schaften",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "2:04.49",
+              "points": 3.0
+            }
+          ],
+          "rank": 36
+        },
+        {
+          "team": "Pennsylvania State University-Behrend College",
+          "is_depauw": false,
+          "total_points": 2.5,
+          "individual_points": 2.5,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Camryn Watters",
+              "place": 14,
+              "is_tie": true,
+              "time_str": "56.27",
+              "points": 2.5
+            }
+          ],
+          "rank": 37
+        },
+        {
+          "team": "Stevens Institute",
+          "is_depauw": false,
+          "total_points": 2.5,
+          "individual_points": 2.5,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Laney Klaus",
+              "place": 14,
+              "is_tie": true,
+              "time_str": "56.27",
+              "points": 2.5
+            }
+          ],
+          "rank": 37
+        },
+        {
+          "team": "California Lutheran University",
+          "is_depauw": false,
+          "total_points": 2.0,
+          "individual_points": 2.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Olivia Badaracco",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "2:02.62",
+              "points": 2.0
+            }
+          ],
+          "rank": 39
+        },
+        {
+          "team": "Catholic University",
+          "is_depauw": false,
+          "total_points": 2.0,
+          "individual_points": 2.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Deli Brandt",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "2:20.37",
+              "points": 2.0
+            }
+          ],
+          "rank": 39
+        },
+        {
+          "team": "Bates College",
+          "is_depauw": false,
+          "total_points": 2.0,
+          "individual_points": 0.0,
+          "relay_points": 2.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Bates College",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "1:45.20",
+              "points": 2.0
+            }
+          ],
+          "rank": 39
+        },
+        {
+          "team": "Chapman University",
+          "is_depauw": false,
+          "total_points": 2.0,
+          "individual_points": 0.0,
+          "relay_points": 2.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Chapman University",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "7:46.49",
+              "points": 2.0
+            }
+          ],
+          "rank": 39
+        }
+      ],
       "depauw_qualified_athletes": [
         {
           "key": "2241315",
@@ -44210,8 +47651,3335 @@ window.DPU_SWIM_DATA = {
         "last_selected_pct_over_b": 0.49,
         "depauw_unique_qualified_swimmers": 0,
         "depauw_invited_entries_count": 0,
-        "depauw_bonus_entries_count": 0
+        "depauw_bonus_entries_count": 0,
+        "scoring_teams_count": 34,
+        "depauw_projected_rank": null,
+        "depauw_projected_points": 0.0
       },
+      "team_standings": [
+        {
+          "team": "Denison University",
+          "is_depauw": false,
+          "total_points": 607.0,
+          "individual_points": 413.0,
+          "relay_points": 194.0,
+          "scoring_swims": 44,
+          "a_finals": 29,
+          "b_finals": 15,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Denison University",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:18.68",
+              "points": 40.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Denison University",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:26.15",
+              "points": 40.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Denison University",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "2:52.53",
+              "points": 40.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Denison University",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "6:27.42",
+              "points": 40.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Denison University",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "3:12.19",
+              "points": 34.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "George Goins",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "15:19.01",
+              "points": 20.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Nick Hensel",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "19.57",
+              "points": 20.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "George Goins",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "4:21.88",
+              "points": 20.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Jack Hill",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "43.43",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Jack Hill",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:35.77",
+              "points": 17.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Nick Hensel",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "43.50",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Nick Hensel",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:36.30",
+              "points": 16.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Benjamin Bricker",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "4:25.33",
+              "points": 16.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Joe Keroack",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "15:40.10",
+              "points": 15.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Luke Swiggett",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "3:52.51",
+              "points": 15.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Ben Bevill",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "47.76",
+              "points": 14.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Cam Blevins-Mohr",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "47.34",
+              "points": 14.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Jack Eaddy",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "15:40.21",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Ben Bevill",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:46.99",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Luke Swiggett",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:47.39",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Benjamin Bricker",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:47.33",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "George Goins",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:36.93",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Jack Hill",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:47.40",
+              "points": 13.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Jack Hill",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "20.16",
+              "points": 12.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Asher Cole",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "47.62",
+              "points": 11.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Asher Cole",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:47.99",
+              "points": 11.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Kale Chow",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "3:56.21",
+              "points": 11.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Cam Blevins-Mohr",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "20.17",
+              "points": 11.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Kale Chow",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "4:29.10",
+              "points": 11.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Liam Nelson",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "54.25",
+              "points": 9.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Liam Nelson",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:59.90",
+              "points": 9.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Benjamin Bricker",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:37.58",
+              "points": 9.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Jack Hill",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "48.77",
+              "points": 7.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Jimmy Rogers",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "2:00.47",
+              "points": 6.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Grant Goins",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "44.49",
+              "points": 5.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Ben Bevill",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "1:48.88",
+              "points": 5.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Kale Chow",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "1:49.30",
+              "points": 4.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Grant Goins",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "48.27",
+              "points": 2.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Luke Swiggett",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "1:48.74",
+              "points": 2.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Harry Parsons",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "1:38.24",
+              "points": 2.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Hunter Raymer",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "4:30.91",
+              "points": 2.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Joe Keroack",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "1:38.35",
+              "points": 1.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Mark Jacobi-Krohn",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "3:58.74",
+              "points": 1.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "George Goins",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "20.36",
+              "points": 1.0
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "team": "University of Chicago",
+          "is_depauw": false,
+          "total_points": 487.5,
+          "individual_points": 311.5,
+          "relay_points": 176.0,
+          "scoring_swims": 29,
+          "a_finals": 22,
+          "b_finals": 7,
+          "scorers": [
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "University of Chicago",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "3:10.66",
+              "points": 40.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "University of Chicago",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:18.72",
+              "points": 34.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "University of Chicago",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:26.57",
+              "points": 34.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "University of Chicago",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "2:53.89",
+              "points": 34.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "University of Chicago",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "6:32.55",
+              "points": 34.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Cooper Costello",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "45.56",
+              "points": 20.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "John Butler",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "42.51",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Cooper Costello",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:43.65",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "John Butler",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:35.30",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Cooper Costello",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:46.04",
+              "points": 17.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "John Butler",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "19.59",
+              "points": 17.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "DongQi Yu",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "47.33",
+              "points": 16.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Ethan Taylor",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "53.47",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Ethan Taylor",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:57.12",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Cooper Costello",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:36.52",
+              "points": 15.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Cooper Costello",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "19.87",
+              "points": 15.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Alex Schwartz",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "4:26.25",
+              "points": 15.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Cooper Costello",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "43.66",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Gray Spencer",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:47.29",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Alex Schwartz",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:37.15",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Alex Wu",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:47.88",
+              "points": 12.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Ethan Wang",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "4:28.85",
+              "points": 12.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "DongQi Yu",
+              "place": 9,
+              "is_tie": true,
+              "time_str": "20.26",
+              "points": 8.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "DongQi Yu",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "1:48.30",
+              "points": 7.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Ethan Wang",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "3:57.92",
+              "points": 7.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Ethan Wang",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "1:48.35",
+              "points": 6.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "DongQi Yu",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "47.92",
+              "points": 5.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "David Gutin",
+              "place": 12,
+              "is_tie": true,
+              "time_str": "1:48.24",
+              "points": 4.5
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Alex Wu",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "44.57",
+              "points": 4.0
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "team": "New York University",
+          "is_depauw": false,
+          "total_points": 370.5,
+          "individual_points": 234.5,
+          "relay_points": 136.0,
+          "scoring_swims": 25,
+          "a_finals": 16,
+          "b_finals": 9,
+          "scorers": [
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "New York University",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "6:33.17",
+              "points": 32.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "New York University",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:20.26",
+              "points": 28.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "New York University",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:27.93",
+              "points": 28.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "New York University",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "2:59.61",
+              "points": 26.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "New York University",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "3:16.30",
+              "points": 22.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Teddy McQuaid",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "46.92",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Juan Diego Leon",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:55.91",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Conner Dean",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:45.88",
+              "points": 20.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Conner Dean",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "3:47.05",
+              "points": 20.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Juan Diego Leon",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "53.36",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Teddy McQuaid",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:44.92",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Conner Dean",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:56.59",
+              "points": 17.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Max Nechydyuk",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "3:47.20",
+              "points": 17.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Teddy McQuaid",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "47.29",
+              "points": 15.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Greg Wehbe",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "20.02",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Victor Derani",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:59.62",
+              "points": 11.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Max Nechydyuk",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:47.95",
+              "points": 9.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Sean Li",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "54.34",
+              "points": 7.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Conner Dean",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "1:37.78",
+              "points": 7.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Evan Jue",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "15:48.62",
+              "points": 6.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Max Nechydyuk",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "1:48.62",
+              "points": 6.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Victor Derani",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "3:58.47",
+              "points": 4.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Adam Mekrami",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "15:49.77",
+              "points": 3.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Juan Diego Leon",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "1:48.97",
+              "points": 3.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Matthew Ritchie",
+              "place": 14,
+              "is_tie": true,
+              "time_str": "3:58.57",
+              "points": 2.5
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "team": "Kenyon College",
+          "is_depauw": false,
+          "total_points": 309.5,
+          "individual_points": 157.5,
+          "relay_points": 152.0,
+          "scoring_swims": 22,
+          "a_finals": 14,
+          "b_finals": 8,
+          "scorers": [
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Kenyon College",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "2:57.30",
+              "points": 32.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Kenyon College",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:19.70",
+              "points": 30.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Kenyon College",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:27.60",
+              "points": 30.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Kenyon College",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "3:13.89",
+              "points": 30.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Kenyon College",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "6:34.40",
+              "points": 30.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Strader Franzese",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "4:25.28",
+              "points": 17.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Roman Savage",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "47.27",
+              "points": 16.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Crenshaw Halbach",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "15:42.48",
+              "points": 13.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Leo Karnitz",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "53.99",
+              "points": 12.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Neil Abrahamson",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "44.31",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Leo Karnitz",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:58.74",
+              "points": 12.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Noel Tumbasz",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "54.07",
+              "points": 11.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Kristof Szappanos",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:47.92",
+              "points": 11.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Lucas Casey",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:37.31",
+              "points": 11.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Kristof Szappanos",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "48.52",
+              "points": 9.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Roman Savage",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "44.43",
+              "points": 7.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Lucas Casey",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "44.45",
+              "points": 6.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Roman Savage",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "15:49.03",
+              "points": 5.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Thomson Parlette",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "1:48.37",
+              "points": 5.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Roman Savage",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "1:38.12",
+              "points": 5.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Roman Savage",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "4:30.67",
+              "points": 3.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Neil Abrahamson",
+              "place": 14,
+              "is_tie": true,
+              "time_str": "20.34",
+              "points": 2.5
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "team": "Emory University",
+          "is_depauw": false,
+          "total_points": 296.5,
+          "individual_points": 176.5,
+          "relay_points": 120.0,
+          "scoring_swims": 25,
+          "a_finals": 12,
+          "b_finals": 13,
+          "scorers": [
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Emory University",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "2:58.23",
+              "points": 28.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Emory University",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "3:14.72",
+              "points": 28.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Emory University",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "6:36.35",
+              "points": 28.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Emory University",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:28.51",
+              "points": 24.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Ben Pritchard",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "15:33.17",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Zachary Spicer",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:46.13",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "McKee Thorsen",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:46.58",
+              "points": 16.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Carson Kalish",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:46.91",
+              "points": 15.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Carson Kalish",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "47.54",
+              "points": 13.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Hayden Tupper",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "44.22",
+              "points": 13.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Carson Kalish",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "3:55.50",
+              "points": 13.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Zachary Spicer",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "48.21",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Emory University",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "1:21.50",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Carson Kalish",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:48.05",
+              "points": 9.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Ben Pritchard",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "4:29.30",
+              "points": 9.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Griffin Barlow",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "4:29.83",
+              "points": 7.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "McKee Thorsen",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "47.87",
+              "points": 6.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Colin Zexter",
+              "place": 11,
+              "is_tie": true,
+              "time_str": "48.86",
+              "points": 5.5
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Cole Radnay",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "3:58.14",
+              "points": 5.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Hayden Tupper",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "20.28",
+              "points": 5.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Anthony Simmons",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "48.13",
+              "points": 4.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Hayden Tupper",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "1:38.15",
+              "points": 4.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Ryan Schnur",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "2:01.03",
+              "points": 3.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Anthony Simmons",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "1:49.42",
+              "points": 3.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Owen Howell",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "2:01.38",
+              "points": 2.0
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "team": "Carnegie Mellon University",
+          "is_depauw": false,
+          "total_points": 267.5,
+          "individual_points": 117.5,
+          "relay_points": 150.0,
+          "scoring_swims": 17,
+          "a_finals": 12,
+          "b_finals": 5,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Carnegie Mellon University",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:19.23",
+              "points": 32.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Carnegie Mellon University",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:26.90",
+              "points": 32.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Carnegie Mellon University",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "3:13.68",
+              "points": 32.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Carnegie Mellon University",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "2:57.77",
+              "points": 30.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Carnegie Mellon University",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "6:36.85",
+              "points": 24.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Brayden Morford",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "46.65",
+              "points": 17.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Brayden Morford",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "19.67",
+              "points": 16.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Brayden Morford",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "43.59",
+              "points": 15.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Brayden Morford",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "53.62",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Brayden Morford",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:36.58",
+              "points": 14.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Brayden Morford",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "47.96",
+              "points": 13.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Tenzin Wangpo",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "3:56.09",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Jimin Chung",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:48.12",
+              "points": 9.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Matt Peitler",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "44.60",
+              "points": 3.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Matthew Liu",
+              "place": 14,
+              "is_tie": true,
+              "time_str": "3:58.57",
+              "points": 2.5
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Tenzin Wangpo",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "1:49.06",
+              "points": 1.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Matthew Liu",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "1:49.39",
+              "points": 1.0
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "team": "Washington University (Missouri)",
+          "is_depauw": false,
+          "total_points": 216.0,
+          "individual_points": 120.0,
+          "relay_points": 96.0,
+          "scoring_swims": 14,
+          "a_finals": 10,
+          "b_finals": 4,
+          "scorers": [
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Washington University (Missouri)",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "6:36.74",
+              "points": 26.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Washington University (Missouri)",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:20.92",
+              "points": 22.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Washington University (Missouri)",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:28.78",
+              "points": 18.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Washington University (Missouri)",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "3:16.64",
+              "points": 18.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Parker Chan",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "15:22.52",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Marco Minai",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "1:44.56",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Marco Minai",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "1:46.77",
+              "points": 16.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Marco Minai",
+              "place": 3,
+              "is_tie": false,
+              "time_str": "3:49.47",
+              "points": 16.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Parker Chan",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "4:26.78",
+              "points": 14.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Gavin Coggan",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "4:26.79",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Marco Minai",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:47.51",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Parker Chan",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:47.65",
+              "points": 12.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Washington University (Missouri)",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "3:00.65",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Aara Parseghian",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "1:48.43",
+              "points": 3.0
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "team": "Gettysburg College",
+          "is_depauw": false,
+          "total_points": 127.0,
+          "individual_points": 89.0,
+          "relay_points": 38.0,
+          "scoring_swims": 11,
+          "a_finals": 6,
+          "b_finals": 5,
+          "scorers": [
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Gettysburg College",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "6:38.01",
+              "points": 22.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Evan Graham",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "1:44.60",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Evan Graham",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:47.37",
+              "points": 15.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Evan Graham",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "3:53.80",
+              "points": 14.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Evan Graham",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "48.29",
+              "points": 11.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Toby Winston",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "44.32",
+              "points": 11.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Gettysburg College",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "3:17.74",
+              "points": 10.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Sam Nelson",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "15:44.79",
+              "points": 9.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Sam Nelson",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "4:30.48",
+              "points": 6.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Gettysburg College",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "3:01.63",
+              "points": 6.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Toby Winston",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "1:38.22",
+              "points": 3.0
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "team": "Johns Hopkins University",
+          "is_depauw": false,
+          "total_points": 121.0,
+          "individual_points": 48.0,
+          "relay_points": 73.0,
+          "scoring_swims": 10,
+          "a_finals": 4,
+          "b_finals": 6,
+          "scorers": [
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Johns Hopkins University",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:28.41",
+              "points": 26.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Kai Henrikson-Brandt",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "47.69",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Kai Henrikson-Brandt",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:46.48",
+              "points": 15.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Johns Hopkins University",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "3:17.32",
+              "points": 14.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Johns Hopkins University",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "6:41.92",
+              "points": 14.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Alessandro Pereira",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "15:43.73",
+              "points": 11.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Johns Hopkins University",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "3:01.11",
+              "points": 10.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Johns Hopkins University",
+              "place": 12,
+              "is_tie": true,
+              "time_str": "1:21.54",
+              "points": 9.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Alessandro Pereira",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "3:58.03",
+              "points": 6.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Aden Li",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "49.07",
+              "points": 1.0
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "team": "State University of New York at Geneseo",
+          "is_depauw": false,
+          "total_points": 116.0,
+          "individual_points": 46.0,
+          "relay_points": 70.0,
+          "scoring_swims": 9,
+          "a_finals": 6,
+          "b_finals": 3,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "State University of New York at Geneseo",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "1:20.73",
+              "points": 24.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "State University of New York at Geneseo",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "2:59.72",
+              "points": 24.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "State University of New York at Geneseo",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:28.69",
+              "points": 22.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Brian Pabisch",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "19.91",
+              "points": 14.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Alex Palmer",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "53.95",
+              "points": 13.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Alex Palmer",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:58.63",
+              "points": 13.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Peter Peyser",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "54.96",
+              "points": 3.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Alex Palmer",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "1:49.37",
+              "points": 2.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Brian Pabisch",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "44.63",
+              "points": 1.0
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "team": "John Carroll University",
+          "is_depauw": false,
+          "total_points": 101.0,
+          "individual_points": 55.0,
+          "relay_points": 46.0,
+          "scoring_swims": 9,
+          "a_finals": 3,
+          "b_finals": 6,
+          "scorers": [
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "John Carroll University",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "3:15.93",
+              "points": 24.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Bart Kubis",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "53.54",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Bart Kubis",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:58.02",
+              "points": 14.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "John Carroll University",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "1:29.59",
+              "points": 14.0
+            },
+            {
+              "event_id": "400_IM",
+              "event_label": "400 IM",
+              "is_relay": false,
+              "name": "Jacob Florio",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "3:57.74",
+              "points": 9.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "John Carroll University",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "6:46.83",
+              "points": 8.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Jacob Florio",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "1:47.99",
+              "points": 7.0
+            },
+            {
+              "event_id": "200_FREE",
+              "event_label": "200 Free",
+              "is_relay": false,
+              "name": "Cameron Cook",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "1:38.01",
+              "points": 6.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Tyler Klein",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "15:49.22",
+              "points": 4.0
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "team": "Hope College",
+          "is_depauw": false,
+          "total_points": 73.0,
+          "individual_points": 11.0,
+          "relay_points": 62.0,
+          "scoring_swims": 4,
+          "a_finals": 2,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Hope College",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "1:20.67",
+              "points": 26.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Hope College",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "2:59.92",
+              "points": 18.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Hope College",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "6:38.35",
+              "points": 18.0
+            },
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Josh Bordovsky",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "1:47.94",
+              "points": 11.0
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "team": "Rhodes College",
+          "is_depauw": false,
+          "total_points": 59.0,
+          "individual_points": 7.0,
+          "relay_points": 52.0,
+          "scoring_swims": 7,
+          "a_finals": 1,
+          "b_finals": 6,
+          "scorers": [
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Rhodes College",
+              "place": 6,
+              "is_tie": false,
+              "time_str": "3:15.75",
+              "points": 26.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Rhodes College",
+              "place": 12,
+              "is_tie": true,
+              "time_str": "1:21.54",
+              "points": 9.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Rhodes College",
+              "place": 12,
+              "is_tie": true,
+              "time_str": "1:29.72",
+              "points": 9.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Josh Denckhoff",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "1:48.19",
+              "points": 6.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Rhodes College",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "3:01.99",
+              "points": 4.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Rhodes College",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "6:48.84",
+              "points": 4.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Clinton Eales",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "55.01",
+              "points": 1.0
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "team": "Salisbury University",
+          "is_depauw": false,
+          "total_points": 57.0,
+          "individual_points": 21.0,
+          "relay_points": 36.0,
+          "scoring_swims": 7,
+          "a_finals": 1,
+          "b_finals": 6,
+          "scorers": [
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Cameron Byrd",
+              "place": 5,
+              "is_tie": false,
+              "time_str": "1:47.20",
+              "points": 14.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Salisbury University",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "3:17.62",
+              "points": 12.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Salisbury University",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "6:46.81",
+              "points": 10.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Salisbury University",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "3:01.61",
+              "points": 8.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Salisbury University",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "1:21.57",
+              "points": 6.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Aidan Loehr",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "54.95",
+              "points": 4.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Cameron Byrd",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "48.26",
+              "points": 3.0
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "team": "University of California-Santa Cruz",
+          "is_depauw": false,
+          "total_points": 52.0,
+          "individual_points": 3.0,
+          "relay_points": 49.0,
+          "scoring_swims": 6,
+          "a_finals": 0,
+          "b_finals": 6,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "University of California-Santa Cruz",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "1:21.17",
+              "points": 14.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "University of California-Santa Cruz",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "3:00.39",
+              "points": 14.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "University of California-Santa Cruz",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "6:46.11",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "University of California-Santa Cruz",
+              "place": 12,
+              "is_tie": true,
+              "time_str": "1:29.72",
+              "points": 9.0
+            },
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "Kyle Reitan",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "44.62",
+              "points": 2.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Sebastian Santiago",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "2:01.39",
+              "points": 1.0
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "team": "Chapman University",
+          "is_depauw": false,
+          "total_points": 49.0,
+          "individual_points": 7.0,
+          "relay_points": 42.0,
+          "scoring_swims": 5,
+          "a_finals": 1,
+          "b_finals": 4,
+          "scorers": [
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Chapman University",
+              "place": 8,
+              "is_tie": false,
+              "time_str": "2:59.78",
+              "points": 22.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Chapman University",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "1:21.01",
+              "points": 18.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Cooper Na",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "20.27",
+              "points": 6.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Chapman University",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "6:48.85",
+              "points": 2.0
+            },
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Trenten Calloway",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "48.36",
+              "points": 1.0
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "team": "College of New Jersey, The",
+          "is_depauw": false,
+          "total_points": 44.0,
+          "individual_points": 30.0,
+          "relay_points": 14.0,
+          "scoring_swims": 7,
+          "a_finals": 1,
+          "b_finals": 6,
+          "scorers": [
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Joe McChesney",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "47.58",
+              "points": 12.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "College of New Jersey, The",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "3:17.99",
+              "points": 8.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Joe McChesney",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "1:48.31",
+              "points": 7.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "MJ Hoban",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "54.40",
+              "points": 6.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "College of New Jersey, The",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "1:29.77",
+              "points": 6.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Tyler McGeehan",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "2:00.87",
+              "points": 4.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Matt Liotti",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "4:30.98",
+              "points": 1.0
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "team": "Bridgewater College",
+          "is_depauw": false,
+          "total_points": 37.0,
+          "individual_points": 35.0,
+          "relay_points": 2.0,
+          "scoring_swims": 3,
+          "a_finals": 2,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Zachary Erb",
+              "place": 1,
+              "is_tie": false,
+              "time_str": "52.76",
+              "points": 20.0
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Zachary Erb",
+              "place": 4,
+              "is_tie": false,
+              "time_str": "1:57.45",
+              "points": 15.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Bridgewater College",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "1:29.92",
+              "points": 2.0
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "team": "Calvin University",
+          "is_depauw": false,
+          "total_points": 33.5,
+          "individual_points": 21.5,
+          "relay_points": 12.0,
+          "scoring_swims": 3,
+          "a_finals": 1,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Jackson Merkel",
+              "place": 2,
+              "is_tie": false,
+              "time_str": "47.21",
+              "points": 17.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Calvin University",
+              "place": 11,
+              "is_tie": false,
+              "time_str": "1:29.67",
+              "points": 12.0
+            },
+            {
+              "event_id": "200_BACK",
+              "event_label": "200 Back",
+              "is_relay": false,
+              "name": "Jackson Merkel",
+              "place": 12,
+              "is_tie": true,
+              "time_str": "1:48.24",
+              "points": 4.5
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "team": "Grinnell College",
+          "is_depauw": false,
+          "total_points": 25.0,
+          "individual_points": 23.0,
+          "relay_points": 2.0,
+          "scoring_swims": 5,
+          "a_finals": 0,
+          "b_finals": 5,
+          "scorers": [
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Spencer Pfaff",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "47.77",
+              "points": 9.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Evan Feilmeyer",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "15:46.81",
+              "points": 7.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Evan Feilmeyer",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "4:30.63",
+              "points": 4.0
+            },
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Evan Ingraham",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "48.94",
+              "points": 3.0
+            },
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Grinnell College",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "1:21.98",
+              "points": 2.0
+            }
+          ],
+          "rank": 20
+        },
+        {
+          "team": "Case Western Reserve University",
+          "is_depauw": false,
+          "total_points": 23.0,
+          "individual_points": 13.0,
+          "relay_points": 10.0,
+          "scoring_swims": 6,
+          "a_finals": 0,
+          "b_finals": 6,
+          "scorers": [
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Edgar Rutkauskas",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "2:00.36",
+              "points": 7.0
+            },
+            {
+              "event_id": "800_FR_REL",
+              "event_label": "800 Free Relay",
+              "is_relay": true,
+              "name": "Case Western Reserve University",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "6:47.32",
+              "points": 6.0
+            },
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Edgar Rutkauskas",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "54.85",
+              "points": 5.0
+            },
+            {
+              "event_id": "400_FR_REL",
+              "event_label": "400 Free Relay",
+              "is_relay": true,
+              "name": "Case Western Reserve University",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "3:02.12",
+              "points": 2.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Case Western Reserve University",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "3:18.52",
+              "points": 2.0
+            },
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Eddie Campion",
+              "place": 16,
+              "is_tie": false,
+              "time_str": "15:50.84",
+              "points": 1.0
+            }
+          ],
+          "rank": 21
+        },
+        {
+          "team": "Roger Williams University",
+          "is_depauw": false,
+          "total_points": 17.0,
+          "individual_points": 17.0,
+          "relay_points": 0.0,
+          "scoring_swims": 2,
+          "a_finals": 0,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "100_FREE",
+              "event_label": "100 Free",
+              "is_relay": false,
+              "name": "james Augustin",
+              "place": 9,
+              "is_tie": false,
+              "time_str": "44.41",
+              "points": 9.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "james Augustin",
+              "place": 9,
+              "is_tie": true,
+              "time_str": "20.26",
+              "points": 8.0
+            }
+          ],
+          "rank": 22
+        },
+        {
+          "team": "Rochester Institute of Technology",
+          "is_depauw": false,
+          "total_points": 14.5,
+          "individual_points": 10.5,
+          "relay_points": 4.0,
+          "scoring_swims": 3,
+          "a_finals": 0,
+          "b_finals": 3,
+          "scorers": [
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Griffin Messenlehner",
+              "place": 11,
+              "is_tie": true,
+              "time_str": "48.86",
+              "points": 5.5
+            },
+            {
+              "event_id": "200_BREAST",
+              "event_label": "200 Breast",
+              "is_relay": false,
+              "name": "Griffin Tomsheck",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "2:00.69",
+              "points": 5.0
+            },
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Rochester Institute of Technology",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "3:18.51",
+              "points": 4.0
+            }
+          ],
+          "rank": 23
+        },
+        {
+          "team": "Whittier College",
+          "is_depauw": false,
+          "total_points": 12.0,
+          "individual_points": 12.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 1,
+          "b_finals": 0,
+          "scorers": [
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Thomas Langlois",
+              "place": 7,
+              "is_tie": false,
+              "time_str": "15:43.35",
+              "points": 12.0
+            }
+          ],
+          "rank": 24
+        },
+        {
+          "team": "Asbury University",
+          "is_depauw": false,
+          "total_points": 11.0,
+          "individual_points": 11.0,
+          "relay_points": 0.0,
+          "scoring_swims": 2,
+          "a_finals": 0,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "100_FLY",
+              "event_label": "100 Fly",
+              "is_relay": false,
+              "name": "Ethan Bonow",
+              "place": 10,
+              "is_tie": false,
+              "time_str": "47.82",
+              "points": 7.0
+            },
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Ethan Bonow",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "20.30",
+              "points": 4.0
+            }
+          ],
+          "rank": 25
+        },
+        {
+          "team": "Trinity University (Texas)",
+          "is_depauw": false,
+          "total_points": 11.0,
+          "individual_points": 5.0,
+          "relay_points": 6.0,
+          "scoring_swims": 2,
+          "a_finals": 0,
+          "b_finals": 2,
+          "scorers": [
+            {
+              "event_id": "400_MR_REL",
+              "event_label": "400 Medley Relay",
+              "is_relay": true,
+              "name": "Trinity University (Texas)",
+              "place": 14,
+              "is_tie": false,
+              "time_str": "3:18.46",
+              "points": 6.0
+            },
+            {
+              "event_id": "500_FREE",
+              "event_label": "500 Free",
+              "is_relay": false,
+              "name": "Luke Fender",
+              "place": 12,
+              "is_tie": false,
+              "time_str": "4:30.49",
+              "points": 5.0
+            }
+          ],
+          "rank": 25
+        },
+        {
+          "team": "Massachusetts Institute of Technology",
+          "is_depauw": false,
+          "total_points": 9.5,
+          "individual_points": 5.5,
+          "relay_points": 4.0,
+          "scoring_swims": 3,
+          "a_finals": 0,
+          "b_finals": 3,
+          "scorers": [
+            {
+              "event_id": "200_IM",
+              "event_label": "200 IM",
+              "is_relay": false,
+              "name": "Jason Wang",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "1:48.93",
+              "points": 4.0
+            },
+            {
+              "event_id": "200_MR_REL",
+              "event_label": "200 Medley Relay",
+              "is_relay": true,
+              "name": "Massachusetts Institute of Technology",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "1:29.79",
+              "points": 4.0
+            },
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Aasish Dangol",
+              "place": 15,
+              "is_tie": true,
+              "time_str": "1:49.52",
+              "points": 1.5
+            }
+          ],
+          "rank": 27
+        },
+        {
+          "team": "University of Lynchburg",
+          "is_depauw": false,
+          "total_points": 4.0,
+          "individual_points": 4.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Henry Brooks",
+              "place": 13,
+              "is_tie": false,
+              "time_str": "48.87",
+              "points": 4.0
+            }
+          ],
+          "rank": 28
+        },
+        {
+          "team": "Babson College",
+          "is_depauw": false,
+          "total_points": 4.0,
+          "individual_points": 0.0,
+          "relay_points": 4.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_FR_REL",
+              "event_label": "200 Free Relay",
+              "is_relay": true,
+              "name": "Babson College",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "1:21.93",
+              "points": 4.0
+            }
+          ],
+          "rank": 28
+        },
+        {
+          "team": "University of Mary Washington",
+          "is_depauw": false,
+          "total_points": 2.5,
+          "individual_points": 2.5,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "50_FREE",
+              "event_label": "50 Free",
+              "is_relay": false,
+              "name": "Rece Storer",
+              "place": 14,
+              "is_tie": true,
+              "time_str": "20.34",
+              "points": 2.5
+            }
+          ],
+          "rank": 30
+        },
+        {
+          "team": "Berry College",
+          "is_depauw": false,
+          "total_points": 2.0,
+          "individual_points": 2.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "100_BACK",
+              "event_label": "100 Back",
+              "is_relay": false,
+              "name": "Nick Fonzo",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "48.99",
+              "points": 2.0
+            }
+          ],
+          "rank": 31
+        },
+        {
+          "team": "Swarthmore College",
+          "is_depauw": false,
+          "total_points": 2.0,
+          "individual_points": 2.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "1650_FREE",
+              "event_label": "1650 Free",
+              "is_relay": false,
+              "name": "Turner Mitten",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "15:49.81",
+              "points": 2.0
+            }
+          ],
+          "rank": 31
+        },
+        {
+          "team": "University of Wisconsin-LaCrosse",
+          "is_depauw": false,
+          "total_points": 2.0,
+          "individual_points": 2.0,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "100_BREAST",
+              "event_label": "100 Breast",
+              "is_relay": false,
+              "name": "Preston Nygaard",
+              "place": 15,
+              "is_tie": false,
+              "time_str": "54.99",
+              "points": 2.0
+            }
+          ],
+          "rank": 31
+        },
+        {
+          "team": "Wabash College",
+          "is_depauw": false,
+          "total_points": 1.5,
+          "individual_points": 1.5,
+          "relay_points": 0.0,
+          "scoring_swims": 1,
+          "a_finals": 0,
+          "b_finals": 1,
+          "scorers": [
+            {
+              "event_id": "200_FLY",
+              "event_label": "200 Fly",
+              "is_relay": false,
+              "name": "Ozzy Jankowski",
+              "place": 15,
+              "is_tie": true,
+              "time_str": "1:49.52",
+              "points": 1.5
+            }
+          ],
+          "rank": 34
+        }
+      ],
       "depauw_qualified_athletes": [],
       "depauw_invited_entries": [],
       "depauw_bonus_entries": [],

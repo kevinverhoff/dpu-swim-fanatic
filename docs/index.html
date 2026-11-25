@@ -438,6 +438,33 @@
       </div>
 
       <div class="table-card" style="margin-bottom: 1.5rem;">
+        <div style="padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+          <div>
+            <strong style="font-size: 1rem;">🏆 Scored Meet Projection — Team Standings (Swimming Events Only)</strong>
+            <div class="swimmer-meta">Scored assuming every entry finishes at its exact seed time using official NCAA DIII 16-place scoring (Individual: 20-17-16-15-14-13-12-11 / 9-7-6-5-4-3-2-1 · Relays: 2× · Ties split · Diving excluded). Click any school to expand its scoring swims.</div>
+          </div>
+          <div>
+            <input type="text" id="sel-team-search" placeholder="Filter schools (e.g. DePauw, Kenyon)..." oninput="renderSelectionStandings()" style="min-width: 240px;" />
+          </div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>School</th>
+              <th>Total Pts</th>
+              <th>Individual Pts</th>
+              <th>Relay Pts</th>
+              <th>A-Finals (Top 8)</th>
+              <th>B-Finals (9–16)</th>
+              <th>Scoring Breakdown</th>
+            </tr>
+          </thead>
+          <tbody id="sel-standings-tbody"></tbody>
+        </table>
+      </div>
+
+      <div class="table-card" style="margin-bottom: 1.5rem;">
         <div style="padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
           <div>
             <strong style="font-size: 1rem;">Simulated NCAA Cutlines by Event (As of Current Data Pull)</strong>
@@ -616,6 +643,11 @@
           <div class="kpi-value" style="color:var(--dpu-gold)">${c.depauw_invited_entries_count}${c.depauw_bonus_entries_count ? ` + ${c.depauw_bonus_entries_count}` : ""}</div>
           <div class="kpi-sub">${c.depauw_unique_qualified_swimmers} athletes (${c.depauw_invited_entries_count} invited + ${c.depauw_bonus_entries_count || 0} bonus)</div>
         </div>
+        <div class="kpi-card">
+          <div class="kpi-label">🏆 DePauw Projected Finish</div>
+          <div class="kpi-value" style="color:#fbbf24">${c.depauw_projected_rank ? `#${c.depauw_projected_rank}` : "—"}</div>
+          <div class="kpi-sub">${c.depauw_projected_points ? `${c.depauw_projected_points} pts (of ${c.scoring_teams_count || 0} scoring teams)` : `0 pts (${c.scoring_teams_count || 0} teams scoring)`}</div>
+        </div>
       `;
 
       // Populate DePauw Projected Qualifiers & Bubble section
@@ -745,7 +777,74 @@
         `;
       }).join("");
 
+      renderSelectionStandings();
       renderSelectionEventPsych();
+    }
+
+    let EXPANDED_SCHOOLS = new Set();
+
+    function toggleSchoolBreakdown(teamName) {
+      if (EXPANDED_SCHOOLS.has(teamName)) {
+        EXPANDED_SCHOOLS.delete(teamName);
+      } else {
+        EXPANDED_SCHOOLS.add(teamName);
+      }
+      renderSelectionStandings();
+    }
+
+    function fmtPts(val) {
+      if (val === null || val === undefined) return "0";
+      return Number.isInteger(val) ? String(val) : val.toFixed(1).replace(/\.0$/, "");
+    }
+
+    function renderSelectionStandings() {
+      if (!DATA || !DATA.selection_sim) return;
+      const g = document.getElementById("sel-gender").value;
+      const sim = DATA.selection_sim[g];
+      const tbody = document.getElementById("sel-standings-tbody");
+      if (!sim || !tbody) return;
+
+      const query = (document.getElementById("sel-team-search")?.value || "").trim().toLowerCase();
+      const standings = (sim.team_standings || []).filter(t =>
+        !query || t.team.toLowerCase().includes(query)
+      );
+
+      if (!standings.length) {
+        tbody.innerHTML = `<tr><td colspan="8" class="empty-state">No scoring schools match "${query}".</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = standings.map(t => {
+        const isDpu = t.is_depauw;
+        const isExpanded = EXPANDED_SCHOOLS.has(t.team);
+        const trStyle = isDpu ? ` style="background: rgba(255, 199, 44, 0.14); cursor:pointer;"` : ` style="cursor:pointer;"`;
+        const topScorers = (t.scorers || []).slice(0, isExpanded ? t.scorers.length : 3);
+        const pills = topScorers.map(s => {
+          const tieStr = s.is_tie ? "T-" : "";
+          const label = s.is_relay
+            ? `${s.event_label} (${tieStr}#${s.place} · ${fmtPts(s.points)}pt)`
+            : `${s.name} · ${s.event_label} (${tieStr}#${s.place} · ${fmtPts(s.points)}pt)`;
+          const tone = s.place <= 8 ? (isDpu ? "tiger" : "blue") : "green";
+          return `<span class="badge ${tone}">${label}</span>`;
+        }).join("");
+        const moreCount = (t.scorers || []).length - topScorers.length;
+        const moreHint = moreCount > 0
+          ? `<span class="badge" style="background:var(--surface-2);color:var(--muted);border:1px solid var(--border);">+${moreCount} more (click)</span>`
+          : (isExpanded && (t.scorers || []).length > 3 ? `<span class="swimmer-meta" style="margin-left:0.35rem;">(click to collapse)</span>` : "");
+
+        return `
+          <tr${trStyle} onclick="toggleSchoolBreakdown(${JSON.stringify(t.team).replace(/"/g, '&quot;')})">
+            <td><strong>#${t.rank}</strong></td>
+            <td><div class="swimmer-name">${isDpu ? "🐯 " : ""}${t.team}</div></td>
+            <td><span class="time-primary">${fmtPts(t.total_points)}</span></td>
+            <td><strong>${fmtPts(t.individual_points)}</strong></td>
+            <td><strong>${fmtPts(t.relay_points)}</strong></td>
+            <td>${t.a_finals}</td>
+            <td>${t.b_finals}</td>
+            <td><div class="badge-list">${pills}${moreHint}</div></td>
+          </tr>
+        `;
+      }).join("");
     }
 
     function renderSelectionEventPsych() {

@@ -54,6 +54,106 @@ RELAY_STROKE_COMPOSITION: dict[str, list[tuple[str, int]]] = {
 
 MAX_INDIVIDUAL_EVENTS_PER_SWIMMER = 3
 
+# Official NCAA Division III Championship 16-place scoring tables (swim events only; diving excluded)
+NCAA_INDIV_POINTS = [20, 17, 16, 15, 14, 13, 12, 11, 9, 7, 6, 5, 4, 3, 2, 1]
+NCAA_RELAY_POINTS = [40, 34, 32, 30, 28, 26, 24, 22, 18, 14, 12, 10, 8, 6, 4, 2]
+
+
+def _score_simulated_meet(
+    event_summaries: list[dict[str, Any]],
+    target_team_id: int = 274,
+) -> list[dict[str, Any]]:
+    """Score the simulated NCAA DIII Championship meet assuming every entry finishes at its exact seed time.
+    Uses official NCAA 16-place scoring (Individual: 20-17-16-15-14-13-12-11 / 9-7-6-5-4-3-2-1; Relays: 2x).
+    Handles exact-time ties by splitting points across tied places.
+    """
+    team_scores: dict[str, dict[str, Any]] = {}
+
+    for ev in event_summaries:
+        is_relay = bool(ev["is_relay"])
+        pts_table = NCAA_RELAY_POINTS if is_relay else NCAA_INDIV_POINTS
+        ladder = ev.get("invited_ladder", [])
+        if not ladder:
+            continue
+
+        # Sort by time_sec (or preserve psych sheet order since it's already sorted by time)
+        # Only top 16 places score; include any entries tied for 16th.
+        scoring_rows = ladder[:16]
+        if len(ladder) > 16:
+            sixteenth_time = ladder[15]["time_str"]
+            idx = 16
+            while idx < len(ladder) and ladder[idx]["time_str"] == sixteenth_time:
+                scoring_rows.append(ladder[idx])
+                idx += 1
+
+        # Group contiguous ties by exact time_str and split points evenly across tied places
+        i = 0
+        while i < len(scoring_rows):
+            t_str = scoring_rows[i]["time_str"]
+            j = i + 1
+            while j < len(scoring_rows) and scoring_rows[j]["time_str"] == t_str:
+                j += 1
+            # Places occupied: i .. j-1 (0-indexed)
+            total_pts_pool = sum(pts_table[p] for p in range(i, min(j, 16)))
+            if total_pts_pool > 0:
+                pts_each = round(total_pts_pool / (j - i), 2)
+                place_num = i + 1
+                is_tie = (j - i) > 1
+                for k in range(i, j):
+                    row = scoring_rows[k]
+                    team_name = row["team"]
+                    is_dpu = bool(row.get("is_depauw")) or _is_depauw(team_name, None, target_team_id)
+                    if team_name not in team_scores:
+                        team_scores[team_name] = {
+                            "team": team_name,
+                            "is_depauw": is_dpu,
+                            "total_points": 0.0,
+                            "individual_points": 0.0,
+                            "relay_points": 0.0,
+                            "scoring_swims": 0,
+                            "a_finals": 0,
+                            "b_finals": 0,
+                            "scorers": [],
+                        }
+                    ts = team_scores[team_name]
+                    ts["total_points"] = round(ts["total_points"] + pts_each, 2)
+                    if is_relay:
+                        ts["relay_points"] = round(ts["relay_points"] + pts_each, 2)
+                    else:
+                        ts["individual_points"] = round(ts["individual_points"] + pts_each, 2)
+                    ts["scoring_swims"] += 1
+                    if place_num <= 8:
+                        ts["a_finals"] += 1
+                    else:
+                        ts["b_finals"] += 1
+                    ts["scorers"].append({
+                        "event_id": ev["event_id"],
+                        "event_label": ev["event_label"],
+                        "is_relay": is_relay,
+                        "name": row["name"],
+                        "place": place_num,
+                        "is_tie": is_tie,
+                        "time_str": t_str,
+                        "points": pts_each,
+                    })
+            i = j
+
+    standings = list(team_scores.values())
+    standings.sort(
+        key=lambda x: (-x["total_points"], -x["a_finals"], -x["individual_points"], x["team"])
+    )
+
+    # Assign team rank (with ties)
+    for idx, team_row in enumerate(standings):
+        if idx > 0 and team_row["total_points"] == standings[idx - 1]["total_points"]:
+            team_row["rank"] = standings[idx - 1]["rank"]
+        else:
+            team_row["rank"] = idx + 1
+        # Sort each school's scorers by points descending, then place ascending
+        team_row["scorers"].sort(key=lambda s: (-s["points"], s["place"], s["event_label"]))
+
+    return standings
+
 SELECTION_PARAMS = {
     "F": {
         "gender_label": "Women",
@@ -830,6 +930,9 @@ def simulate_gender_selection(
     ]
     depauw_bubble_entries.sort(key=lambda x: x["delta_to_cutoff_sec"])
 
+    team_standings = _score_simulated_meet(event_summaries, target_team_id=target_team_id)
+    depauw_standing = next((t for t in team_standings if t["is_depauw"]), None)
+
     return {
         "gender": gender,
         "gender_label": params["gender_label"],
@@ -853,7 +956,11 @@ def simulate_gender_selection(
             "depauw_unique_qualified_swimmers": len(depauw_unique_athletes),
             "depauw_invited_entries_count": len(depauw_invited_entries),
             "depauw_bonus_entries_count": len(depauw_bonus_entries),
+            "scoring_teams_count": len(team_standings),
+            "depauw_projected_rank": depauw_standing["rank"] if depauw_standing else None,
+            "depauw_projected_points": depauw_standing["total_points"] if depauw_standing else 0.0,
         },
+        "team_standings": team_standings,
         "depauw_qualified_athletes": depauw_unique_athletes,
         "depauw_invited_entries": depauw_invited_entries,
         "depauw_bonus_entries": depauw_bonus_entries,
