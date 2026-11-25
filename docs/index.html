@@ -438,33 +438,6 @@
       </div>
 
       <div class="table-card" style="margin-bottom: 1.5rem;">
-        <div style="padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
-          <div>
-            <strong style="font-size: 1rem;">🏆 Scored Meet Projection — Team Standings (Swimming Events Only)</strong>
-            <div class="swimmer-meta">Scored assuming every entry finishes at its exact seed time using official NCAA DIII 16-place scoring (Individual: 20-17-16-15-14-13-12-11 / 9-7-6-5-4-3-2-1 · Relays: 2× · Ties split · Diving excluded). Click any school to expand its scoring swims.</div>
-          </div>
-          <div>
-            <input type="text" id="sel-team-search" placeholder="Filter schools (e.g. DePauw, Kenyon)..." oninput="renderSelectionStandings()" style="min-width: 240px;" />
-          </div>
-        </div>
-        <table>
-          <thead>
-            <tr>
-              <th>Rank</th>
-              <th>School</th>
-              <th>Total Pts</th>
-              <th>Individual Pts</th>
-              <th>Relay Pts</th>
-              <th>A-Finals (Top 8)</th>
-              <th>B-Finals (9–16)</th>
-              <th>Scoring Breakdown</th>
-            </tr>
-          </thead>
-          <tbody id="sel-standings-tbody"></tbody>
-        </table>
-      </div>
-
-      <div class="table-card" style="margin-bottom: 1.5rem;">
         <div style="padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
           <div>
             <strong style="font-size: 1rem;">Simulated NCAA Cutlines by Event (As of Current Data Pull)</strong>
@@ -489,7 +462,7 @@
         </table>
       </div>
 
-      <div class="table-card">
+      <div class="table-card" style="margin-bottom: 1.5rem;">
         <div style="padding: 1rem 1.25rem; border-bottom: 1px solid var(--border);">
           <strong style="font-size: 1rem;" id="sel-psych-title">Simulated Event Psych Sheet</strong>
           <div class="swimmer-meta">Shows every swimmer or relay invited above the <code>--- INVITED ---</code> cutline, plus optional 2nd/3rd Bonus Events (up to the 3-event max for individual qualifiers) and Relay Swimmer + B-Cut entries below the cutline.</div>
@@ -509,6 +482,35 @@
           <tbody id="sel-psych-tbody"></tbody>
         </table>
       </div>
+
+      <details class="table-card" id="sel-standings-details">
+        <summary style="padding: 1rem 1.25rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; list-style: none;">
+          <div>
+            <strong style="font-size: 1rem;">▸ 🏆 Scored Meet Projection — Team Standings (Swimming Events Only)</strong>
+            <div class="swimmer-meta">Click to expand full NCAA DIII 16-place scored standings assuming every entry finishes at its exact seed time (Individual: 20-17-16-15-14-13-12-11 / 9-7-6-5-4-3-2-1 · Relays: 2× · Ties split · Diving excluded).</div>
+          </div>
+          <span class="round-pill" id="sel-standings-summary-pill">Expand Standings</span>
+        </summary>
+        <div style="padding: 0.75rem 1.25rem; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+          <span class="swimmer-meta">Click any school row to expand its individual &amp; relay scoring breakdown.</span>
+          <input type="text" id="sel-team-search" placeholder="Filter schools (e.g. DePauw, Kenyon)..." oninput="renderSelectionStandings()" style="min-width: 240px;" />
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>School</th>
+              <th>Total Pts</th>
+              <th>Individual Pts</th>
+              <th>Relay Pts</th>
+              <th>A-Finals (Top 8)</th>
+              <th>B-Finals (9–16)</th>
+              <th>Scoring Breakdown</th>
+            </tr>
+          </thead>
+          <tbody id="sel-standings-tbody"></tbody>
+        </table>
+      </details>
     </div>
 
     <div id="view-benchmarks" style="display:none;">
@@ -643,7 +645,7 @@
           <div class="kpi-value" style="color:var(--dpu-gold)">${c.depauw_invited_entries_count}${c.depauw_bonus_entries_count ? ` + ${c.depauw_bonus_entries_count}` : ""}</div>
           <div class="kpi-sub">${c.depauw_unique_qualified_swimmers} athletes (${c.depauw_invited_entries_count} invited + ${c.depauw_bonus_entries_count || 0} bonus)</div>
         </div>
-        <div class="kpi-card">
+        <div class="kpi-card" style="cursor:pointer;" onclick="const d=document.getElementById('sel-standings-details'); if(d){d.open=true; d.scrollIntoView({behavior:'smooth',block:'start'});}">
           <div class="kpi-label">🏆 DePauw Projected Finish</div>
           <div class="kpi-value" style="color:#fbbf24">${c.depauw_projected_rank ? `#${c.depauw_projected_rank}` : "—"}</div>
           <div class="kpi-sub">${c.depauw_projected_points ? `${c.depauw_projected_points} pts (of ${c.scoring_teams_count || 0} scoring teams)` : `0 pts (${c.scoring_teams_count || 0} teams scoring)`}</div>
@@ -805,7 +807,15 @@
       if (!sim || !tbody) return;
 
       const query = (document.getElementById("sel-team-search")?.value || "").trim().toLowerCase();
-      const standings = (sim.team_standings || []).filter(t =>
+      const allStandings = sim.team_standings || [];
+      const pill = document.getElementById("sel-standings-summary-pill");
+      if (pill) {
+        const dpuRow = allStandings.find(t => t.is_depauw);
+        pill.textContent = dpuRow
+          ? `${allStandings.length} Scoring Schools · DePauw #${dpuRow.rank} (${fmtPts(dpuRow.total_points)} pts)`
+          : `${allStandings.length} Scoring Schools`;
+      }
+      const standings = allStandings.filter(t =>
         !query || t.team.toLowerCase().includes(query)
       );
 
