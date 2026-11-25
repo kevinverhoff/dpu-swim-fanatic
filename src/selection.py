@@ -502,7 +502,7 @@ def simulate_gender_selection(
 
             if skey in invited_swimmers:
                 optional_candidates_by_swimmer.setdefault(skey, []).append((ratio, eid, row, False))
-            elif skey in relay_only_swimmers and is_b_cut:
+            elif skey in relay_only_swimmers and (is_b_cut or relay_only_swimmers[skey].get("is_depauw")):
                 optional_candidates_by_swimmer.setdefault(skey, []).append((ratio, eid, row, True))
 
         # Also check DePauw invited/relay athletes' other season-best individual swims (even if outside D3 Top 50!)
@@ -511,16 +511,16 @@ def simulate_gender_selection(
                 continue
             if d_name_lower in already_names_in_this_event:
                 continue
-            # Match against invited_swimmers or relay_only_swimmers by name
+            # Match against invited_swimmers or relay_only_swimmers by name or partial name
             matched_skey = None
             is_relay_only_dpu = False
             for k, v in invited_swimmers.items():
-                if v["name"].lower() == d_name_lower:
+                if v.get("is_depauw") and (v["name"].lower() == d_name_lower or d_name_lower in v["name"].lower() or v["name"].lower() in d_name_lower):
                     matched_skey = k
                     break
             if not matched_skey:
                 for k, v in relay_only_swimmers.items():
-                    if v["name"].lower() == d_name_lower:
+                    if v.get("is_depauw") and (v["name"].lower() == d_name_lower or d_name_lower in v["name"].lower() or v["name"].lower() in d_name_lower):
                         matched_skey = k
                         is_relay_only_dpu = True
                         break
@@ -530,9 +530,10 @@ def simulate_gender_selection(
             if any(c[1] == eid for c in optional_candidates_by_swimmer.get(matched_skey, [])):
                 continue
             ratio = d_entry["best_time_sec"] / b_cut
+            # Individual qualifiers can swim ANY other individual event they have a time for (up to 3 total events).
+            # Relay-only qualifiers can swim any individual event they have an NCAA B-Cut for; for DePauw relay qualifiers,
+            # we also surface their top individual events below the line (tagged as Relay Swimmer + B-Cut or Relay Qualifier Optional Entry).
             is_b_cut = d_entry["best_time_sec"] <= b_cut
-            if is_relay_only_dpu and not is_b_cut:
-                continue
             synth_row = {
                 "rank": d_entry.get("d3_rank") or "NR",
                 "name": d_entry["swimmer_name"],
@@ -541,6 +542,7 @@ def simulate_gender_selection(
                 "swimmer_id": matched_skey,
                 "time_sec": d_entry["best_time_sec"],
                 "time_str": d_entry["best_time_str"],
+                "is_b_cut": is_b_cut,
             }
             optional_candidates_by_swimmer.setdefault(matched_skey, []).append(
                 (ratio, eid, synth_row, is_relay_only_dpu)
@@ -569,9 +571,18 @@ def simulate_gender_selection(
 
             if is_relay_bcut:
                 relay_bcut_entries_added += 1
-                entry_tag = f"Relay Swimmer + B-Cut ({ordinal})"
-                entry_tag_tone = "amber"
-                step_tag = "Relay + B-Cut"
+                has_b = row.get("is_b_cut", pct_over_b <= 0)
+                if has_b:
+                    entry_tag = f"Relay Swimmer + B-Cut ({ordinal})"
+                    entry_tag_tone = "amber"
+                    step_tag = "Relay + B-Cut"
+                else:
+                    b_str = ev_bench["nationals"]["b_cut_str"]
+                    b_sec = ev_bench["nationals"]["b_cut_sec"]
+                    delta_b = format_delta(row["time_sec"], b_sec) if b_sec else ""
+                    entry_tag = f"Relay Swimmer ({ordinal} · Needs B-Cut {b_str} [{delta_b}])"
+                    entry_tag_tone = "amber"
+                    step_tag = "Relay Qualifier"
             else:
                 bonus_entries_added += 1
                 qual_note = f"In via #{primary_rank} {primary_ev_label}" if primary_rank else f"In via {primary_ev_label}"

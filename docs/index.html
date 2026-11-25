@@ -514,18 +514,25 @@
 
   <script src="data/dashboard.js"></script>
   <script>
-    let DATA = window.DPU_SWIM_DATA || null;
+    let DATA = null;
 
     async function init() {
-      if (!DATA) {
-        try {
-          const resp = await fetch("data/dashboard.json");
+      // Load dashboard.json with cache-busting query string so browser / GitHub Pages CDN never serves a stale payload
+      try {
+        const resp = await fetch("data/dashboard.json?v=" + Date.now(), { cache: "no-store" });
+        if (resp.ok) {
           DATA = await resp.json();
-        } catch (err) {
-          document.getElementById("swims-tbody").innerHTML =
-            `<tr><td colspan="9" class="empty-state">Could not load dashboard data. Run <code>python3 run.py</code> first.</td></tr>`;
-          return;
         }
+      } catch (err) {
+        // Fallback to window.DPU_SWIM_DATA when opened via local file:// protocol
+      }
+      if (!DATA && window.DPU_SWIM_DATA) {
+        DATA = window.DPU_SWIM_DATA;
+      }
+      if (!DATA) {
+        document.getElementById("swims-tbody").innerHTML =
+          `<tr><td colspan="9" class="empty-state">Could not load dashboard data. Run <code>python3 run.py</code> first.</td></tr>`;
+        return;
       }
 
       const season = DATA.seasons?.current_season || "2026-27";
@@ -667,8 +674,18 @@
         const opt = document.createElement("option");
         opt.value = ev.event_id;
         const dpuCount = (ev.depauw_invited || []).length;
-        const dpuTag = dpuCount > 0 ? ` ★ (${dpuCount} DePauw IN)` : "";
-        opt.textContent = `${ev.event_label} — ${ev.total_invited} invited (Cutoff: #${ev.cutoff_rank || "—"} ${ev.cutoff_str})${dpuTag}`;
+        const dpuBonCount = (ev.depauw_bonus || []).length;
+        const bonusTotal = ev.bonus_below_line_count || 0;
+        let dpuTag = "";
+        if (dpuCount > 0 && dpuBonCount > 0) {
+          dpuTag = ` ★ (${dpuCount} DePauw IN + ${dpuBonCount} Bonus)`;
+        } else if (dpuCount > 0) {
+          dpuTag = ` ★ (${dpuCount} DePauw IN)`;
+        } else if (dpuBonCount > 0) {
+          dpuTag = ` ★ (${dpuBonCount} DePauw Bonus)`;
+        }
+        const bonusNote = bonusTotal > 0 ? ` + ${bonusTotal} bonus/relay+B` : "";
+        opt.textContent = `${ev.event_label} — ${ev.total_invited} invited${bonusNote} (Cutoff: #${ev.cutoff_rank || "—"} ${ev.cutoff_str})${dpuTag}`;
         evSel.appendChild(opt);
       });
       if (prevVal && (sim.events || []).some(e => e.event_id === prevVal)) {
@@ -741,16 +758,22 @@
       if (!ev) return;
 
       const bonusCount = ev.bonus_below_line_count || 0;
-      document.getElementById("sel-psych-title").textContent =
-        `Simulated Psych Sheet — ${sim.gender_label}'s ${ev.event_label} (${ev.total_invited} Invited Above Line${bonusCount ? ` + ${bonusCount} Bonus/Relay+B Entries Below Line` : ""} · Cutoff: #${ev.cutoff_rank} ${ev.cutoff_str})`;
+      const aboveList = (ev.invited_ladder || []).filter(r => r.is_above_cutline !== false);
+      const belowList = (ev.invited_ladder || []).filter(r => r.is_above_cutline === false);
+      const c1Count = aboveList.filter(r => (r.entry_tag || "").startsWith("1st Event")).length;
+      const c23AboveCount = aboveList.length - c1Count;
+
+      document.getElementById("sel-psych-title").innerHTML =
+        `Simulated Psych Sheet — ${sim.gender_label}'s ${ev.event_label} <span class="badge blue" style="margin-left:0.4rem;">${aboveList.length} Above Line (${c1Count} Primary + ${c23AboveCount} 2nd/3rd Event)</span>` +
+        (belowList.length ? ` <span class="badge purple" style="margin-left:0.35rem;cursor:pointer;" onclick="document.getElementById('sel-cutline-divider')?.scrollIntoView({behavior:'smooth',block:'center'})">⬇ +${belowList.length} Below Cutline (2nd/3rd Bonus &amp; Relay+B — Click to Jump)</span>` : "");
 
       let htmlRows = [];
       let dividerInserted = false;
       (ev.invited_ladder || []).forEach(row => {
-        if (!row.is_above_cutline && !dividerInserted) {
+        if (row.is_above_cutline === false && !dividerInserted) {
           dividerInserted = true;
           htmlRows.push(`
-            <tr>
+            <tr id="sel-cutline-divider">
               <td colspan="7" style="text-align:center;background:rgba(245, 158, 11, 0.14);color:var(--dpu-gold);font-weight:800;letter-spacing:0.08em;font-size:0.78rem;padding:0.55rem;">
                 --------------------------------------- INVITED CUTLINE (Below: Qualified Swimmers' 2nd/3rd Bonus Events &amp; Relay Swimmer + B-Cut Entries) ---------------------------------------
               </td>

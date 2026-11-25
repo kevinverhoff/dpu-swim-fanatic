@@ -1,6 +1,6 @@
 window.DPU_SWIM_DATA = {
-  "generated_at": "2026-11-25T14:51:27Z",
-  "generated_at_et": "Nov 25, 2026 at 09:51 AM ET",
+  "generated_at": "2026-11-25T15:03:53Z",
+  "generated_at_et": "Nov 25, 2026 at 10:03 AM ET",
   "team": {
     "name": "DePauw University",
     "short_name": "DePauw",
@@ -33957,13 +33957,13 @@ window.DPU_SWIM_DATA = {
         "step5_new_swimmers_added": 67,
         "step5_total_entries_added": 206,
         "bonus_optional_entries_added": 76,
-        "relay_bcut_entries_added": 0,
+        "relay_bcut_entries_added": 6,
         "final_unique_swimmers": 290,
         "last_selected_row": 36,
         "last_selected_pct_over_b": 2.12,
         "depauw_unique_qualified_swimmers": 5,
         "depauw_invited_entries_count": 7,
-        "depauw_bonus_entries_count": 3
+        "depauw_bonus_entries_count": 9
       },
       "depauw_qualified_athletes": [
         {
@@ -34303,6 +34303,21 @@ window.DPU_SWIM_DATA = {
         {
           "gender": "F",
           "gender_label": "Women",
+          "event_id": "50_FREE",
+          "event_label": "50 Free",
+          "name": "McKenzie Ortolano",
+          "rank": "NR",
+          "time_sec": 25.31,
+          "time_str": "25.31",
+          "selection_step": "Relay Qualifier",
+          "entry_tag": "Relay Swimmer (3rd Event \u00b7 Needs B-Cut 23.50 [+1.81s])",
+          "entry_tag_tone": "amber",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "23.74"
+        },
+        {
+          "gender": "F",
+          "gender_label": "Women",
           "event_id": "500_FREE",
           "event_label": "500 Free",
           "name": "Lydia Buechler",
@@ -34314,6 +34329,81 @@ window.DPU_SWIM_DATA = {
           "entry_tag_tone": "purple",
           "event_cutoff_rank": 36,
           "event_cutoff_str": "5:05.76"
+        },
+        {
+          "gender": "F",
+          "gender_label": "Women",
+          "event_id": "100_BACK",
+          "event_label": "100 Back",
+          "name": "Keelie Sullivan",
+          "rank": "NR",
+          "time_sec": 58.27,
+          "time_str": "58.27",
+          "selection_step": "Relay Qualifier",
+          "entry_tag": "Relay Swimmer (2nd Event \u00b7 Needs B-Cut 56.48 [+1.79s])",
+          "entry_tag_tone": "amber",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "57.23"
+        },
+        {
+          "gender": "F",
+          "gender_label": "Women",
+          "event_id": "200_BACK",
+          "event_label": "200 Back",
+          "name": "Keelie Sullivan",
+          "rank": 41,
+          "time_sec": 125.36,
+          "time_str": "2:05.36",
+          "selection_step": "Relay Qualifier",
+          "entry_tag": "Relay Swimmer (1st Event \u00b7 Needs B-Cut 2:03.17 [+2.19s])",
+          "entry_tag_tone": "amber",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "2:04.78"
+        },
+        {
+          "gender": "F",
+          "gender_label": "Women",
+          "event_id": "100_BREAST",
+          "event_label": "100 Breast",
+          "name": "McKenzie Ortolano",
+          "rank": "NR",
+          "time_sec": 67.28,
+          "time_str": "1:07.28",
+          "selection_step": "Relay Qualifier",
+          "entry_tag": "Relay Swimmer (1st Event \u00b7 Needs B-Cut 1:04.12 [+3.16s])",
+          "entry_tag_tone": "amber",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "1:05.19"
+        },
+        {
+          "gender": "F",
+          "gender_label": "Women",
+          "event_id": "200_BREAST",
+          "event_label": "200 Breast",
+          "name": "McKenzie Ortolano",
+          "rank": "NR",
+          "time_sec": 150.01,
+          "time_str": "2:30.01",
+          "selection_step": "Relay Qualifier",
+          "entry_tag": "Relay Swimmer (2nd Event \u00b7 Needs B-Cut 2:20.09 [+9.92s])",
+          "entry_tag_tone": "amber",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "2:22.85"
+        },
+        {
+          "gender": "F",
+          "gender_label": "Women",
+          "event_id": "200_IM",
+          "event_label": "200 IM",
+          "name": "Keelie Sullivan",
+          "rank": "NR",
+          "time_sec": 131.08,
+          "time_str": "2:11.08",
+          "selection_step": "Relay Qualifier",
+          "entry_tag": "Relay Swimmer (3rd Event \u00b7 Needs B-Cut 2:05.61 [+5.47s])",
+          "entry_tag_tone": "amber",
+          "event_cutoff_rank": 36,
+          "event_cutoff_str": "2:07.33"
         },
         {
           "gender": "F",
@@ -34367,23 +34457,6 @@ window.DPU_SWIM_DATA = {
         {
           "gender": "F",
           "gender_label": "Women",
-          "event_id": "200_BACK",
-          "event_label": "200 Back",
-          "is_relay": false,
-          "name": "Keelie Sullivan",
-          "d3_rank": 41,
-          "time_sec": 125.36,
-          "time_str": "2:05.36",
-          "event_cutoff_rank": 36,
-          "event_cutoff_str": "2:04.78",
-          "delta_to_cutoff_sec": 0.58,
-          "delta_to_cutoff_str": "+0.58s",
-          "pct_over_b_cut": 1.78,
-          "relay_b_cut_note": "Relay Qualifier: needs B-Cut 2:03.17 (+2.19s) to swim!"
-        },
-        {
-          "gender": "F",
-          "gender_label": "Women",
           "event_id": "200_FR_REL",
           "event_label": "200 Free Relay",
           "is_relay": true,
@@ -34431,23 +34504,6 @@ window.DPU_SWIM_DATA = {
           "delta_to_cutoff_str": "+0.70s",
           "pct_over_b_cut": 2.31,
           "relay_b_cut_note": null
-        },
-        {
-          "gender": "F",
-          "gender_label": "Women",
-          "event_id": "100_BACK",
-          "event_label": "100 Back",
-          "is_relay": false,
-          "name": "Keelie Sullivan",
-          "d3_rank": null,
-          "time_sec": 58.27,
-          "time_str": "58.27",
-          "event_cutoff_rank": 36,
-          "event_cutoff_str": "57.23",
-          "delta_to_cutoff_sec": 1.04,
-          "delta_to_cutoff_str": "+1.04s",
-          "pct_over_b_cut": 3.17,
-          "relay_b_cut_note": "Relay Qualifier: needs B-Cut 56.48 (+1.79s) to swim!"
         },
         {
           "gender": "F",
@@ -34526,8 +34582,8 @@ window.DPU_SWIM_DATA = {
           "order": 1,
           "base_rows": 20,
           "total_invited": 36,
-          "bonus_below_line_count": 8,
-          "total_psych_entries": 44,
+          "bonus_below_line_count": 9,
+          "total_psych_entries": 45,
           "step1_or_2_count": 20,
           "step5_added_count": 16,
           "cutoff_rank": 36,
@@ -34540,7 +34596,14 @@ window.DPU_SWIM_DATA = {
           "b_cut_str": "23.50",
           "invited_prev_str": "23.45",
           "depauw_invited": [],
-          "depauw_bonus": [],
+          "depauw_bonus": [
+            {
+              "name": "McKenzie Ortolano",
+              "rank": "NR",
+              "time_str": "25.31",
+              "entry_tag": "Relay Swimmer (3rd Event \u00b7 Needs B-Cut 23.50 [+1.81s])"
+            }
+          ],
           "depauw_next_closest": {
             "name": "Gabby Koon",
             "time_str": "24.05",
@@ -35118,6 +35181,19 @@ window.DPU_SWIM_DATA = {
               "entry_tag_tone": "purple",
               "pct_over_b_cut": 1.45,
               "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": "NR",
+              "name": "McKenzie Ortolano",
+              "team": "DePauw University",
+              "time_str": "25.31",
+              "step": "Relay Qualifier",
+              "is_above_cutline": false,
+              "entry_tag": "Relay Swimmer (3rd Event \u00b7 Needs B-Cut 23.50 [+1.81s])",
+              "entry_tag_tone": "amber",
+              "pct_over_b_cut": 7.7,
+              "is_depauw": true,
               "estimated_members": []
             }
           ]
@@ -37466,8 +37542,8 @@ window.DPU_SWIM_DATA = {
           "order": 7,
           "base_rows": 20,
           "total_invited": 36,
-          "bonus_below_line_count": 6,
-          "total_psych_entries": 42,
+          "bonus_below_line_count": 7,
+          "total_psych_entries": 43,
           "step1_or_2_count": 20,
           "step5_added_count": 16,
           "cutoff_rank": 36,
@@ -37480,12 +37556,19 @@ window.DPU_SWIM_DATA = {
           "b_cut_str": "56.48",
           "invited_prev_str": "56.34",
           "depauw_invited": [],
-          "depauw_bonus": [],
+          "depauw_bonus": [
+            {
+              "name": "Keelie Sullivan",
+              "rank": "NR",
+              "time_str": "58.27",
+              "entry_tag": "Relay Swimmer (2nd Event \u00b7 Needs B-Cut 56.48 [+1.79s])"
+            }
+          ],
           "depauw_next_closest": {
-            "name": "Keelie Sullivan",
-            "time_str": "58.27",
+            "name": "Nora Boillot",
+            "time_str": "59.31",
             "d3_rank": null,
-            "delta_str": "+1.04s"
+            "delta_str": "+2.08s"
           },
           "invited_ladder": [
             {
@@ -38033,6 +38116,19 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 2.18,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": "NR",
+              "name": "Keelie Sullivan",
+              "team": "DePauw University",
+              "time_str": "58.27",
+              "step": "Relay Qualifier",
+              "is_above_cutline": false,
+              "entry_tag": "Relay Swimmer (2nd Event \u00b7 Needs B-Cut 56.48 [+1.79s])",
+              "entry_tag_tone": "amber",
+              "pct_over_b_cut": 3.17,
+              "is_depauw": true,
+              "estimated_members": []
             }
           ]
         },
@@ -38043,8 +38139,8 @@ window.DPU_SWIM_DATA = {
           "order": 8,
           "base_rows": 20,
           "total_invited": 36,
-          "bonus_below_line_count": 4,
-          "total_psych_entries": 40,
+          "bonus_below_line_count": 5,
+          "total_psych_entries": 41,
           "step1_or_2_count": 20,
           "step5_added_count": 16,
           "cutoff_rank": 36,
@@ -38057,12 +38153,19 @@ window.DPU_SWIM_DATA = {
           "b_cut_str": "2:03.17",
           "invited_prev_str": "2:02.75",
           "depauw_invited": [],
-          "depauw_bonus": [],
+          "depauw_bonus": [
+            {
+              "name": "Keelie Sullivan",
+              "rank": 41,
+              "time_str": "2:05.36",
+              "entry_tag": "Relay Swimmer (1st Event \u00b7 Needs B-Cut 2:03.17 [+2.19s])"
+            }
+          ],
           "depauw_next_closest": {
-            "name": "Keelie Sullivan",
-            "time_str": "2:05.36",
-            "d3_rank": 41,
-            "delta_str": "+0.58s"
+            "name": "Nora Boillot",
+            "time_str": "2:07.95",
+            "d3_rank": null,
+            "delta_str": "+3.17s"
           },
           "invited_ladder": [
             {
@@ -38547,6 +38650,19 @@ window.DPU_SWIM_DATA = {
               "estimated_members": []
             },
             {
+              "rank": 41,
+              "name": "Keelie Sullivan",
+              "team": "DePauw University",
+              "time_str": "2:05.36",
+              "step": "Relay Qualifier",
+              "is_above_cutline": false,
+              "entry_tag": "Relay Swimmer (1st Event \u00b7 Needs B-Cut 2:03.17 [+2.19s])",
+              "entry_tag_tone": "amber",
+              "pct_over_b_cut": 1.78,
+              "is_depauw": true,
+              "estimated_members": []
+            },
+            {
               "rank": 42,
               "name": "Chloe Xu",
               "team": "Massachusetts Institute of Technology",
@@ -38594,8 +38710,8 @@ window.DPU_SWIM_DATA = {
           "order": 9,
           "base_rows": 20,
           "total_invited": 36,
-          "bonus_below_line_count": 6,
-          "total_psych_entries": 42,
+          "bonus_below_line_count": 7,
+          "total_psych_entries": 43,
           "step1_or_2_count": 20,
           "step5_added_count": 16,
           "cutoff_rank": 36,
@@ -38608,12 +38724,19 @@ window.DPU_SWIM_DATA = {
           "b_cut_str": "1:04.12",
           "invited_prev_str": "1:04.12",
           "depauw_invited": [],
-          "depauw_bonus": [],
+          "depauw_bonus": [
+            {
+              "name": "McKenzie Ortolano",
+              "rank": "NR",
+              "time_str": "1:07.28",
+              "entry_tag": "Relay Swimmer (1st Event \u00b7 Needs B-Cut 1:04.12 [+3.16s])"
+            }
+          ],
           "depauw_next_closest": {
-            "name": "McKenzie Ortolano",
-            "time_str": "1:07.28",
+            "name": "Priscilla Smith",
+            "time_str": "1:09.03",
             "d3_rank": null,
-            "delta_str": "+2.09s"
+            "delta_str": "+3.84s"
           },
           "invited_ladder": [
             {
@@ -39161,6 +39284,19 @@ window.DPU_SWIM_DATA = {
               "pct_over_b_cut": 2.39,
               "is_depauw": false,
               "estimated_members": []
+            },
+            {
+              "rank": "NR",
+              "name": "McKenzie Ortolano",
+              "team": "DePauw University",
+              "time_str": "1:07.28",
+              "step": "Relay Qualifier",
+              "is_above_cutline": false,
+              "entry_tag": "Relay Swimmer (1st Event \u00b7 Needs B-Cut 1:04.12 [+3.16s])",
+              "entry_tag_tone": "amber",
+              "pct_over_b_cut": 4.93,
+              "is_depauw": true,
+              "estimated_members": []
             }
           ]
         },
@@ -39171,8 +39307,8 @@ window.DPU_SWIM_DATA = {
           "order": 10,
           "base_rows": 20,
           "total_invited": 36,
-          "bonus_below_line_count": 4,
-          "total_psych_entries": 40,
+          "bonus_below_line_count": 5,
+          "total_psych_entries": 41,
           "step1_or_2_count": 20,
           "step5_added_count": 16,
           "cutoff_rank": 36,
@@ -39185,12 +39321,19 @@ window.DPU_SWIM_DATA = {
           "b_cut_str": "2:20.09",
           "invited_prev_str": "2:20.07",
           "depauw_invited": [],
-          "depauw_bonus": [],
+          "depauw_bonus": [
+            {
+              "name": "McKenzie Ortolano",
+              "rank": "NR",
+              "time_str": "2:30.01",
+              "entry_tag": "Relay Swimmer (2nd Event \u00b7 Needs B-Cut 2:20.09 [+9.92s])"
+            }
+          ],
           "depauw_next_closest": {
-            "name": "McKenzie Ortolano",
-            "time_str": "2:30.01",
+            "name": "Alli Woodard",
+            "time_str": "2:32.26",
             "d3_rank": null,
-            "delta_str": "+7.16s"
+            "delta_str": "+9.41s"
           },
           "invited_ladder": [
             {
@@ -39711,6 +39854,19 @@ window.DPU_SWIM_DATA = {
               "entry_tag_tone": "purple",
               "pct_over_b_cut": 2.81,
               "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": "NR",
+              "name": "McKenzie Ortolano",
+              "team": "DePauw University",
+              "time_str": "2:30.01",
+              "step": "Relay Qualifier",
+              "is_above_cutline": false,
+              "entry_tag": "Relay Swimmer (2nd Event \u00b7 Needs B-Cut 2:20.09 [+9.92s])",
+              "entry_tag_tone": "amber",
+              "pct_over_b_cut": 7.08,
+              "is_depauw": true,
               "estimated_members": []
             }
           ]
@@ -40894,8 +41050,8 @@ window.DPU_SWIM_DATA = {
           "order": 13,
           "base_rows": 20,
           "total_invited": 36,
-          "bonus_below_line_count": 8,
-          "total_psych_entries": 44,
+          "bonus_below_line_count": 9,
+          "total_psych_entries": 45,
           "step1_or_2_count": 20,
           "step5_added_count": 16,
           "cutoff_rank": 36,
@@ -40909,6 +41065,12 @@ window.DPU_SWIM_DATA = {
           "invited_prev_str": "2:05.44",
           "depauw_invited": [],
           "depauw_bonus": [
+            {
+              "name": "Keelie Sullivan",
+              "rank": "NR",
+              "time_str": "2:11.08",
+              "entry_tag": "Relay Swimmer (3rd Event \u00b7 Needs B-Cut 2:05.61 [+5.47s])"
+            },
             {
               "name": "Emily Knott",
               "rank": "NR",
@@ -41480,6 +41642,19 @@ window.DPU_SWIM_DATA = {
               "entry_tag_tone": "purple",
               "pct_over_b_cut": 2.13,
               "is_depauw": false,
+              "estimated_members": []
+            },
+            {
+              "rank": "NR",
+              "name": "Keelie Sullivan",
+              "team": "DePauw University",
+              "time_str": "2:11.08",
+              "step": "Relay Qualifier",
+              "is_above_cutline": false,
+              "entry_tag": "Relay Swimmer (3rd Event \u00b7 Needs B-Cut 2:05.61 [+5.47s])",
+              "entry_tag_tone": "amber",
+              "pct_over_b_cut": 4.35,
+              "is_depauw": true,
               "estimated_members": []
             },
             {
