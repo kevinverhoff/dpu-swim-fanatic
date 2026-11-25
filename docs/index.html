@@ -465,7 +465,7 @@
       <div class="table-card">
         <div style="padding: 1rem 1.25rem; border-bottom: 1px solid var(--border);">
           <strong style="font-size: 1rem;" id="sel-psych-title">Simulated Event Psych Sheet</strong>
-          <div class="swimmer-meta">Shows every swimmer or relay invited in the selected event under the live selection simulation, with DePauw entries highlighted.</div>
+          <div class="swimmer-meta">Shows every swimmer or relay invited above the <code>--- INVITED ---</code> cutline, plus optional 2nd/3rd Bonus Events (up to the 3-event max for individual qualifiers) and Relay Swimmer + B-Cut entries below the cutline.</div>
         </div>
         <table>
           <thead>
@@ -475,6 +475,7 @@
               <th>School</th>
               <th>Seed Time</th>
               <th>Selection Step</th>
+              <th>Event Entry Tag (1st / 2nd / 3rd / Relay+B)</th>
               <th>% vs. '27 B-Cut</th>
             </tr>
           </thead>
@@ -601,29 +602,31 @@
         <div class="kpi-card">
           <div class="kpi-label">Step 5: Added by % to B-Cut</div>
           <div class="kpi-value" style="color:#34d399">+${c.step5_new_swimmers_added}</div>
-          <div class="kpi-sub">${c.step5_total_entries_added} entries (Cutline: ${pctLabel})</div>
+          <div class="kpi-sub">${c.step5_total_entries_added} entries (+${c.bonus_optional_entries_added || 0} bonus / +${c.relay_bcut_entries_added || 0} relay+B)</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-label">🐯 DePauw Projected Invites</div>
-          <div class="kpi-value" style="color:var(--dpu-gold)">${c.depauw_invited_entries_count}</div>
-          <div class="kpi-sub">${c.depauw_unique_qualified_swimmers} projected DePauw athletes</div>
+          <div class="kpi-label">🐯 DePauw Projected Entries</div>
+          <div class="kpi-value" style="color:var(--dpu-gold)">${c.depauw_invited_entries_count}${c.depauw_bonus_entries_count ? ` + ${c.depauw_bonus_entries_count}` : ""}</div>
+          <div class="kpi-sub">${c.depauw_unique_qualified_swimmers} athletes (${c.depauw_invited_entries_count} invited + ${c.depauw_bonus_entries_count || 0} bonus)</div>
         </div>
       `;
 
       // Populate DePauw Projected Qualifiers & Bubble section
       const dpuInv = sim.depauw_invited_entries || [];
+      const dpuBon = sim.depauw_bonus_entries || [];
       const dpuBub = sim.depauw_bubble_entries || [];
 
       let dpuHtml = "";
       if (dpuInv.length) {
-        dpuHtml += `<div style="margin-bottom:0.85rem;"><strong style="color:#34d399;font-size:0.88rem;">✅ Projected IN Field Today (${dpuInv.length} entries / ${c.depauw_unique_qualified_swimmers} athletes):</strong>`;
+        dpuHtml += `<div style="margin-bottom:0.85rem;"><strong style="color:#34d399;font-size:0.88rem;">✅ Projected IN Field Above Cutline (${dpuInv.length} entries / ${c.depauw_unique_qualified_swimmers} athletes):</strong>`;
         dpuHtml += `<div class="badge-list" style="margin-top:0.45rem;">`;
         dpuInv.forEach(item => {
           const membersNote = (item.estimated_members && item.estimated_members.length)
             ? ` [${item.estimated_members.join(", ")}]`
             : "";
-          dpuHtml += `<span class="badge tiger" style="font-size:0.8rem;padding:0.35rem 0.7rem;" onclick="selectSimEvent('${item.event_id}')">
-            <strong>${item.name}</strong>${membersNote} · ${item.event_label} · <strong>${item.time_str}</strong> (#${item.rank} DIII · ${item.selection_step} · ${item.margin_str} vs cut)
+          const tagNote = item.entry_tag ? ` · ${item.entry_tag}` : "";
+          dpuHtml += `<span class="badge tiger" style="font-size:0.8rem;padding:0.35rem 0.7rem;cursor:pointer;" onclick="selectSimEvent('${item.event_id}')">
+            <strong>${item.name}</strong>${membersNote} · ${item.event_label} · <strong>${item.time_str}</strong> (#${item.rank} DIII · ${item.selection_step}${tagNote} · ${item.margin_str} vs cut)
           </span>`;
         });
         dpuHtml += `</div></div>`;
@@ -631,13 +634,25 @@
         dpuHtml += `<div class="swimmer-meta" style="margin-bottom:0.75rem;">No DePauw ${sim.gender_label.toLowerCase()} entries currently sit inside the simulated invite line.</div>`;
       }
 
+      if (dpuBon.length) {
+        dpuHtml += `<div style="margin-bottom:0.85rem;"><strong style="color:#38bdf8;font-size:0.88rem;">➕ Eligible Bonus / Relay+B-Cut Psych Sheet Entries Below Cutline (${dpuBon.length} entries — Up to 3 Individual Events Max):</strong>`;
+        dpuHtml += `<div class="badge-list" style="margin-top:0.45rem;">`;
+        dpuBon.forEach(item => {
+          dpuHtml += `<span class="badge cyan" style="font-size:0.79rem;padding:0.32rem 0.65rem;cursor:pointer;" onclick="selectSimEvent('${item.event_id}')">
+            <strong>${item.name}</strong> · ${item.event_label} · <strong>${item.time_str}</strong> (#${item.rank} DIII · <strong>${item.entry_tag}</strong>)
+          </span>`;
+        });
+        dpuHtml += `</div></div>`;
+      }
+
       if (dpuBub.length) {
         dpuHtml += `<div><strong style="color:#c084fc;font-size:0.88rem;">🔥 Next Closest DePauw Swims to Today's Simulated Cutline (Within 2.5%):</strong>`;
         dpuHtml += `<div class="badge-list" style="margin-top:0.45rem;">`;
         dpuBub.forEach(b => {
           const rStr = b.d3_rank ? `#${b.d3_rank} DIII` : "Unranked Top 50";
-          dpuHtml += `<span class="badge purple" style="font-size:0.78rem;padding:0.3rem 0.65rem;" onclick="selectSimEvent('${b.event_id}')">
-            <strong>${b.name}</strong> · ${b.event_label} · <strong>${b.time_str}</strong> (${rStr} · <strong>${b.delta_to_cutoff_str}</strong> off #${b.event_cutoff_rank} cut ${b.event_cutoff_str})
+          const relNote = b.relay_b_cut_note ? ` · ⚡ ${b.relay_b_cut_note}` : "";
+          dpuHtml += `<span class="badge purple" style="font-size:0.78rem;padding:0.3rem 0.65rem;cursor:pointer;" onclick="selectSimEvent('${b.event_id}')">
+            <strong>${b.name}</strong> · ${b.event_label} · <strong>${b.time_str}</strong> (${rStr} · <strong>${b.delta_to_cutoff_str}</strong> off #${b.event_cutoff_rank} cut ${b.event_cutoff_str}${relNote})
           </span>`;
         });
         dpuHtml += `</div></div>`;
@@ -663,27 +678,38 @@
       // Render Per-Event Cutline Table
       document.getElementById("sel-events-tbody").innerHTML = (sim.events || []).map(ev => {
         const hasDpu = (ev.depauw_invited || []).length > 0;
-        const rowClass = hasDpu ? ` class="row-d3-highlight"` : "";
+        const hasDpuBon = (ev.depauw_bonus || []).length > 0;
+        const rowClass = (hasDpu || hasDpuBon) ? ` class="row-d3-highlight"` : "";
         const pctStr = ev.cutoff_pct_over_b !== null && ev.cutoff_pct_over_b !== undefined
           ? `${ev.cutoff_pct_over_b >= 0 ? "+" : ""}${ev.cutoff_pct_over_b.toFixed(2)}%`
           : "—";
 
-        let dpuStatusHtml = `<span class="swimmer-meta">—</span>`;
+        let dpuStatusParts = [];
         if (hasDpu) {
-          dpuStatusHtml = ev.depauw_invited.map(d =>
-            `<span class="badge tiger">IN: ${d.name} (#${d.rank} · ${d.time_str} · ${d.step})</span>`
-          ).join(" ");
-        } else if (ev.depauw_next_closest) {
-          const nc = ev.depauw_next_closest;
-          dpuStatusHtml = `<span class="swimmer-meta">Closest: <strong>${nc.name}</strong> (${nc.time_str}, ${nc.delta_str})</span>`;
+          dpuStatusParts = dpuStatusParts.concat(ev.depauw_invited.map(d =>
+            `<span class="badge tiger">IN: ${d.name} (#${d.rank} · ${d.time_str} · ${d.entry_tag || d.step})</span>`
+          ));
         }
+        if (hasDpuBon) {
+          dpuStatusParts = dpuStatusParts.concat(ev.depauw_bonus.map(d =>
+            `<span class="badge cyan">BONUS: ${d.name} (${d.time_str} · ${d.entry_tag})</span>`
+          ));
+        }
+        if (!dpuStatusParts.length && ev.depauw_next_closest) {
+          const nc = ev.depauw_next_closest;
+          dpuStatusParts.push(`<span class="swimmer-meta">Closest: <strong>${nc.name}</strong> (${nc.time_str}, ${nc.delta_str})</span>`);
+        }
+        const dpuStatusHtml = dpuStatusParts.length ? `<div class="badge-list">${dpuStatusParts.join(" ")}</div>` : `<span class="swimmer-meta">—</span>`;
+        const bonusCountNote = ev.bonus_below_line_count > 0
+          ? `<span class="cutoff-sub">+${ev.bonus_below_line_count} bonus/relay+B</span>`
+          : "";
 
         return `
           <tr${rowClass} style="cursor:pointer;" onclick="selectSimEvent('${ev.event_id}')">
             <td><strong>${ev.event_label}</strong><span class="cutoff-sub">${ev.is_relay ? "Relay" : "Individual"}</span></td>
             <td><span class="round-pill">Step ${ev.is_relay ? "2" : "1"}: Top ${ev.base_rows}</span></td>
             <td>${ev.step5_added_count > 0 ? `<span class="badge green">+${ev.step5_added_count} (Step 5)</span>` : `<span class="swimmer-meta">0</span>`}</td>
-            <td><strong>${ev.total_invited}</strong></td>
+            <td><strong>${ev.total_invited}</strong>${bonusCountNote}</td>
             <td>
               <span class="time-primary">${ev.cutoff_str}</span>
               <span class="cutoff-sub">Rank #${ev.cutoff_rank || "—"} (${ev.cutoff_step})</span>
@@ -714,23 +740,39 @@
       const ev = (sim.events || []).find(e => e.event_id === evId) || (sim.events || [])[0];
       if (!ev) return;
 
+      const bonusCount = ev.bonus_below_line_count || 0;
       document.getElementById("sel-psych-title").textContent =
-        `Simulated Psych Sheet — ${sim.gender_label}'s ${ev.event_label} (${ev.total_invited} Invited · Cutoff: #${ev.cutoff_rank} ${ev.cutoff_str})`;
+        `Simulated Psych Sheet — ${sim.gender_label}'s ${ev.event_label} (${ev.total_invited} Invited Above Line${bonusCount ? ` + ${bonusCount} Bonus/Relay+B Entries Below Line` : ""} · Cutoff: #${ev.cutoff_rank} ${ev.cutoff_str})`;
 
-      document.getElementById("sel-psych-tbody").innerHTML = (ev.invited_ladder || []).map(row => {
+      let htmlRows = [];
+      let dividerInserted = false;
+      (ev.invited_ladder || []).forEach(row => {
+        if (!row.is_above_cutline && !dividerInserted) {
+          dividerInserted = true;
+          htmlRows.push(`
+            <tr>
+              <td colspan="7" style="text-align:center;background:rgba(245, 158, 11, 0.14);color:var(--dpu-gold);font-weight:800;letter-spacing:0.08em;font-size:0.78rem;padding:0.55rem;">
+                --------------------------------------- INVITED CUTLINE (Below: Qualified Swimmers' 2nd/3rd Bonus Events &amp; Relay Swimmer + B-Cut Entries) ---------------------------------------
+              </td>
+            </tr>
+          `);
+        }
+
         const isDpu = row.is_depauw;
-        const trStyle = isDpu ? ` style="background: rgba(255, 199, 44, 0.14);"` : "";
-        const stepTone = row.step === "Step 1" ? "blue" : (row.step === "Step 2" ? "amber" : "green");
+        const trStyle = isDpu ? ` style="background: rgba(255, 199, 44, 0.14);"` : (!row.is_above_cutline ? ` style="opacity: 0.92;"` : "");
+        const stepTone = row.step === "Step 1" ? "blue" : (row.step === "Step 2" ? "amber" : (row.step === "Step 5" ? "green" : (row.step === "Relay + B-Cut" ? "amber" : "purple")));
+        const tagTone = row.entry_tag_tone || "blue";
         const pctStr = row.pct_over_b_cut !== null && row.pct_over_b_cut !== undefined
           ? `${row.pct_over_b_cut >= 0 ? "+" : ""}${row.pct_over_b_cut.toFixed(2)}%`
           : "—";
         const membersHtml = (row.estimated_members && row.estimated_members.length)
           ? `<div class="swimmer-meta">Projected Relay Roster: ${row.estimated_members.join(" · ")}</div>`
           : "";
+        const rankDisp = row.rank === "NR" ? "NR" : `#${row.rank}`;
 
-        return `
+        htmlRows.push(`
           <tr${trStyle}>
-            <td><strong>#${row.rank}</strong></td>
+            <td><strong>${rankDisp}</strong></td>
             <td>
               <div class="swimmer-name">${isDpu ? "🐯 " : ""}${row.name}</div>
               ${membersHtml}
@@ -738,10 +780,13 @@
             <td>${row.team}</td>
             <td><span class="time-primary">${row.time_str}</span></td>
             <td><span class="badge ${stepTone}">${row.step}</span></td>
+            <td><span class="badge ${tagTone}">${row.entry_tag || "1st Event"}</span></td>
             <td>${pctStr}</td>
           </tr>
-        `;
-      }).join("");
+        `);
+      });
+
+      document.getElementById("sel-psych-tbody").innerHTML = htmlRows.join("");
     }
 
     function setTierFilter(tier) {

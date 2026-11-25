@@ -1,5 +1,5 @@
 # DePauw Swim Fanatic — Best Performances Report (2026-27)
-**Last Updated:** `Nov 25, 2026 at 09:40 AM ET`  
+**Last Updated:** `Nov 25, 2026 at 09:51 AM ET`  
 _Ordered by: 1) NCAA DIII Rank (Top 24 Individual / Top 16 Relays highlighted, shown through Top 50) · 2) NCAA B-Cut · 3) 2025-26 NCAA Qualifier Line · 4) NCAC Rank (Top 16 Individual / Top 8 Relays)_
 
 ## 2026 Total Performance Invitational

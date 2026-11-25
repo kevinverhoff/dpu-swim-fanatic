@@ -8,9 +8,12 @@ Translates the official NCAA DIII Men's and Women's Swimming Event Selection Pro
   - Select the top 20 Women and top 16 Men in each of the 13 NCAA individual swimming events.
 - Step 2–4 (Relay Row Selection & Disparity Check):
   - Select the top 20 Women's and top 16 Men's relays across the 5 relay events (filling across rows 1..20 for Women, 1..16 for Men).
-  - Account for relay-only swimmers added by qualifying relays (4 swimmers per relay, matching each school's fastest swimmers in the corresponding strokes from the DIII Top 50 ladder before adding unranked relay-only roster spots) and enforce the participant cap / row-disparity rule.
-- Step 5 (Individual Event Fill by Percentage to B-Cut):
-  - While total unique invited swimmers < swimmer cap (290 Women / 236 Men), add remaining individual event swims one by one ordered by closest percentage to the 2026-27 NCAA DIII B-Cut (`time_sec / b_cut_sec` ascending) until adding the next swimmer would exceed the swimmer cap.
+  - Account for relay-only swimmers added by qualifying relays (4 swimmers per relay, matching each school's fastest swimmers in the corresponding strokes from the DIII Top 50 ladder before adding unranked relay-only roster spots).
+- Step 5 (Individual Event Fill by Row + % to B-Cut):
+  - While total unique invited swimmers < swimmer cap (290 Women / 236 Men), add remaining individual event swims row by row (ordered within each row by closest percentage to the 2026-27 NCAA DIII B-Cut, `time_sec / b_cut_sec` ascending) until adding the next swimmer would exceed the swimmer cap.
+- Post-Selection Optional Entries (Below the `--- INVITED ---` Line on the Psych Sheet):
+  - Once a swimmer qualifies as an individual (Step 1 or Step 5), they can enter up to 3 total individual events at the championship meet in any other event they have a time for (tagged as `2nd Event` / `3rd Event (Bonus)`).
+  - Once a swimmer is invited as a relay-only member (Step 2), they can enter any individual event in which they have achieved an NCAA B-Cut (tagged as `Relay Swimmer + B-Cut`), up to the 3-individual-event maximum.
 """
 
 from __future__ import annotations
@@ -49,6 +52,8 @@ RELAY_STROKE_COMPOSITION: dict[str, list[tuple[str, int]]] = {
     "400_MR_REL": [("100_BACK", 1), ("100_BREAST", 1), ("100_FLY", 1), ("100_FREE", 1)],
 }
 
+MAX_INDIVIDUAL_EVENTS_PER_SWIMMER = 3
+
 SELECTION_PARAMS = {
     "F": {
         "gender_label": "Women",
@@ -83,7 +88,7 @@ def simulate_gender_selection(
     evaluated_meets: list[dict[str, Any]],
     settings: dict[str, Any],
 ) -> dict[str, Any]:
-    """Run the 5-step NCAA DIII Selection Simulation for a single gender ('F' or 'M')."""
+    """Run the 5-step NCAA DIII Selection Simulation + Post-Selection 2nd/3rd Event & Relay/B-Cut Psych Sheet builder."""
     params = SELECTION_PARAMS[gender]
     swim_cap = params["swimmer_cap"]
     base_ind_rows = params["base_individual_rows"]
@@ -92,7 +97,7 @@ def simulate_gender_selection(
 
     ev_map = benchmarks.get("events", {}).get(gender, {})
 
-    # Collect DePauw's best season/meet performance per event (merging SwimCloud D3 ladder + evaluated meets)
+    # Collect DePauw's best season/meet performance per event
     depauw_best_by_event: dict[str, list[dict[str, Any]]] = {}
     for meet in evaluated_meets:
         for e in meet.get("entries", []):
@@ -136,8 +141,18 @@ def simulate_gender_selection(
                     "is_depauw": is_dpu,
                     "step": "Step 1",
                     "step_label": f"Step 1 (Top {base_ind_rows} Individual)",
+                    "primary_event_id": eid,
+                    "primary_event_label": ev_bench["label"],
+                    "primary_rank": row["rank"],
                     "events": [],
                 }
+            else:
+                # Update primary event if this rank is higher (lower number)
+                if row["rank"] < invited_swimmers[skey].get("primary_rank", 999):
+                    invited_swimmers[skey]["primary_event_id"] = eid
+                    invited_swimmers[skey]["primary_event_label"] = ev_bench["label"]
+                    invited_swimmers[skey]["primary_rank"] = row["rank"]
+
             invited_swimmers[skey]["events"].append({
                 "event_id": eid,
                 "event_label": ev_bench["label"],
@@ -149,7 +164,9 @@ def simulate_gender_selection(
             })
             invited_by_event[eid].append({
                 **row,
+                "skey": skey,
                 "is_depauw": is_dpu,
+                "is_above_cutline": True,
                 "selection_step": "Step 1",
                 "selection_reason": f"Top {base_ind_rows} Automatic Row",
                 "pct_over_b_cut": pct_over_b,
@@ -157,7 +174,7 @@ def simulate_gender_selection(
 
     step1_unique_count = len(invited_swimmers)
 
-    # Index Top-50 swimmers per (school, event) so Step 2 relay roster modeling uses actual stroke swimmers on that team
+    # Index Top-50 swimmers per (school, event) for Step 2 relay roster modeling
     school_swimmers_by_event: dict[tuple[str, str], list[tuple[str, str, str, Any]]] = {}
     for eid in NCAA_INDIVIDUAL_EVENTS:
         ev_bench = ev_map.get(eid)
@@ -171,13 +188,6 @@ def simulate_gender_selection(
             )
 
     # Step 2-4: Fill across relay rows 1..base_rel_rows (20 Women / 16 Men)
-    # Note on relay-only swimmer counting (calibrated against the official 2026 NCAA Selection Psych Sheets):
-    # - A school's relay requires 4 swimmers on the championship roster.
-    # - Any individual qualifiers from that school (including swimmers who qualify in Step 1 or within the top 30 of individual events)
-    #   can swim on any of the school's relays, plus the NCAA allows up to 4 relay-only swimmers per team across the meet.
-    # - In the actual 2026 NCAA selections:
-    #   * Women: 186 unique individual qualifiers + 104 relay-only swimmers = 290 swimmers (rows 1..28 + 11/13 of row 29).
-    #   * Men: 129 unique individual qualifiers + 107 relay-only swimmers = 236 swimmers (rows 1..16 + 6/13 of row 17).
     relay_only_swimmers: dict[str, dict[str, Any]] = {}
     school_relay_roster: dict[str, set[str]] = {}
     for skey, sinfo in invited_swimmers.items():
@@ -219,6 +229,15 @@ def simulate_gender_selection(
                         if v["name"].lower() == mname.lower():
                             matched_key = k
                             break
+                    # Also check if this DePauw swimmer is in the D3 Top 50 individual ladders so their skey matches
+                    if not matched_key:
+                        for eid_chk in NCAA_INDIVIDUAL_EVENTS:
+                            for r_chk in ev_map.get(eid_chk, {}).get("d3", {}).get("ladder", []):
+                                if r_chk["name"].lower() == mname.lower():
+                                    matched_key = str(r_chk.get("swimmer_id") or r_chk["name"])
+                                    break
+                            if matched_key:
+                                break
                     skey = matched_key or f"dpu_relay_{mname.lower().replace(' ', '_')}"
                     chosen_for_relay.add(skey)
                     chosen_names.append(mname)
@@ -232,6 +251,7 @@ def simulate_gender_selection(
                             "is_depauw": True,
                             "step": "Step 2",
                             "step_label": f"Step 2 (Relay Invite — {ev_bench['label']})",
+                            "primary_relay_label": ev_bench["label"],
                             "events": [{
                                 "event_id": reid,
                                 "event_label": ev_bench["label"],
@@ -269,6 +289,7 @@ def simulate_gender_selection(
                                     "is_depauw": is_dpu,
                                     "step": "Step 2",
                                     "step_label": f"Step 2 (Relay Invite — {ev_bench['label']})",
+                                    "primary_relay_label": ev_bench["label"],
                                     "events": [{
                                         "event_id": reid,
                                         "event_label": ev_bench["label"],
@@ -283,7 +304,6 @@ def simulate_gender_selection(
                                 if added >= count_needed:
                                     break
 
-                # Reuse any already-invited or relay-only swimmers from this school across relays (up to 6 total relay-eligible pool per school)
                 school_existing = [
                     (k, v["name"])
                     for k, v in {**invited_swimmers, **relay_only_swimmers}.items()
@@ -311,6 +331,7 @@ def simulate_gender_selection(
                             "is_depauw": is_dpu,
                             "step": "Step 2",
                             "step_label": f"Step 2 (Relay Invite — {ev_bench['label']})",
+                            "primary_relay_label": ev_bench["label"],
                             "events": [{
                                 "event_id": reid,
                                 "event_label": ev_bench["label"],
@@ -324,7 +345,9 @@ def simulate_gender_selection(
 
             invited_by_event[reid].append({
                 **r_entry,
+                "skey": tkey,
                 "is_depauw": is_dpu,
+                "is_above_cutline": True,
                 "selection_step": "Step 2",
                 "selection_reason": f"Top {base_rel_rows} Relay Invite",
                 "pct_over_b_cut": pct_over_b,
@@ -333,12 +356,7 @@ def simulate_gender_selection(
 
     step2_relay_only_initial = len(relay_only_swimmers)
 
-    # Step 5: Add remaining individual swimmers ROW BY ROW (row 21, 22, ... for Women; row 17, 18, ... for Men),
-    # and within each row, order by closest % to B-Cut (`time_sec / b_cut_sec` ascending).
-    # Note: Under NCAA rules, an athlete must have achieved at least the B-Cut (`time_sec <= b_cut_sec`) to be eligible
-    # for individual selection. For mid-season live simulations (when fewer swimmers have hit B-cuts than in February),
-    # we prioritize B-cut qualifiers row-by-row first, and if participant capacity still remains early in the season,
-    # we continue row-by-row among non-B-cut entries so the mid-season projection fills the full 290/236 cap.
+    # Step 5: Add remaining individual swimmers ROW BY ROW (ordered by B-cut achieved, row_idx, and % to B-Cut)
     remaining_candidates: list[tuple[int, int, float, str, dict[str, Any]]] = []
     for eid in NCAA_INDIVIDUAL_EVENTS:
         ev_bench = ev_map.get(eid)
@@ -353,7 +371,6 @@ def simulate_gender_selection(
             is_over_b = 0 if row["time_sec"] <= b_cut else 1
             remaining_candidates.append((is_over_b, row_idx, ratio, eid, row))
 
-    # Sort by: 1) B-cut achieved first, 2) row_idx (filling across rows), 3) ratio (time_sec / b_cut_sec) ascending
     remaining_candidates.sort(key=lambda x: (x[0], x[1], x[2]))
 
     step5_entries_added = 0
@@ -379,6 +396,9 @@ def simulate_gender_selection(
                 **info,
                 "step": "Step 5",
                 "step_label": f"Step 5 (% to B-Cut: {'+' if pct_over_b >= 0 else ''}{pct_over_b:.2f}%)",
+                "primary_event_id": eid,
+                "primary_event_label": ev_bench["label"],
+                "primary_rank": row["rank"],
                 "events": info.get("events", []) + [{
                     "event_id": eid,
                     "event_label": ev_bench["label"],
@@ -399,6 +419,9 @@ def simulate_gender_selection(
                 "is_depauw": is_dpu,
                 "step": "Step 5",
                 "step_label": f"Step 5 (% to B-Cut: {'+' if pct_over_b >= 0 else ''}{pct_over_b:.2f}%)",
+                "primary_event_id": eid,
+                "primary_event_label": ev_bench["label"],
+                "primary_rank": row["rank"],
                 "events": [{
                     "event_id": eid,
                     "event_label": ev_bench["label"],
@@ -410,6 +433,10 @@ def simulate_gender_selection(
                 }],
             }
         else:
+            if row["rank"] < invited_swimmers[skey].get("primary_rank", 999):
+                invited_swimmers[skey]["primary_event_id"] = eid
+                invited_swimmers[skey]["primary_event_label"] = ev_bench["label"]
+                invited_swimmers[skey]["primary_rank"] = row["rank"]
             invited_swimmers[skey]["events"].append({
                 "event_id": eid,
                 "event_label": ev_bench["label"],
@@ -422,7 +449,9 @@ def simulate_gender_selection(
 
         invited_by_event[eid].append({
             **row,
+            "skey": skey,
             "is_depauw": is_dpu,
+            "is_above_cutline": True,
             "selection_step": "Step 5",
             "selection_reason": f"Step 5 (Row {row_idx} · {'+' if pct_over_b >= 0 else ''}{pct_over_b:.2f}% vs B-Cut)",
             "pct_over_b_cut": pct_over_b,
@@ -431,9 +460,170 @@ def simulate_gender_selection(
         last_selected_ratio = ratio
         last_selected_row = row_idx
 
+    # Number each individual qualifier's above-the-line events by rank (1st Event, 2nd Event, 3rd Event)
+    swimmer_ind_event_order: dict[tuple[str, str], tuple[int, str]] = {}
+    swimmer_ind_event_count: dict[str, int] = {}
+
+    for skey, sinfo in invited_swimmers.items():
+        ind_evs = [e for e in sinfo.get("events", []) if not e["event_id"].endswith("_REL")]
+        # Sort by national rank ascending, then % over B-cut ascending
+        ind_evs.sort(key=lambda e: (e["rank"], e.get("pct_over_b_cut", 0.0)))
+        primary_label = ind_evs[0]["event_label"] if ind_evs else ""
+        primary_rank = ind_evs[0]["rank"] if ind_evs else 0
+        for idx, e in enumerate(ind_evs[:MAX_INDIVIDUAL_EVENTS_PER_SWIMMER], start=1):
+            swimmer_ind_event_order[(skey, e["event_id"])] = (
+                idx,
+                f"Primary Event (#{primary_rank} {primary_label})" if idx == 1 else f"#{primary_rank} {primary_label}",
+            )
+        swimmer_ind_event_count[skey] = min(len(ind_evs), MAX_INDIVIDUAL_EVENTS_PER_SWIMMER)
+
+    # Now identify Post-Selection Optional Entries (Below the `--- INVITED ---` Line on the Psych Sheet):
+    # 1. Individual qualifiers (`skey in invited_swimmers`) who have other individual events (below the cutline in the D3 Top 50 ladder, or in DePauw's season bests) up to 3 total individual events.
+    # 2. Relay-only qualifiers (`skey in relay_only_swimmers`) who have achieved a B-Cut (`time_sec <= b_cut_sec`) in an individual event below the cutline, up to 3 total individual events.
+    optional_candidates_by_swimmer: dict[str, list[tuple[float, str, dict[str, Any], bool]]] = {}
+
+    for eid in NCAA_INDIVIDUAL_EVENTS:
+        ev_bench = ev_map.get(eid)
+        if not ev_bench:
+            continue
+        b_cut = ev_bench["nationals"]["b_cut_sec"]
+        if not b_cut:
+            continue
+        already_in_this_event = {x["skey"] for x in invited_by_event[eid]}
+        already_names_in_this_event = {x["name"].lower() for x in invited_by_event[eid]}
+
+        # Check remaining D3 Top 50 ladder rows below the cutline
+        for row in ev_bench["d3"]["ladder"]:
+            skey = str(row.get("swimmer_id") or row["name"])
+            if skey in already_in_this_event or row["name"].lower() in already_names_in_this_event:
+                continue
+            ratio = row["time_sec"] / b_cut
+            is_b_cut = row["time_sec"] <= b_cut
+
+            if skey in invited_swimmers:
+                optional_candidates_by_swimmer.setdefault(skey, []).append((ratio, eid, row, False))
+            elif skey in relay_only_swimmers and is_b_cut:
+                optional_candidates_by_swimmer.setdefault(skey, []).append((ratio, eid, row, True))
+
+        # Also check DePauw invited/relay athletes' other season-best individual swims (even if outside D3 Top 50!)
+        for (d_eid, d_name_lower), d_entry in depauw_season_best.items():
+            if d_eid != eid or d_entry["is_relay"]:
+                continue
+            if d_name_lower in already_names_in_this_event:
+                continue
+            # Match against invited_swimmers or relay_only_swimmers by name
+            matched_skey = None
+            is_relay_only_dpu = False
+            for k, v in invited_swimmers.items():
+                if v["name"].lower() == d_name_lower:
+                    matched_skey = k
+                    break
+            if not matched_skey:
+                for k, v in relay_only_swimmers.items():
+                    if v["name"].lower() == d_name_lower:
+                        matched_skey = k
+                        is_relay_only_dpu = True
+                        break
+            if not matched_skey:
+                continue
+            # Avoid duplicate if already added from D3 Top 50 ladder
+            if any(c[1] == eid for c in optional_candidates_by_swimmer.get(matched_skey, [])):
+                continue
+            ratio = d_entry["best_time_sec"] / b_cut
+            is_b_cut = d_entry["best_time_sec"] <= b_cut
+            if is_relay_only_dpu and not is_b_cut:
+                continue
+            synth_row = {
+                "rank": d_entry.get("d3_rank") or "NR",
+                "name": d_entry["swimmer_name"],
+                "team": "DePauw University",
+                "team_id": target_team_id,
+                "swimmer_id": matched_skey,
+                "time_sec": d_entry["best_time_sec"],
+                "time_str": d_entry["best_time_str"],
+            }
+            optional_candidates_by_swimmer.setdefault(matched_skey, []).append(
+                (ratio, eid, synth_row, is_relay_only_dpu)
+            )
+
+    below_cutline_by_event: dict[str, list[dict[str, Any]]] = {eid: [] for eid in NCAA_INDIVIDUAL_EVENTS}
+    bonus_entries_added = 0
+    relay_bcut_entries_added = 0
+
+    for skey, cand_list in optional_candidates_by_swimmer.items():
+        cand_list.sort(key=lambda x: x[0])  # Best events by % vs B-Cut first
+        cur_count = swimmer_ind_event_count.get(skey, 0)
+        sinfo = invited_swimmers.get(skey) or relay_only_swimmers.get(skey) or {}
+        primary_ev_label = sinfo.get("primary_event_label") or sinfo.get("primary_relay_label") or "Relay"
+        primary_rank = sinfo.get("primary_rank")
+
+        for ratio, eid, row, is_relay_bcut in cand_list:
+            if cur_count >= MAX_INDIVIDUAL_EVENTS_PER_SWIMMER:
+                break
+            cur_count += 1
+            swimmer_ind_event_count[skey] = cur_count
+            ev_bench = ev_map[eid]
+            pct_over_b = round((ratio - 1.0) * 100.0, 2)
+            is_dpu = _is_depauw(row.get("team"), row.get("team_id"), target_team_id)
+            ordinal = "2nd Event" if cur_count == 2 else ("3rd Event" if cur_count == 3 else "1st Event")
+
+            if is_relay_bcut:
+                relay_bcut_entries_added += 1
+                entry_tag = f"Relay Swimmer + B-Cut ({ordinal})"
+                entry_tag_tone = "amber"
+                step_tag = "Relay + B-Cut"
+            else:
+                bonus_entries_added += 1
+                qual_note = f"In via #{primary_rank} {primary_ev_label}" if primary_rank else f"In via {primary_ev_label}"
+                entry_tag = f"{ordinal} (Bonus · {qual_note})"
+                entry_tag_tone = "purple"
+                step_tag = f"{ordinal} (Bonus)"
+
+            below_cutline_by_event[eid].append({
+                **row,
+                "skey": skey,
+                "is_depauw": is_dpu,
+                "is_above_cutline": False,
+                "selection_step": step_tag,
+                "pct_over_b_cut": pct_over_b,
+                "entry_tag": entry_tag,
+                "entry_tag_tone": entry_tag_tone,
+            })
+
+            if skey in invited_swimmers:
+                invited_swimmers[skey]["events"].append({
+                    "event_id": eid,
+                    "event_label": ev_bench["label"],
+                    "rank": row["rank"],
+                    "time_sec": row["time_sec"],
+                    "time_str": row["time_str"],
+                    "step": step_tag,
+                    "entry_tag": entry_tag,
+                    "pct_over_b_cut": pct_over_b,
+                })
+
+    # Attach `entry_tag` to every above-the-line individual entry as well (1st Event vs 2nd Event vs 3rd Event)
+    for eid in NCAA_INDIVIDUAL_EVENTS:
+        for row in invited_by_event[eid]:
+            skey = row["skey"]
+            ord_num, ref_label = swimmer_ind_event_order.get((skey, eid), (1, ""))
+            if ord_num == 1:
+                row["entry_tag"] = "1st Event (Primary Qualifier)"
+                row["entry_tag_tone"] = "blue"
+            elif ord_num == 2:
+                row["entry_tag"] = f"2nd Event (Also {ref_label})"
+                row["entry_tag_tone"] = "cyan"
+            else:
+                row["entry_tag"] = f"3rd Event (Also {ref_label})"
+                row["entry_tag_tone"] = "cyan"
+
+        # Sort below-cutline optional entries by time_sec ascending
+        below_cutline_by_event[eid].sort(key=lambda x: x["time_sec"])
+
     # Build per-event summary table + DePauw proximity analysis
     event_summaries: list[dict[str, Any]] = []
     depauw_invited_entries: list[dict[str, Any]] = []
+    depauw_bonus_entries: list[dict[str, Any]] = []
     depauw_bubble_entries: list[dict[str, Any]] = []
 
     for eid in NCAA_INDIVIDUAL_EVENTS + NCAA_RELAY_EVENTS:
@@ -442,6 +632,7 @@ def simulate_gender_selection(
             continue
         is_relay = bool(ev_bench["is_relay"])
         inv_list = invited_by_event[eid]
+        below_list = below_cutline_by_event.get(eid, []) if not is_relay else []
         b_cut_sec = ev_bench["nationals"]["b_cut_sec"]
         b_cut_str = ev_bench["nationals"]["b_cut_str"]
         prev_inv_str = ev_bench["nationals"]["invited_prev_str"]
@@ -451,7 +642,7 @@ def simulate_gender_selection(
         cutoff_str = last_in["time_str"] if last_in else "—"
         cutoff_rank = last_in["rank"] if last_in else None
 
-        # Check all DePauw swimmers in this event (both invited and next-closest on the bubble)
+        # DePauw above-the-line invited entries
         dpu_in_event = [x for x in inv_list if x.get("is_depauw")]
         for d_inv in dpu_in_event:
             depauw_invited_entries.append({
@@ -466,6 +657,8 @@ def simulate_gender_selection(
                 "time_str": d_inv["time_str"],
                 "selection_step": d_inv["selection_step"],
                 "selection_reason": d_inv["selection_reason"],
+                "entry_tag": d_inv.get("entry_tag", "Relay Qualifier" if is_relay else "1st Event"),
+                "entry_tag_tone": d_inv.get("entry_tag_tone", "amber" if is_relay else "blue"),
                 "pct_over_b_cut": d_inv.get("pct_over_b_cut"),
                 "event_cutoff_rank": cutoff_rank,
                 "event_cutoff_str": cutoff_str,
@@ -474,9 +667,28 @@ def simulate_gender_selection(
                 "estimated_members": d_inv.get("estimated_members", []),
             })
 
-        # Find best DePauw entry in this event if not already invited (or additional DePauw swimmers in top 50 / meets)
+        # DePauw below-the-line optional/bonus entries (already qualified swimmer entering 2nd/3rd event or relay + B-cut)
+        dpu_below_in_event = [x for x in below_list if x.get("is_depauw")]
+        for d_bon in dpu_below_in_event:
+            depauw_bonus_entries.append({
+                "gender": gender,
+                "gender_label": params["gender_label"],
+                "event_id": eid,
+                "event_label": ev_bench["label"],
+                "name": d_bon["name"],
+                "rank": d_bon["rank"],
+                "time_sec": d_bon["time_sec"],
+                "time_str": d_bon["time_str"],
+                "selection_step": d_bon["selection_step"],
+                "entry_tag": d_bon["entry_tag"],
+                "entry_tag_tone": d_bon["entry_tag_tone"],
+                "event_cutoff_rank": cutoff_rank,
+                "event_cutoff_str": cutoff_str,
+            })
+
+        # Find best uninvited DePauw entry in this event (excluding swimmers already invited or entered as bonus)
         dpu_candidates = depauw_best_by_event.get(eid, [])
-        seen_dpu_names = {x["name"].lower() for x in dpu_in_event}
+        seen_dpu_names = {x["name"].lower() for x in dpu_in_event + dpu_below_in_event}
         if is_relay and dpu_in_event:
             seen_dpu_names.add("depauw")
 
@@ -492,6 +704,11 @@ def simulate_gender_selection(
                 best_dpu_uninvited = cand
             if cutoff_sec and cand["best_time_sec"] <= cutoff_sec * 1.025:
                 pct_b = round(((cand["best_time_sec"] / b_cut_sec) - 1.0) * 100.0, 2) if b_cut_sec else None
+                # Check if this swimmer is a relay-only qualifier who just needs a B-Cut!
+                is_rel_swimmer = any(v["name"].lower() == cname.lower() for v in relay_only_swimmers.values())
+                b_cut_note = None
+                if is_rel_swimmer and b_cut_sec:
+                    b_cut_note = f"Relay Qualifier: needs B-Cut {b_cut_str} ({format_delta(cand['best_time_sec'], b_cut_sec)}) to swim!"
                 depauw_bubble_entries.append({
                     "gender": gender,
                     "gender_label": params["gender_label"],
@@ -507,7 +724,40 @@ def simulate_gender_selection(
                     "delta_to_cutoff_sec": round(cand["best_time_sec"] - cutoff_sec, 2),
                     "delta_to_cutoff_str": format_delta(cand["best_time_sec"], cutoff_sec),
                     "pct_over_b_cut": pct_b,
+                    "relay_b_cut_note": b_cut_note,
                 })
+
+        full_psych_ladder = [
+            {
+                "rank": x["rank"],
+                "name": x["name"],
+                "team": x["team"],
+                "time_str": x["time_str"],
+                "step": x["selection_step"],
+                "is_above_cutline": True,
+                "entry_tag": x.get("entry_tag", "Top Relay Invite" if is_relay else "1st Event"),
+                "entry_tag_tone": x.get("entry_tag_tone", "amber" if is_relay else "blue"),
+                "pct_over_b_cut": x.get("pct_over_b_cut"),
+                "is_depauw": x.get("is_depauw", False),
+                "estimated_members": x.get("estimated_members", []),
+            }
+            for x in inv_list
+        ] + [
+            {
+                "rank": x["rank"],
+                "name": x["name"],
+                "team": x["team"],
+                "time_str": x["time_str"],
+                "step": x["selection_step"],
+                "is_above_cutline": False,
+                "entry_tag": x["entry_tag"],
+                "entry_tag_tone": x["entry_tag_tone"],
+                "pct_over_b_cut": x.get("pct_over_b_cut"),
+                "is_depauw": x.get("is_depauw", False),
+                "estimated_members": [],
+            }
+            for x in below_list
+        ]
 
         event_summaries.append({
             "event_id": eid,
@@ -516,6 +766,8 @@ def simulate_gender_selection(
             "order": ev_bench["order"],
             "base_rows": base_rel_rows if is_relay else base_ind_rows,
             "total_invited": len(inv_list),
+            "bonus_below_line_count": len(below_list),
+            "total_psych_entries": len(full_psych_ladder),
             "step1_or_2_count": min(len(inv_list), base_rel_rows if is_relay else base_ind_rows),
             "step5_added_count": max(0, len(inv_list) - (base_rel_rows if is_relay else base_ind_rows)),
             "cutoff_rank": cutoff_rank,
@@ -533,9 +785,19 @@ def simulate_gender_selection(
                     "rank": x["rank"],
                     "time_str": x["time_str"],
                     "step": x["selection_step"],
+                    "entry_tag": x.get("entry_tag", ""),
                     "estimated_members": x.get("estimated_members", []),
                 }
                 for x in dpu_in_event
+            ],
+            "depauw_bonus": [
+                {
+                    "name": x["name"],
+                    "rank": x["rank"],
+                    "time_str": x["time_str"],
+                    "entry_tag": x["entry_tag"],
+                }
+                for x in dpu_below_in_event
             ],
             "depauw_next_closest": (
                 {
@@ -549,19 +811,7 @@ def simulate_gender_selection(
                 if best_dpu_uninvited
                 else None
             ),
-            "invited_ladder": [
-                {
-                    "rank": x["rank"],
-                    "name": x["name"],
-                    "team": x["team"],
-                    "time_str": x["time_str"],
-                    "step": x["selection_step"],
-                    "pct_over_b_cut": x.get("pct_over_b_cut"),
-                    "is_depauw": x.get("is_depauw", False),
-                    "estimated_members": x.get("estimated_members", []),
-                }
-                for x in inv_list
-            ],
+            "invited_ladder": full_psych_ladder,
         })
 
     depauw_unique_athletes = [
@@ -582,6 +832,8 @@ def simulate_gender_selection(
             "step2_relay_only_final": len(relay_only_swimmers),
             "step5_new_swimmers_added": step5_new_swimmers_added,
             "step5_total_entries_added": step5_entries_added,
+            "bonus_optional_entries_added": bonus_entries_added,
+            "relay_bcut_entries_added": relay_bcut_entries_added,
             "final_unique_swimmers": len(invited_swimmers) + len(relay_only_swimmers),
             "last_selected_row": last_selected_row,
             "last_selected_pct_over_b": round((last_selected_ratio - 1.0) * 100.0, 2)
@@ -589,9 +841,11 @@ def simulate_gender_selection(
             else None,
             "depauw_unique_qualified_swimmers": len(depauw_unique_athletes),
             "depauw_invited_entries_count": len(depauw_invited_entries),
+            "depauw_bonus_entries_count": len(depauw_bonus_entries),
         },
         "depauw_qualified_athletes": depauw_unique_athletes,
         "depauw_invited_entries": depauw_invited_entries,
+        "depauw_bonus_entries": depauw_bonus_entries,
         "depauw_bubble_entries": depauw_bubble_entries,
         "events": event_summaries,
     }
